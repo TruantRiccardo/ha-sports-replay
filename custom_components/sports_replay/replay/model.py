@@ -58,6 +58,9 @@ class Play:
     end_team_id: str | None = None  # team in possession after the play
     down_before: int | None = None
     down_after: int | None = None
+    distance_before: int | None = None
+    distance_after: int | None = None
+    drive_id: str | None = None
     down_distance_before: str | None = None
     down_distance_after: str | None = None
     yards_to_endzone_before: int | None = None
@@ -72,6 +75,15 @@ class Play:
     shootout: bool = False
 
 
+@dataclass(frozen=True)
+class Drive:
+    """Football drive: who had the ball and for how long (game clock)."""
+
+    id: str
+    team_id: str | None
+    seconds: float | None
+
+
 @dataclass
 class Game:
     event_id: str
@@ -80,6 +92,7 @@ class Game:
     away: Team
     date: datetime | None = None
     plays: list[Play] = field(default_factory=list)
+    drives: list[Drive] = field(default_factory=list)  # football only
 
     @property
     def name(self) -> str:

@@ -10,7 +10,7 @@ from datetime import datetime
 import re
 from typing import Any
 
-from .model import Game, Play, Sport, Team
+from .model import Drive, Game, Play, Sport, Team
 
 
 def parse_summary(data: dict[str, Any], sport: Sport = Sport.FOOTBALL) -> Game:
@@ -29,7 +29,8 @@ def parse_summary(data: dict[str, Any], sport: Sport = Sport.FOOTBALL) -> Game:
         if w.get("playId") is not None
     }
     if sport is Sport.FOOTBALL:
-        plays = [_football_play(p, win_prob) for p in _football_raw(data)]
+        plays = [_football_play(p, d, win_prob) for d, p in _football_raw(data)]
+        game.drives = [_drive(d) for d in _football_drives(data)]
     elif sport is Sport.SOCCER:
         plays = _soccer_plays(data, game)
     else:
@@ -126,16 +127,38 @@ def _common(p: dict[str, Any], win_prob: dict[str, float]) -> dict[str, Any]:
 # --- football ------------------------------------------------------------------------------
 
 
-def _football_raw(data: dict[str, Any]) -> list[dict[str, Any]]:
+def _football_drives(data: dict[str, Any]) -> list[dict[str, Any]]:
     drives = data.get("drives") or {}
-    raw = [p for d in drives.get("previous", []) for p in d.get("plays", [])]
-    if current := drives.get("current"):  # the drive in progress, in live games
-        known = {p.get("id") for p in raw}
-        raw += [p for p in current.get("plays", []) if p.get("id") not in known]
-    return raw
+    result = list(drives.get("previous", []))
+    current = drives.get("current")  # the drive in progress, in live games
+    if current and current.get("id") not in {d.get("id") for d in result}:
+        result.append(current)
+    return result
 
 
-def _football_play(p: dict[str, Any], win_prob: dict[str, float]) -> Play:
+def _football_raw(data: dict[str, Any]) -> list[tuple[dict[str, Any], dict[str, Any]]]:
+    """(drive, play) pairs, each play once."""
+    seen: set[Any] = set()
+    pairs = []
+    for d in _football_drives(data):
+        for p in d.get("plays", []):
+            if p.get("id") not in seen:
+                seen.add(p.get("id"))
+                pairs.append((d, p))
+    return pairs
+
+
+def _drive(d: dict[str, Any]) -> Drive:
+    team = d.get("team")
+    team_id = team.get("id") if isinstance(team, dict) else team
+    return Drive(
+        id=str(d.get("id", "")),
+        team_id=str(team_id) if team_id is not None else None,
+        seconds=_clock_seconds(d.get("timeElapsed")),
+    )
+
+
+def _football_play(p: dict[str, Any], drive: dict[str, Any], win_prob: dict[str, float]) -> Play:
     start, end = p.get("start") or {}, p.get("end") or {}
     return Play(
         **_common(p, win_prob),
@@ -143,6 +166,9 @@ def _football_play(p: dict[str, Any], win_prob: dict[str, float]) -> Play:
         end_team_id=(end.get("team") or {}).get("id"),
         down_before=start.get("down"),
         down_after=end.get("down"),
+        distance_before=start.get("distance"),
+        distance_after=end.get("distance"),
+        drive_id=str(drive.get("id", "")) or None,
         down_distance_before=start.get("downDistanceText"),
         down_distance_after=end.get("downDistanceText"),
         yards_to_endzone_before=start.get("yardsToEndzone"),
