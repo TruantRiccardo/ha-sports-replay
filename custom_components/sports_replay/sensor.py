@@ -8,6 +8,7 @@ from __future__ import annotations
 
 from collections.abc import Callable
 from dataclasses import dataclass
+from datetime import datetime
 from typing import Any
 
 from homeassistant.components.sensor import (
@@ -18,9 +19,9 @@ from homeassistant.components.sensor import (
 from homeassistant.const import PERCENTAGE, UnitOfTime
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.entity_platform import AddConfigEntryEntitiesCallback
+from homeassistant.util import dt as dt_util
 
 from . import SportsReplayConfigEntry
-from .const import CONF_TEAM_ABBR
 from .entity import SportsReplayEntity
 from .manager import ReplayManager
 from .replay import Sport
@@ -79,6 +80,22 @@ def _text(key: str) -> Callable[[ReplayManager, dict[str, Any]], str | None]:
     return value
 
 
+def _replay_end(m: ReplayManager, s: dict[str, Any]) -> datetime | None:
+    ends = s.get("replay_ends_at")
+    return dt_util.parse_datetime(ends) if ends else None
+
+
+def _timer_attributes(s: dict[str, Any]) -> dict[str, Any]:
+    """The replay as a timer, e.g. for timer-bar-card (start_time/end_time attributes)."""
+    return {
+        "started_at": s.get("replay_started_at"),
+        "ends_at": s.get("replay_ends_at"),
+        "position": s.get("replay_position"),
+        "duration": s.get("replay_duration"),
+        "speed": s.get("replay_speed"),
+    }
+
+
 def _key(key: str) -> Callable[[ReplayManager, dict[str, Any]], Any]:
     return lambda m, s: s.get(key)
 
@@ -87,7 +104,7 @@ def _key(key: str) -> Callable[[ReplayManager, dict[str, Any]], Any]:
 class ReplaySensorDescription(SensorEntityDescription):
     value: Callable[[ReplayManager, dict[str, Any]], Any]
     sports: frozenset[Sport] | None = None  # None: every sport
-    team_placeholder: bool = False  # name carries the team abbreviation ("SF score")
+    attributes: Callable[[dict[str, Any]], dict[str, Any]] | None = None
 
 
 FOOTBALL = frozenset({Sport.FOOTBALL})
@@ -95,7 +112,11 @@ FOOTBALL = frozenset({Sport.FOOTBALL})
 SENSORS = (
     ReplaySensorDescription(
         key="status", icon="mdi:play-pause", device_class=SensorDeviceClass.ENUM,
-        options=STATUS_OPTIONS, value=_status,
+        options=STATUS_OPTIONS, value=_status, attributes=_timer_attributes,
+    ),
+    ReplaySensorDescription(
+        key="replay_end", icon="mdi:flag-checkered", device_class=SensorDeviceClass.TIMESTAMP,
+        value=_replay_end,
     ),
     ReplaySensorDescription(
         key="progress", icon="mdi:progress-clock", native_unit_of_measurement=PERCENTAGE,
@@ -112,7 +133,7 @@ SENSORS = (
         suggested_display_precision=0, value=lambda m, s: s.get("replay_duration") if m.game else None,
     ),
     ReplaySensorDescription(
-        key="team_score", icon="mdi:scoreboard", team_placeholder=True,
+        key="team_score", icon="mdi:scoreboard",
         value=lambda m, s: s.get("team_score") if m.game else None,
     ),
     ReplaySensorDescription(
@@ -129,7 +150,7 @@ SENSORS = (
         key="possession", icon="mdi:football-helmet", sports=FOOTBALL, value=_possession,
     ),
     ReplaySensorDescription(
-        key="team_timeouts", icon="mdi:timer-pause", sports=FOOTBALL, team_placeholder=True,
+        key="team_timeouts", icon="mdi:timer-pause", sports=FOOTBALL,
         value=_key("team_timeouts"),
     ),
     ReplaySensorDescription(
@@ -187,9 +208,13 @@ class ReplaySensor(SportsReplayEntity, SensorEntity):
     def __init__(self, entry: SportsReplayConfigEntry, description: ReplaySensorDescription) -> None:
         super().__init__(entry, description.key)
         self.entity_description = description
-        if description.team_placeholder:
-            self._attr_translation_placeholders = {"team": entry.data[CONF_TEAM_ABBR]}
 
     @property
     def native_value(self) -> Any:
         return self.entity_description.value(self.manager, self.manager.snapshot())
+
+    @property
+    def extra_state_attributes(self) -> dict[str, Any] | None:
+        if self.entity_description.attributes is None:
+            return None
+        return self.entity_description.attributes(self.manager.snapshot())

@@ -68,7 +68,7 @@
         "name": "Durata del replay"
       },
       "team_score": {
-        "name": "Punteggio {team}"
+        "name": "Punteggio squadra"
       },
       "opponent_score": {
         "name": "Punteggio avversario"
@@ -89,10 +89,13 @@
         "name": "Possesso"
       },
       "team_timeouts": {
-        "name": "Timeout rimasti {team}"
+        "name": "Timeout rimasti squadra"
       },
       "opponent_timeouts": {
         "name": "Timeout rimasti avversario"
+      },
+      "replay_end": {
+        "name": "Fine del replay"
       }
     },
     "select": {

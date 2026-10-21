@@ -2,10 +2,13 @@
 
 from unittest.mock import patch
 
+import pytest
+
 from homeassistant import config_entries
 from homeassistant.config_entries import ConfigEntryState
 from homeassistant.core import HomeAssistant
 from homeassistant.data_entry_flow import FlowResultType
+from homeassistant.util import dt as dt_util
 from pytest_homeassistant_custom_component.common import MockConfigEntry, async_capture_events
 
 from custom_components.sports_replay.api import EspnError
@@ -228,14 +231,21 @@ async def test_state_sensors(hass: HomeAssistant, espn) -> None:
     assert s("replay_progress") == "0"
     await _press(hass, "play")
     assert s("replay_status") == "playing"
+    # The replay as a timer: start and end in wall-clock time, for timer-bar-card.
+    status = hass.states.get(f"sensor.{DEVICE}_replay_status").attributes
+    started, ends = dt_util.parse_datetime(status["started_at"]), dt_util.parse_datetime(status["ends_at"])
+    assert (ends - started).total_seconds() == pytest.approx(status["duration"], abs=2)
+    assert dt_util.parse_datetime(s("replay_end")) == ends
     await _press(hass, "next_play")
     await _press(hass, "pause")
     assert s("replay_status") == "paused"  # "ready" only until the first play is reached
+    assert hass.states.get(f"sensor.{DEVICE}_replay_status").attributes["ends_at"] is None
+    assert s("replay_end") == "unknown"
 
     await hass.services.async_call(DOMAIN, "seek", {"period": 4, "clock": "1:46"}, blocking=True)
     assert s("period") == "Q4"
-    assert s("sf_score") == "23" and s("opponent_score") == "17"
-    assert s("sf_timeouts_left") == "3" and s("opponent_timeouts_left") == "0"
+    assert s("team_score") == "23" and s("opponent_score") == "17"
+    assert s("team_timeouts_left") == "3" and s("opponent_timeouts_left") == "0"
     assert s("possession") in ("SF", "WSH")
     assert s("down_and_distance") != "unknown"
     assert 90 < int(s("replay_progress")) < 100

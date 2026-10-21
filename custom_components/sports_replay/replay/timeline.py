@@ -132,6 +132,11 @@ class ReplayClock:
     def duration(self) -> float:
         return self.times[-1] if self.times else 0.0
 
+    @property
+    def anchor(self) -> tuple[float, float, bool, float]:
+        """What the position depends on besides time: changes only on play/pause/seek/speed."""
+        return self._base_pos, self._base_now, self._playing, self.speed
+
     def position(self, now: float) -> float:
         pos = self._base_pos
         if self._playing:

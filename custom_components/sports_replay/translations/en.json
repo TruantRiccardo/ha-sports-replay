@@ -68,7 +68,7 @@
         "name": "Replay duration"
       },
       "team_score": {
-        "name": "{team} score"
+        "name": "Team score"
       },
       "opponent_score": {
         "name": "Opponent score"
@@ -89,10 +89,13 @@
         "name": "Possession"
       },
       "team_timeouts": {
-        "name": "{team} timeouts left"
+        "name": "Team timeouts left"
       },
       "opponent_timeouts": {
         "name": "Opponent timeouts left"
+      },
+      "replay_end": {
+        "name": "Replay end"
       }
     },
     "select": {

@@ -101,15 +101,39 @@ One device per followed team (`Sports Replay SF`):
     `paused`, `finished`;
   - **Replay progress** (% of the plays), **Replay time** and **Replay duration** (at the current
     play: they change play by play, not every second);
-  - **SF score**, **Opponent score**, **Period** (`Q2`, `P3`, `OT`, `2nd half`, ...),
+  - **Replay end**: when the replay will end while it plays (a timestamp: cards show "in 47
+    minutes" and keep it current on their own);
+  - **Team score**, **Opponent score**, **Period** (`Q2`, `P3`, `OT`, `2nd half`, ...),
     **Game clock**, **Last play**;
-  - football only: **Down and distance**, **Possession**, **SF timeouts left**,
+  - football only: **Down and distance**, **Possession**, **Team timeouts left**,
     **Opponent timeouts left**.
+
+  "Team" is always the team you configured.
 - `select.*_game_to_replay` (loads the game), `select.*_timing_mode`.
 - Buttons: play, pause, previous/next play, back/forward 10 s, align here, restart, refresh games.
 - Numbers: speed (0.25×–4×) and the timing tunables.
 - Service `sports_replay.seek`: jump to a game time, e.g. `period: 2`, `clock: "8:34"` (for soccer,
   the TV clock: `period: 2`, `clock: "67:30"`).
+
+### A running replay clock
+
+Home Assistant integrations cannot create `timer` entities, so *Replay status* carries the same
+information as attributes: `started_at` and `ends_at` (wall-clock times, set while playing),
+`position`, `duration`, `speed`. They only change on play, pause, seek or speed change, so the
+recorder is not flooded and a card can animate the progress itself, e.g. with
+[timer-bar-card](https://github.com/rianadon/timer-bar-card):
+
+```yaml
+type: custom:timer-bar-card
+entities:
+  - entity: sensor.sports_replay_sf_replay_status
+    name: Replay
+    active_state: playing
+    start_time:
+      attribute: started_at
+    end_time:
+      attribute: ends_at
+```
 
 The game, the play reached and the settings are kept across restarts; the replay comes back
 paused. The schedule refreshes every 6 hours (or with *Refresh games*).

@@ -9,7 +9,7 @@ from __future__ import annotations
 
 from collections.abc import Callable
 from dataclasses import asdict
-from datetime import timedelta
+from datetime import datetime, timedelta
 import logging
 from typing import Any
 
@@ -321,11 +321,30 @@ class ReplayManager:
     def snapshot(self) -> dict[str, Any]:
         """State of the replay, Team Tracker-compatible; recomputed only when it can change."""
         index = self.clock.current_index(self._now()) if self.game else -1
-        key = (self.game_id, index, self.mode, self.clock.playing, self.clock.speed, self.error)
+        key = (self.game_id, index, self.mode, self.clock.anchor, self.error)
         if key != self._snapshot_key:
             self._snapshot = self._build_snapshot(index)
             self._snapshot_key = key
         return self._snapshot
+
+    def _wall_times(self) -> dict[str, Any]:
+        """The replay as a timer: when it started and when it ends, in wall-clock time.
+
+        They change only on play/pause/seek/speed, never while the replay runs, so a card
+        (timer-bar-card, a timestamp in an entities card) can animate the progress itself.
+        """
+        now = self._now()
+        position = max(self.clock.position(now), 0.0)
+        speed = self.clock.speed or 1.0
+        wall_now = dt_util.utcnow()
+        playing = self.clock.playing
+        return {
+            "replay_position": round(position),
+            "replay_started_at": _iso(wall_now - timedelta(seconds=position / speed)) if playing else None,
+            "replay_ends_at": _iso(wall_now + timedelta(seconds=(self.clock.duration - position) / speed))
+            if playing
+            else None,
+        }
 
     def _build_snapshot(self, index: int) -> dict[str, Any]:
         if self.game is None:
@@ -407,11 +426,16 @@ class ReplayManager:
             "replay_speed": self.clock.speed,
             "replay_time": round(max(self.clock.times[index], 0)) if index >= 0 else 0,
             "replay_duration": round(self.clock.duration),
+            **self._wall_times(),
             "play_index": index + 1,
             "play_count": len(plays),
             "recent_plays": recent,
             "win_probability_history": history,
         }
+
+
+def _iso(value: datetime) -> str:
+    return value.replace(microsecond=0).isoformat()
 
 
 def _score(play: Play | None, team: Team | None) -> int:
