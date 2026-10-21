@@ -1,8 +1,10 @@
 """Running statistics: computed from the plays up to the replay position, never from ESPN's
 final box score (that would spoil the result).
 
-Football only for now. Player statistics come from the play text ("B.Purdy pass short left to
-G.Kittle for 11 yards"), as ESPN's football play-by-play does not list participants.
+Football: player statistics come from the play text ("B.Purdy pass short left to G.Kittle for
+11 yards"), as ESPN's football play-by-play does not list participants.
+Basketball: from the participants of each play, plus who is on the court (starters, then
+substitutions).
 """
 
 from __future__ import annotations
@@ -104,6 +106,8 @@ class FootballTeamStats:
 
 def team_stats(game: Game, index: int) -> dict[str, dict] | None:
     """{team_id: stats} after play ``index`` (-1: before the first play). None if not supported."""
+    if game.sport is Sport.BASKETBALL:
+        return _basketball(game, index)
     if game.sport is not Sport.FOOTBALL:
         return None
     stats = {game.home.id: FootballTeamStats(), game.away.id: FootballTeamStats()}
@@ -242,3 +246,88 @@ def _possession(game: Game, index: int, stats: dict[str, FootballTeamStats]) -> 
     for drive in game.drives:
         if drive.id in done_drives and drive.team_id in stats and drive.seconds:
             stats[drive.team_id].possession_seconds += int(drive.seconds)
+
+
+# --- basketball ----------------------------------------------------------------------------
+
+_BASKETBALL_COUNTERS = (
+    "points", "fgm", "fga", "fg3m", "fg3a", "ftm", "fta",
+    "rebounds", "offensive_rebounds", "defensive_rebounds",
+    "assists", "steals", "blocks", "turnovers", "fouls",
+)
+
+
+def _basketball(game: Game, index: int) -> dict[str, dict]:
+    teams = {t.id: dict.fromkeys(_BASKETBALL_COUNTERS, 0) for t in (game.home, game.away)}
+    players: dict[str, dict] = {}
+    on_court = {t: [p.id for p in game.players.values() if p.team_id == t and p.starter] for t in teams}
+
+    def player(pid: str) -> dict | None:
+        info = game.players.get(pid)
+        if info is None or info.team_id not in teams:
+            return None
+        if pid not in players:
+            players[pid] = {"name": info.short_name, "jersey": info.jersey, **dict.fromkeys(_BASKETBALL_COUNTERS, 0)}
+        return players[pid]
+
+    def add(pid: str | None, team_id: str | None, **counts: int) -> None:
+        target = player(pid) if pid else None
+        team = teams.get(target and game.players[pid].team_id or team_id or "")
+        for key, n in counts.items():
+            if target is not None:
+                target[key] += n
+            if team is not None:
+                team[key] += n
+
+    for play in game.plays[: index + 1]:
+        kind = play.type_text.lower()
+        who = play.participants
+        first = who[0] if who else None
+        if kind == "substitution" and len(who) >= 2:
+            entering, leaving = who[0], who[1]
+            info = game.players.get(entering)
+            if info and info.team_id in on_court:
+                lineup = on_court[info.team_id]
+                if leaving in lineup:
+                    lineup[lineup.index(leaving)] = entering
+                elif entering not in lineup:
+                    lineup.append(entering)
+            continue
+        if play.shooting:
+            free_throw = "free throw" in kind
+            made = play.scoring
+            if free_throw:
+                add(first, play.team_id, fta=1, ftm=int(made), points=play.score_value if made else 0)
+            else:
+                three = play.points_attempted == 3
+                add(first, play.team_id, fga=1, fgm=int(made), fg3a=int(three), fg3m=int(three and made),
+                    points=play.score_value if made else 0)
+                if len(who) >= 2:
+                    if made:
+                        add(who[1], None, assists=1)
+                    else:
+                        add(who[1], None, blocks=1)
+        elif "rebound" in kind:
+            # Team rebounds (no player) are not in the official totals.
+            if first is not None:
+                side = "offensive_rebounds" if "offensive" in kind else "defensive_rebounds"
+                add(first, play.team_id, rebounds=1, **{side: 1})
+        elif "turnover" in kind or "turnover" in play.text.lower():  # "Traveling": only in the text
+            add(first, play.team_id, turnovers=1)
+            if len(who) >= 2:
+                add(who[1], None, steals=1)
+        elif "foul" in kind and "technical" not in kind:
+            add(first, play.team_id, fouls=1)
+
+    result = {}
+    for team_id, totals in teams.items():
+        roster = [p for pid, p in players.items() if game.players[pid].team_id == team_id]
+        result[team_id] = {
+            **totals,
+            "field_goals": f"{totals['fgm']}/{totals['fga']}",
+            "three_pointers": f"{totals['fg3m']}/{totals['fg3a']}",
+            "free_throws": f"{totals['ftm']}/{totals['fta']}",
+            "players": sorted(roster, key=lambda p: (-p["points"], p["name"])),
+            "on_court": [game.players[pid].short_name for pid in on_court[team_id]],
+        }
+    return result

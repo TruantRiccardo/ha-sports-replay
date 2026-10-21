@@ -88,5 +88,50 @@ def test_stats_run_with_the_replay(game):
 
 
 def test_other_sports_not_supported_yet():
+    data = json.loads((FIXTURE.parent / "nhl_401892535.json").read_text(encoding="utf-8"))
+    assert team_stats(parse_summary(data, Sport.HOCKEY), 10) is None
+
+
+# --- basketball: BOS @ DET, 2026-10-20 ------------------------------------------------------
+
+DET, BOS = "8", "2"
+
+
+@pytest.fixture(scope="module")
+def nba():
     data = json.loads((FIXTURE.parent / "nba_401909088.json").read_text(encoding="utf-8"))
-    assert team_stats(parse_summary(data, Sport.BASKETBALL), 10) is None
+    return parse_summary(data, Sport.BASKETBALL)
+
+
+def test_basketball_team_stats_match_the_official_box_score(nba):
+    final = team_stats(nba, len(nba.plays) - 1)
+    pick = ("points", "field_goals", "three_pointers", "free_throws", "rebounds", "offensive_rebounds",
+            "assists", "steals", "blocks", "turnovers", "fouls")
+    assert {k: final[BOS][k] for k in pick} == {
+        "points": 113, "field_goals": "40/88", "three_pointers": "17/42", "free_throws": "16/21",
+        "rebounds": 39, "offensive_rebounds": 12, "assists": 28, "steals": 10, "blocks": 5,
+        "turnovers": 14, "fouls": 26,
+    }
+    assert {k: final[DET][k] for k in pick} == {
+        "points": 121, "field_goals": "39/86", "three_pointers": "15/40", "free_throws": "28/32",
+        "rebounds": 49, "offensive_rebounds": 14, "assists": 27, "steals": 7, "blocks": 5,
+        "turnovers": 17, "fouls": 22,
+    }
+
+
+def test_basketball_player_stats(nba):
+    final = team_stats(nba, len(nba.plays) - 1)
+    george = next(p for p in final[BOS]["players"] if p["name"] == "P. George")
+    # Official line: 38 pts, 12-21 FG, 7-12 3PT, 7-8 FT.
+    assert (george["points"], george["fgm"], george["fga"], george["fg3m"], george["fg3a"], george["ftm"], george["fta"]) == (
+        38, 12, 21, 7, 12, 7, 8
+    )
+    assert final[BOS]["players"][0]["name"] == "P. George"  # top scorer first
+    assert sum(p["points"] for p in final[DET]["players"]) == 121
+
+
+def test_basketball_five_on_court_all_game(nba):
+    for index in range(-1, len(nba.plays), 7):
+        stats = team_stats(nba, index)
+        assert len(stats[DET]["on_court"]) == 5 and len(stats[BOS]["on_court"]) == 5, index
+    assert team_stats(nba, -1)[BOS]["points"] == 0

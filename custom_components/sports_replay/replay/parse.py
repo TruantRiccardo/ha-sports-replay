@@ -10,7 +10,7 @@ from datetime import datetime
 import re
 from typing import Any
 
-from .model import Drive, Game, Play, Sport, Team
+from .model import Drive, Game, Play, Player, Sport, Team
 
 
 def parse_summary(data: dict[str, Any], sport: Sport = Sport.FOOTBALL) -> Game:
@@ -35,6 +35,8 @@ def parse_summary(data: dict[str, Any], sport: Sport = Sport.FOOTBALL) -> Game:
         plays = _soccer_plays(data, game)
     else:
         plays = [_flat_play(p, win_prob) for p in data.get("plays") or []]
+        if sport is Sport.BASKETBALL:
+            game.players = _box_players(data)
     plays.sort(key=lambda pl: pl.sequence)
     game.plays = plays
     return game
@@ -188,9 +190,37 @@ def _flat_play(p: dict[str, Any], win_prob: dict[str, float]) -> Play:
     return Play(
         **_common(p, win_prob),
         team_id=(p.get("team") or {}).get("id"),
+        participants=tuple(
+            str((x.get("athlete") or {}).get("id")) for x in p.get("participants") or [] if x.get("athlete")
+        ),
+        shooting=bool(p.get("shootingPlay")),
+        points_attempted=_int(p.get("pointsAttempted")),
         strength=(p.get("strength") or {}).get("abbreviation"),
         penalty_minutes=_int(minutes) if minutes is not None else None,
     )
+
+
+def _box_players(data: dict[str, Any]) -> dict[str, Player]:
+    """Names, teams and starters from the box score's player list. Its statistics are never
+    read: they are the final ones, a spoiler."""
+    players = {}
+    for team in (data.get("boxscore") or {}).get("players") or []:
+        team_id = str((team.get("team") or {}).get("id", ""))
+        for group in team.get("statistics") or []:
+            for a in group.get("athletes") or []:
+                athlete = a.get("athlete") or {}
+                if not athlete.get("id"):
+                    continue
+                pid = str(athlete["id"])
+                players[pid] = Player(
+                    id=pid,
+                    name=athlete.get("displayName", ""),
+                    short_name=athlete.get("shortName") or athlete.get("displayName", ""),
+                    team_id=team_id,
+                    starter=bool(a.get("starter")),
+                    jersey=athlete.get("jersey"),
+                )
+    return players
 
 
 # --- soccer --------------------------------------------------------------------------------

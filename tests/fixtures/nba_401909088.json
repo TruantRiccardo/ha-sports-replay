@@ -411,7 +411,26 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4351852"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "4019090887",
@@ -434,7 +453,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4351852"
+     }
+    }
+   ]
   },
   {
    "id": "4019090889",
@@ -457,7 +485,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4351852"
+     }
+    }
+   ]
   },
   {
    "id": "40190908810",
@@ -480,7 +517,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3908845"
+     }
+    }
+   ]
   },
   {
    "id": "40190908811",
@@ -503,7 +549,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4683689"
+     }
+    }
+   ]
   },
   {
    "id": "40190908812",
@@ -526,7 +581,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4351852"
+     }
+    }
+   ]
   },
   {
    "id": "40190908813",
@@ -549,7 +613,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    }
+   ]
   },
   {
    "id": "40190908814",
@@ -572,7 +645,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3908845"
+     }
+    }
+   ]
   },
   {
    "id": "40190908815",
@@ -595,7 +677,16 @@
    "scoreValue": 2,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3908845"
+     }
+    }
+   ]
   },
   {
    "id": "40190908816",
@@ -618,7 +709,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    },
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    }
+   ]
   },
   {
    "id": "40190908819",
@@ -641,7 +746,21 @@
    "scoreValue": 2,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "40190908821",
@@ -664,7 +783,21 @@
    "scoreValue": 2,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4351852"
+     }
+    }
+   ]
   },
   {
    "id": "40190908823",
@@ -687,7 +820,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    }
+   ]
   },
   {
    "id": "40190908825",
@@ -710,7 +852,16 @@
    "scoreValue": 1,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "40190908826",
@@ -733,7 +884,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4351852"
+     }
+    }
+   ]
   },
   {
    "id": "40190908827",
@@ -756,7 +921,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4351852"
+     }
+    }
+   ]
   },
   {
    "id": "40190908829",
@@ -779,7 +953,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    }
+   ]
   },
   {
    "id": "40190908830",
@@ -802,7 +985,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4683689"
+     }
+    }
+   ]
   },
   {
    "id": "40190908831",
@@ -825,7 +1017,21 @@
    "scoreValue": 3,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4683689"
+     }
+    }
+   ]
   },
   {
    "id": "40190908833",
@@ -848,7 +1054,21 @@
    "scoreValue": 3,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "40190908835",
@@ -871,7 +1091,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    },
+    {
+     "athlete": {
+      "id": "3908845"
+     }
+    }
+   ]
   },
   {
    "id": "40190908879",
@@ -894,7 +1128,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4683689"
+     }
+    }
+   ]
   },
   {
    "id": "40190908881",
@@ -917,7 +1165,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4683689"
+     }
+    }
+   ]
   },
   {
    "id": "40190908840",
@@ -940,7 +1197,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "40190908841",
@@ -963,7 +1229,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "40190908842",
@@ -986,7 +1261,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "40190908844",
@@ -1009,7 +1298,21 @@
    "scoreValue": 2,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "40190908846",
@@ -1032,7 +1335,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "40190908848",
@@ -1055,7 +1367,16 @@
    "scoreValue": 1,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "40190908849",
@@ -1078,7 +1399,16 @@
    "scoreValue": 1,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "40190908851",
@@ -1101,7 +1431,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4397424"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4351852"
+     }
+    }
+   ]
   },
   {
    "id": "40190908852",
@@ -1124,7 +1468,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    }
+   ]
   },
   {
    "id": "40190908855",
@@ -1147,7 +1500,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4395702"
+     }
+    },
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    }
+   ]
   },
   {
    "id": "40190908856",
@@ -1170,7 +1537,21 @@
    "scoreValue": 3,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "40190908858",
@@ -1193,7 +1574,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "40190908859",
@@ -1216,7 +1606,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "40190908860",
@@ -1239,7 +1638,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "40190908861",
@@ -1262,7 +1670,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "40190908862",
@@ -1285,7 +1702,21 @@
    "scoreValue": 2,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3908845"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "40190908864",
@@ -1308,7 +1739,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "40190908866",
@@ -1331,7 +1776,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "40190908868",
@@ -1354,7 +1808,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "40190908870",
@@ -1377,7 +1840,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4278562"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "40190908871",
@@ -1400,7 +1877,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "40190908872",
@@ -1423,7 +1909,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "40190908873",
@@ -1446,7 +1941,21 @@
    "scoreValue": 2,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4278562"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "40190908875",
@@ -1469,7 +1978,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "40190908876",
@@ -1492,7 +2010,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4683689"
+     }
+    }
+   ]
   },
   {
    "id": "40190908877",
@@ -1515,7 +2042,16 @@
    "scoreValue": 2,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    }
+   ]
   },
   {
    "id": "40190908878",
@@ -1538,7 +2074,9 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "40190908885",
@@ -1561,7 +2099,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065804"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "40190908886",
@@ -1584,7 +2136,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    },
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    }
+   ]
   },
   {
    "id": "40190908887",
@@ -1607,7 +2173,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4593841"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4683689"
+     }
+    }
+   ]
   },
   {
    "id": "40190908888",
@@ -1630,7 +2210,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4278562"
+     }
+    }
+   ]
   },
   {
    "id": "40190908889",
@@ -1653,7 +2242,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "40190908890",
@@ -1676,7 +2274,16 @@
    "scoreValue": 2,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "40190908891",
@@ -1699,7 +2306,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4278562"
+     }
+    }
+   ]
   },
   {
    "id": "40190908893",
@@ -1722,7 +2338,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "40190908894",
@@ -1745,7 +2370,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4278562"
+     }
+    }
+   ]
   },
   {
    "id": "40190908895",
@@ -1768,7 +2402,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4395702"
+     }
+    }
+   ]
   },
   {
    "id": "40190908896",
@@ -1791,7 +2434,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065804"
+     }
+    }
+   ]
   },
   {
    "id": "40190908897",
@@ -1814,7 +2466,21 @@
    "scoreValue": 2,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4065804"
+     }
+    }
+   ]
   },
   {
    "id": "40190908899",
@@ -1837,7 +2503,16 @@
    "scoreValue": 2,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088100",
@@ -1860,7 +2535,21 @@
    "scoreValue": 3,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065804"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088102",
@@ -1883,7 +2572,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4397424"
+     }
+    }
+   ]
   },
   {
    "id": "401909088104",
@@ -1906,7 +2609,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065804"
+     }
+    }
+   ]
   },
   {
    "id": "401909088105",
@@ -1929,7 +2641,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3908845"
+     }
+    }
+   ]
   },
   {
    "id": "401909088106",
@@ -1952,7 +2673,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088107",
@@ -1975,7 +2705,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088108",
@@ -1998,7 +2737,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4397424"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088110",
@@ -2021,7 +2774,16 @@
    "scoreValue": 2,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088111",
@@ -2044,7 +2806,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088112",
@@ -2067,7 +2838,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "401909088113",
@@ -2090,7 +2870,16 @@
    "scoreValue": 2,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088115",
@@ -2113,7 +2902,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088116",
@@ -2136,7 +2934,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088117",
@@ -2159,7 +2966,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4395702"
+     }
+    }
+   ]
   },
   {
    "id": "401909088118",
@@ -2182,7 +3003,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3908845"
+     }
+    }
+   ]
   },
   {
    "id": "401909088119",
@@ -2205,7 +3035,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4395702"
+     }
+    }
+   ]
   },
   {
    "id": "401909088120",
@@ -2228,7 +3067,9 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088121",
@@ -2251,7 +3092,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4278562"
+     }
+    }
+   ]
   },
   {
    "id": "401909088123",
@@ -2274,7 +3124,9 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088129",
@@ -2297,7 +3149,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4683771"
+     }
+    },
+    {
+     "athlete": {
+      "id": "3908845"
+     }
+    }
+   ]
   },
   {
    "id": "401909088130",
@@ -2320,7 +3186,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "5107199"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "401909088131",
@@ -2343,7 +3223,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066372"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088132",
@@ -2366,7 +3260,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4278562"
+     }
+    }
+   ]
   },
   {
    "id": "401909088133",
@@ -2389,7 +3297,21 @@
    "scoreValue": 3,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4397424"
+     }
+    }
+   ]
   },
   {
    "id": "401909088135",
@@ -2412,7 +3334,21 @@
    "scoreValue": 3,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066372"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4395702"
+     }
+    }
+   ]
   },
   {
    "id": "401909088137",
@@ -2435,7 +3371,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "5107199"
+     }
+    }
+   ]
   },
   {
    "id": "401909088139",
@@ -2458,7 +3403,16 @@
    "scoreValue": 1,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    }
+   ]
   },
   {
    "id": "401909088140",
@@ -2481,7 +3435,16 @@
    "scoreValue": 1,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    }
+   ]
   },
   {
    "id": "401909088141",
@@ -2504,7 +3467,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065804"
+     }
+    }
+   ]
   },
   {
    "id": "401909088143",
@@ -2527,7 +3499,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4397424"
+     }
+    }
+   ]
   },
   {
    "id": "401909088145",
@@ -2550,7 +3531,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "401909088146",
@@ -2573,7 +3563,9 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088147",
@@ -2596,7 +3588,16 @@
    "scoreValue": 1,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "401909088148",
@@ -2619,7 +3620,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4683771"
+     }
+    }
+   ]
   },
   {
    "id": "401909088150",
@@ -2642,7 +3652,16 @@
    "scoreValue": 1,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    }
+   ]
   },
   {
    "id": "401909088151",
@@ -2665,7 +3684,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    }
+   ]
   },
   {
    "id": "401909088152",
@@ -2688,7 +3716,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066372"
+     }
+    }
+   ]
   },
   {
    "id": "401909088153",
@@ -2711,7 +3748,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4395702"
+     }
+    }
+   ]
   },
   {
    "id": "401909088154",
@@ -2734,7 +3780,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4683771"
+     }
+    }
+   ]
   },
   {
    "id": "401909088155",
@@ -2757,7 +3812,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4683771"
+     }
+    }
+   ]
   },
   {
    "id": "401909088156",
@@ -2780,7 +3844,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4593841"
+     }
+    }
+   ]
   },
   {
    "id": "401909088157",
@@ -2803,7 +3876,21 @@
    "scoreValue": 2,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4397424"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088159",
@@ -2826,7 +3913,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4683771"
+     }
+    }
+   ]
   },
   {
    "id": "401909088161",
@@ -2849,7 +3945,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4683771"
+     }
+    }
+   ]
   },
   {
    "id": "401909088162",
@@ -2872,7 +3977,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4683771"
+     }
+    }
+   ]
   },
   {
    "id": "401909088163",
@@ -2895,7 +4014,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "401909088165",
@@ -2918,7 +4046,21 @@
    "scoreValue": 2,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4683771"
+     }
+    }
+   ]
   },
   {
    "id": "401909088167",
@@ -2941,7 +4083,16 @@
    "scoreValue": 2,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088168",
@@ -2961,7 +4112,9 @@
    },
    "wallclock": "2026-10-20T19:33:52Z",
    "scoringPlay": false,
-   "scoreValue": 0
+   "scoreValue": 0,
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088169",
@@ -2981,7 +4134,9 @@
    },
    "wallclock": "2026-10-20T19:33:53Z",
    "scoringPlay": false,
-   "scoreValue": 0
+   "scoreValue": 0,
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088171",
@@ -3004,7 +4159,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4683771"
+     }
+    }
+   ]
   },
   {
    "id": "401909088175",
@@ -3027,7 +4196,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4351852"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4397424"
+     }
+    }
+   ]
   },
   {
    "id": "401909088176",
@@ -3050,7 +4233,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "5175647"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088177",
@@ -3073,7 +4270,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4065804"
+     }
+    }
+   ]
   },
   {
    "id": "401909088179",
@@ -3096,7 +4307,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "5107199"
+     }
+    }
+   ]
   },
   {
    "id": "401909088180",
@@ -3119,7 +4339,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    }
+   ]
   },
   {
    "id": "401909088181",
@@ -3142,7 +4371,21 @@
    "scoreValue": 3,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4593841"
+     }
+    },
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    }
+   ]
   },
   {
    "id": "401909088183",
@@ -3165,7 +4408,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "401909088184",
@@ -3188,7 +4440,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "401909088185",
@@ -3211,7 +4472,21 @@
    "scoreValue": 3,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4395702"
+     }
+    },
+    {
+     "athlete": {
+      "id": "5107199"
+     }
+    }
+   ]
   },
   {
    "id": "401909088187",
@@ -3234,7 +4509,21 @@
    "scoreValue": 2,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4351852"
+     }
+    },
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    }
+   ]
   },
   {
    "id": "401909088189",
@@ -3257,7 +4546,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066372"
+     }
+    }
+   ]
   },
   {
    "id": "401909088190",
@@ -3280,7 +4578,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "5175647"
+     }
+    }
+   ]
   },
   {
    "id": "401909088191",
@@ -3303,7 +4610,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    }
+   ]
   },
   {
    "id": "401909088192",
@@ -3326,7 +4642,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "401909088193",
@@ -3349,7 +4674,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066372"
+     }
+    }
+   ]
   },
   {
    "id": "401909088194",
@@ -3372,7 +4706,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "5107199"
+     }
+    }
+   ]
   },
   {
    "id": "401909088195",
@@ -3395,7 +4738,21 @@
    "scoreValue": 2,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    },
+    {
+     "athlete": {
+      "id": "5107199"
+     }
+    }
+   ]
   },
   {
    "id": "401909088197",
@@ -3418,7 +4775,9 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088198",
@@ -3441,7 +4800,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "5175647"
+     }
+    }
+   ]
   },
   {
    "id": "401909088199",
@@ -3464,7 +4832,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066372"
+     }
+    }
+   ]
   },
   {
    "id": "401909088200",
@@ -3487,7 +4864,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4395702"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4351852"
+     }
+    }
+   ]
   },
   {
    "id": "401909088201",
@@ -3510,7 +4901,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "401909088203",
@@ -3533,7 +4933,16 @@
    "scoreValue": 2,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "401909088204",
@@ -3556,7 +4965,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066372"
+     }
+    }
+   ]
   },
   {
    "id": "401909088206",
@@ -3579,7 +4997,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "5107199"
+     }
+    }
+   ]
   },
   {
    "id": "401909088208",
@@ -3602,7 +5029,16 @@
    "scoreValue": 1,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    }
+   ]
   },
   {
    "id": "401909088209",
@@ -3625,7 +5061,16 @@
    "scoreValue": 1,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    }
+   ]
   },
   {
    "id": "401909088211",
@@ -3648,7 +5093,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4277951"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4351852"
+     }
+    }
+   ]
   },
   {
    "id": "401909088212",
@@ -3671,7 +5130,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4277951"
+     }
+    }
+   ]
   },
   {
    "id": "401909088214",
@@ -3694,7 +5162,16 @@
    "scoreValue": 1,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "401909088215",
@@ -3717,7 +5194,16 @@
    "scoreValue": 1,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "401909088217",
@@ -3740,7 +5226,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4395702"
+     }
+    }
+   ]
   },
   {
    "id": "401909088219",
@@ -3763,7 +5263,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4593841"
+     }
+    }
+   ]
   },
   {
    "id": "401909088220",
@@ -3786,7 +5300,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    }
+   ]
   },
   {
    "id": "401909088221",
@@ -3809,7 +5332,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4277951"
+     }
+    }
+   ]
   },
   {
    "id": "401909088223",
@@ -3832,7 +5364,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066372"
+     }
+    }
+   ]
   },
   {
    "id": "401909088224",
@@ -3855,7 +5396,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "401909088225",
@@ -3878,7 +5428,21 @@
    "scoreValue": 3,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "5107199"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "401909088227",
@@ -3901,7 +5465,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    }
+   ]
   },
   {
    "id": "401909088228",
@@ -3924,7 +5497,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4277951"
+     }
+    }
+   ]
   },
   {
    "id": "401909088229",
@@ -3947,7 +5529,16 @@
    "scoreValue": 2,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4277951"
+     }
+    }
+   ]
   },
   {
    "id": "401909088230",
@@ -3970,7 +5561,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "401909088231",
@@ -3993,7 +5593,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "5175647"
+     }
+    }
+   ]
   },
   {
    "id": "401909088232",
@@ -4016,7 +5625,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    }
+   ]
   },
   {
    "id": "401909088233",
@@ -4039,7 +5657,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4277951"
+     }
+    }
+   ]
   },
   {
    "id": "401909088234",
@@ -4062,7 +5689,16 @@
    "scoreValue": 2,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088236",
@@ -4085,7 +5721,9 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088240",
@@ -4108,7 +5746,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3908845"
+     }
+    },
+    {
+     "athlete": {
+      "id": "5107199"
+     }
+    }
+   ]
   },
   {
    "id": "401909088241",
@@ -4131,7 +5783,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "401909088242",
@@ -4154,7 +5820,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4278562"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4066372"
+     }
+    }
+   ]
   },
   {
    "id": "401909088243",
@@ -4177,7 +5857,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    }
+   ]
   },
   {
    "id": "401909088244",
@@ -4200,7 +5889,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088246",
@@ -4223,7 +5921,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    }
+   ]
   },
   {
    "id": "401909088247",
@@ -4246,7 +5953,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4278562"
+     }
+    }
+   ]
   },
   {
    "id": "401909088248",
@@ -4269,7 +5985,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    }
+   ]
   },
   {
    "id": "401909088249",
@@ -4292,7 +6017,9 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088252",
@@ -4315,7 +6042,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065804"
+     }
+    },
+    {
+     "athlete": {
+      "id": "5175647"
+     }
+    }
+   ]
   },
   {
    "id": "401909088254",
@@ -4338,7 +6079,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    }
+   ]
   },
   {
    "id": "401909088255",
@@ -4361,7 +6116,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "401909088257",
@@ -4384,7 +6153,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4277951"
+     }
+    }
+   ]
   },
   {
    "id": "401909088260",
@@ -4407,7 +6185,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4397424"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4277951"
+     }
+    }
+   ]
   },
   {
    "id": "401909088261",
@@ -4430,7 +6222,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "401909088262",
@@ -4453,7 +6254,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4397424"
+     }
+    }
+   ]
   },
   {
    "id": "401909088263",
@@ -4476,7 +6286,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088264",
@@ -4499,7 +6318,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088265",
@@ -4522,7 +6350,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088267",
@@ -4545,7 +6387,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "401909088269",
@@ -4568,7 +6419,16 @@
    "scoreValue": 1,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088270",
@@ -4591,7 +6451,16 @@
    "scoreValue": 1,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088271",
@@ -4614,7 +6483,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "401909088272",
@@ -4637,7 +6515,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088273",
@@ -4660,7 +6547,16 @@
    "scoreValue": 2,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088298",
@@ -4683,7 +6579,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088299",
@@ -4706,7 +6611,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "401909088274",
@@ -4729,7 +6643,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "401909088275",
@@ -4752,7 +6675,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065804"
+     }
+    }
+   ]
   },
   {
    "id": "401909088277",
@@ -4775,7 +6707,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088278",
@@ -4798,7 +6739,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065804"
+     }
+    }
+   ]
   },
   {
    "id": "401909088279",
@@ -4821,7 +6771,16 @@
    "scoreValue": 2,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065804"
+     }
+    }
+   ]
   },
   {
    "id": "401909088280",
@@ -4844,7 +6803,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3908845"
+     }
+    }
+   ]
   },
   {
    "id": "401909088281",
@@ -4867,7 +6835,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4278562"
+     }
+    }
+   ]
   },
   {
    "id": "401909088351",
@@ -4890,7 +6867,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4278562"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088282",
@@ -4913,7 +6904,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    }
+   ]
   },
   {
    "id": "401909088283",
@@ -4936,7 +6936,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "401909088284",
@@ -4959,7 +6968,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4278562"
+     }
+    }
+   ]
   },
   {
    "id": "401909088286",
@@ -4982,7 +7000,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4278562"
+     }
+    }
+   ]
   },
   {
    "id": "401909088288",
@@ -5005,7 +7032,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066372"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "401909088289",
@@ -5028,7 +7069,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066372"
+     }
+    }
+   ]
   },
   {
    "id": "401909088292",
@@ -5051,7 +7101,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4278562"
+     }
+    }
+   ]
   },
   {
    "id": "401909088293",
@@ -5074,7 +7138,16 @@
    "scoreValue": 2,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088296",
@@ -5097,7 +7170,9 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088297",
@@ -5120,7 +7195,9 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088349",
@@ -5143,7 +7220,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    }
+   ]
   },
   {
    "id": "401909088300",
@@ -5166,7 +7252,21 @@
    "scoreValue": 3,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065804"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088294",
@@ -5189,7 +7289,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088305",
@@ -5212,7 +7321,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088307",
@@ -5235,7 +7358,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088308",
@@ -5258,7 +7390,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088309",
@@ -5281,7 +7422,21 @@
    "scoreValue": 2,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088311",
@@ -5304,7 +7459,21 @@
    "scoreValue": 3,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088313",
@@ -5327,7 +7496,21 @@
    "scoreValue": 2,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088315",
@@ -5350,7 +7533,16 @@
    "scoreValue": 3,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088316",
@@ -5373,7 +7565,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4397424"
+     }
+    }
+   ]
   },
   {
    "id": "401909088317",
@@ -5396,7 +7602,9 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088320",
@@ -5419,7 +7627,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    }
+   ]
   },
   {
    "id": "401909088322",
@@ -5442,7 +7659,16 @@
    "scoreValue": 1,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088323",
@@ -5465,7 +7691,16 @@
    "scoreValue": 1,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088325",
@@ -5488,7 +7723,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    },
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    }
+   ]
   },
   {
    "id": "401909088328",
@@ -5511,7 +7760,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4351852"
+     }
+    },
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    }
+   ]
   },
   {
    "id": "401909088329",
@@ -5534,7 +7797,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4065804"
+     }
+    }
+   ]
   },
   {
    "id": "401909088330",
@@ -5557,7 +7834,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088331",
@@ -5580,7 +7866,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088332",
@@ -5603,7 +7898,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088333",
@@ -5626,7 +7930,9 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088335",
@@ -5649,7 +7955,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088337",
@@ -5672,7 +7987,16 @@
    "scoreValue": 1,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088338",
@@ -5695,7 +8019,16 @@
    "scoreValue": 1,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088340",
@@ -5718,7 +8051,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4395702"
+     }
+    },
+    {
+     "athlete": {
+      "id": "3908845"
+     }
+    }
+   ]
   },
   {
    "id": "401909088342",
@@ -5741,7 +8088,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065804"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4397424"
+     }
+    }
+   ]
   },
   {
    "id": "401909088343",
@@ -5764,7 +8125,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4395702"
+     }
+    }
+   ]
   },
   {
    "id": "401909088347",
@@ -5784,7 +8159,9 @@
    },
    "wallclock": "2026-10-20T20:08:17Z",
    "scoringPlay": false,
-   "scoreValue": 0
+   "scoreValue": 0,
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088348",
@@ -5804,7 +8181,9 @@
    },
    "wallclock": "2026-10-20T20:08:17Z",
    "scoringPlay": false,
-   "scoreValue": 0
+   "scoreValue": 0,
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088355",
@@ -5827,7 +8206,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4066372"
+     }
+    }
+   ]
   },
   {
    "id": "401909088356",
@@ -5850,7 +8243,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3908845"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4395702"
+     }
+    }
+   ]
   },
   {
    "id": "401909088360",
@@ -5873,7 +8280,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    }
+   ]
   },
   {
    "id": "401909088361",
@@ -5896,7 +8317,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4683689"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4065804"
+     }
+    }
+   ]
   },
   {
    "id": "401909088362",
@@ -5919,7 +8354,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3908845"
+     }
+    }
+   ]
   },
   {
    "id": "401909088363",
@@ -5942,7 +8386,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088364",
@@ -5965,7 +8418,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088365",
@@ -5988,7 +8450,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    }
+   ]
   },
   {
    "id": "401909088366",
@@ -6011,7 +8482,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088367",
@@ -6034,7 +8514,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "401909088368",
@@ -6057,7 +8546,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088369",
@@ -6080,7 +8578,9 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088371",
@@ -6103,7 +8603,21 @@
    "scoreValue": 2,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3908845"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088373",
@@ -6126,7 +8640,21 @@
    "scoreValue": 2,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088375",
@@ -6149,7 +8677,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4351852"
+     }
+    }
+   ]
   },
   {
    "id": "401909088377",
@@ -6172,7 +8714,21 @@
    "scoreValue": 3,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088379",
@@ -6195,7 +8751,9 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088382",
@@ -6218,7 +8776,21 @@
    "scoreValue": 2,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    },
+    {
+     "athlete": {
+      "id": "3908845"
+     }
+    }
+   ]
   },
   {
    "id": "401909088384",
@@ -6241,7 +8813,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088386",
@@ -6264,7 +8845,16 @@
    "scoreValue": 1,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "401909088387",
@@ -6287,7 +8877,21 @@
    "scoreValue": 3,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    },
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    }
+   ]
   },
   {
    "id": "401909088389",
@@ -6310,7 +8914,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3908845"
+     }
+    }
+   ]
   },
   {
    "id": "401909088390",
@@ -6333,7 +8946,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4683689"
+     }
+    }
+   ]
   },
   {
    "id": "401909088391",
@@ -6356,7 +8978,21 @@
    "scoreValue": 3,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    },
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    }
+   ]
   },
   {
    "id": "401909088392",
@@ -6379,7 +9015,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "401909088393",
@@ -6402,7 +9047,21 @@
    "scoreValue": 3,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    },
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    }
+   ]
   },
   {
    "id": "401909088395",
@@ -6425,7 +9084,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088396",
@@ -6448,7 +9116,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4351852"
+     }
+    }
+   ]
   },
   {
    "id": "401909088397",
@@ -6471,7 +9148,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088398",
@@ -6494,7 +9180,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "401909088399",
@@ -6517,7 +9212,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088400",
@@ -6540,7 +9244,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "401909088401",
@@ -6563,7 +9276,16 @@
    "scoreValue": 2,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "401909088402",
@@ -6586,7 +9308,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088404",
@@ -6609,7 +9340,16 @@
    "scoreValue": 1,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "401909088406",
@@ -6632,7 +9372,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4397424"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4351852"
+     }
+    }
+   ]
   },
   {
    "id": "401909088407",
@@ -6655,7 +9409,21 @@
    "scoreValue": 2,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4397424"
+     }
+    }
+   ]
   },
   {
    "id": "401909088409",
@@ -6678,7 +9446,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    }
+   ]
   },
   {
    "id": "401909088410",
@@ -6701,7 +9478,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088412",
@@ -6724,7 +9510,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "2596112"
+     }
+    },
+    {
+     "athlete": {
+      "id": "3908845"
+     }
+    }
+   ]
   },
   {
    "id": "401909088413",
@@ -6747,7 +9547,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "2596112"
+     }
+    }
+   ]
   },
   {
    "id": "401909088414",
@@ -6770,7 +9579,9 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088415",
@@ -6793,7 +9604,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4397424"
+     }
+    }
+   ]
   },
   {
    "id": "401909088418",
@@ -6816,7 +9636,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066372"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "401909088419",
@@ -6839,7 +9673,16 @@
    "scoreValue": 3,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088420",
@@ -6862,7 +9705,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4397424"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "401909088421",
@@ -6885,7 +9742,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4683689"
+     }
+    }
+   ]
   },
   {
    "id": "401909088423",
@@ -6908,7 +9774,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4683689"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088424",
@@ -6931,7 +9811,9 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088427",
@@ -6954,7 +9836,21 @@
    "scoreValue": 3,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088429",
@@ -6977,7 +9873,21 @@
    "scoreValue": 2,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    },
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    }
+   ]
   },
   {
    "id": "401909088430",
@@ -7000,7 +9910,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "401909088432",
@@ -7023,7 +9942,16 @@
    "scoreValue": 1,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088434",
@@ -7046,7 +9974,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4278562"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "401909088436",
@@ -7069,7 +10011,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "5175647"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4683689"
+     }
+    }
+   ]
   },
   {
    "id": "401909088437",
@@ -7092,7 +10048,21 @@
    "scoreValue": 2,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4066372"
+     }
+    }
+   ]
   },
   {
    "id": "401909088439",
@@ -7115,7 +10085,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4397424"
+     }
+    }
+   ]
   },
   {
    "id": "401909088441",
@@ -7138,7 +10117,16 @@
    "scoreValue": 1,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088442",
@@ -7161,7 +10149,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088443",
@@ -7184,7 +10181,9 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088445",
@@ -7207,7 +10206,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4397424"
+     }
+    }
+   ]
   },
   {
    "id": "401909088446",
@@ -7230,7 +10243,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4278562"
+     }
+    }
+   ]
   },
   {
    "id": "401909088448",
@@ -7253,7 +10275,16 @@
    "scoreValue": 2,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4278562"
+     }
+    }
+   ]
   },
   {
    "id": "401909088449",
@@ -7276,7 +10307,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "2596112"
+     }
+    }
+   ]
   },
   {
    "id": "401909088451",
@@ -7299,7 +10339,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4397424"
+     }
+    }
+   ]
   },
   {
    "id": "401909088452",
@@ -7322,7 +10371,9 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088453",
@@ -7345,7 +10396,16 @@
    "scoreValue": 1,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4397424"
+     }
+    }
+   ]
   },
   {
    "id": "401909088455",
@@ -7368,7 +10428,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088456",
@@ -7391,7 +10465,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    }
+   ]
   },
   {
    "id": "401909088457",
@@ -7414,7 +10497,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    }
+   ]
   },
   {
    "id": "401909088458",
@@ -7437,7 +10529,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4397424"
+     }
+    }
+   ]
   },
   {
    "id": "401909088459",
@@ -7460,7 +10561,9 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088461",
@@ -7483,7 +10586,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4397424"
+     }
+    }
+   ]
   },
   {
    "id": "401909088463",
@@ -7506,7 +10618,16 @@
    "scoreValue": 1,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "2596112"
+     }
+    }
+   ]
   },
   {
    "id": "401909088464",
@@ -7529,7 +10650,16 @@
    "scoreValue": 1,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "2596112"
+     }
+    }
+   ]
   },
   {
    "id": "401909088466",
@@ -7552,7 +10682,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4395702"
+     }
+    },
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    }
+   ]
   },
   {
    "id": "401909088468",
@@ -7575,7 +10719,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4277951"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4397424"
+     }
+    }
+   ]
   },
   {
    "id": "401909088469",
@@ -7598,7 +10756,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4277951"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4278562"
+     }
+    }
+   ]
   },
   {
    "id": "401909088471",
@@ -7621,7 +10793,21 @@
    "scoreValue": 3,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "2596112"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4278562"
+     }
+    }
+   ]
   },
   {
    "id": "401909088473",
@@ -7644,7 +10830,9 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088475",
@@ -7667,7 +10855,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065804"
+     }
+    },
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    }
+   ]
   },
   {
    "id": "401909088476",
@@ -7690,7 +10892,21 @@
    "scoreValue": 3,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065804"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088478",
@@ -7713,7 +10929,21 @@
    "scoreValue": 3,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "2596112"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4278562"
+     }
+    }
+   ]
   },
   {
    "id": "401909088480",
@@ -7736,7 +10966,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088481",
@@ -7759,7 +10998,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "2596112"
+     }
+    }
+   ]
   },
   {
    "id": "401909088482",
@@ -7782,7 +11030,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "2596112"
+     }
+    }
+   ]
   },
   {
    "id": "401909088483",
@@ -7805,7 +11062,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "5175647"
+     }
+    }
+   ]
   },
   {
    "id": "401909088484",
@@ -7828,7 +11094,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4277951"
+     }
+    }
+   ]
   },
   {
    "id": "401909088485",
@@ -7851,7 +11126,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4395702"
+     }
+    }
+   ]
   },
   {
    "id": "401909088486",
@@ -7874,7 +11158,21 @@
    "scoreValue": 3,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "2596112"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4395702"
+     }
+    }
+   ]
   },
   {
    "id": "401909088488",
@@ -7897,7 +11195,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088490",
@@ -7920,7 +11227,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "5107199"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088491",
@@ -7943,7 +11264,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065804"
+     }
+    }
+   ]
   },
   {
    "id": "401909088493",
@@ -7966,7 +11296,16 @@
    "scoreValue": 1,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4395702"
+     }
+    }
+   ]
   },
   {
    "id": "401909088494",
@@ -7989,7 +11328,16 @@
    "scoreValue": 1,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4395702"
+     }
+    }
+   ]
   },
   {
    "id": "401909088495",
@@ -8012,7 +11360,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4395702"
+     }
+    }
+   ]
   },
   {
    "id": "401909088498",
@@ -8035,7 +11392,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4593841"
+     }
+    },
+    {
+     "athlete": {
+      "id": "5175647"
+     }
+    }
+   ]
   },
   {
    "id": "401909088499",
@@ -8058,7 +11429,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065804"
+     }
+    }
+   ]
   },
   {
    "id": "401909088500",
@@ -8081,7 +11461,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "5107199"
+     }
+    }
+   ]
   },
   {
    "id": "401909088502",
@@ -8104,7 +11493,16 @@
    "scoreValue": 1,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    }
+   ]
   },
   {
    "id": "401909088503",
@@ -8127,7 +11525,16 @@
    "scoreValue": 1,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    }
+   ]
   },
   {
    "id": "401909088504",
@@ -8150,7 +11557,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4277951"
+     }
+    }
+   ]
   },
   {
    "id": "401909088506",
@@ -8173,7 +11589,16 @@
    "scoreValue": 1,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4278562"
+     }
+    }
+   ]
   },
   {
    "id": "401909088507",
@@ -8196,7 +11621,16 @@
    "scoreValue": 1,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4278562"
+     }
+    }
+   ]
   },
   {
    "id": "401909088508",
@@ -8219,7 +11653,21 @@
    "scoreValue": 2,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088510",
@@ -8242,7 +11690,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "5107199"
+     }
+    }
+   ]
   },
   {
    "id": "401909088511",
@@ -8265,7 +11722,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4593841"
+     }
+    }
+   ]
   },
   {
    "id": "401909088512",
@@ -8288,7 +11754,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065804"
+     }
+    }
+   ]
   },
   {
    "id": "401909088513",
@@ -8311,7 +11786,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066372"
+     }
+    }
+   ]
   },
   {
    "id": "401909088514",
@@ -8334,7 +11818,21 @@
    "scoreValue": 3,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4395702"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4066372"
+     }
+    }
+   ]
   },
   {
    "id": "401909088516",
@@ -8357,7 +11855,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4277951"
+     }
+    }
+   ]
   },
   {
    "id": "401909088517",
@@ -8380,7 +11887,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4395702"
+     }
+    }
+   ]
   },
   {
    "id": "401909088518",
@@ -8403,7 +11919,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4395702"
+     }
+    }
+   ]
   },
   {
    "id": "401909088519",
@@ -8426,7 +11951,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "2596112"
+     }
+    }
+   ]
   },
   {
    "id": "401909088520",
@@ -8449,7 +11983,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "2596112"
+     }
+    }
+   ]
   },
   {
    "id": "401909088521",
@@ -8472,7 +12015,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4593841"
+     }
+    }
+   ]
   },
   {
    "id": "401909088522",
@@ -8495,7 +12047,21 @@
    "scoreValue": 3,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4593841"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088524",
@@ -8515,7 +12081,9 @@
    },
    "wallclock": "2026-10-20T20:54:04Z",
    "scoringPlay": false,
-   "scoreValue": 0
+   "scoreValue": 0,
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088528",
@@ -8538,7 +12106,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4351852"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4277951"
+     }
+    }
+   ]
   },
   {
    "id": "401909088529",
@@ -8561,7 +12143,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088530",
@@ -8584,7 +12180,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4065804"
+     }
+    }
+   ]
   },
   {
    "id": "401909088533",
@@ -8607,7 +12217,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3908845"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4066372"
+     }
+    }
+   ]
   },
   {
    "id": "401909088534",
@@ -8630,7 +12254,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4278562"
+     }
+    }
+   ]
   },
   {
    "id": "401909088536",
@@ -8653,7 +12291,21 @@
    "scoreValue": 2,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    },
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    }
+   ]
   },
   {
    "id": "401909088538",
@@ -8676,7 +12328,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "5107199"
+     }
+    }
+   ]
   },
   {
    "id": "401909088540",
@@ -8699,7 +12360,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088542",
@@ -8722,7 +12392,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3908845"
+     }
+    }
+   ]
   },
   {
    "id": "401909088543",
@@ -8745,7 +12424,16 @@
    "scoreValue": 2,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088544",
@@ -8768,7 +12456,16 @@
    "scoreValue": 2,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    }
+   ]
   },
   {
    "id": "401909088545",
@@ -8791,7 +12488,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4395702"
+     }
+    }
+   ]
   },
   {
    "id": "401909088546",
@@ -8814,7 +12520,9 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088548",
@@ -8837,7 +12545,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4593841"
+     }
+    }
+   ]
   },
   {
    "id": "401909088549",
@@ -8860,7 +12577,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4395702"
+     }
+    }
+   ]
   },
   {
    "id": "401909088550",
@@ -8883,7 +12609,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "5107199"
+     }
+    }
+   ]
   },
   {
    "id": "401909088551",
@@ -8906,7 +12641,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088552",
@@ -8929,7 +12673,21 @@
    "scoreValue": 2,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4351852"
+     }
+    },
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    }
+   ]
   },
   {
    "id": "401909088554",
@@ -8952,7 +12710,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4395702"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4593841"
+     }
+    }
+   ]
   },
   {
    "id": "401909088556",
@@ -8975,7 +12747,16 @@
    "scoreValue": 2,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4593841"
+     }
+    }
+   ]
   },
   {
    "id": "401909088557",
@@ -8998,7 +12779,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088561",
@@ -9021,7 +12811,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4395702"
+     }
+    }
+   ]
   },
   {
    "id": "401909088562",
@@ -9044,7 +12848,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    },
+    {
+     "athlete": {
+      "id": "5107199"
+     }
+    }
+   ]
   },
   {
    "id": "401909088563",
@@ -9067,7 +12885,16 @@
    "scoreValue": 2,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "401909088564",
@@ -9090,7 +12917,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4351852"
+     }
+    }
+   ]
   },
   {
    "id": "401909088566",
@@ -9113,7 +12949,16 @@
    "scoreValue": 1,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "401909088568",
@@ -9136,7 +12981,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4683689"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088569",
@@ -9159,7 +13018,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    }
+   ]
   },
   {
    "id": "401909088571",
@@ -9182,7 +13050,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    }
+   ]
   },
   {
    "id": "401909088573",
@@ -9205,7 +13082,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088574",
@@ -9228,7 +13114,9 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088575",
@@ -9251,7 +13139,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4593841"
+     }
+    }
+   ]
   },
   {
    "id": "401909088577",
@@ -9274,7 +13171,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "2596112"
+     }
+    }
+   ]
   },
   {
    "id": "401909088578",
@@ -9297,7 +13203,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3908845"
+     }
+    }
+   ]
   },
   {
    "id": "401909088579",
@@ -9320,7 +13235,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4683689"
+     }
+    }
+   ]
   },
   {
    "id": "401909088581",
@@ -9343,7 +13272,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4683689"
+     }
+    }
+   ]
   },
   {
    "id": "401909088582",
@@ -9366,7 +13304,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4351852"
+     }
+    }
+   ]
   },
   {
    "id": "401909088583",
@@ -9389,7 +13336,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "401909088585",
@@ -9412,7 +13368,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4351852"
+     }
+    }
+   ]
   },
   {
    "id": "401909088586",
@@ -9435,7 +13400,9 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088587",
@@ -9458,7 +13425,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4351852"
+     }
+    }
+   ]
   },
   {
    "id": "401909088589",
@@ -9481,7 +13457,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    },
+    {
+     "athlete": {
+      "id": "2596112"
+     }
+    }
+   ]
   },
   {
    "id": "401909088591",
@@ -9504,7 +13494,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065804"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4593841"
+     }
+    }
+   ]
   },
   {
    "id": "401909088592",
@@ -9527,7 +13531,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "401909088593",
@@ -9550,7 +13563,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    }
+   ]
   },
   {
    "id": "401909088595",
@@ -9573,7 +13595,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    }
+   ]
   },
   {
    "id": "401909088596",
@@ -9596,7 +13627,9 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088597",
@@ -9619,7 +13652,16 @@
    "scoreValue": 1,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    }
+   ]
   },
   {
    "id": "401909088598",
@@ -9642,7 +13684,16 @@
    "scoreValue": 1,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    }
+   ]
   },
   {
    "id": "401909088599",
@@ -9665,7 +13716,21 @@
    "scoreValue": 3,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    }
+   ]
   },
   {
    "id": "401909088601",
@@ -9688,7 +13753,21 @@
    "scoreValue": 3,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "401909088603",
@@ -9711,7 +13790,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065804"
+     }
+    },
+    {
+     "athlete": {
+      "id": "3908845"
+     }
+    }
+   ]
   },
   {
    "id": "401909088604",
@@ -9734,7 +13827,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    }
+   ]
   },
   {
    "id": "401909088606",
@@ -9757,7 +13859,21 @@
    "scoreValue": 3,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088608",
@@ -9780,7 +13896,9 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088610",
@@ -9803,7 +13921,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "5107199"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088612",
@@ -9826,7 +13958,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    }
+   ]
   },
   {
    "id": "401909088615",
@@ -9849,7 +13995,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4593841"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4683689"
+     }
+    }
+   ]
   },
   {
    "id": "401909088616",
@@ -9872,7 +14032,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    }
+   ]
   },
   {
    "id": "401909088617",
@@ -9895,7 +14064,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "401909088618",
@@ -9918,7 +14096,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065804"
+     }
+    }
+   ]
   },
   {
    "id": "401909088620",
@@ -9941,7 +14128,16 @@
    "scoreValue": 1,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    }
+   ]
   },
   {
    "id": "401909088621",
@@ -9964,7 +14160,16 @@
    "scoreValue": 1,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    }
+   ]
   },
   {
    "id": "401909088622",
@@ -9987,7 +14192,16 @@
    "scoreValue": 1,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    }
+   ]
   },
   {
    "id": "401909088624",
@@ -10010,7 +14224,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "2596112"
+     }
+    },
+    {
+     "athlete": {
+      "id": "3908845"
+     }
+    }
+   ]
   },
   {
    "id": "401909088626",
@@ -10033,7 +14261,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4065804"
+     }
+    }
+   ]
   },
   {
    "id": "401909088627",
@@ -10056,7 +14298,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088628",
@@ -10079,7 +14330,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "401909088629",
@@ -10102,7 +14362,21 @@
    "scoreValue": 3,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "2596112"
+     }
+    },
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    }
+   ]
   },
   {
    "id": "401909088631",
@@ -10125,7 +14399,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088632",
@@ -10148,7 +14431,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    }
+   ]
   },
   {
    "id": "401909088633",
@@ -10171,7 +14463,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "5107199"
+     }
+    },
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    }
+   ]
   },
   {
    "id": "401909088635",
@@ -10194,7 +14500,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088636",
@@ -10217,7 +14532,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "401909088637",
@@ -10240,7 +14564,21 @@
    "scoreValue": 2,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "401909088639",
@@ -10263,7 +14601,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088641",
@@ -10286,7 +14633,16 @@
    "scoreValue": 1,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "401909088643",
@@ -10309,7 +14665,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4397424"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4351852"
+     }
+    }
+   ]
   },
   {
    "id": "401909088644",
@@ -10332,7 +14702,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    }
+   ]
   },
   {
    "id": "401909088645",
@@ -10355,7 +14734,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "2596112"
+     }
+    }
+   ]
   },
   {
    "id": "401909088646",
@@ -10378,7 +14766,21 @@
    "scoreValue": 3,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    },
+    {
+     "athlete": {
+      "id": "5107199"
+     }
+    }
+   ]
   },
   {
    "id": "401909088648",
@@ -10401,7 +14803,9 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088651",
@@ -10424,7 +14828,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "401909088652",
@@ -10447,7 +14865,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4278562"
+     }
+    },
+    {
+     "athlete": {
+      "id": "5107199"
+     }
+    }
+   ]
   },
   {
    "id": "401909088653",
@@ -10470,7 +14902,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "401909088655",
@@ -10493,7 +14934,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088656",
@@ -10516,7 +14966,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4397424"
+     }
+    }
+   ]
   },
   {
    "id": "401909088657",
@@ -10539,7 +14998,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4593841"
+     }
+    }
+   ]
   },
   {
    "id": "401909088658",
@@ -10562,7 +15030,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4278562"
+     }
+    }
+   ]
   },
   {
    "id": "401909088659",
@@ -10585,7 +15062,21 @@
    "scoreValue": 2,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    },
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    }
+   ]
   },
   {
    "id": "401909088661",
@@ -10608,7 +15099,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    }
+   ]
   },
   {
    "id": "401909088664",
@@ -10631,7 +15131,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4593841"
+     }
+    }
+   ]
   },
   {
    "id": "401909088665",
@@ -10654,7 +15168,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088666",
@@ -10677,7 +15200,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088667",
@@ -10700,7 +15232,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "2596112"
+     }
+    }
+   ]
   },
   {
    "id": "401909088668",
@@ -10723,7 +15264,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088669",
@@ -10746,7 +15296,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088670",
@@ -10769,7 +15328,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4278562"
+     }
+    }
+   ]
   },
   {
    "id": "401909088671",
@@ -10792,7 +15360,21 @@
    "scoreValue": 3,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "2596112"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "401909088673",
@@ -10815,7 +15397,21 @@
    "scoreValue": 2,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088675",
@@ -10838,7 +15434,9 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088677",
@@ -10861,7 +15459,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4278562"
+     }
+    }
+   ]
   },
   {
    "id": "401909088678",
@@ -10884,7 +15496,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    }
+   ]
   },
   {
    "id": "401909088679",
@@ -10907,7 +15528,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4397424"
+     }
+    }
+   ]
   },
   {
    "id": "401909088680",
@@ -10930,7 +15560,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    }
+   ]
   },
   {
    "id": "401909088681",
@@ -10953,7 +15592,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    }
+   ]
   },
   {
    "id": "401909088683",
@@ -10976,7 +15624,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088685",
@@ -10999,7 +15661,21 @@
    "scoreValue": 2,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088686",
@@ -11022,7 +15698,16 @@
    "scoreValue": 2,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088687",
@@ -11045,7 +15730,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088688",
@@ -11068,7 +15762,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    }
+   ]
   },
   {
    "id": "401909088689",
@@ -11091,7 +15794,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "2596112"
+     }
+    }
+   ]
   },
   {
    "id": "401909088691",
@@ -11114,7 +15826,16 @@
    "scoreValue": 1,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088692",
@@ -11137,7 +15858,16 @@
    "scoreValue": 1,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088693",
@@ -11160,7 +15890,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088694",
@@ -11183,7 +15922,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088695",
@@ -11206,7 +15954,16 @@
    "scoreValue": 2,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    }
+   ]
   },
   {
    "id": "401909088696",
@@ -11229,7 +15986,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4433621"
+     }
+    }
+   ]
   },
   {
    "id": "401909088697",
@@ -11252,7 +16018,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4397424"
+     }
+    }
+   ]
   },
   {
    "id": "401909088698",
@@ -11275,7 +16050,21 @@
    "scoreValue": 3,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088700",
@@ -11298,7 +16087,21 @@
    "scoreValue": 2,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4684742"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088702",
@@ -11318,7 +16121,9 @@
    },
    "wallclock": "2026-10-20T21:28:05Z",
    "scoringPlay": false,
-   "scoreValue": 0
+   "scoreValue": 0,
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088703",
@@ -11341,7 +16146,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 2,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4065648"
+     }
+    }
+   ]
   },
   {
    "id": "401909088704",
@@ -11364,7 +16178,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "2596112"
+     }
+    }
+   ]
   },
   {
    "id": "401909088705",
@@ -11387,7 +16210,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    }
+   ]
   },
   {
    "id": "401909088707",
@@ -11410,7 +16242,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    }
+   ]
   },
   {
    "id": "401909088708",
@@ -11433,7 +16274,9 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088709",
@@ -11456,7 +16299,16 @@
    "scoreValue": 1,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    }
+   ]
   },
   {
    "id": "401909088710",
@@ -11479,7 +16331,9 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088712",
@@ -11502,7 +16356,21 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "5107199"
+     }
+    },
+    {
+     "athlete": {
+      "id": "3157465"
+     }
+    }
+   ]
   },
   {
    "id": "401909088713",
@@ -11525,7 +16393,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088714",
@@ -11548,7 +16425,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    }
+   ]
   },
   {
    "id": "401909088715",
@@ -11571,7 +16457,16 @@
    "scoreValue": 3,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    }
+   ]
   },
   {
    "id": "401909088717",
@@ -11594,7 +16489,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "3078576"
+     }
+    }
+   ]
   },
   {
    "id": "401909088719",
@@ -11617,7 +16521,16 @@
    "scoreValue": 1,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "2596112"
+     }
+    }
+   ]
   },
   {
    "id": "401909088721",
@@ -11640,7 +16553,16 @@
    "scoreValue": 1,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "2596112"
+     }
+    }
+   ]
   },
   {
    "id": "401909088722",
@@ -11663,7 +16585,9 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088724",
@@ -11686,7 +16610,21 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4277951"
+     }
+    },
+    {
+     "athlete": {
+      "id": "4397424"
+     }
+    }
+   ]
   },
   {
    "id": "401909088725",
@@ -11709,7 +16647,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 3,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4066354"
+     }
+    }
+   ]
   },
   {
    "id": "401909088726",
@@ -11732,7 +16679,16 @@
    "scoreValue": 0,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088727",
@@ -11755,7 +16711,16 @@
    "scoreValue": 0,
    "team": {
     "id": "2"
-   }
+   },
+   "shootingPlay": false,
+   "pointsAttempted": 0,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4251"
+     }
+    }
+   ]
   },
   {
    "id": "401909088729",
@@ -11778,7 +16743,16 @@
    "scoreValue": 1,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088730",
@@ -11801,7 +16775,16 @@
    "scoreValue": 1,
    "team": {
     "id": "8"
-   }
+   },
+   "shootingPlay": true,
+   "pointsAttempted": 1,
+   "participants": [
+    {
+     "athlete": {
+      "id": "4432166"
+     }
+    }
+   ]
   },
   {
    "id": "401909088731",
@@ -11821,7 +16804,9 @@
    },
    "wallclock": "2026-10-20T21:36:16Z",
    "scoringPlay": false,
-   "scoreValue": 0
+   "scoreValue": 0,
+   "shootingPlay": false,
+   "pointsAttempted": 0
   },
   {
    "id": "401909088732",
@@ -11841,9 +16826,289 @@
    },
    "wallclock": "2026-10-20T21:36:16Z",
    "scoringPlay": false,
-   "scoreValue": 0
+   "scoreValue": 0,
+   "shootingPlay": false,
+   "pointsAttempted": 0
   }
  ],
+ "boxscore": {
+  "players": [
+   {
+    "team": {
+     "id": "2"
+    },
+    "statistics": [
+     {
+      "athletes": [
+       {
+        "starter": true,
+        "athlete": {
+         "id": "4251",
+         "displayName": "Paul George",
+         "shortName": "P. George",
+         "jersey": "13"
+        }
+       },
+       {
+        "starter": true,
+        "athlete": {
+         "id": "4065648",
+         "displayName": "Jayson Tatum",
+         "shortName": "J. Tatum",
+         "jersey": "0"
+        }
+       },
+       {
+        "starter": true,
+        "athlete": {
+         "id": "4351852",
+         "displayName": "Mitchell Robinson",
+         "shortName": "M. Robinson",
+         "jersey": "4"
+        }
+       },
+       {
+        "starter": true,
+        "athlete": {
+         "id": "3078576",
+         "displayName": "Derrick White",
+         "shortName": "D. White",
+         "jersey": "9"
+        }
+       },
+       {
+        "starter": true,
+        "athlete": {
+         "id": "4683689",
+         "displayName": "Jordan Walsh",
+         "shortName": "J. Walsh",
+         "jersey": "27"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "4065804",
+         "displayName": "Sam Hauser",
+         "shortName": "S. Hauser",
+         "jersey": "30"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "4277951",
+         "displayName": "Luka Garza",
+         "shortName": "L. Garza",
+         "jersey": "52"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "4397424",
+         "displayName": "Neemias Queta",
+         "shortName": "N. Queta",
+         "jersey": "88"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "4066354",
+         "displayName": "Payton Pritchard",
+         "shortName": "P. Pritchard",
+         "jersey": "11"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "4593841",
+         "displayName": "Baylor Scheierman",
+         "shortName": "B. Scheierman",
+         "jersey": "55"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "5175647",
+         "displayName": "Hugo Gonzalez",
+         "shortName": "H. Gonzalez",
+         "jersey": "28"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "5142621",
+         "displayName": "Chris Cenac Jr.",
+         "shortName": "C. Cenac Jr.",
+         "jersey": "12"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "3195",
+         "displayName": "Mike Conley",
+         "shortName": "M. Conley",
+         "jersey": "45"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "4397251",
+         "displayName": "Ron Harper Jr.",
+         "shortName": "R. Harper Jr.",
+         "jersey": "8"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "team": {
+     "id": "8"
+    },
+    "statistics": [
+     {
+      "athletes": [
+       {
+        "starter": true,
+        "athlete": {
+         "id": "3157465",
+         "displayName": "Duncan Robinson",
+         "shortName": "D. Robinson",
+         "jersey": "55"
+        }
+       },
+       {
+        "starter": true,
+        "athlete": {
+         "id": "3908845",
+         "displayName": "John Collins",
+         "shortName": "J. Collins",
+         "jersey": "20"
+        }
+       },
+       {
+        "starter": true,
+        "athlete": {
+         "id": "4433621",
+         "displayName": "Jalen Duren",
+         "shortName": "J. Duren",
+         "jersey": "0"
+        }
+       },
+       {
+        "starter": true,
+        "athlete": {
+         "id": "4432166",
+         "displayName": "Cade Cunningham",
+         "shortName": "C. Cunningham",
+         "jersey": "2"
+        }
+       },
+       {
+        "starter": true,
+        "athlete": {
+         "id": "4684742",
+         "displayName": "Ausar Thompson",
+         "shortName": "A. Thompson",
+         "jersey": "9"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "4278562",
+         "displayName": "Paul Reed",
+         "shortName": "P. Reed",
+         "jersey": "7"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "4683771",
+         "displayName": "Ronald Holland II",
+         "shortName": "R. Holland II",
+         "jersey": "5"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "2596112",
+         "displayName": "Javonte Green",
+         "shortName": "J. Green",
+         "jersey": "31"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "4066372",
+         "displayName": "Kevin Huerter",
+         "shortName": "K. Huerter",
+         "jersey": "27"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "4395702",
+         "displayName": "Isaiah Joe",
+         "shortName": "I. Joe",
+         "jersey": "17"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "5107199",
+         "displayName": "Daniss Jenkins",
+         "shortName": "D. Jenkins",
+         "jersey": "24"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "4397882",
+         "displayName": "Tolu Smith",
+         "shortName": "T. Smith",
+         "jersey": "35"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "4700852",
+         "displayName": "Chaz Lanier",
+         "shortName": "C. Lanier",
+         "jersey": "8"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "5258459",
+         "displayName": "Ebuka Okorie",
+         "shortName": "E. Okorie",
+         "jersey": "23"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
  "winprobability": [
   {
    "playId": "4019090884",

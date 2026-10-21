@@ -68,11 +68,28 @@ class Play:
     stat_yardage: int = 0
     scoring_type: str | None = None  # "touchdown", "field-goal", "safety", ...
     is_turnover: bool = False
+    # basketball (and hockey, soccer later): athletes involved, ESPN's order
+    # (shooter then assister/blocker, player losing the ball then stealer, entering then leaving)
+    participants: tuple[str, ...] = ()
+    shooting: bool = False
+    points_attempted: int = 0
     # hockey
     strength: str | None = None  # "even-strength", "power-play", "short-handed"
     penalty_minutes: int | None = None
     # soccer
     shootout: bool = False
+
+
+@dataclass(frozen=True)
+class Player:
+    """A player of the game's rosters: names and starters only, never statistics."""
+
+    id: str
+    name: str  # "Jayson Tatum"
+    short_name: str  # "J. Tatum"
+    team_id: str
+    starter: bool = False
+    jersey: str | None = None
 
 
 @dataclass(frozen=True)
@@ -93,6 +110,7 @@ class Game:
     date: datetime | None = None
     plays: list[Play] = field(default_factory=list)
     drives: list[Drive] = field(default_factory=list)  # football only
+    players: dict[str, Player] = field(default_factory=dict)  # basketball: id -> player
 
     @property
     def name(self) -> str:
