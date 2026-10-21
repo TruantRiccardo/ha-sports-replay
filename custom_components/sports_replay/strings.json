@@ -3,11 +3,15 @@
     "step": {
       "user": {
         "title": "Pick a league",
-        "data": { "league": "League" }
+        "data": {
+          "league": "League"
+        }
       },
       "team": {
         "title": "Pick your team",
-        "data": { "team_id": "Team" }
+        "data": {
+          "team_id": "Team"
+        }
       }
     },
     "error": {
@@ -28,18 +32,16 @@
   "entity": {
     "sensor": {
       "game": {
-        "name": "Game",
-        "state": {
-          "NOT_LOADED": "No game loaded",
-          "PRE": "Pre-game",
-          "IN": "In progress",
-          "POST": "Final"
-        }
+        "name": "Game"
       },
-      "win_probability": { "name": "Win probability" }
+      "win_probability": {
+        "name": "Win probability"
+      }
     },
     "select": {
-      "game_select": { "name": "Game to replay" },
+      "game_select": {
+        "name": "Game to replay"
+      },
       "mode": {
         "name": "Timing mode",
         "state": {
@@ -50,21 +52,47 @@
       }
     },
     "button": {
-      "play": { "name": "Play" },
-      "pause": { "name": "Pause" },
-      "previous_play": { "name": "Previous play" },
-      "next_play": { "name": "Next play" },
-      "back_10s": { "name": "Back 10 s" },
-      "forward_10s": { "name": "Forward 10 s" },
-      "align_here": { "name": "Align here" },
-      "restart": { "name": "Restart" },
-      "refresh_games": { "name": "Refresh games" }
+      "play": {
+        "name": "Play"
+      },
+      "pause": {
+        "name": "Pause"
+      },
+      "previous_play": {
+        "name": "Previous play"
+      },
+      "next_play": {
+        "name": "Next play"
+      },
+      "back_10s": {
+        "name": "Back 10 s"
+      },
+      "forward_10s": {
+        "name": "Forward 10 s"
+      },
+      "align_here": {
+        "name": "Align here"
+      },
+      "restart": {
+        "name": "Restart"
+      },
+      "refresh_games": {
+        "name": "Refresh games"
+      }
     },
     "number": {
-      "speed": { "name": "Speed" },
-      "gap_threshold": { "name": "Break threshold" },
-      "gap_pause": { "name": "Break replaced with" },
-      "condensed_per_play": { "name": "Condensed: seconds per play" }
+      "speed": {
+        "name": "Speed"
+      },
+      "gap_threshold": {
+        "name": "Break threshold"
+      },
+      "gap_pause": {
+        "name": "Break replaced with"
+      },
+      "condensed_per_play": {
+        "name": "Condensed: seconds per play"
+      }
     }
   },
   "services": {
@@ -72,9 +100,18 @@
       "name": "Seek",
       "description": "Jump to the first play at or after a game time.",
       "fields": {
-        "config_entry_id": { "name": "Team", "description": "Which configured team; all if omitted." },
-        "period": { "name": "Period", "description": "Quarter (5 = overtime)." },
-        "clock": { "name": "Clock", "description": "Game clock, mm:ss." }
+        "config_entry_id": {
+          "name": "Team",
+          "description": "Which configured team; all if omitted."
+        },
+        "period": {
+          "name": "Period",
+          "description": "Quarter (5 = overtime)."
+        },
+        "clock": {
+          "name": "Clock",
+          "description": "Game clock, mm:ss."
+        }
       }
     }
   }
