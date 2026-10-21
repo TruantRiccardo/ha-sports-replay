@@ -34,12 +34,53 @@ gone. *Previous play* / *Next play* and ±10 s do the rest.
 
 ## Installation
 
-1. HACS → ⋮ → *Custom repositories* → add `https://github.com/TruantRiccardo/ha-sports-replay`,
-   type *Integration*.
-2. Install **Sports Replay** and restart Home Assistant.
-3. *Settings → Devices & services → Add integration → Sports Replay*, then pick league and team.
-   A club playing several competitions (league and Champions League) is added once per
-   competition: ESPN schedules are per competition.
+### HACS (recommended)
+
+[![Open your Home Assistant instance and open this repository in HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=TruantRiccardo&repository=ha-sports-replay&category=integration)
+
+Or by hand:
+
+1. Open the HACS section of Home Assistant.
+2. Click the "⋮" button in the top right corner and select "Custom repositories".
+3. Paste `https://github.com/TruantRiccardo/ha-sports-replay`, pick the type "Integration" and
+   click "Add".
+4. Search for "Sports Replay" in HACS, open it and click "Download".
+5. Restart Home Assistant.
+
+### Manually
+
+Download this repository (green "Code" button → "Download ZIP", or `git clone`) and copy the
+`custom_components/sports_replay` directory to the `custom_components` directory in your config
+directory:
+
+`<config directory>/custom_components/sports_replay/...`
+
+Then restart Home Assistant. Updates are manual too: repeat the copy and restart.
+
+## Configuration
+
+Configuration is done in the UI only; there is no YAML configuration.
+
+[![Open your Home Assistant instance and start setting up Sports Replay.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=sports_replay)
+
+1. Go to *Settings → Devices & services*, click "Add integration" and look for "Sports Replay".
+2. Pick the league.
+3. Pick your team from the list (loaded from ESPN, no team ID to look up).
+
+You get a device named after your team's abbreviation, e.g. `Sports Replay SF`, whose entities
+start with `sports_replay_sf_` (`sensor.sports_replay_sf_game`,
+`select.sports_replay_sf_game_to_replay`, ...). To follow more teams, add the integration again
+once per team. A club playing several competitions (league and Champions League) is added once per
+competition: ESPN schedules are per competition.
+
+### First replay
+
+1. In `select.*_game_to_replay` pick the game: only completed games are listed, without scores.
+2. In `select.*_timing_mode` check the mode matches what you are watching (see below).
+3. Start the video and press *Play* when the opening kickoff / tip-off / face-off / kick-off
+   happens on screen.
+4. If the dashboard runs ahead or behind, use *Previous play* / *Next play* until it shows the play
+   on screen, then press *Align here* the moment it happens.
 
 ## Entities
 
