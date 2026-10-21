@@ -1,0 +1,81 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Pick a league",
+        "data": { "league": "League" }
+      },
+      "team": {
+        "title": "Pick your team",
+        "data": { "team_id": "Team" }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not reach the ESPN API. Try again later."
+    },
+    "abort": {
+      "already_configured": "This team is already configured."
+    }
+  },
+  "selector": {
+    "league": {
+      "options": {
+        "nfl": "NFL",
+        "college-football": "College football (NCAA)"
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "game": {
+        "name": "Game",
+        "state": {
+          "NOT_LOADED": "No game loaded",
+          "PRE": "Pre-game",
+          "IN": "In progress",
+          "POST": "Final"
+        }
+      },
+      "win_probability": { "name": "Win probability" }
+    },
+    "select": {
+      "game_select": { "name": "Game to replay" },
+      "mode": {
+        "name": "Timing mode",
+        "state": {
+          "full_no_ads": "Full game, no commercials",
+          "broadcast": "Live broadcast recording",
+          "condensed": "Condensed game"
+        }
+      }
+    },
+    "button": {
+      "play": { "name": "Play" },
+      "pause": { "name": "Pause" },
+      "previous_play": { "name": "Previous play" },
+      "next_play": { "name": "Next play" },
+      "back_10s": { "name": "Back 10 s" },
+      "forward_10s": { "name": "Forward 10 s" },
+      "align_here": { "name": "Align here" },
+      "restart": { "name": "Restart" },
+      "refresh_games": { "name": "Refresh games" }
+    },
+    "number": {
+      "speed": { "name": "Speed" },
+      "gap_threshold": { "name": "Break threshold" },
+      "gap_pause": { "name": "Break replaced with" },
+      "condensed_per_play": { "name": "Condensed: seconds per play" }
+    }
+  },
+  "services": {
+    "seek": {
+      "name": "Seek",
+      "description": "Jump to the first play at or after a game time.",
+      "fields": {
+        "config_entry_id": { "name": "Team", "description": "Which configured team; all if omitted." },
+        "period": { "name": "Period", "description": "Quarter (5 = overtime)." },
+        "clock": { "name": "Clock", "description": "Game clock, mm:ss." }
+      }
+    }
+  }
+}

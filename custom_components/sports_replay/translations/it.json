@@ -1,0 +1,124 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Scegli la lega",
+        "data": {
+          "league": "Lega"
+        }
+      },
+      "team": {
+        "title": "Scegli la tua squadra",
+        "data": {
+          "team_id": "Squadra"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "API ESPN non raggiungibile. Riprova più tardi."
+    },
+    "abort": {
+      "already_configured": "Questa squadra è già configurata."
+    }
+  },
+  "selector": {
+    "league": {
+      "options": {
+        "nfl": "NFL",
+        "college-football": "Football universitario (NCAA)"
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "game": {
+        "name": "Partita",
+        "state": {
+          "NOT_LOADED": "Nessuna partita caricata",
+          "PRE": "Pre-partita",
+          "IN": "In corso",
+          "POST": "Finale"
+        }
+      },
+      "win_probability": {
+        "name": "Probabilità di vittoria"
+      }
+    },
+    "select": {
+      "game_select": {
+        "name": "Partita da rivedere"
+      },
+      "mode": {
+        "name": "Modalità di tempo",
+        "state": {
+          "full_no_ads": "Partita completa, senza pubblicità",
+          "broadcast": "Registrazione della diretta",
+          "condensed": "Partita condensata"
+        }
+      }
+    },
+    "button": {
+      "play": {
+        "name": "Play"
+      },
+      "pause": {
+        "name": "Pausa"
+      },
+      "previous_play": {
+        "name": "Giocata precedente"
+      },
+      "next_play": {
+        "name": "Giocata successiva"
+      },
+      "back_10s": {
+        "name": "Indietro 10 s"
+      },
+      "forward_10s": {
+        "name": "Avanti 10 s"
+      },
+      "align_here": {
+        "name": "Allinea qui"
+      },
+      "restart": {
+        "name": "Ricomincia"
+      },
+      "refresh_games": {
+        "name": "Aggiorna partite"
+      }
+    },
+    "number": {
+      "speed": {
+        "name": "Velocità"
+      },
+      "gap_threshold": {
+        "name": "Soglia pausa"
+      },
+      "gap_pause": {
+        "name": "Pausa sostituita con"
+      },
+      "condensed_per_play": {
+        "name": "Condensata: secondi per giocata"
+      }
+    }
+  },
+  "services": {
+    "seek": {
+      "name": "Vai a",
+      "description": "Salta alla prima giocata a partire da un momento della partita.",
+      "fields": {
+        "config_entry_id": {
+          "name": "Squadra",
+          "description": "Quale squadra configurata; tutte se omesso."
+        },
+        "period": {
+          "name": "Periodo",
+          "description": "Quarto (5 = supplementare)."
+        },
+        "clock": {
+          "name": "Cronometro",
+          "description": "Cronometro di gioco, mm:ss."
+        }
+      }
+    }
+  }
+}

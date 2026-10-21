@@ -1,0 +1,18 @@
+seek:
+  fields:
+    config_entry_id:
+      selector:
+        config_entry:
+          integration: sports_replay
+    period:
+      required: true
+      example: 2
+      selector:
+        number:
+          min: 1
+          max: 10
+    clock:
+      required: true
+      example: "8:34"
+      selector:
+        text:
