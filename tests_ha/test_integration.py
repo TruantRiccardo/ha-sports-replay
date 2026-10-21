@@ -1,10 +1,14 @@
 """Config flow, entities, controls and events, with ESPN replaced by the fixture."""
 
+from unittest.mock import patch
+
 from homeassistant import config_entries
+from homeassistant.config_entries import ConfigEntryState
 from homeassistant.core import HomeAssistant
 from homeassistant.data_entry_flow import FlowResultType
 from pytest_homeassistant_custom_component.common import MockConfigEntry, async_capture_events
 
+from custom_components.sports_replay.api import EspnError
 from custom_components.sports_replay.const import DOMAIN, EVENT_PLAY
 
 DEVICE = "sports_replay_sf"
@@ -104,3 +108,62 @@ async def test_mode_change_keeps_the_play(hass: HomeAssistant, espn) -> None:
     assert after.attributes["play_index"] == before
     assert after.attributes["quarter"] == 2
     assert after.attributes["replay_mode"] == "condensed"
+
+
+async def test_team_tracker_attributes(hass: HomeAssistant, espn) -> None:
+    await _setup(hass)
+    await hass.services.async_call(
+        "select", "select_option",
+        {"entity_id": f"select.{DEVICE}_game_to_replay", "option": "Week 6 · WSH @ SF · 2026-10-20"},
+        blocking=True,
+    )
+    await hass.services.async_call(DOMAIN, "seek", {"period": 4, "clock": "1:46"}, blocking=True)
+    a = hass.states.get(f"sensor.{DEVICE}_game").attributes
+    # What ha-teamtracker-card reads to draw a football game.
+    assert a["sport"] == "football"
+    assert (a["team_id"], a["opponent_id"]) == ("25", "28")
+    assert a["possession"] in ("25", "28")
+    assert a["team_timeouts"] == 3 and a["opponent_timeouts"] == 0
+    assert a["event_name"] == "WSH @ SF"
+    assert a["date"].startswith("2026-10-20")
+    assert a["team_winner"] is None  # not before the end: no spoiler
+    assert a["team_colors"][0].startswith("#")
+
+
+async def test_not_ready_when_espn_is_down(hass: HomeAssistant, espn) -> None:
+    with patch(
+        "custom_components.sports_replay.api.EspnClient.schedule", side_effect=EspnError("down")
+    ):
+        entry = MockConfigEntry(
+            domain=DOMAIN, data={"league": "nfl", "team_id": "25", "team_abbr": "SF"}
+        )
+        entry.add_to_hass(hass)
+        await hass.config_entries.async_setup(entry.entry_id)
+        await hass.async_block_till_done()
+    assert entry.state is ConfigEntryState.SETUP_RETRY
+
+
+async def test_restore_after_restart(hass: HomeAssistant, espn, hass_storage) -> None:
+    entry = MockConfigEntry(
+        domain=DOMAIN, data={"league": "nfl", "team_id": "25", "team_abbr": "SF"}, entry_id="abc"
+    )
+    hass_storage[f"{DOMAIN}.abc"] = {
+        "version": 1,
+        "key": f"{DOMAIN}.abc",
+        "data": {
+            "game_id": "401873008",
+            "play_index": 41,
+            "mode": "condensed",
+            "params": {"condensed_per_play": 20},
+            "speed": 1.5,
+        },
+    }
+    entry.add_to_hass(hass)
+    assert await hass.config_entries.async_setup(entry.entry_id)
+    await hass.async_block_till_done()
+    a = hass.states.get(f"sensor.{DEVICE}_game").attributes
+    assert a["play_index"] == 42
+    assert a["replay_mode"] == "condensed"
+    assert a["replay_speed"] == 1.5
+    assert entry.runtime_data.params.condensed_per_play == 20
+    assert a["replay_playing"] is False  # never resumes on its own

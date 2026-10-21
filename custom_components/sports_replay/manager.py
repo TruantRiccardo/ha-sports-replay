@@ -2,38 +2,50 @@
 
 Owns the loaded game, the timeline and the clock; ticks while playing, fires
 ``sports_replay_play`` events for the plays crossed and notifies the entities.
+The game, the play reached and the settings survive a Home Assistant restart.
 """
 
 from __future__ import annotations
 
 from collections.abc import Callable
+from dataclasses import asdict
 from datetime import timedelta
 import logging
 from typing import Any
 
 from homeassistant.core import CALLBACK_TYPE, HomeAssistant, callback
 from homeassistant.helpers.event import async_track_time_interval
+from homeassistant.helpers.storage import Store
+from homeassistant.util import dt as dt_util
 
 from .api import EspnClient, EspnError, ScheduledGame
-from .const import EVENT_PLAY, TICK_SECONDS
+from .const import DOMAIN, EVENT_PLAY, TICK_SECONDS
 from .engine import (
     Game,
+    Play,
     ReplayClock,
+    Team,
     TimingMode,
     TimingParams,
     build_timeline,
     classify,
     find_play,
     parse_summary,
+    timeouts_remaining,
 )
 
 _LOGGER = logging.getLogger(__name__)
 
 RECENT_PLAYS = 15
+SCHEDULE_REFRESH = timedelta(hours=6)
+STORAGE_VERSION = 1
+SAVE_DELAY = 5  # seconds
 
 
 class ReplayManager:
-    def __init__(self, hass: HomeAssistant, client: EspnClient, league: str, team_id: str) -> None:
+    def __init__(
+        self, hass: HomeAssistant, client: EspnClient, league: str, team_id: str, entry_id: str
+    ) -> None:
         self.hass = hass
         self.client = client
         self.league = league
@@ -47,8 +59,12 @@ class ReplayManager:
         self.clock = ReplayClock(times=[])
         self.error: str | None = None
 
+        self._store: Store[dict[str, Any]] = Store(hass, STORAGE_VERSION, f"{DOMAIN}.{entry_id}")
         self._listeners: list[Callable[[], None]] = []
         self._unsub_tick: CALLBACK_TYPE | None = None
+        self._unsub_schedule: CALLBACK_TYPE | None = None
+        self._snapshot_key: tuple | None = None
+        self._snapshot: dict[str, Any] = {}
 
     # --- plumbing ------------------------------------------------------------------------
 
@@ -66,8 +82,20 @@ class ReplayManager:
             update()
 
     @callback
+    def start(self) -> None:
+        self._unsub_schedule = async_track_time_interval(
+            self.hass, self._scheduled_refresh, SCHEDULE_REFRESH
+        )
+
+    @callback
     def shutdown(self) -> None:
         self._stop_ticking()
+        if self._unsub_schedule is not None:
+            self._unsub_schedule()
+            self._unsub_schedule = None
+
+    async def _scheduled_refresh(self, _now: Any = None) -> None:
+        await self.async_refresh_games()
 
     def _start_ticking(self) -> None:
         if self._unsub_tick is None:
@@ -80,13 +108,45 @@ class ReplayManager:
             self._unsub_tick()
             self._unsub_tick = None
 
+    # --- persistence ---------------------------------------------------------------------
+
+    @callback
+    def _save(self) -> None:
+        self._store.async_delay_save(self._data_to_save, SAVE_DELAY)
+
+    @callback
+    def _data_to_save(self) -> dict[str, Any]:
+        return {
+            "game_id": self.game_id,
+            "play_index": self.clock.current_index(self._now()) if self.game else -1,
+            "mode": self.mode.value,
+            "params": asdict(self.params),
+            "speed": self.clock.speed,
+        }
+
+    async def async_restore(self) -> None:
+        """Settings, then the game and the play reached (paused): needs the ESPN API."""
+        data = await self._store.async_load() or {}
+        try:
+            self.mode = TimingMode(data.get("mode", self.mode.value))
+            self.params = TimingParams(**{**asdict(self.params), **data.get("params", {})})
+            self.clock.speed = float(data.get("speed", self.clock.speed))
+        except (TypeError, ValueError):
+            _LOGGER.warning("Ignoring invalid stored settings: %s", data)
+        if game_id := data.get("game_id"):
+            await self.async_load_game(game_id)
+            index = data.get("play_index", -1)
+            if self.game is not None and isinstance(index, int) and index >= 0:
+                self.clock.seek_index(index, self._now())
+        self._notify()
+
     # --- games ---------------------------------------------------------------------------
 
     @property
     def completed_games(self) -> list[ScheduledGame]:
         return [g for g in self.games if g.completed]
 
-    async def async_refresh_games(self) -> None:
+    async def async_refresh_games(self) -> bool:
         try:
             self.games = await self.client.schedule(self.team_id)
             self.error = None
@@ -94,6 +154,7 @@ class ReplayManager:
             self.error = str(err)
             _LOGGER.warning("Could not load the schedule: %s", err)
         self._notify()
+        return self.error is None
 
     async def async_load_game(self, event_id: str) -> None:
         self.pause()
@@ -114,6 +175,7 @@ class ReplayManager:
     def _rebuild(self, keep_index: bool) -> None:
         """Recompute the timeline (after a mode/param change), staying on the same play."""
         if self.game is None:
+            self._changed()
             return
         now = self._now()
         index = self.clock.current_index(now) if keep_index else -1
@@ -127,7 +189,13 @@ class ReplayManager:
             self.clock.seek(-1.0, now)
         if playing:
             self.clock.play(now)
+        self._changed()
+
+    @callback
+    def _changed(self) -> None:
+        """A user action changed the replay: refresh the entities and persist."""
         self._notify()
+        self._save()
 
     # --- controls ------------------------------------------------------------------------
 
@@ -136,12 +204,12 @@ class ReplayManager:
         self._rebuild(keep_index=True)
 
     def set_params(self, **changes: float) -> None:
-        self.params = TimingParams(**{**self.params.__dict__, **changes})
+        self.params = TimingParams(**{**asdict(self.params), **changes})
         self._rebuild(keep_index=True)
 
     def set_speed(self, speed: float) -> None:
         self.clock.set_speed(speed, self._now())
-        self._notify()
+        self._changed()
 
     def play(self) -> None:
         if self.game is None:
@@ -156,21 +224,21 @@ class ReplayManager:
     def pause(self) -> None:
         self.clock.pause(self._now())
         self._stop_ticking()
-        self._notify()
+        self._changed()
 
     def restart(self) -> None:
         self.clock.seek(-1.0, self._now())
-        self._notify()
+        self._changed()
 
     def step(self, delta: int) -> None:
         if self.game is not None:
             self.clock.step(delta, self._now())
-            self._notify()
+            self._changed()
 
     def shift(self, seconds: float) -> None:
         now = self._now()
         self.clock.seek(self.clock.position(now) + seconds, now)
-        self._notify()
+        self._changed()
 
     def align_here(self) -> None:
         """The play on the dashboard is happening now on screen: drop the accumulated drift."""
@@ -178,7 +246,7 @@ class ReplayManager:
         index = self.clock.current_index(now)
         if index >= 0:
             self.clock.seek_index(index, now)
-        self._notify()
+        self._changed()
 
     def seek_to(self, period: int, clock: str) -> bool:
         if self.game is None:
@@ -187,7 +255,7 @@ class ReplayManager:
         if index is None:
             return False
         self.clock.seek_index(index, self._now())
-        self._notify()
+        self._changed()
         return True
 
     @callback
@@ -195,11 +263,15 @@ class ReplayManager:
         if self.game is None:
             return
         now = self._now()
-        for index in self.clock.advance(now):
+        crossed = self.clock.advance(now)
+        for index in crossed:
             self._fire(index)
         if self.clock.position(now) >= self.clock.duration:
             self.clock.pause(now)
             self._stop_ticking()
+            self._save()
+        elif crossed:
+            self._save()
         self._notify()
 
     def _fire(self, index: int) -> None:
@@ -222,42 +294,43 @@ class ReplayManager:
                 "text": play.text,
                 "period": play.period,
                 "clock": play.clock,
-                "team_score": self._score(play, mine),
-                "opponent_score": self._score(play, other),
-                "team_color": mine.color if mine else None,
-                "opponent_color": other.color if other else None,
+                "team_score": _score(play, mine),
+                "opponent_score": _score(play, other),
+                "team_color": f"#{mine.color}" if mine and mine.color else None,
+                "opponent_color": f"#{other.color}" if other and other.color else None,
             },
         )
 
     # --- state ---------------------------------------------------------------------------
 
     @property
-    def my_team(self):
+    def my_team(self) -> Team | None:
         if self.game is None:
             return None
         return self.game.team(self.team_id) or self.game.home
 
     @property
-    def other_team(self):
+    def other_team(self) -> Team | None:
         if self.game is None or self.my_team is None:
             return None
         return self.game.opponent_of(self.my_team.id)
 
-    @staticmethod
-    def _score(play, team) -> int:
-        if play is None or team is None:
-            return 0
-        return play.home_score if team.home_away == "home" else play.away_score
-
     def snapshot(self) -> dict[str, Any]:
-        """State of the replay at this moment, in Team Tracker-compatible attribute names."""
+        """State of the replay, Team Tracker-compatible; recomputed only when it can change."""
+        index = self.clock.current_index(self._now()) if self.game else -1
+        key = (self.game_id, index, self.mode, self.clock.playing, self.clock.speed, self.error)
+        if key != self._snapshot_key:
+            self._snapshot = self._build_snapshot(index)
+            self._snapshot_key = key
+        return self._snapshot
+
+    def _build_snapshot(self, index: int) -> dict[str, Any]:
         if self.game is None:
             return {"state": "NOT_LOADED", "error": self.error}
-        now = self._now()
-        index = self.clock.current_index(now)
-        plays = self.game.plays
+        game, plays = self.game, self.game.plays
         play = plays[index] if index >= 0 else None
         mine, other = self.my_team, self.other_team
+        assert mine is not None and other is not None
 
         if index < 0:
             state = "PRE"
@@ -266,16 +339,15 @@ class ReplayManager:
         else:
             state = "IN"
 
-        wp_home = play.home_win_probability if play else None
-        team_wp = None
-        if wp_home is not None and mine is not None:
-            team_wp = wp_home if mine.home_away == "home" else 1 - wp_home
+        team_wp = _team_wp(play, mine)
+        home_to, away_to = timeouts_remaining(game, index) if index >= 0 else (3, 3)
+        team_score, opponent_score = _score(play, mine), _score(play, other)
 
         recent = []
         for i in range(index, max(index - RECENT_PLAYS, -1), -1):
             p = plays[i]
-            ev = classify(self.game, i)
-            t = self.game.team(ev.team_id)
+            ev = classify(game, i)
+            t = game.team(ev.team_id)
             recent.append(
                 {
                     "period": p.period,
@@ -285,44 +357,68 @@ class ReplayManager:
                     "team": t.abbreviation if t else None,
                 }
             )
-
-        history = []
-        for p in plays[: index + 1]:
-            if p.home_win_probability is not None and mine is not None:
-                wp = p.home_win_probability if mine.home_away == "home" else 1 - p.home_win_probability
-                history.append(round(wp * 100, 1))
+        history = [round(wp * 100, 1) for p in plays[: index + 1] if (wp := _team_wp(p, mine)) is not None]
 
         return {
             "state": state,
             "error": self.error,
+            # Team Tracker-compatible
+            "sport": "football",
             "league": self.league.upper(),
             "event_id": self.game_id,
-            "team_abbr": mine.abbreviation if mine else None,
-            "team_name": mine.name if mine else None,
-            "team_logo": mine.logo if mine else None,
-            "team_colors": [f"#{mine.color}", f"#{mine.alternate_color}"] if mine and mine.color else None,
-            "team_homeaway": mine.home_away if mine else None,
-            "team_score": self._score(play, mine),
-            "opponent_abbr": other.abbreviation if other else None,
-            "opponent_name": other.name if other else None,
-            "opponent_logo": other.logo if other else None,
-            "opponent_colors": [f"#{other.color}", f"#{other.alternate_color}"]
-            if other and other.color
-            else None,
-            "opponent_score": self._score(play, other),
+            "event_name": game.name,
+            "date": game.date.isoformat() if game.date else None,
+            "team_id": mine.id,
+            "team_abbr": mine.abbreviation,
+            "team_name": mine.name,
+            "team_logo": mine.logo,
+            "team_colors": _colors(mine),
+            "team_homeaway": mine.home_away,
+            "team_score": team_score,
+            "team_timeouts": home_to if mine.home_away == "home" else away_to,
+            "team_win_probability": round(team_wp, 3) if team_wp is not None else None,
+            "team_winner": team_score > opponent_score if state == "POST" else None,
+            "opponent_id": other.id,
+            "opponent_abbr": other.abbreviation,
+            "opponent_name": other.name,
+            "opponent_logo": other.logo,
+            "opponent_colors": _colors(other),
+            "opponent_homeaway": other.home_away,
+            "opponent_score": opponent_score,
+            "opponent_timeouts": home_to if other.home_away == "home" else away_to,
+            "opponent_win_probability": round(1 - team_wp, 3) if team_wp is not None else None,
+            "opponent_winner": opponent_score > team_score if state == "POST" else None,
             "quarter": play.period if play else None,
             "clock": play.clock if play else None,
             "possession": play.end_team_id if play else None,
             "last_play": play.text if play else None,
             "down_distance_text": play.down_distance_after if play else None,
-            "team_win_probability": round(team_wp, 3) if team_wp is not None else None,
-            "opponent_win_probability": round(1 - team_wp, 3) if team_wp is not None else None,
+            "last_update": dt_util.utcnow().isoformat(),
+            # Replay-specific. No replay position: it changes every second and would flood the
+            # recorder; the state only changes when the play does.
             "replay_mode": self.mode.value,
             "replay_playing": self.clock.playing,
             "replay_speed": self.clock.speed,
-            # No replay position here: it changes every second and would flood the recorder.
             "play_index": index + 1,
             "play_count": len(plays),
             "recent_plays": recent,
             "win_probability_history": history,
         }
+
+
+def _score(play: Play | None, team: Team | None) -> int:
+    if play is None or team is None:
+        return 0
+    return play.home_score if team.home_away == "home" else play.away_score
+
+
+def _team_wp(play: Play | None, team: Team) -> float | None:
+    if play is None or play.home_win_probability is None:
+        return None
+    return play.home_win_probability if team.home_away == "home" else 1 - play.home_win_probability
+
+
+def _colors(team: Team) -> list[str] | None:
+    if not team.color:
+        return None
+    return [f"#{team.color}", f"#{team.alternate_color or team.color}"]

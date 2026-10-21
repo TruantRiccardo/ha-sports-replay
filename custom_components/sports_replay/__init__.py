@@ -7,7 +7,7 @@ import voluptuous as vol
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import Platform
 from homeassistant.core import HomeAssistant, ServiceCall
-from homeassistant.exceptions import ServiceValidationError
+from homeassistant.exceptions import ConfigEntryNotReady, ServiceValidationError
 from homeassistant.helpers import config_validation as cv
 from homeassistant.helpers.aiohttp_client import async_get_clientsession
 from homeassistant.helpers.typing import ConfigType
@@ -49,11 +49,15 @@ async def async_setup(hass: HomeAssistant, config: ConfigType) -> bool:
 async def async_setup_entry(hass: HomeAssistant, entry: SportsReplayConfigEntry) -> bool:
     league = entry.data[CONF_LEAGUE]
     client = EspnClient(async_get_clientsession(hass), league)
-    manager = ReplayManager(hass, client, league, entry.data[CONF_TEAM_ID])
-    await manager.async_refresh_games()
+    manager = ReplayManager(hass, client, league, entry.data[CONF_TEAM_ID], entry.entry_id)
+    if not await manager.async_refresh_games():
+        raise ConfigEntryNotReady(manager.error)
     entry.runtime_data = manager
+    manager.start()
     entry.async_on_unload(manager.shutdown)
     await hass.config_entries.async_forward_entry_setups(entry, PLATFORMS)
+    # The last game is reloaded from ESPN: do not hold up Home Assistant's startup for it.
+    entry.async_create_background_task(hass, manager.async_restore(), f"{DOMAIN} restore")
     return True
 
 

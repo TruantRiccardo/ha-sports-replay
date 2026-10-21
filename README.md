@@ -39,9 +39,10 @@ gone. *Previous play* / *Next play* and ±10 s do the rest.
 One device per followed team (`Sports Replay SF`):
 
 - `sensor.*_game`: `NOT_LOADED` / `PRE` / `IN` / `POST`, with **Team Tracker-compatible attributes**
-  (`team_score`, `opponent_score`, `quarter`, `clock`, `possession`, `last_play`,
-  `down_distance_text`, `team_win_probability`, logos, colors, ...) so cards made for
-  [Team Tracker](https://github.com/vasqued2/ha-teamtracker) work on the replay too. Extra:
+  (`sport`, `team_id`, `team_score`, `team_timeouts`, `opponent_*`, `quarter`, `clock`,
+  `possession`, `last_play`, `down_distance_text`, `team_win_probability`, `event_name`, `date`,
+  logos, colors, ...) so cards made for [Team Tracker](https://github.com/vasqued2/ha-teamtracker)
+  can show the replay too. `team_winner` is only set once the replay reaches the end. Extra:
   `recent_plays` (last 15), `win_probability_history`, `play_index` / `play_count`.
 - `sensor.*_win_probability`: your team's win probability, %.
 - `select.*_game_to_replay` (loads the game), `select.*_timing_mode`.
@@ -49,13 +50,17 @@ One device per followed team (`Sports Replay SF`):
 - Numbers: speed (0.25×–4×) and the timing tunables.
 - Service `sports_replay.seek`: jump to a game time, e.g. `period: 2`, `clock: "8:34"`.
 
+The game, the play reached and the settings are kept across restarts; the replay comes back
+paused. The schedule refreshes every 6 hours (or with *Refresh games*).
+
 ## Events
 
 Every play the replay crosses fires `sports_replay_play`:
 
 ```yaml
 categories: [touchdown]   # touchdown, field_goal, field_goal_missed, safety, turnover,
-                          # interception, fumble_lost, sack, big_play, red_zone,
+                          # interception, fumble_lost, turnover_on_downs,
+                          # fourth_down_conversion, sack, big_play, red_zone,
                           # two_minute_warning, end_period, end_half, end_game
 team: SF                  # who the event is for: scorer, team that gained the ball, offense
 is_my_team: true

@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from homeassistant.components.sensor import SensorEntity, SensorStateClass
+from homeassistant.components.sensor import SensorEntity
 from homeassistant.const import PERCENTAGE
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.entity_platform import AddConfigEntryEntitiesCallback
@@ -25,7 +25,7 @@ class GameSensor(SportsReplayEntity, SensorEntity):
     """State PRE / IN / POST like Team Tracker (NOT_LOADED before a game is picked)."""
 
     _unrecorded_attributes = frozenset(
-        {"recent_plays", "win_probability_history", "team_logo", "opponent_logo"}
+        {"recent_plays", "win_probability_history", "team_logo", "opponent_logo", "last_update"}
     )
 
     @property
@@ -34,14 +34,14 @@ class GameSensor(SportsReplayEntity, SensorEntity):
 
     @property
     def extra_state_attributes(self) -> dict[str, Any]:
-        snap = self.manager.snapshot()
-        snap.pop("state")
-        return snap
+        # The snapshot is cached and shared: never mutate it.
+        return {k: v for k, v in self.manager.snapshot().items() if k != "state"}
 
 
 class WinProbabilitySensor(SportsReplayEntity, SensorEntity):
+    """No state class on purpose: replays would pollute long-term statistics."""
+
     _attr_native_unit_of_measurement = PERCENTAGE
-    _attr_state_class = SensorStateClass.MEASUREMENT
     _attr_suggested_display_precision = 0
 
     @property
