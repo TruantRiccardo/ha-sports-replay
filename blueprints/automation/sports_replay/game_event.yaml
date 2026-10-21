@@ -1,0 +1,188 @@
+blueprint:
+  name: Sports Replay - lights and announcement on game events
+  description: >
+    Flashes lights and/or makes an announcement when the replay (or, later, the live game)
+    reaches the events you pick: a score of your team, a turnover, a red card, the final
+    whistle... The lights get back exactly the state they had before (effects included).
+
+
+    The announcement can use these variables: `team_name` (the team the event is for),
+    `my_team_name`, `opponent_name`, `my_score`, `opponent_score`, `text` (ESPN's description
+    of the play), `period`, `clock`, `categories`.
+  domain: automation
+  source_url: https://github.com/TruantRiccardo/ha-sports-replay/blob/main/blueprints/automation/sports_replay/game_event.yaml
+  input:
+    team:
+      name: Team
+      description: The Sports Replay team to follow.
+      selector:
+        config_entry:
+          integration: sports_replay
+    categories:
+      name: Events
+      description: >
+        Any of these categories triggers the automation. `score` covers every sport; see the
+        README for the full list per sport.
+      default: [score]
+      selector:
+        select:
+          multiple: true
+          custom_value: true
+          options:
+            - score
+            - lead_change
+            - tie
+            - end_game
+            - touchdown
+            - field_goal
+            - turnover
+            - turnover_on_downs
+            - fourth_down_conversion
+            - big_play
+            - three_pointer
+            - dunk
+            - steal
+            - goal
+            - power_play_goal
+            - penalty
+            - own_goal
+            - penalty_goal
+            - penalty_missed
+            - yellow_card
+            - red_card
+    side:
+      name: Whose events
+      description: >
+        For scores, the scoring team; for turnovers and steals, the team that gained the ball;
+        for penalties and cards, the penalized team.
+      default: mine
+      selector:
+        select:
+          options:
+            - label: My team
+              value: mine
+            - label: The opponent
+              value: opponent
+            - label: Both
+              value: any
+    lights:
+      name: Lights
+      description: Lights to flash. Leave empty for no flash.
+      default: []
+      selector:
+        entity:
+          domain: light
+          multiple: true
+    color_source:
+      name: Flash color
+      default: team
+      selector:
+        select:
+          options:
+            - label: Color of the team the event is for
+              value: team
+            - label: The fixed color below
+              value: fixed
+    color:
+      name: Fixed color
+      default: [255, 160, 0]
+      selector:
+        color_rgb:
+    flashes:
+      name: Flashes
+      default: 3
+      selector:
+        number:
+          min: 1
+          max: 10
+          mode: box
+    satellites:
+      name: Announce on
+      description: Assist satellites (voice assistants) for the announcement. Leave empty for none.
+      default: []
+      selector:
+        entity:
+          domain: assist_satellite
+          multiple: true
+    message:
+      name: Announcement
+      default: "{{ team_name }}! {{ my_team_name }} {{ my_score }}, {{ opponent_name }} {{ opponent_score }}."
+      selector:
+        text:
+          multiline: true
+
+mode: queued
+max: 10
+
+triggers:
+  - trigger: event
+    event_type: sports_replay_play
+    event_data:
+      config_entry_id: !input team
+
+variables:
+  wanted: !input categories
+  side: !input side
+  lights: !input lights
+  satellites: !input satellites
+  color_source: !input color_source
+  fixed_color: !input color
+  flashes: !input flashes
+  event: "{{ trigger.event.data }}"
+  team_name: "{{ event.team_name }}"
+  my_team_name: "{{ event.my_team_name }}"
+  opponent_name: "{{ event.opponent_name }}"
+  my_score: "{{ event.my_score }}"
+  opponent_score: "{{ event.opponent_score }}"
+  text: "{{ event.text }}"
+  period: "{{ event.period }}"
+  clock: "{{ event.clock }}"
+  categories: "{{ event.categories }}"
+  flash_color: "{{ event.team_rgb if color_source == 'team' else fixed_color }}"
+  snapshot_id: "sports_replay_{{ this.entity_id | replace('automation.', '') }}"
+
+conditions:
+  - condition: template
+    value_template: >
+      {{ (event.categories | select('in', wanted) | list | count) > 0
+         and (side == 'any' or (side == 'mine') == event.is_my_team) }}
+
+actions:
+  # Flash and announcement together: the announcement does not wait for the flashes.
+  - parallel:
+      - if:
+          - condition: template
+            value_template: "{{ lights | count > 0 }}"
+        then:
+          - action: scene.create
+            data:
+              scene_id: "{{ snapshot_id }}"
+              snapshot_entities: "{{ lights }}"
+          - repeat:
+              count: "{{ flashes }}"
+              sequence:
+                - action: light.turn_on
+                  target:
+                    entity_id: "{{ lights }}"
+                  data:
+                    rgb_color: "{{ flash_color }}"
+                    brightness_pct: 100
+                - delay:
+                    milliseconds: 400
+                - action: light.turn_off
+                  target:
+                    entity_id: "{{ lights }}"
+                - delay:
+                    milliseconds: 300
+          - action: scene.turn_on
+            target:
+              entity_id: "scene.{{ snapshot_id }}"
+      - if:
+          - condition: template
+            value_template: "{{ satellites | count > 0 }}"
+        then:
+          - action: assist_satellite.announce
+            target:
+              entity_id: "{{ satellites }}"
+            data:
+              message: !input message
