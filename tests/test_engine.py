@@ -5,7 +5,7 @@ from pathlib import Path
 
 import pytest
 
-from engine import (
+from replay import (
     ReplayClock,
     TimingMode,
     TimingParams,
@@ -13,6 +13,7 @@ from engine import (
     classify,
     find_play,
     parse_summary,
+    Sport,
 )
 
 FIXTURE = Path(__file__).parent / "fixtures" / "nfl_401873008.json"
@@ -20,7 +21,7 @@ FIXTURE = Path(__file__).parent / "fixtures" / "nfl_401873008.json"
 
 @pytest.fixture(scope="module")
 def game():
-    return parse_summary(json.loads(FIXTURE.read_text(encoding="utf-8")))
+    return parse_summary(json.loads(FIXTURE.read_text(encoding="utf-8")), Sport.FOOTBALL)
 
 
 def test_parse(game):
@@ -34,9 +35,9 @@ def test_parse(game):
 
 
 def test_timeline_modes(game):
-    broadcast = build_timeline(game.plays, TimingMode.BROADCAST)
-    full = build_timeline(game.plays, TimingMode.FULL_NO_ADS)
-    condensed = build_timeline(game.plays, TimingMode.CONDENSED, TimingParams(condensed_per_play=13))
+    broadcast = build_timeline(game, TimingMode.BROADCAST)
+    full = build_timeline(game, TimingMode.FULL_NO_ADS)
+    condensed = build_timeline(game, TimingMode.CONDENSED, TimingParams(condensed_per_play=13))
     for t in (broadcast, full, condensed):
         assert len(t) == len(game.plays)
         assert t[0] == 0
@@ -67,7 +68,7 @@ def test_classify_turnover_credits_recovering_team(game):
         if p.type_text == "Fumble Recovery (Opponent)":
             e = classify(game, i)
             assert "fumble_lost" in e.categories
-            assert e.team_id != p.offense_team_id
+            assert e.team_id != p.team_id
             break
     else:
         pytest.fail("fixture has a fumble recovery")
@@ -118,11 +119,11 @@ def test_big_play_only_on_scrimmage(game):
         e = classify(game, i)
         if "big_play" in e.categories or "red_zone" in e.categories:
             assert p.type_text in ("Rush", "Pass Reception"), p.text
-            assert e.team_id == p.offense_team_id
+            assert e.team_id == p.team_id
 
 
 def test_timeouts_follow_the_play_text(game):
-    from engine import timeouts_remaining
+    from replay import timeouts_remaining
 
     by_text = {}
     for i, p in enumerate(game.plays):
@@ -140,9 +141,9 @@ def test_fourth_down(game):
     for i, p in enumerate(game.plays):
         e = classify(game, i)
         if "fourth_down_conversion" in e.categories:
-            conv.append(e.team_id == p.offense_team_id)
+            conv.append(e.team_id == p.team_id)
         if "turnover_on_downs" in e.categories:
-            failed.append(e.team_id != p.offense_team_id)  # credited to the defense
+            failed.append(e.team_id != p.team_id)  # credited to the defense
     assert len(conv) == 3 and all(conv)
     assert len(failed) == 2 and all(failed)
 

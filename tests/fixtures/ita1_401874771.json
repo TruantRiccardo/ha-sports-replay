@@ -1,0 +1,692 @@
+{
+ "header": {
+  "id": "401874771",
+  "competitions": [
+   {
+    "date": "2026-10-18T10:30Z",
+    "competitors": [
+     {
+      "homeAway": "home",
+      "team": {
+       "id": "118",
+       "abbreviation": "UDI",
+       "displayName": "Udinese",
+       "color": "19161D",
+       "alternateColor": "0F1C3F",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
+         "width": 500,
+         "height": 500,
+         "alt": "",
+         "rel": [
+          "full",
+          "default"
+         ],
+         "lastUpdated": "2019-05-08T16:07Z"
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/118.png",
+         "width": 500,
+         "height": 500,
+         "alt": "",
+         "rel": [
+          "full",
+          "dark"
+         ],
+         "lastUpdated": "2019-05-08T16:07Z"
+        }
+       ]
+      }
+     },
+     {
+      "homeAway": "away",
+      "team": {
+       "id": "113",
+       "abbreviation": "LEC",
+       "displayName": "Lecce",
+       "color": "FCED0B",
+       "alternateColor": "08305d",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
+         "width": 500,
+         "height": 500,
+         "alt": "",
+         "rel": [
+          "full",
+          "default"
+         ],
+         "lastUpdated": "2019-05-08T16:07Z"
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/113.png",
+         "width": 500,
+         "height": 500,
+         "alt": "",
+         "rel": [
+          "full",
+          "dark"
+         ],
+         "lastUpdated": "2019-05-08T16:07Z"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "keyEvents": [
+  {
+   "id": "53879384",
+   "type": {
+    "id": "80",
+    "text": "Kickoff",
+    "type": "kickoff"
+   },
+   "text": "First Half begins.",
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "value": 0.0,
+    "displayValue": ""
+   },
+   "wallclock": "2026-10-18T10:32:10Z",
+   "scoringPlay": false,
+   "shootout": false
+  },
+  {
+   "id": "53879877",
+   "type": {
+    "id": "137",
+    "text": "Goal - Header",
+    "type": "goal---header"
+   },
+   "text": "Goal! Udinese 0, Lecce 1. Kialonda Gaspar (Lecce) header from very close range to the top left corner. Assisted by Antonino Gallo with a cross following a corner.",
+   "shortText": "Kialonda Gaspar Goal - Header",
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "value": 650.0,
+    "displayValue": "11'"
+   },
+   "wallclock": "2026-10-18T10:43:01Z",
+   "scoringPlay": true,
+   "team": {
+    "id": "113"
+   },
+   "shootout": false
+  },
+  {
+   "id": "53879984",
+   "type": {
+    "id": "129",
+    "text": "Start Delay",
+    "type": "start-delay"
+   },
+   "text": "Delay in match (Udinese).",
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "value": 741.0,
+    "displayValue": "13'"
+   },
+   "wallclock": "2026-10-18T10:44:32Z",
+   "scoringPlay": false,
+   "team": {
+    "id": "118"
+   },
+   "shootout": false
+  },
+  {
+   "id": "53879983",
+   "type": {
+    "id": "129",
+    "text": "Start Delay",
+    "type": "start-delay"
+   },
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "value": 741.0,
+    "displayValue": "13'"
+   },
+   "wallclock": "2026-10-18T10:44:33Z",
+   "scoringPlay": false,
+   "team": {
+    "id": "113"
+   },
+   "shootout": false
+  },
+  {
+   "id": "53879986",
+   "type": {
+    "id": "130",
+    "text": "End Delay",
+    "type": "end-delay"
+   },
+   "text": "Delay over. They are ready to continue.",
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "value": 752.0,
+    "displayValue": "13'"
+   },
+   "wallclock": "2026-10-18T10:44:43Z",
+   "scoringPlay": false,
+   "team": {
+    "id": "118"
+   },
+   "shootout": false
+  },
+  {
+   "id": "53879985",
+   "type": {
+    "id": "130",
+    "text": "End Delay",
+    "type": "end-delay"
+   },
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "value": 752.0,
+    "displayValue": "13'"
+   },
+   "wallclock": "2026-10-18T10:44:43Z",
+   "scoringPlay": false,
+   "team": {
+    "id": "113"
+   },
+   "shootout": false
+  },
+  {
+   "id": "53880909",
+   "type": {
+    "id": "70",
+    "text": "Goal",
+    "type": "goal"
+   },
+   "text": "Goal! Udinese 0, Lecce 2. Konan N’Dri (Lecce) with an attempt from very close range to the bottom right corner. Assisted by Tiago Gabriel following a corner.",
+   "shortText": "Konan N’Dri Goal",
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "value": 1939.0,
+    "displayValue": "33'"
+   },
+   "wallclock": "2026-10-18T11:04:30Z",
+   "scoringPlay": true,
+   "team": {
+    "id": "113"
+   },
+   "shootout": false
+  },
+  {
+   "id": "53881515",
+   "type": {
+    "id": "129",
+    "text": "Start Delay",
+    "type": "start-delay"
+   },
+   "text": "Delay in match because of an injury Lassana Coulibaly (Lecce).",
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "value": 2380.0,
+    "displayValue": "40'"
+   },
+   "wallclock": "2026-10-18T11:11:51Z",
+   "scoringPlay": false,
+   "team": {
+    "id": "113"
+   },
+   "shootout": false
+  },
+  {
+   "id": "53881516",
+   "type": {
+    "id": "129",
+    "text": "Start Delay",
+    "type": "start-delay"
+   },
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "value": 2380.0,
+    "displayValue": "40'"
+   },
+   "wallclock": "2026-10-18T11:11:51Z",
+   "scoringPlay": false,
+   "team": {
+    "id": "118"
+   },
+   "shootout": false
+  },
+  {
+   "id": "53881648",
+   "type": {
+    "id": "130",
+    "text": "End Delay",
+    "type": "end-delay"
+   },
+   "text": "Delay over. They are ready to continue.",
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "value": 2426.0,
+    "displayValue": "41'"
+   },
+   "wallclock": "2026-10-18T11:12:37Z",
+   "scoringPlay": false,
+   "team": {
+    "id": "113"
+   },
+   "shootout": false
+  },
+  {
+   "id": "53881650",
+   "type": {
+    "id": "130",
+    "text": "End Delay",
+    "type": "end-delay"
+   },
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "value": 2426.0,
+    "displayValue": "41'"
+   },
+   "wallclock": "2026-10-18T11:12:37Z",
+   "scoringPlay": false,
+   "team": {
+    "id": "118"
+   },
+   "shootout": false
+  },
+  {
+   "id": "53881660",
+   "type": {
+    "id": "76",
+    "text": "Substitution",
+    "type": "substitution"
+   },
+   "text": "Substitution, Lecce. Mohamed Kaba replaces Lassana Coulibaly because of an injury.",
+   "shortText": "Mohamed Kaba Substitution",
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "value": 2437.0,
+    "displayValue": "41'"
+   },
+   "wallclock": "2026-10-18T11:12:48Z",
+   "scoringPlay": false,
+   "team": {
+    "id": "113"
+   },
+   "shootout": false
+  },
+  {
+   "id": "53881759",
+   "type": {
+    "id": "94",
+    "text": "Yellow Card",
+    "type": "yellow-card"
+   },
+   "text": "Hassane Kamara (Udinese) is shown the yellow card for a bad foul.",
+   "shortText": "Hassane Kamara Yellow Card",
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "value": 2529.0,
+    "displayValue": "43'"
+   },
+   "wallclock": "2026-10-18T11:14:20Z",
+   "scoringPlay": false,
+   "team": {
+    "id": "118"
+   },
+   "shootout": false
+  },
+  {
+   "id": "53882013",
+   "type": {
+    "id": "81",
+    "text": "Halftime",
+    "type": "halftime"
+   },
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "value": 2700.0,
+    "displayValue": "45'+2'"
+   },
+   "wallclock": "2026-10-18T11:19:10Z",
+   "scoringPlay": false,
+   "shootout": false
+  },
+  {
+   "id": "53883024",
+   "type": {
+    "id": "76",
+    "text": "Substitution",
+    "type": "substitution"
+   },
+   "text": "Substitution, Udinese. Matteo Palma replaces David Alaba.",
+   "shortText": "Matteo Palma Substitution",
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "value": 2700.0,
+    "displayValue": "45'"
+   },
+   "wallclock": "2026-10-18T11:34:48Z",
+   "scoringPlay": false,
+   "team": {
+    "id": "118"
+   },
+   "shootout": false
+  },
+  {
+   "id": "53883119",
+   "type": {
+    "id": "76",
+    "text": "Substitution",
+    "type": "substitution"
+   },
+   "text": "Substitution, Udinese. Juan Arizala replaces Hassane Kamara.",
+   "shortText": "Juan David Arizala Substitution",
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "value": 2700.0,
+    "displayValue": "45'"
+   },
+   "wallclock": "2026-10-18T11:34:48Z",
+   "scoringPlay": false,
+   "team": {
+    "id": "118"
+   },
+   "shootout": false
+  },
+  {
+   "id": "53883120",
+   "type": {
+    "id": "76",
+    "text": "Substitution",
+    "type": "substitution"
+   },
+   "text": "Substitution, Udinese. Jakub Piotrowski replaces Oier Zarraga.",
+   "shortText": "Jakub Piotrowski Substitution",
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "value": 2700.0,
+    "displayValue": "45'"
+   },
+   "wallclock": "2026-10-18T11:34:48Z",
+   "scoringPlay": false,
+   "team": {
+    "id": "118"
+   },
+   "shootout": false
+  },
+  {
+   "id": "53883118",
+   "type": {
+    "id": "82",
+    "text": "Start 2nd Half",
+    "type": "start-2nd-half"
+   },
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "value": 2700.0,
+    "displayValue": "45'"
+   },
+   "wallclock": "2026-10-18T11:35:54Z",
+   "scoringPlay": false,
+   "shootout": false
+  },
+  {
+   "id": "53884274",
+   "type": {
+    "id": "129",
+    "text": "Start Delay",
+    "type": "start-delay"
+   },
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "value": 3531.0,
+    "displayValue": "59'"
+   },
+   "wallclock": "2026-10-18T11:49:46Z",
+   "scoringPlay": false,
+   "team": {
+    "id": "118"
+   },
+   "shootout": false
+  },
+  {
+   "id": "53884303",
+   "type": {
+    "id": "130",
+    "text": "End Delay",
+    "type": "end-delay"
+   },
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "value": 3692.0,
+    "displayValue": "62'"
+   },
+   "wallclock": "2026-10-18T11:52:27Z",
+   "scoringPlay": false,
+   "team": {
+    "id": "118"
+   },
+   "shootout": false
+  },
+  {
+   "id": "53884381",
+   "type": {
+    "id": "76",
+    "text": "Substitution",
+    "type": "substitution"
+   },
+   "text": "Substitution, Udinese. Unai Gómez replaces Giorgi Chakvetadze.",
+   "shortText": "Unai Gómez Substitution",
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "value": 3796.0,
+    "displayValue": "64'"
+   },
+   "wallclock": "2026-10-18T11:54:11Z",
+   "scoringPlay": false,
+   "team": {
+    "id": "118"
+   },
+   "shootout": false
+  },
+  {
+   "id": "53884436",
+   "type": {
+    "id": "76",
+    "text": "Substitution",
+    "type": "substitution"
+   },
+   "text": "Substitution, Udinese. Alessandro Zanoli replaces Enzo Ebosse.",
+   "shortText": "Alessandro Zanoli Substitution",
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "value": 3806.0,
+    "displayValue": "64'"
+   },
+   "wallclock": "2026-10-18T11:54:20Z",
+   "scoringPlay": false,
+   "team": {
+    "id": "118"
+   },
+   "shootout": false
+  },
+  {
+   "id": "53884647",
+   "type": {
+    "id": "76",
+    "text": "Substitution",
+    "type": "substitution"
+   },
+   "text": "Substitution, Lecce. Santiago Pierotti replaces Amar Fatah.",
+   "shortText": "Santiago Pierotti Substitution",
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "value": 4135.0,
+    "displayValue": "69'"
+   },
+   "wallclock": "2026-10-18T11:59:49Z",
+   "scoringPlay": false,
+   "team": {
+    "id": "113"
+   },
+   "shootout": false
+  },
+  {
+   "id": "53884648",
+   "type": {
+    "id": "76",
+    "text": "Substitution",
+    "type": "substitution"
+   },
+   "text": "Substitution, Lecce. Paco Esteban replaces Willem Geubbels.",
+   "shortText": "Francisco Esteban Sánchez Substi",
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "value": 4142.0,
+    "displayValue": "70'"
+   },
+   "wallclock": "2026-10-18T11:59:57Z",
+   "scoringPlay": false,
+   "team": {
+    "id": "113"
+   },
+   "shootout": false
+  },
+  {
+   "id": "53885617",
+   "type": {
+    "id": "76",
+    "text": "Substitution",
+    "type": "substitution"
+   },
+   "text": "Substitution, Lecce. Joël Monteiro replaces Konan N’Dri.",
+   "shortText": "Joel Monteiro Substitution",
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "value": 4868.0,
+    "displayValue": "82'"
+   },
+   "wallclock": "2026-10-18T12:12:03Z",
+   "scoringPlay": false,
+   "team": {
+    "id": "113"
+   },
+   "shootout": false
+  },
+  {
+   "id": "53885691",
+   "type": {
+    "id": "76",
+    "text": "Substitution",
+    "type": "substitution"
+   },
+   "text": "Substitution, Lecce. Jamil Siebert replaces Youssef Maleh.",
+   "shortText": "Jamil Siebert Substitution",
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "value": 4880.0,
+    "displayValue": "82'"
+   },
+   "wallclock": "2026-10-18T12:12:15Z",
+   "scoringPlay": false,
+   "team": {
+    "id": "113"
+   },
+   "shootout": false
+  },
+  {
+   "id": "53885951",
+   "type": {
+    "id": "70",
+    "text": "Goal",
+    "type": "goal"
+   },
+   "text": "Goal! Udinese 0, Lecce 3. Jamil Siebert (Lecce) right footed shot from the right side of the box to the top left corner following a fast break.",
+   "shortText": "Jamil Siebert Goal",
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "value": 5115.0,
+    "displayValue": "86'"
+   },
+   "wallclock": "2026-10-18T12:16:10Z",
+   "scoringPlay": true,
+   "team": {
+    "id": "113"
+   },
+   "shootout": false
+  },
+  {
+   "id": "53886607",
+   "type": {
+    "id": "83",
+    "text": "End Regular Time",
+    "type": "end-regular-time"
+   },
+   "text": "Second Half ends, Udinese 0, Lecce 3.",
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "value": 5400.0,
+    "displayValue": "90'+3'"
+   },
+   "wallclock": "2026-10-18T12:24:05Z",
+   "scoringPlay": false,
+   "shootout": false
+  }
+ ]
+}

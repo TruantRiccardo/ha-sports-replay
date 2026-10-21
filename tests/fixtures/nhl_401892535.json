@@ -1,0 +1,9280 @@
+{
+ "header": {
+  "id": "401892535",
+  "competitions": [
+   {
+    "date": "2026-10-19T23:00Z",
+    "competitors": [
+     {
+      "homeAway": "home",
+      "team": {
+       "id": "13",
+       "abbreviation": "NYR",
+       "displayName": "New York Rangers",
+       "color": "0056ae",
+       "alternateColor": "e51937",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nhl/500/nyr.png",
+         "width": 500,
+         "height": 500,
+         "alt": "",
+         "rel": [
+          "full",
+          "default"
+         ],
+         "lastUpdated": "2024-07-02T15:51Z"
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/nyr.png",
+         "width": 500,
+         "height": 500,
+         "alt": "",
+         "rel": [
+          "full",
+          "dark"
+         ],
+         "lastUpdated": "2024-07-02T15:46Z"
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png",
+         "width": 500,
+         "height": 500,
+         "alt": "",
+         "rel": [
+          "full",
+          "scoreboard"
+         ],
+         "lastUpdated": "2024-07-02T15:51Z"
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/scoreboard/nyr.png",
+         "width": 500,
+         "height": 500,
+         "alt": "",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ],
+         "lastUpdated": "2024-07-02T15:46Z"
+        },
+        {
+         "href": "https://a.espncdn.com/guid/4e807ac9-f3b7-8e3b-8549-441c1e604c17/logos/primary_logo_on_white_color.png",
+         "width": 4096,
+         "height": 4096,
+         "alt": "",
+         "rel": [
+          "full",
+          "primary_logo_on_white_color"
+         ],
+         "lastUpdated": "2026-07-22T20:31Z"
+        },
+        {
+         "href": "https://a.espncdn.com/guid/4e807ac9-f3b7-8e3b-8549-441c1e604c17/logos/primary_logo_on_black_color.png",
+         "width": 4096,
+         "height": 4096,
+         "alt": "",
+         "rel": [
+          "full",
+          "primary_logo_on_black_color"
+         ],
+         "lastUpdated": "2026-07-22T20:31Z"
+        },
+        {
+         "href": "https://a.espncdn.com/guid/4e807ac9-f3b7-8e3b-8549-441c1e604c17/logos/primary_logo_on_primary_color.png",
+         "width": 4096,
+         "height": 4096,
+         "alt": "",
+         "rel": [
+          "full",
+          "primary_logo_on_primary_color"
+         ],
+         "lastUpdated": "2026-07-22T20:31Z"
+        },
+        {
+         "href": "https://a.espncdn.com/guid/4e807ac9-f3b7-8e3b-8549-441c1e604c17/logos/primary_logo_on_secondary_color.png",
+         "width": 4096,
+         "height": 4096,
+         "alt": "",
+         "rel": [
+          "full",
+          "primary_logo_on_secondary_color"
+         ],
+         "lastUpdated": "2026-07-22T20:31Z"
+        },
+        {
+         "href": "https://a.espncdn.com/guid/4e807ac9-f3b7-8e3b-8549-441c1e604c17/logos/primary_logo_black.png",
+         "width": 4096,
+         "height": 4096,
+         "alt": "",
+         "rel": [
+          "full",
+          "primary_logo_black"
+         ],
+         "lastUpdated": "2026-07-22T20:31Z"
+        },
+        {
+         "href": "https://a.espncdn.com/guid/4e807ac9-f3b7-8e3b-8549-441c1e604c17/logos/primary_logo_white.png",
+         "width": 4096,
+         "height": 4096,
+         "alt": "",
+         "rel": [
+          "full",
+          "primary_logo_white"
+         ],
+         "lastUpdated": "2026-07-22T20:31Z"
+        },
+        {
+         "href": "https://a.espncdn.com/guid/4e807ac9-f3b7-8e3b-8549-441c1e604c17/logos/secondary_logo_on_white_color.png",
+         "width": 4096,
+         "height": 4096,
+         "alt": "",
+         "rel": [
+          "full",
+          "secondary_logo_on_white_color"
+         ],
+         "lastUpdated": "2026-07-22T20:31Z"
+        },
+        {
+         "href": "https://a.espncdn.com/guid/4e807ac9-f3b7-8e3b-8549-441c1e604c17/logos/secondary_logo_on_black_color.png",
+         "width": 4096,
+         "height": 4096,
+         "alt": "",
+         "rel": [
+          "full",
+          "secondary_logo_on_black_color"
+         ],
+         "lastUpdated": "2026-07-22T20:31Z"
+        },
+        {
+         "href": "https://a.espncdn.com/guid/4e807ac9-f3b7-8e3b-8549-441c1e604c17/logos/secondary_logo_on_primary_color.png",
+         "width": 4096,
+         "height": 4096,
+         "alt": "",
+         "rel": [
+          "full",
+          "secondary_logo_on_primary_color"
+         ],
+         "lastUpdated": "2026-07-22T20:31Z"
+        },
+        {
+         "href": "https://a.espncdn.com/guid/4e807ac9-f3b7-8e3b-8549-441c1e604c17/logos/secondary_logo_on_secondary_color.png",
+         "width": 4096,
+         "height": 4096,
+         "alt": "",
+         "rel": [
+          "full",
+          "secondary_logo_on_secondary_color"
+         ],
+         "lastUpdated": "2026-07-22T20:31Z"
+        },
+        {
+         "href": "https://a.espncdn.com/guid/4e807ac9-f3b7-8e3b-8549-441c1e604c17/logos/secondary_logo_black.png",
+         "width": 4096,
+         "height": 4096,
+         "alt": "",
+         "rel": [
+          "full",
+          "secondary_logo_black"
+         ],
+         "lastUpdated": "2026-07-22T20:31Z"
+        },
+        {
+         "href": "https://a.espncdn.com/guid/4e807ac9-f3b7-8e3b-8549-441c1e604c17/logos/secondary_logo_white.png",
+         "width": 4096,
+         "height": 4096,
+         "alt": "",
+         "rel": [
+          "full",
+          "secondary_logo_white"
+         ],
+         "lastUpdated": "2026-07-22T20:31Z"
+        }
+       ]
+      }
+     },
+     {
+      "homeAway": "away",
+      "team": {
+       "id": "25",
+       "abbreviation": "ANA",
+       "displayName": "Anaheim Ducks",
+       "color": "fc4c02",
+       "alternateColor": "000000",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nhl/500/ana.png",
+         "width": 500,
+         "height": 500,
+         "alt": "",
+         "rel": [
+          "full",
+          "default"
+         ],
+         "lastUpdated": "2024-07-02T15:51Z"
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/ana.png",
+         "width": 500,
+         "height": 500,
+         "alt": "",
+         "rel": [
+          "full",
+          "dark"
+         ],
+         "lastUpdated": "2024-06-26T17:24Z"
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ana.png",
+         "width": 500,
+         "height": 500,
+         "alt": "",
+         "rel": [
+          "full",
+          "scoreboard"
+         ],
+         "lastUpdated": "2024-07-02T15:51Z"
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/scoreboard/ana.png",
+         "width": 500,
+         "height": 500,
+         "alt": "",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ],
+         "lastUpdated": "2024-06-26T17:24Z"
+        },
+        {
+         "href": "https://a.espncdn.com/guid/183c31f7-2eed-15c0-7fa1-a568d20bf3ad/logos/primary_logo_on_white_color.png",
+         "width": 4096,
+         "height": 4096,
+         "alt": "",
+         "rel": [
+          "full",
+          "primary_logo_on_white_color"
+         ],
+         "lastUpdated": "2026-07-22T20:31Z"
+        },
+        {
+         "href": "https://a.espncdn.com/guid/183c31f7-2eed-15c0-7fa1-a568d20bf3ad/logos/primary_logo_on_black_color.png",
+         "width": 4096,
+         "height": 4096,
+         "alt": "",
+         "rel": [
+          "full",
+          "primary_logo_on_black_color"
+         ],
+         "lastUpdated": "2026-07-22T20:31Z"
+        },
+        {
+         "href": "https://a.espncdn.com/guid/183c31f7-2eed-15c0-7fa1-a568d20bf3ad/logos/primary_logo_on_primary_color.png",
+         "width": 4096,
+         "height": 4096,
+         "alt": "",
+         "rel": [
+          "full",
+          "primary_logo_on_primary_color"
+         ],
+         "lastUpdated": "2026-07-22T20:31Z"
+        },
+        {
+         "href": "https://a.espncdn.com/guid/183c31f7-2eed-15c0-7fa1-a568d20bf3ad/logos/primary_logo_on_secondary_color.png",
+         "width": 4096,
+         "height": 4096,
+         "alt": "",
+         "rel": [
+          "full",
+          "primary_logo_on_secondary_color"
+         ],
+         "lastUpdated": "2026-07-22T20:31Z"
+        },
+        {
+         "href": "https://a.espncdn.com/guid/183c31f7-2eed-15c0-7fa1-a568d20bf3ad/logos/primary_logo_black.png",
+         "width": 4096,
+         "height": 4096,
+         "alt": "",
+         "rel": [
+          "full",
+          "primary_logo_black"
+         ],
+         "lastUpdated": "2026-07-22T20:31Z"
+        },
+        {
+         "href": "https://a.espncdn.com/guid/183c31f7-2eed-15c0-7fa1-a568d20bf3ad/logos/primary_logo_white.png",
+         "width": 4096,
+         "height": 4096,
+         "alt": "",
+         "rel": [
+          "full",
+          "primary_logo_white"
+         ],
+         "lastUpdated": "2026-07-22T20:31Z"
+        },
+        {
+         "href": "https://a.espncdn.com/guid/183c31f7-2eed-15c0-7fa1-a568d20bf3ad/logos/secondary_logo_on_white_color.png",
+         "width": 4096,
+         "height": 4096,
+         "alt": "",
+         "rel": [
+          "full",
+          "secondary_logo_on_white_color"
+         ],
+         "lastUpdated": "2026-07-22T20:31Z"
+        },
+        {
+         "href": "https://a.espncdn.com/guid/183c31f7-2eed-15c0-7fa1-a568d20bf3ad/logos/secondary_logo_on_black_color.png",
+         "width": 4096,
+         "height": 4096,
+         "alt": "",
+         "rel": [
+          "full",
+          "secondary_logo_on_black_color"
+         ],
+         "lastUpdated": "2026-07-22T20:31Z"
+        },
+        {
+         "href": "https://a.espncdn.com/guid/183c31f7-2eed-15c0-7fa1-a568d20bf3ad/logos/secondary_logo_on_primary_color.png",
+         "width": 4096,
+         "height": 4096,
+         "alt": "",
+         "rel": [
+          "full",
+          "secondary_logo_on_primary_color"
+         ],
+         "lastUpdated": "2026-07-22T20:31Z"
+        },
+        {
+         "href": "https://a.espncdn.com/guid/183c31f7-2eed-15c0-7fa1-a568d20bf3ad/logos/secondary_logo_on_secondary_color.png",
+         "width": 4096,
+         "height": 4096,
+         "alt": "",
+         "rel": [
+          "full",
+          "secondary_logo_on_secondary_color"
+         ],
+         "lastUpdated": "2026-07-22T20:31Z"
+        },
+        {
+         "href": "https://a.espncdn.com/guid/183c31f7-2eed-15c0-7fa1-a568d20bf3ad/logos/secondary_logo_black.png",
+         "width": 4096,
+         "height": 4096,
+         "alt": "",
+         "rel": [
+          "full",
+          "secondary_logo_black"
+         ],
+         "lastUpdated": "2026-07-22T20:31Z"
+        },
+        {
+         "href": "https://a.espncdn.com/guid/183c31f7-2eed-15c0-7fa1-a568d20bf3ad/logos/secondary_logo_white.png",
+         "width": 4096,
+         "height": 4096,
+         "alt": "",
+         "rel": [
+          "full",
+          "secondary_logo_white"
+         ],
+         "lastUpdated": "2026-07-22T20:31Z"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "plays": [
+  {
+   "id": "401892535000000520",
+   "sequenceNumber": "2",
+   "type": {
+    "id": "518",
+    "text": "Period Start",
+    "abbreviation": "period-start"
+   },
+   "text": "Start of 1st Period",
+   "awayScore": 0,
+   "homeScore": 0,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "0:00"
+   },
+   "wallclock": "2026-10-19T23:08:20Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000510",
+   "sequenceNumber": "3",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Mikael Granlund faceoff won against Mika Zibanejad",
+   "awayScore": 0,
+   "homeScore": 0,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "0:00"
+   },
+   "wallclock": "2026-10-19T23:08:20Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000640",
+   "sequenceNumber": "4",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Beckett Sennecke hit Gabe Perreault",
+   "awayScore": 0,
+   "homeScore": 0,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "0:13"
+   },
+   "wallclock": "2026-10-19T23:08:33Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000740",
+   "sequenceNumber": "5",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Beckett Sennecke hit Adam Fox",
+   "awayScore": 0,
+   "homeScore": 0,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "0:26"
+   },
+   "wallclock": "2026-10-19T23:08:46Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000730",
+   "sequenceNumber": "6",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Tristan Luneau",
+   "awayScore": 0,
+   "homeScore": 0,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "0:52"
+   },
+   "wallclock": "2026-10-19T23:09:12Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000660",
+   "sequenceNumber": "7",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Sean Durzi shot blocked by Tyson Hinds",
+   "awayScore": 0,
+   "homeScore": 0,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "0:55"
+   },
+   "wallclock": "2026-10-19T23:09:15Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000690",
+   "sequenceNumber": "8",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Tye Kartye Snap Shot saved by Ville Husso",
+   "awayScore": 0,
+   "homeScore": 0,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "1:09"
+   },
+   "wallclock": "2026-10-19T23:09:29Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000700",
+   "sequenceNumber": "9",
+   "type": {
+    "id": "505",
+    "text": "Goal",
+    "abbreviation": "goal"
+   },
+   "text": "Sean Durzi Goal (2) Snap Shot, assists: Pavel Dorofeyev (3), Tye Kartye (5)",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "1:18"
+   },
+   "wallclock": "2026-10-19T23:09:37Z",
+   "scoringPlay": true,
+   "scoreValue": 1,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000710",
+   "sequenceNumber": "10",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Noah Laba faceoff won against Roger McQueen",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "1:18"
+   },
+   "wallclock": "2026-10-19T23:10:20Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000850",
+   "sequenceNumber": "11",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Anthony-John (AJ) Greer hit Braden Schneider",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "1:22"
+   },
+   "wallclock": "2026-10-19T23:10:24Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000770",
+   "sequenceNumber": "12",
+   "type": {
+    "id": "507",
+    "text": "Missed",
+    "abbreviation": "shot-missed"
+   },
+   "text": "Eeli Tolvanen Tip-In Wide Left",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "1:41"
+   },
+   "wallclock": "2026-10-19T23:10:43Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000940",
+   "sequenceNumber": "13",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Will Cuylle hit Cutter Gauthier",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "1:46"
+   },
+   "wallclock": "2026-10-19T23:10:48Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000800",
+   "sequenceNumber": "14",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Tristan Luneau Slap Shot saved by Dylan Garand",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "1:59"
+   },
+   "wallclock": "2026-10-19T23:11:01Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000810",
+   "sequenceNumber": "15",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Cutter Gauthier Snap Shot saved by Dylan Garand",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "2:00"
+   },
+   "wallclock": "2026-10-19T23:11:02Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000080",
+   "sequenceNumber": "16",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Goalie Stopped",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "2:02"
+   },
+   "wallclock": "2026-10-19T23:11:04Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000820",
+   "sequenceNumber": "17",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Tim Washe faceoff won against Justin Dowling",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "2:02"
+   },
+   "wallclock": "2026-10-19T23:11:45Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000910",
+   "sequenceNumber": "18",
+   "type": {
+    "id": "29",
+    "text": "High-sticking",
+    "abbreviation": "High-sticking",
+    "penaltyMinutes": "2",
+    "penaltyType": "Minor"
+   },
+   "text": "Jeff Malott High-sticking against Adam Fox",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "2:23"
+   },
+   "wallclock": "2026-10-19T23:12:06Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000870",
+   "sequenceNumber": "19",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "J.T. Miller faceoff won against Tim Washe",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "2:23"
+   },
+   "wallclock": "2026-10-19T23:12:54Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000000950",
+   "sequenceNumber": "20",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Alexis Lafrenière Tip-In saved by Ville Husso",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "2:25"
+   },
+   "wallclock": "2026-10-19T23:12:56Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000000970",
+   "sequenceNumber": "21",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Jackson LaCombe Deflected saved by Dylan Garand",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "2:58"
+   },
+   "wallclock": "2026-10-19T23:13:29Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "703",
+    "text": "Shorthanded",
+    "abbreviation": "short-handed"
+   }
+  },
+  {
+   "id": "401892535000001050",
+   "sequenceNumber": "22",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Mika Zibanejad",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "3:07"
+   },
+   "wallclock": "2026-10-19T23:13:38Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000001100",
+   "sequenceNumber": "23",
+   "type": {
+    "id": "109",
+    "text": "Delaying Game - Puck over Glass",
+    "abbreviation": "Delaying Game-Puck over glass",
+    "penaltyMinutes": "2",
+    "penaltyType": "Minor"
+   },
+   "text": "Nick Jensen Delaying Game - Puck over glass",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "3:39"
+   },
+   "wallclock": "2026-10-19T23:14:09Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "703",
+    "text": "Shorthanded",
+    "abbreviation": "short-handed"
+   }
+  },
+  {
+   "id": "401892535000001060",
+   "sequenceNumber": "24",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Tim Washe faceoff won against J.T. Miller",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "3:39"
+   },
+   "wallclock": "2026-10-19T23:15:00Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "703",
+    "text": "Shorthanded",
+    "abbreviation": "short-handed"
+   }
+  },
+  {
+   "id": "401892535000001130",
+   "sequenceNumber": "25",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "J.T. Miller shot blocked by Jackson LaCombe",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "4:01"
+   },
+   "wallclock": "2026-10-19T23:15:22Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "703",
+    "text": "Shorthanded",
+    "abbreviation": "short-handed"
+   }
+  },
+  {
+   "id": "401892535000001140",
+   "sequenceNumber": "26",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Alexis Lafrenière Snap Shot saved by Ville Husso",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "4:08"
+   },
+   "wallclock": "2026-10-19T23:15:29Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000000110",
+   "sequenceNumber": "27",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Goalie Stopped",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "4:10"
+   },
+   "wallclock": "2026-10-19T23:15:31Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000001150",
+   "sequenceNumber": "28",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "J.T. Miller faceoff won against Mikael Granlund",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "4:10"
+   },
+   "wallclock": "2026-10-19T23:16:11Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000001210",
+   "sequenceNumber": "29",
+   "type": {
+    "id": "507",
+    "text": "Missed",
+    "abbreviation": "shot-missed"
+   },
+   "text": "Pavel Dorofeyev Snap Shot Hit Left Post",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "4:23"
+   },
+   "wallclock": "2026-10-19T23:16:24Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000001380",
+   "sequenceNumber": "30",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Tim Washe hit Gabe Perreault",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "5:04"
+   },
+   "wallclock": "2026-10-19T23:17:05Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "703",
+    "text": "Shorthanded",
+    "abbreviation": "short-handed"
+   }
+  },
+  {
+   "id": "401892535000001270",
+   "sequenceNumber": "31",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Will Cuylle Backhand saved by Ville Husso",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "5:11"
+   },
+   "wallclock": "2026-10-19T23:17:12Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000001290",
+   "sequenceNumber": "32",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Pavel Dorofeyev shot blocked by Tyson Hinds",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "5:33"
+   },
+   "wallclock": "2026-10-19T23:17:34Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "703",
+    "text": "Shorthanded",
+    "abbreviation": "short-handed"
+   }
+  },
+  {
+   "id": "401892535000001300",
+   "sequenceNumber": "33",
+   "type": {
+    "id": "507",
+    "text": "Missed",
+    "abbreviation": "shot-missed"
+   },
+   "text": "Pavel Dorofeyev Snap Shot High and Wide Left",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "5:33"
+   },
+   "wallclock": "2026-10-19T23:17:34Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000001320",
+   "sequenceNumber": "34",
+   "type": {
+    "id": "507",
+    "text": "Missed",
+    "abbreviation": "shot-missed"
+   },
+   "text": "Pavel Dorofeyev Snap Shot Wide Right",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "5:41"
+   },
+   "wallclock": "2026-10-19T23:17:42Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000001540",
+   "sequenceNumber": "35",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Roger McQueen hit Sean Durzi",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "6:01"
+   },
+   "wallclock": "2026-10-19T23:18:02Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000001390",
+   "sequenceNumber": "36",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Roger McQueen shot blocked by Sean Durzi",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "6:07"
+   },
+   "wallclock": "2026-10-19T23:18:08Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000001470",
+   "sequenceNumber": "37",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Jackson LaCombe",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "6:09"
+   },
+   "wallclock": "2026-10-19T23:18:10Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000001430",
+   "sequenceNumber": "38",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Roger McQueen Wrist Shot saved by Dylan Garand",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "6:27"
+   },
+   "wallclock": "2026-10-19T23:18:28Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000001550",
+   "sequenceNumber": "39",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Judd Caulfield",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "6:49"
+   },
+   "wallclock": "2026-10-19T23:18:50Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000001610",
+   "sequenceNumber": "40",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Braden Schneider",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "6:54"
+   },
+   "wallclock": "2026-10-19T23:18:55Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000001620",
+   "sequenceNumber": "41",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Judd Caulfield hit Mika Zibanejad",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "7:00"
+   },
+   "wallclock": "2026-10-19T23:19:01Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000001570",
+   "sequenceNumber": "42",
+   "type": {
+    "id": "31",
+    "text": "Holding",
+    "abbreviation": "Holding",
+    "penaltyMinutes": "2",
+    "penaltyType": "Minor"
+   },
+   "text": "Alberts Smits Holding against Jeff Malott",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "7:08"
+   },
+   "wallclock": "2026-10-19T23:19:09Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000130",
+   "sequenceNumber": "43",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "TV Timeout",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "7:08"
+   },
+   "wallclock": "2026-10-19T23:19:09Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000001520",
+   "sequenceNumber": "44",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Noah Laba faceoff won against Cutter Gauthier",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "7:08"
+   },
+   "wallclock": "2026-10-19T23:21:53Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "703",
+    "text": "Shorthanded",
+    "abbreviation": "short-handed"
+   }
+  },
+  {
+   "id": "401892535000001670",
+   "sequenceNumber": "45",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Vladislav Gavrikov hit Beckett Sennecke",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "7:33"
+   },
+   "wallclock": "2026-10-19T23:22:18Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "703",
+    "text": "Shorthanded",
+    "abbreviation": "short-handed"
+   }
+  },
+  {
+   "id": "401892535000001700",
+   "sequenceNumber": "46",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Beckett Sennecke",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "7:35"
+   },
+   "wallclock": "2026-10-19T23:22:20Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000001680",
+   "sequenceNumber": "47",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Cutter Gauthier shot blocked by Tye Kartye",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "8:30"
+   },
+   "wallclock": "2026-10-19T23:23:15Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "703",
+    "text": "Shorthanded",
+    "abbreviation": "short-handed"
+   }
+  },
+  {
+   "id": "401892535000001690",
+   "sequenceNumber": "48",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Cutter Gauthier Wrist Shot saved by Dylan Garand",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "8:32"
+   },
+   "wallclock": "2026-10-19T23:23:17Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000002510",
+   "sequenceNumber": "49",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Mikael Granlund Batted saved by Dylan Garand",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "8:33"
+   },
+   "wallclock": "2026-10-19T23:23:18Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000001710",
+   "sequenceNumber": "50",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Mikael Granlund Snap Shot saved by Dylan Garand",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "8:35"
+   },
+   "wallclock": "2026-10-19T23:23:20Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000000140",
+   "sequenceNumber": "51",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Goalie Stopped",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "8:36"
+   },
+   "wallclock": "2026-10-19T23:23:21Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000001720",
+   "sequenceNumber": "52",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Noah Laba faceoff won against Roger McQueen",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "8:36"
+   },
+   "wallclock": "2026-10-19T23:23:57Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "703",
+    "text": "Shorthanded",
+    "abbreviation": "short-handed"
+   }
+  },
+  {
+   "id": "401892535000001860",
+   "sequenceNumber": "53",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Vladislav Gavrikov",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "8:50"
+   },
+   "wallclock": "2026-10-19T23:24:11Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "703",
+    "text": "Shorthanded",
+    "abbreviation": "short-handed"
+   }
+  },
+  {
+   "id": "401892535000001930",
+   "sequenceNumber": "54",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Roger McQueen",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "9:04"
+   },
+   "wallclock": "2026-10-19T23:24:25Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000001880",
+   "sequenceNumber": "55",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Mika Zibanejad Wrist Shot saved by Ville Husso",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "9:45"
+   },
+   "wallclock": "2026-10-19T23:25:06Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000150",
+   "sequenceNumber": "56",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Goalie Stopped",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "9:47"
+   },
+   "wallclock": "2026-10-19T23:25:08Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "703",
+    "text": "Shorthanded",
+    "abbreviation": "short-handed"
+   }
+  },
+  {
+   "id": "401892535000001890",
+   "sequenceNumber": "57",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Mikael Granlund faceoff won against J.T. Miller",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "9:47"
+   },
+   "wallclock": "2026-10-19T23:25:48Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000001980",
+   "sequenceNumber": "58",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Anthony-John (AJ) Greer Tip-In saved by Dylan Garand",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "10:29"
+   },
+   "wallclock": "2026-10-19T23:26:30Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000002200",
+   "sequenceNumber": "59",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Will Cuylle hit Nick Jensen",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "10:47"
+   },
+   "wallclock": "2026-10-19T23:26:48Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000002150",
+   "sequenceNumber": "60",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Taylor Raddysh Tip-In saved by Ville Husso",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "11:33"
+   },
+   "wallclock": "2026-10-19T23:27:34Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000002360",
+   "sequenceNumber": "61",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Marcus Pettersson hit Leo Carlsson",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "11:46"
+   },
+   "wallclock": "2026-10-19T23:27:47Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000002520",
+   "sequenceNumber": "62",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Alex Killorn shot blocked by Adam Fox",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "11:49"
+   },
+   "wallclock": "2026-10-19T23:27:50Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000002160",
+   "sequenceNumber": "63",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Leo Carlsson Snap Shot saved by Dylan Garand",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "11:50"
+   },
+   "wallclock": "2026-10-19T23:27:51Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000002170",
+   "sequenceNumber": "64",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Alex Killorn Snap Shot saved by Dylan Garand",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "11:50"
+   },
+   "wallclock": "2026-10-19T23:27:51Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000002260",
+   "sequenceNumber": "65",
+   "type": {
+    "id": "1401",
+    "text": "Takeaway",
+    "abbreviation": "takeaway"
+   },
+   "text": "Takeaway by Mika Zibanejad",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "12:04"
+   },
+   "wallclock": "2026-10-19T23:28:05Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000002250",
+   "sequenceNumber": "66",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Braden Schneider Snap Shot saved by Ville Husso",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "12:27"
+   },
+   "wallclock": "2026-10-19T23:28:28Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000002530",
+   "sequenceNumber": "67",
+   "type": {
+    "id": "507",
+    "text": "Missed",
+    "abbreviation": "shot-missed"
+   },
+   "text": "Judd Caulfield Backhand Wide Left",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "12:53"
+   },
+   "wallclock": "2026-10-19T23:28:54Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000160",
+   "sequenceNumber": "68",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Off-side",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "13:04"
+   },
+   "wallclock": "2026-10-19T23:29:04Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000002320",
+   "sequenceNumber": "69",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Mikael Granlund faceoff won against J.T. Miller",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "13:04"
+   },
+   "wallclock": "2026-10-19T23:31:16Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003010",
+   "sequenceNumber": "70",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Pavel Dorofeyev",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "13:36"
+   },
+   "wallclock": "2026-10-19T23:31:48Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000002430",
+   "sequenceNumber": "71",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Leo Carlsson Snap Shot saved by Dylan Garand",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "13:50"
+   },
+   "wallclock": "2026-10-19T23:32:02Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000002480",
+   "sequenceNumber": "72",
+   "type": {
+    "id": "507",
+    "text": "Missed",
+    "abbreviation": "shot-missed"
+   },
+   "text": "Noah Laba Snap Shot High and Wide Left",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "14:00"
+   },
+   "wallclock": "2026-10-19T23:32:12Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003070",
+   "sequenceNumber": "73",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Eeli Tolvanen",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "14:05"
+   },
+   "wallclock": "2026-10-19T23:32:17Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003090",
+   "sequenceNumber": "74",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Will Cuylle hit Tristan Luneau",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "14:07"
+   },
+   "wallclock": "2026-10-19T23:32:19Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003080",
+   "sequenceNumber": "75",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Adam Fox",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "14:20"
+   },
+   "wallclock": "2026-10-19T23:32:32Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003040",
+   "sequenceNumber": "76",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Tyson Hinds Slap Shot saved by Dylan Garand",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "14:39"
+   },
+   "wallclock": "2026-10-19T23:32:51Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000170",
+   "sequenceNumber": "77",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Goalie Stopped",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "14:41"
+   },
+   "wallclock": "2026-10-19T23:32:53Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003050",
+   "sequenceNumber": "78",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Mika Zibanejad faceoff won against Leo Carlsson",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "14:41"
+   },
+   "wallclock": "2026-10-19T23:35:07Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003190",
+   "sequenceNumber": "79",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Alberts Smits shot blocked by Nick Jensen",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "15:50"
+   },
+   "wallclock": "2026-10-19T23:36:16Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000005010",
+   "sequenceNumber": "80",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Pavel Dorofeyev Snap Shot saved by Ville Husso",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "15:54"
+   },
+   "wallclock": "2026-10-19T23:36:20Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003200",
+   "sequenceNumber": "81",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Pavel Dorofeyev Snap Shot saved by Ville Husso",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "15:55"
+   },
+   "wallclock": "2026-10-19T23:36:21Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003290",
+   "sequenceNumber": "82",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Anthony-John (AJ) Greer hit Tye Kartye",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "16:07"
+   },
+   "wallclock": "2026-10-19T23:36:33Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003230",
+   "sequenceNumber": "83",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Cutter Gauthier shot blocked by Alberts Smits",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "16:08"
+   },
+   "wallclock": "2026-10-19T23:36:34Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000180",
+   "sequenceNumber": "84",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Puck in Crowd",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "16:11"
+   },
+   "wallclock": "2026-10-19T23:36:37Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003240",
+   "sequenceNumber": "85",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Tim Washe faceoff won against Justin Dowling",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "16:11"
+   },
+   "wallclock": "2026-10-19T23:37:13Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003280",
+   "sequenceNumber": "86",
+   "type": {
+    "id": "507",
+    "text": "Missed",
+    "abbreviation": "shot-missed"
+   },
+   "text": "Judd Caulfield Tip-In Wide Right",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "16:15"
+   },
+   "wallclock": "2026-10-19T23:37:17Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000190",
+   "sequenceNumber": "87",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Hand Pass",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "16:32"
+   },
+   "wallclock": "2026-10-19T23:37:34Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003300",
+   "sequenceNumber": "88",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Tim Washe faceoff won against Justin Dowling",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "16:32"
+   },
+   "wallclock": "2026-10-19T23:38:02Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003420",
+   "sequenceNumber": "89",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Taylor Raddysh hit Judd Caulfield",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "16:43"
+   },
+   "wallclock": "2026-10-19T23:38:13Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003520",
+   "sequenceNumber": "90",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Jeff Malott hit Marcus Pettersson",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "16:47"
+   },
+   "wallclock": "2026-10-19T23:38:17Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003560",
+   "sequenceNumber": "91",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Judd Caulfield hit Oliver Bjorkstrand",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "16:48"
+   },
+   "wallclock": "2026-10-19T23:38:18Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003500",
+   "sequenceNumber": "92",
+   "type": {
+    "id": "1401",
+    "text": "Takeaway",
+    "abbreviation": "takeaway"
+   },
+   "text": "Takeaway by Judd Caulfield",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "16:51"
+   },
+   "wallclock": "2026-10-19T23:38:21Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003400",
+   "sequenceNumber": "93",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Frank Vatrano Snap Shot saved by Dylan Garand",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "17:05"
+   },
+   "wallclock": "2026-10-19T23:38:35Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003640",
+   "sequenceNumber": "94",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Will Cuylle hit Beckett Sennecke",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "17:19"
+   },
+   "wallclock": "2026-10-19T23:38:49Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000006010",
+   "sequenceNumber": "95",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Eeli Tolvanen Backhand saved by Ville Husso",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "17:27"
+   },
+   "wallclock": "2026-10-19T23:38:57Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000210",
+   "sequenceNumber": "96",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Puck Frozen - Goalie",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "17:29"
+   },
+   "wallclock": "2026-10-19T23:38:59Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003450",
+   "sequenceNumber": "97",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Mika Zibanejad faceoff won against Leo Carlsson",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "17:29"
+   },
+   "wallclock": "2026-10-19T23:39:38Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003510",
+   "sequenceNumber": "98",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Alexis Lafrenière shot blocked by Nick Jensen",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "17:32"
+   },
+   "wallclock": "2026-10-19T23:39:41Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000230",
+   "sequenceNumber": "99",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Puck in Netting",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "17:33"
+   },
+   "wallclock": "2026-10-19T23:39:42Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003530",
+   "sequenceNumber": "100",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Mika Zibanejad faceoff won against Leo Carlsson",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "17:33"
+   },
+   "wallclock": "2026-10-19T23:40:24Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003650",
+   "sequenceNumber": "101",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Vladislav Gavrikov",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "17:42"
+   },
+   "wallclock": "2026-10-19T23:40:33Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003580",
+   "sequenceNumber": "102",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Gabe Perreault Wrist Shot saved by Ville Husso",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "18:03"
+   },
+   "wallclock": "2026-10-19T23:40:54Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003590",
+   "sequenceNumber": "103",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Vladislav Gavrikov Slap Shot saved by Ville Husso",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "18:08"
+   },
+   "wallclock": "2026-10-19T23:40:59Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000240",
+   "sequenceNumber": "104",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Goalie Stopped",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "18:10"
+   },
+   "wallclock": "2026-10-19T23:41:00Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003600",
+   "sequenceNumber": "105",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "J.T. Miller faceoff won against Roger McQueen",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "18:10"
+   },
+   "wallclock": "2026-10-19T23:41:34Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003800",
+   "sequenceNumber": "106",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Tye Kartye hit Anthony-John (AJ) Greer",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "18:19"
+   },
+   "wallclock": "2026-10-19T23:41:43Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003670",
+   "sequenceNumber": "107",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Braden Schneider Snap Shot saved by Ville Husso",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "18:50"
+   },
+   "wallclock": "2026-10-19T23:42:14Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003860",
+   "sequenceNumber": "108",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Tyson Hinds hit Noah Laba",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "19:08"
+   },
+   "wallclock": "2026-10-19T23:42:32Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000250",
+   "sequenceNumber": "109",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Puck Frozen - Skater",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "19:15"
+   },
+   "wallclock": "2026-10-19T23:42:40Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003770",
+   "sequenceNumber": "110",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Tim Washe faceoff won against Noah Laba",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "19:15"
+   },
+   "wallclock": "2026-10-19T23:43:28Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003890",
+   "sequenceNumber": "111",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Eeli Tolvanen hit Beckett Sennecke",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "19:26"
+   },
+   "wallclock": "2026-10-19T23:43:38Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003820",
+   "sequenceNumber": "112",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Beckett Sennecke shot blocked by Noah Laba",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "19:32"
+   },
+   "wallclock": "2026-10-19T23:43:44Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000260",
+   "sequenceNumber": "113",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Goalie Stopped",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "19:34"
+   },
+   "wallclock": "2026-10-19T23:43:47Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003830",
+   "sequenceNumber": "114",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Mika Zibanejad faceoff won against Mikael Granlund",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "19:34"
+   },
+   "wallclock": "2026-10-19T23:44:20Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000002540",
+   "sequenceNumber": "115",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Beckett Sennecke Deflected saved by Dylan Garand",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "19:50"
+   },
+   "wallclock": "2026-10-19T23:44:36Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000270",
+   "sequenceNumber": "116",
+   "type": {
+    "id": "519",
+    "text": "Period End",
+    "abbreviation": "period-end"
+   },
+   "text": "End of 1st Period",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "displayValue": "20:00"
+   },
+   "wallclock": "2026-10-19T23:44:45Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003930",
+   "sequenceNumber": "119",
+   "type": {
+    "id": "518",
+    "text": "Period Start",
+    "abbreviation": "period-start"
+   },
+   "text": "Start of 2nd Period",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "0:00"
+   },
+   "wallclock": "2026-10-20T00:03:27Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003920",
+   "sequenceNumber": "120",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Mikael Granlund faceoff won against Mika Zibanejad",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "0:00"
+   },
+   "wallclock": "2026-10-20T00:03:27Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003940",
+   "sequenceNumber": "121",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Gabe Perreault Snap Shot saved by Ville Husso",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "0:15"
+   },
+   "wallclock": "2026-10-20T00:03:42Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000005030",
+   "sequenceNumber": "122",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Gabe Perreault Snap Shot saved by Ville Husso",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "0:16"
+   },
+   "wallclock": "2026-10-20T00:03:43Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000320",
+   "sequenceNumber": "123",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Goalie Stopped",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "0:18"
+   },
+   "wallclock": "2026-10-20T00:03:45Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003950",
+   "sequenceNumber": "124",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Tim Washe faceoff won against Mika Zibanejad",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "0:18"
+   },
+   "wallclock": "2026-10-20T00:04:18Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003980",
+   "sequenceNumber": "125",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Tyson Hinds shot blocked by Alexis Lafrenière",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "0:36"
+   },
+   "wallclock": "2026-10-20T00:04:36Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000003990",
+   "sequenceNumber": "126",
+   "type": {
+    "id": "507",
+    "text": "Missed",
+    "abbreviation": "shot-missed"
+   },
+   "text": "Judd Caulfield Slap Shot Above Crossbar",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "0:46"
+   },
+   "wallclock": "2026-10-20T00:04:46Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000330",
+   "sequenceNumber": "127",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Goalie Stopped",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "0:48"
+   },
+   "wallclock": "2026-10-20T00:04:48Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000004000",
+   "sequenceNumber": "128",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "J.T. Miller faceoff won against Leo Carlsson",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "0:48"
+   },
+   "wallclock": "2026-10-20T00:05:19Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000004540",
+   "sequenceNumber": "129",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Pavel Dorofeyev Backhand saved by Ville Husso",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "1:18"
+   },
+   "wallclock": "2026-10-20T00:05:49Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000340",
+   "sequenceNumber": "130",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Goalie Stopped",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "1:20"
+   },
+   "wallclock": "2026-10-20T00:05:51Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000004550",
+   "sequenceNumber": "131",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Noah Laba faceoff won against Roger McQueen",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "1:20"
+   },
+   "wallclock": "2026-10-20T00:06:26Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000004600",
+   "sequenceNumber": "132",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Eeli Tolvanen",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "1:33"
+   },
+   "wallclock": "2026-10-20T00:06:39Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000002550",
+   "sequenceNumber": "133",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Anthony-John (AJ) Greer Snap Shot saved by Dylan Garand",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "1:35"
+   },
+   "wallclock": "2026-10-20T00:06:41Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000004610",
+   "sequenceNumber": "134",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Will Cuylle Snap Shot saved by Ville Husso",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "2:04"
+   },
+   "wallclock": "2026-10-20T00:07:10Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000004650",
+   "sequenceNumber": "135",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Braden Schneider shot blocked by Roger McQueen",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "2:14"
+   },
+   "wallclock": "2026-10-20T00:07:20Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000004670",
+   "sequenceNumber": "136",
+   "type": {
+    "id": "507",
+    "text": "Missed",
+    "abbreviation": "shot-missed"
+   },
+   "text": "Marcus Pettersson Slap Shot Wide Right",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "2:17"
+   },
+   "wallclock": "2026-10-20T00:07:23Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000004730",
+   "sequenceNumber": "137",
+   "type": {
+    "id": "507",
+    "text": "Missed",
+    "abbreviation": "shot-missed"
+   },
+   "text": "Braden Schneider Snap Shot Wide Right",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "2:34"
+   },
+   "wallclock": "2026-10-20T00:07:40Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000004770",
+   "sequenceNumber": "138",
+   "type": {
+    "id": "507",
+    "text": "Missed",
+    "abbreviation": "shot-missed"
+   },
+   "text": "Noah Warren Slap Shot Wide Left",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "3:04"
+   },
+   "wallclock": "2026-10-20T00:08:10Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000350",
+   "sequenceNumber": "139",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Icing",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "3:24"
+   },
+   "wallclock": "2026-10-20T00:08:30Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000004820",
+   "sequenceNumber": "140",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Leo Carlsson faceoff won against Mika Zibanejad",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "3:24"
+   },
+   "wallclock": "2026-10-20T00:09:00Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000004920",
+   "sequenceNumber": "141",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Alex Killorn hit Adam Fox",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "3:35"
+   },
+   "wallclock": "2026-10-20T00:09:11Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000004880",
+   "sequenceNumber": "142",
+   "type": {
+    "id": "55",
+    "text": "Tripping",
+    "abbreviation": "Tripping",
+    "penaltyMinutes": "2",
+    "penaltyType": "Minor"
+   },
+   "text": "Nikita Klepov Tripping against Gabe Perreault",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "3:52"
+   },
+   "wallclock": "2026-10-20T00:09:27Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000004850",
+   "sequenceNumber": "143",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "J.T. Miller faceoff won against Tim Washe",
+   "awayScore": 0,
+   "homeScore": 1,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "3:52"
+   },
+   "wallclock": "2026-10-20T00:10:19Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000004930",
+   "sequenceNumber": "144",
+   "type": {
+    "id": "505",
+    "text": "Goal",
+    "abbreviation": "goal"
+   },
+   "text": "J.T. Miller Goal (2) Tip-In, assists: Adam Fox (10), Alexis Lafrenière (5)",
+   "awayScore": 0,
+   "homeScore": 2,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "4:38"
+   },
+   "wallclock": "2026-10-20T00:11:06Z",
+   "scoringPlay": true,
+   "scoreValue": 1,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000004940",
+   "sequenceNumber": "145",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Mikael Granlund faceoff won against Noah Laba",
+   "awayScore": 0,
+   "homeScore": 2,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "4:38"
+   },
+   "wallclock": "2026-10-20T00:11:56Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000005660",
+   "sequenceNumber": "146",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Noah Laba hit Mikael Granlund",
+   "awayScore": 0,
+   "homeScore": 2,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "5:13"
+   },
+   "wallclock": "2026-10-20T00:12:31Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000005680",
+   "sequenceNumber": "147",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Tyson Hinds hit Pavel Dorofeyev",
+   "awayScore": 0,
+   "homeScore": 2,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "5:29"
+   },
+   "wallclock": "2026-10-20T00:12:47Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000005530",
+   "sequenceNumber": "148",
+   "type": {
+    "id": "507",
+    "text": "Missed",
+    "abbreviation": "shot-missed"
+   },
+   "text": "Tye Kartye Wrist Shot Wide Right",
+   "awayScore": 0,
+   "homeScore": 2,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "5:32"
+   },
+   "wallclock": "2026-10-20T00:12:50Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000360",
+   "sequenceNumber": "149",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Off-side",
+   "awayScore": 0,
+   "homeScore": 2,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "5:51"
+   },
+   "wallclock": "2026-10-20T00:13:09Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000005600",
+   "sequenceNumber": "150",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "J.T. Miller faceoff won against Roger McQueen",
+   "awayScore": 0,
+   "homeScore": 2,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "5:51"
+   },
+   "wallclock": "2026-10-20T00:13:39Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000005620",
+   "sequenceNumber": "151",
+   "type": {
+    "id": "507",
+    "text": "Missed",
+    "abbreviation": "shot-missed"
+   },
+   "text": "Alberts Smits Snap Shot Wide Right",
+   "awayScore": 0,
+   "homeScore": 2,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "6:08"
+   },
+   "wallclock": "2026-10-20T00:13:56Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000005630",
+   "sequenceNumber": "152",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Pavel Dorofeyev Snap Shot saved by Ville Husso",
+   "awayScore": 0,
+   "homeScore": 2,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "6:23"
+   },
+   "wallclock": "2026-10-20T00:14:11Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000370",
+   "sequenceNumber": "153",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Goalie Stopped",
+   "awayScore": 0,
+   "homeScore": 2,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "6:26"
+   },
+   "wallclock": "2026-10-20T00:14:14Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000005640",
+   "sequenceNumber": "154",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Mikael Granlund faceoff won against Mika Zibanejad",
+   "awayScore": 0,
+   "homeScore": 2,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "6:26"
+   },
+   "wallclock": "2026-10-20T00:16:44Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000005760",
+   "sequenceNumber": "155",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Noah Warren",
+   "awayScore": 0,
+   "homeScore": 2,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "6:29"
+   },
+   "wallclock": "2026-10-20T00:16:47Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000005700",
+   "sequenceNumber": "156",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Alexis Lafrenière Tip-In saved by Ville Husso",
+   "awayScore": 0,
+   "homeScore": 2,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "6:30"
+   },
+   "wallclock": "2026-10-20T00:16:48Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000005710",
+   "sequenceNumber": "157",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Beckett Sennecke Backhand saved by Dylan Garand",
+   "awayScore": 0,
+   "homeScore": 2,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "6:35"
+   },
+   "wallclock": "2026-10-20T00:16:53Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000380",
+   "sequenceNumber": "158",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Off-side",
+   "awayScore": 0,
+   "homeScore": 2,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "6:47"
+   },
+   "wallclock": "2026-10-20T00:17:05Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000005720",
+   "sequenceNumber": "159",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Noah Laba faceoff won against Leo Carlsson",
+   "awayScore": 0,
+   "homeScore": 2,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "6:47"
+   },
+   "wallclock": "2026-10-20T00:17:33Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000005890",
+   "sequenceNumber": "160",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Alex Killorn hit Eeli Tolvanen",
+   "awayScore": 0,
+   "homeScore": 2,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "7:10"
+   },
+   "wallclock": "2026-10-20T00:17:56Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000005770",
+   "sequenceNumber": "161",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Will Cuylle shot blocked by Tristan Luneau",
+   "awayScore": 0,
+   "homeScore": 2,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "7:13"
+   },
+   "wallclock": "2026-10-20T00:17:59Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000005860",
+   "sequenceNumber": "162",
+   "type": {
+    "id": "507",
+    "text": "Missed",
+    "abbreviation": "shot-missed"
+   },
+   "text": "Nick Jensen Snap Shot Wide Left",
+   "awayScore": 0,
+   "homeScore": 2,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "8:00"
+   },
+   "wallclock": "2026-10-20T00:18:46Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000005950",
+   "sequenceNumber": "163",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Judd Caulfield hit Justin Dowling",
+   "awayScore": 0,
+   "homeScore": 2,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "8:12"
+   },
+   "wallclock": "2026-10-20T00:18:58Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000005970",
+   "sequenceNumber": "164",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Jeff Malott hit Alberts Smits",
+   "awayScore": 0,
+   "homeScore": 2,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "8:14"
+   },
+   "wallclock": "2026-10-20T00:19:00Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000005870",
+   "sequenceNumber": "165",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Nick Jensen shot blocked by Justin Dowling",
+   "awayScore": 0,
+   "homeScore": 2,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "8:26"
+   },
+   "wallclock": "2026-10-20T00:19:12Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000390",
+   "sequenceNumber": "166",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Puck in Benches",
+   "awayScore": 0,
+   "homeScore": 2,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "8:35"
+   },
+   "wallclock": "2026-10-20T00:19:20Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000005880",
+   "sequenceNumber": "167",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Tye Kartye faceoff won against Roger McQueen",
+   "awayScore": 0,
+   "homeScore": 2,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "8:35"
+   },
+   "wallclock": "2026-10-20T00:20:17Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000006610",
+   "sequenceNumber": "168",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Roger McQueen hit Adam Fox",
+   "awayScore": 0,
+   "homeScore": 2,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "8:51"
+   },
+   "wallclock": "2026-10-20T00:20:33Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000005940",
+   "sequenceNumber": "169",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Tye Kartye Tip-In saved by Ville Husso",
+   "awayScore": 0,
+   "homeScore": 2,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "9:22"
+   },
+   "wallclock": "2026-10-20T00:21:04Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000005960",
+   "sequenceNumber": "170",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Tye Kartye shot blocked by Noah Warren",
+   "awayScore": 0,
+   "homeScore": 2,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "9:25"
+   },
+   "wallclock": "2026-10-20T00:21:07Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000006560",
+   "sequenceNumber": "171",
+   "type": {
+    "id": "505",
+    "text": "Goal",
+    "abbreviation": "goal"
+   },
+   "text": "Gabe Perreault Goal (4) Snap Shot, assists: Mika Zibanejad (7), Alexis Lafrenière (6)",
+   "awayScore": 0,
+   "homeScore": 3,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "10:17"
+   },
+   "wallclock": "2026-10-20T00:21:59Z",
+   "scoringPlay": true,
+   "scoreValue": 1,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000006570",
+   "sequenceNumber": "172",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Noah Laba faceoff won against Leo Carlsson",
+   "awayScore": 0,
+   "homeScore": 3,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "10:17"
+   },
+   "wallclock": "2026-10-20T00:22:42Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000400",
+   "sequenceNumber": "173",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Off-side",
+   "awayScore": 0,
+   "homeScore": 3,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "10:50"
+   },
+   "wallclock": "2026-10-20T00:23:15Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000006620",
+   "sequenceNumber": "174",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Mika Zibanejad faceoff won against Tim Washe",
+   "awayScore": 0,
+   "homeScore": 3,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "10:50"
+   },
+   "wallclock": "2026-10-20T00:25:52Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000006660",
+   "sequenceNumber": "175",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Alexis Lafrenière shot blocked by Pavel Mintyukov",
+   "awayScore": 0,
+   "homeScore": 3,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "11:13"
+   },
+   "wallclock": "2026-10-20T00:26:15Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000006680",
+   "sequenceNumber": "176",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Frank Vatrano Wrist Shot saved by Dylan Garand",
+   "awayScore": 0,
+   "homeScore": 3,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "11:26"
+   },
+   "wallclock": "2026-10-20T00:26:29Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000006740",
+   "sequenceNumber": "177",
+   "type": {
+    "id": "507",
+    "text": "Missed",
+    "abbreviation": "shot-missed"
+   },
+   "text": "Jeff Malott Tip-In Wide Right",
+   "awayScore": 0,
+   "homeScore": 3,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "11:49"
+   },
+   "wallclock": "2026-10-20T00:26:51Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000410",
+   "sequenceNumber": "178",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Puck Frozen - Skater",
+   "awayScore": 0,
+   "homeScore": 3,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "11:57"
+   },
+   "wallclock": "2026-10-20T00:27:00Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000006760",
+   "sequenceNumber": "179",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Leo Carlsson faceoff won against J.T. Miller",
+   "awayScore": 0,
+   "homeScore": 3,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "11:57"
+   },
+   "wallclock": "2026-10-20T00:30:35Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000006800",
+   "sequenceNumber": "180",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Jeff Malott shot blocked by Vladislav Gavrikov",
+   "awayScore": 0,
+   "homeScore": 3,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "12:07"
+   },
+   "wallclock": "2026-10-20T00:30:45Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000006940",
+   "sequenceNumber": "181",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Noah Warren hit Taylor Raddysh",
+   "awayScore": 0,
+   "homeScore": 3,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "13:07"
+   },
+   "wallclock": "2026-10-20T00:31:45Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000006920",
+   "sequenceNumber": "182",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Taylor Raddysh",
+   "awayScore": 0,
+   "homeScore": 3,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "13:08"
+   },
+   "wallclock": "2026-10-20T00:31:46Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000006930",
+   "sequenceNumber": "183",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Beckett Sennecke",
+   "awayScore": 0,
+   "homeScore": 3,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "13:11"
+   },
+   "wallclock": "2026-10-20T00:31:49Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000006880",
+   "sequenceNumber": "184",
+   "type": {
+    "id": "505",
+    "text": "Goal",
+    "abbreviation": "goal"
+   },
+   "text": "Oliver Bjorkstrand Goal (3) Snap Shot, assists: none",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "13:14"
+   },
+   "wallclock": "2026-10-20T00:31:51Z",
+   "scoringPlay": true,
+   "scoreValue": 1,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000006890",
+   "sequenceNumber": "185",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Noah Laba faceoff won against Roger McQueen",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "13:14"
+   },
+   "wallclock": "2026-10-20T00:32:37Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000007060",
+   "sequenceNumber": "186",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Alberts Smits",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "13:18"
+   },
+   "wallclock": "2026-10-20T00:32:41Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000007090",
+   "sequenceNumber": "187",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Alberts Smits hit Anthony-John (AJ) Greer",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "13:23"
+   },
+   "wallclock": "2026-10-20T00:32:46Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000006960",
+   "sequenceNumber": "188",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Noah Laba Snap Shot saved by Ville Husso",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "13:47"
+   },
+   "wallclock": "2026-10-20T00:33:10Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000420",
+   "sequenceNumber": "189",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Icing",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "14:13"
+   },
+   "wallclock": "2026-10-20T00:33:36Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000007030",
+   "sequenceNumber": "190",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Roger McQueen faceoff won against Mika Zibanejad",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "14:13"
+   },
+   "wallclock": "2026-10-20T00:34:11Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000007200",
+   "sequenceNumber": "191",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Adam Fox",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "14:36"
+   },
+   "wallclock": "2026-10-20T00:34:34Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000007100",
+   "sequenceNumber": "192",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Noah Warren shot blocked by Adam Fox",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "14:42"
+   },
+   "wallclock": "2026-10-20T00:34:40Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000007260",
+   "sequenceNumber": "193",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Mika Zibanejad",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "15:09"
+   },
+   "wallclock": "2026-10-20T00:35:07Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000007350",
+   "sequenceNumber": "194",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Tye Kartye",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "15:23"
+   },
+   "wallclock": "2026-10-20T00:35:21Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000002580",
+   "sequenceNumber": "195",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Jackson LaCombe shot blocked by Adam Fox",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "15:23"
+   },
+   "wallclock": "2026-10-20T00:35:21Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000007430",
+   "sequenceNumber": "196",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Frank Vatrano hit Marcus Pettersson",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "15:46"
+   },
+   "wallclock": "2026-10-20T00:35:44Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000007270",
+   "sequenceNumber": "197",
+   "type": {
+    "id": "507",
+    "text": "Missed",
+    "abbreviation": "shot-missed"
+   },
+   "text": "Pavel Dorofeyev Backhand Wide Right",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "15:56"
+   },
+   "wallclock": "2026-10-20T00:35:54Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000007410",
+   "sequenceNumber": "198",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Pavel Mintyukov",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "16:16"
+   },
+   "wallclock": "2026-10-20T00:36:14Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000007360",
+   "sequenceNumber": "199",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Tim Washe Tip-In saved by Dylan Garand",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "16:27"
+   },
+   "wallclock": "2026-10-20T00:36:25Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000002560",
+   "sequenceNumber": "200",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Tim Washe Backhand saved by Dylan Garand",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "16:31"
+   },
+   "wallclock": "2026-10-20T00:36:29Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000002570",
+   "sequenceNumber": "201",
+   "type": {
+    "id": "507",
+    "text": "Missed",
+    "abbreviation": "shot-missed"
+   },
+   "text": "Tim Washe Snap Shot Wide Right",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "16:32"
+   },
+   "wallclock": "2026-10-20T00:36:30Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000007380",
+   "sequenceNumber": "202",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Anthony-John (AJ) Greer Snap Shot saved by Dylan Garand",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "16:48"
+   },
+   "wallclock": "2026-10-20T00:36:46Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000430",
+   "sequenceNumber": "203",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Goalie Stopped",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "16:50"
+   },
+   "wallclock": "2026-10-20T00:36:47Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000007390",
+   "sequenceNumber": "204",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Tim Washe faceoff won against Noah Laba",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "16:50"
+   },
+   "wallclock": "2026-10-20T00:39:32Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000007870",
+   "sequenceNumber": "205",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Anthony-John (AJ) Greer hit Alberts Smits",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "16:55"
+   },
+   "wallclock": "2026-10-20T00:39:37Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000007480",
+   "sequenceNumber": "206",
+   "type": {
+    "id": "31",
+    "text": "Holding",
+    "abbreviation": "Holding",
+    "penaltyMinutes": "2",
+    "penaltyType": "Minor"
+   },
+   "text": "Nikita Klepov Holding against Eeli Tolvanen",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "17:03"
+   },
+   "wallclock": "2026-10-20T00:39:45Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000007440",
+   "sequenceNumber": "207",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "J.T. Miller faceoff won against Tim Washe",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "17:03"
+   },
+   "wallclock": "2026-10-20T00:40:39Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000007520",
+   "sequenceNumber": "208",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Pavel Dorofeyev Slap Shot saved by Ville Husso",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "17:21"
+   },
+   "wallclock": "2026-10-20T00:40:57Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000007660",
+   "sequenceNumber": "209",
+   "type": {
+    "id": "37",
+    "text": "Interference",
+    "abbreviation": "Interference",
+    "penaltyMinutes": "2",
+    "penaltyType": "Minor"
+   },
+   "text": "Eeli Tolvanen Interference against Nick Jensen",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "18:30"
+   },
+   "wallclock": "2026-10-20T00:42:06Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000007620",
+   "sequenceNumber": "210",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Mika Zibanejad faceoff won against Tim Washe",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "18:30"
+   },
+   "wallclock": "2026-10-20T00:43:04Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000007730",
+   "sequenceNumber": "211",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Tim Washe hit Sean Durzi",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "18:37"
+   },
+   "wallclock": "2026-10-20T00:43:11Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000007740",
+   "sequenceNumber": "212",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Mika Zibanejad",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "18:39"
+   },
+   "wallclock": "2026-10-20T00:43:13Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000007700",
+   "sequenceNumber": "213",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Tyson Hinds shot blocked by Sean Durzi",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "18:42"
+   },
+   "wallclock": "2026-10-20T00:43:16Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000002590",
+   "sequenceNumber": "214",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Tim Washe Snap Shot saved by Dylan Garand",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "18:45"
+   },
+   "wallclock": "2026-10-20T00:43:19Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000000460",
+   "sequenceNumber": "215",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Goalie Stopped",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "18:47"
+   },
+   "wallclock": "2026-10-20T00:43:21Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000007710",
+   "sequenceNumber": "216",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Noah Laba faceoff won against Roger McQueen",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "18:47"
+   },
+   "wallclock": "2026-10-20T00:44:11Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000007830",
+   "sequenceNumber": "217",
+   "type": {
+    "id": "507",
+    "text": "Missed",
+    "abbreviation": "shot-missed"
+   },
+   "text": "Beckett Sennecke Slap Shot Wide Right",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "19:24"
+   },
+   "wallclock": "2026-10-20T00:44:48Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000000470",
+   "sequenceNumber": "218",
+   "type": {
+    "id": "519",
+    "text": "Period End",
+    "abbreviation": "period-end"
+   },
+   "text": "End of 2nd Period",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "displayValue": "20:00"
+   },
+   "wallclock": "2026-10-20T00:45:25Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000007910",
+   "sequenceNumber": "221",
+   "type": {
+    "id": "518",
+    "text": "Period Start",
+    "abbreviation": "period-start"
+   },
+   "text": "Start of 3rd Period",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "0:00"
+   },
+   "wallclock": "2026-10-20T01:04:13Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000007900",
+   "sequenceNumber": "222",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Noah Laba faceoff won against Mikael Granlund",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "0:00"
+   },
+   "wallclock": "2026-10-20T01:04:13Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "703",
+    "text": "Shorthanded",
+    "abbreviation": "short-handed"
+   }
+  },
+  {
+   "id": "401892535000008170",
+   "sequenceNumber": "223",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Mika Zibanejad",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "1:43"
+   },
+   "wallclock": "2026-10-20T01:05:56Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000008280",
+   "sequenceNumber": "224",
+   "type": {
+    "id": "1401",
+    "text": "Takeaway",
+    "abbreviation": "takeaway"
+   },
+   "text": "Takeaway by Jackson LaCombe",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "2:28"
+   },
+   "wallclock": "2026-10-20T01:06:41Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000008350",
+   "sequenceNumber": "225",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Noah Laba hit Nick Jensen",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "2:34"
+   },
+   "wallclock": "2026-10-20T01:06:47Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000008200",
+   "sequenceNumber": "226",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Noah Warren shot blocked by Eeli Tolvanen",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "2:46"
+   },
+   "wallclock": "2026-10-20T01:06:59Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000008340",
+   "sequenceNumber": "227",
+   "type": {
+    "id": "1401",
+    "text": "Takeaway",
+    "abbreviation": "takeaway"
+   },
+   "text": "Takeaway by Beckett Sennecke",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "2:58"
+   },
+   "wallclock": "2026-10-20T01:07:11Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000008450",
+   "sequenceNumber": "228",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Cutter Gauthier hit Braden Schneider",
+   "awayScore": 0,
+   "homeScore": 4,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "3:22"
+   },
+   "wallclock": "2026-10-20T01:07:35Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000008310",
+   "sequenceNumber": "229",
+   "type": {
+    "id": "505",
+    "text": "Goal",
+    "abbreviation": "goal"
+   },
+   "text": "Oliver Bjorkstrand Goal (4) Snap Shot, assists: Taylor Raddysh (1), Braden Schneider (2)",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "3:26"
+   },
+   "wallclock": "2026-10-20T01:07:39Z",
+   "scoringPlay": true,
+   "scoreValue": 1,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000008320",
+   "sequenceNumber": "230",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Tim Washe faceoff won against Justin Dowling",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "3:26"
+   },
+   "wallclock": "2026-10-20T01:08:17Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000008580",
+   "sequenceNumber": "231",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Anthony-John (AJ) Greer hit Justin Dowling",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "3:33"
+   },
+   "wallclock": "2026-10-20T01:08:24Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000008620",
+   "sequenceNumber": "232",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Braden Schneider hit Anthony-John (AJ) Greer",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "3:50"
+   },
+   "wallclock": "2026-10-20T01:08:41Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000008600",
+   "sequenceNumber": "233",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Pavel Dorofeyev",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "4:19"
+   },
+   "wallclock": "2026-10-20T01:09:10Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000008610",
+   "sequenceNumber": "234",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Nick Jensen",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "4:20"
+   },
+   "wallclock": "2026-10-20T01:09:11Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000008430",
+   "sequenceNumber": "235",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Sean Durzi shot blocked by Frank Vatrano",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "4:29"
+   },
+   "wallclock": "2026-10-20T01:09:20Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000008630",
+   "sequenceNumber": "236",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Pavel Mintyukov",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "4:32"
+   },
+   "wallclock": "2026-10-20T01:09:23Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000008700",
+   "sequenceNumber": "237",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Frank Vatrano hit Pavel Dorofeyev",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "4:52"
+   },
+   "wallclock": "2026-10-20T01:09:43Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000004020",
+   "sequenceNumber": "238",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Off-side",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "5:33"
+   },
+   "wallclock": "2026-10-20T01:10:24Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000008560",
+   "sequenceNumber": "239",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Noah Laba faceoff won against Alex Killorn",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "5:33"
+   },
+   "wallclock": "2026-10-20T01:10:58Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000008640",
+   "sequenceNumber": "240",
+   "type": {
+    "id": "507",
+    "text": "Missed",
+    "abbreviation": "shot-missed"
+   },
+   "text": "Mikael Granlund Snap Shot Wide Left",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "5:51"
+   },
+   "wallclock": "2026-10-20T01:11:16Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000008860",
+   "sequenceNumber": "241",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Alex Killorn hit Eeli Tolvanen",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "6:02"
+   },
+   "wallclock": "2026-10-20T01:11:27Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000004030",
+   "sequenceNumber": "242",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Puck in Netting",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "6:07"
+   },
+   "wallclock": "2026-10-20T01:11:32Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000008660",
+   "sequenceNumber": "243",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Justin Dowling faceoff won against Roger McQueen",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "6:07"
+   },
+   "wallclock": "2026-10-20T01:13:47Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000008770",
+   "sequenceNumber": "244",
+   "type": {
+    "id": "1401",
+    "text": "Takeaway",
+    "abbreviation": "takeaway"
+   },
+   "text": "Takeaway by Sean Durzi",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "6:11"
+   },
+   "wallclock": "2026-10-20T01:13:51Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000008990",
+   "sequenceNumber": "245",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Roger McQueen hit Sean Durzi",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "6:17"
+   },
+   "wallclock": "2026-10-20T01:13:57Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000008720",
+   "sequenceNumber": "246",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Oliver Bjorkstrand Wrist Shot saved by Ville Husso",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "6:38"
+   },
+   "wallclock": "2026-10-20T01:14:18Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000009140",
+   "sequenceNumber": "247",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Nick Jensen hit Taylor Raddysh",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "6:41"
+   },
+   "wallclock": "2026-10-20T01:14:21Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000005040",
+   "sequenceNumber": "248",
+   "type": {
+    "id": "507",
+    "text": "Missed",
+    "abbreviation": "shot-missed"
+   },
+   "text": "Oliver Bjorkstrand Snap Shot Short",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "6:44"
+   },
+   "wallclock": "2026-10-20T01:14:24Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000008740",
+   "sequenceNumber": "249",
+   "type": {
+    "id": "507",
+    "text": "Missed",
+    "abbreviation": "shot-missed"
+   },
+   "text": "J.T. Miller Tip-In Wide Left",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "6:53"
+   },
+   "wallclock": "2026-10-20T01:14:33Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000008750",
+   "sequenceNumber": "250",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "J.T. Miller shot blocked by Nick Jensen",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "7:03"
+   },
+   "wallclock": "2026-10-20T01:14:43Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000008840",
+   "sequenceNumber": "251",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Tristan Luneau shot blocked by Tim Washe",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "7:25"
+   },
+   "wallclock": "2026-10-20T01:15:05Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000008850",
+   "sequenceNumber": "252",
+   "type": {
+    "id": "507",
+    "text": "Missed",
+    "abbreviation": "shot-missed"
+   },
+   "text": "Tristan Luneau Wrist Shot Wide Left",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "7:28"
+   },
+   "wallclock": "2026-10-20T01:15:08Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000008960",
+   "sequenceNumber": "253",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Pavel Mintyukov",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "7:34"
+   },
+   "wallclock": "2026-10-20T01:15:14Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000009010",
+   "sequenceNumber": "254",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Tim Washe",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "7:49"
+   },
+   "wallclock": "2026-10-20T01:15:29Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000008950",
+   "sequenceNumber": "255",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Judd Caulfield Wrist Shot saved by Dylan Garand",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "8:05"
+   },
+   "wallclock": "2026-10-20T01:15:45Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000009100",
+   "sequenceNumber": "256",
+   "type": {
+    "id": "507",
+    "text": "Missed",
+    "abbreviation": "shot-missed"
+   },
+   "text": "Mikael Granlund Wrist Shot Wide Left",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "9:08"
+   },
+   "wallclock": "2026-10-20T01:16:48Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000009150",
+   "sequenceNumber": "257",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Tristan Luneau shot blocked by Sean Durzi",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "9:32"
+   },
+   "wallclock": "2026-10-20T01:17:12Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000009200",
+   "sequenceNumber": "258",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Cutter Gauthier shot blocked by Vladislav Gavrikov",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "9:55"
+   },
+   "wallclock": "2026-10-20T01:17:35Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000009390",
+   "sequenceNumber": "259",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Jeff Malott hit Marcus Pettersson",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "10:12"
+   },
+   "wallclock": "2026-10-20T01:17:52Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000009320",
+   "sequenceNumber": "260",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Oliver Bjorkstrand",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "10:24"
+   },
+   "wallclock": "2026-10-20T01:18:04Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000002600",
+   "sequenceNumber": "261",
+   "type": {
+    "id": "507",
+    "text": "Missed",
+    "abbreviation": "shot-missed"
+   },
+   "text": "Anthony-John (AJ) Greer Backhand Wide Right",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "10:51"
+   },
+   "wallclock": "2026-10-20T01:18:31Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000009340",
+   "sequenceNumber": "262",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Pavel Mintyukov",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "11:09"
+   },
+   "wallclock": "2026-10-20T01:18:49Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000005050",
+   "sequenceNumber": "263",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "J.T. Miller Backhand saved by Ville Husso",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "11:11"
+   },
+   "wallclock": "2026-10-20T01:18:51Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000004050",
+   "sequenceNumber": "264",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Goalie Stopped",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "11:13"
+   },
+   "wallclock": "2026-10-20T01:18:53Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000009310",
+   "sequenceNumber": "265",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Leo Carlsson faceoff won against Mika Zibanejad",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "11:13"
+   },
+   "wallclock": "2026-10-20T01:21:06Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000004060",
+   "sequenceNumber": "266",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Icing",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "11:19"
+   },
+   "wallclock": "2026-10-20T01:21:12Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000009370",
+   "sequenceNumber": "267",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Leo Carlsson faceoff won against Mika Zibanejad",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "11:19"
+   },
+   "wallclock": "2026-10-20T01:21:32Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000004070",
+   "sequenceNumber": "268",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Icing",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "11:32"
+   },
+   "wallclock": "2026-10-20T01:21:45Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000009400",
+   "sequenceNumber": "269",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Leo Carlsson faceoff won against Mika Zibanejad",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "11:32"
+   },
+   "wallclock": "2026-10-20T01:22:38Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000009420",
+   "sequenceNumber": "270",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Nick Jensen shot blocked by Vladislav Gavrikov",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "11:36"
+   },
+   "wallclock": "2026-10-20T01:22:42Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000009610",
+   "sequenceNumber": "271",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Judd Caulfield hit Adam Fox",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "11:40"
+   },
+   "wallclock": "2026-10-20T01:22:46Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000009450",
+   "sequenceNumber": "272",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Adam Fox shot blocked by Nick Jensen",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "12:27"
+   },
+   "wallclock": "2026-10-20T01:23:33Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000009560",
+   "sequenceNumber": "273",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Beckett Sennecke Wrist Shot saved by Dylan Garand",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "12:58"
+   },
+   "wallclock": "2026-10-20T01:24:04Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000009690",
+   "sequenceNumber": "274",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Will Cuylle hit Beckett Sennecke",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "12:58"
+   },
+   "wallclock": "2026-10-20T01:24:04Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000009570",
+   "sequenceNumber": "275",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Alex Killorn shot blocked by Braden Schneider",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "13:00"
+   },
+   "wallclock": "2026-10-20T01:24:06Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000009580",
+   "sequenceNumber": "276",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Tyson Hinds Slap Shot saved by Dylan Garand",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "13:02"
+   },
+   "wallclock": "2026-10-20T01:24:08Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000004080",
+   "sequenceNumber": "277",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Puck in Netting",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "13:05"
+   },
+   "wallclock": "2026-10-20T01:24:10Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000009590",
+   "sequenceNumber": "278",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Noah Laba faceoff won against Mikael Granlund",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "13:05"
+   },
+   "wallclock": "2026-10-20T01:24:50Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000004090",
+   "sequenceNumber": "279",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Off-side",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "13:13"
+   },
+   "wallclock": "2026-10-20T01:24:58Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000009630",
+   "sequenceNumber": "280",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Roger McQueen faceoff won against Justin Dowling",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "13:13"
+   },
+   "wallclock": "2026-10-20T01:25:29Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000009670",
+   "sequenceNumber": "281",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Cutter Gauthier shot blocked by Sean Durzi",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "13:35"
+   },
+   "wallclock": "2026-10-20T01:25:51Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000009680",
+   "sequenceNumber": "282",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Roger McQueen Backhand saved by Dylan Garand",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "13:37"
+   },
+   "wallclock": "2026-10-20T01:25:53Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000004100",
+   "sequenceNumber": "283",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Goalie Stopped",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "13:40"
+   },
+   "wallclock": "2026-10-20T01:25:56Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000009700",
+   "sequenceNumber": "284",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Tim Washe faceoff won against J.T. Miller",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "13:40"
+   },
+   "wallclock": "2026-10-20T01:26:38Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000009780",
+   "sequenceNumber": "285",
+   "type": {
+    "id": "55",
+    "text": "Tripping",
+    "abbreviation": "Tripping",
+    "penaltyMinutes": "2",
+    "penaltyType": "Minor"
+   },
+   "text": "Alberts Smits Tripping against Tim Washe",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "13:58"
+   },
+   "wallclock": "2026-10-20T01:26:56Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000009750",
+   "sequenceNumber": "286",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Noah Laba faceoff won against Mikael Granlund",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "13:58"
+   },
+   "wallclock": "2026-10-20T01:27:54Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "703",
+    "text": "Shorthanded",
+    "abbreviation": "short-handed"
+   }
+  },
+  {
+   "id": "401892535000009820",
+   "sequenceNumber": "287",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Beckett Sennecke Slap Shot saved by Dylan Garand",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "14:24"
+   },
+   "wallclock": "2026-10-20T01:28:20Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000004120",
+   "sequenceNumber": "288",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Off-side",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "14:36"
+   },
+   "wallclock": "2026-10-20T01:28:32Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000009830",
+   "sequenceNumber": "289",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Mikael Granlund faceoff won against Tye Kartye",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "14:36"
+   },
+   "wallclock": "2026-10-20T01:29:00Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000009880",
+   "sequenceNumber": "290",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Cutter Gauthier Wrist Shot saved by Dylan Garand",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "15:12"
+   },
+   "wallclock": "2026-10-20T01:29:36Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000009890",
+   "sequenceNumber": "291",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Cutter Gauthier Wrist Shot saved by Dylan Garand",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "15:20"
+   },
+   "wallclock": "2026-10-20T01:29:44Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000004130",
+   "sequenceNumber": "292",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Net Dislodged Offensive Skater",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "15:22"
+   },
+   "wallclock": "2026-10-20T01:29:46Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000009900",
+   "sequenceNumber": "293",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Roger McQueen faceoff won against Noah Laba",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "15:22"
+   },
+   "wallclock": "2026-10-20T01:31:03Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "702",
+    "text": "Power Play",
+    "abbreviation": "power-play"
+   }
+  },
+  {
+   "id": "401892535000010040",
+   "sequenceNumber": "294",
+   "type": {
+    "id": "1401",
+    "text": "Takeaway",
+    "abbreviation": "takeaway"
+   },
+   "text": "Takeaway by Tristan Luneau",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "16:17"
+   },
+   "wallclock": "2026-10-20T01:31:58Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000004140",
+   "sequenceNumber": "295",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Off-side",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "16:39"
+   },
+   "wallclock": "2026-10-20T01:32:20Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000010010",
+   "sequenceNumber": "296",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Tim Washe faceoff won against Justin Dowling",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "16:39"
+   },
+   "wallclock": "2026-10-20T01:34:34Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000004150",
+   "sequenceNumber": "297",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Off-side",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "17:22"
+   },
+   "wallclock": "2026-10-20T01:35:17Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000010060",
+   "sequenceNumber": "298",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Mika Zibanejad faceoff won against Roger McQueen",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "17:22"
+   },
+   "wallclock": "2026-10-20T01:35:43Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000010250",
+   "sequenceNumber": "299",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Pavel Dorofeyev",
+   "awayScore": 0,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "18:30"
+   },
+   "wallclock": "2026-10-20T01:36:51Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000010190",
+   "sequenceNumber": "300",
+   "type": {
+    "id": "505",
+    "text": "Goal",
+    "abbreviation": "goal"
+   },
+   "text": "Nick Jensen Goal (1) Slap Shot, assists: Alex Killorn (2), Frank Vatrano (1)",
+   "awayScore": 1,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "18:51"
+   },
+   "wallclock": "2026-10-20T01:37:12Z",
+   "scoringPlay": true,
+   "scoreValue": 1,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000010200",
+   "sequenceNumber": "301",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Noah Laba faceoff won against Tim Washe",
+   "awayScore": 1,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "18:51"
+   },
+   "wallclock": "2026-10-20T01:37:49Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000010290",
+   "sequenceNumber": "302",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Will Cuylle hit Nikita Klepov",
+   "awayScore": 1,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "18:55"
+   },
+   "wallclock": "2026-10-20T01:37:53Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000010410",
+   "sequenceNumber": "303",
+   "type": {
+    "id": "503",
+    "text": "Hit",
+    "abbreviation": "hit"
+   },
+   "text": "Tim Washe hit Eeli Tolvanen",
+   "awayScore": 1,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "18:59"
+   },
+   "wallclock": "2026-10-20T01:37:57Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000010240",
+   "sequenceNumber": "304",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Will Cuylle Snap Shot saved by Ville Husso",
+   "awayScore": 1,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "19:01"
+   },
+   "wallclock": "2026-10-20T01:37:59Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000004160",
+   "sequenceNumber": "305",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Goalie Stopped",
+   "awayScore": 1,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "19:02"
+   },
+   "wallclock": "2026-10-20T01:38:01Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000010260",
+   "sequenceNumber": "306",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Noah Laba faceoff won against Tim Washe",
+   "awayScore": 1,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "19:02"
+   },
+   "wallclock": "2026-10-20T01:38:25Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000010280",
+   "sequenceNumber": "307",
+   "type": {
+    "id": "508",
+    "text": "Blocked",
+    "abbreviation": "shot-blocked"
+   },
+   "text": "Alberts Smits shot blocked by Nikita Klepov",
+   "awayScore": 1,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "19:05"
+   },
+   "wallclock": "2026-10-20T01:38:28Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000010350",
+   "sequenceNumber": "308",
+   "type": {
+    "id": "1402",
+    "text": "Giveaway",
+    "abbreviation": "giveaway"
+   },
+   "text": "Giveaway by Braden Schneider",
+   "awayScore": 1,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "19:22"
+   },
+   "wallclock": "2026-10-20T01:38:45Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000010300",
+   "sequenceNumber": "309",
+   "type": {
+    "id": "505",
+    "text": "Goal",
+    "abbreviation": "goal"
+   },
+   "text": "Anthony-John (AJ) Greer Goal (1) Snap Shot, assists: Pavel Mintyukov (2)",
+   "awayScore": 2,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "19:27"
+   },
+   "wallclock": "2026-10-20T01:38:50Z",
+   "scoringPlay": true,
+   "scoreValue": 1,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000010310",
+   "sequenceNumber": "310",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Roger McQueen faceoff won against Justin Dowling",
+   "awayScore": 2,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "19:27"
+   },
+   "wallclock": "2026-10-20T01:39:37Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000004180",
+   "sequenceNumber": "311",
+   "type": {
+    "id": "516",
+    "text": "Stoppage",
+    "abbreviation": "stoppage"
+   },
+   "text": "Hand Pass",
+   "awayScore": 2,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "19:40"
+   },
+   "wallclock": "2026-10-20T01:39:51Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000010360",
+   "sequenceNumber": "312",
+   "type": {
+    "id": "502",
+    "text": "Face Off",
+    "abbreviation": "faceoff"
+   },
+   "text": "Justin Dowling faceoff won against Roger McQueen",
+   "awayScore": 2,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "19:40"
+   },
+   "wallclock": "2026-10-20T01:40:14Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "13"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000010380",
+   "sequenceNumber": "313",
+   "type": {
+    "id": "507",
+    "text": "Missed",
+    "abbreviation": "shot-missed"
+   },
+   "text": "Roger McQueen Snap Shot High and Wide Left",
+   "awayScore": 2,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "19:52"
+   },
+   "wallclock": "2026-10-20T01:40:25Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000010390",
+   "sequenceNumber": "314",
+   "type": {
+    "id": "506",
+    "text": "Shot",
+    "abbreviation": "shot-on-goal"
+   },
+   "text": "Cutter Gauthier Snap Shot saved by Dylan Garand",
+   "awayScore": 2,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "19:58"
+   },
+   "wallclock": "2026-10-20T01:40:31Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "team": {
+    "id": "25"
+   },
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000004190",
+   "sequenceNumber": "315",
+   "type": {
+    "id": "519",
+    "text": "Period End",
+    "abbreviation": "period-end"
+   },
+   "text": "End of 3rd Period",
+   "awayScore": 2,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "20:00"
+   },
+   "wallclock": "2026-10-20T01:40:33Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  },
+  {
+   "id": "401892535000004230",
+   "sequenceNumber": "317",
+   "type": {
+    "id": "522",
+    "text": "End of Game"
+   },
+   "text": "Game End",
+   "awayScore": 2,
+   "homeScore": 5,
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "displayValue": "20:00"
+   },
+   "wallclock": "2026-10-20T01:40:33Z",
+   "scoringPlay": false,
+   "scoreValue": 0,
+   "strength": {
+    "id": "701",
+    "text": "Even Strength",
+    "abbreviation": "even-strength"
+   }
+  }
+ ]
+}
