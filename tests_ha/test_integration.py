@@ -198,6 +198,12 @@ async def test_soccer_replay(hass: HomeAssistant, espn_soccer) -> None:
     assert a["clock"] == "86'"
     assert a["team_timeouts"] is None and a["possession"] is None
     assert hass.states.get(f"sensor.{device}_win_probability").state == "unknown"
+    # Statistics up to 85:00: Udinese had taken most of its 14 shots, Lecce scored twice.
+    assert int(hass.states.get(f"sensor.{device}_team_stats").state) <= 14
+    assert hass.states.get(f"sensor.{device}_opponent_players").state.endswith("1 goal")
+    on_field = hass.states.get(f"sensor.{device}_team_on_field")
+    assert len(on_field.state.split(", ")) == 11
+    assert on_field.attributes["friendly_name"] == "Sports Replay UDI Udinese on the field"
 
 
 async def test_nba_events(hass: HomeAssistant, espn_nba) -> None:
@@ -330,3 +336,21 @@ async def test_basketball_stats_sensors(hass: HomeAssistant, espn_nba) -> None:
     assert hass.states.get(f"sensor.{device}_opponent_on_court") is not None
     # Football-only sensors are not created for basketball.
     assert hass.states.get(f"sensor.{device}_possession") is None
+
+
+async def test_hockey_stats_sensors(hass: HomeAssistant, espn_nhl) -> None:
+    entry = await _setup(hass, "nhl", "13", "NYR")
+    device = "sports_replay_nyr"
+    await hass.services.async_call(
+        "select", "select_option",
+        {"entity_id": f"select.{device}_game_to_replay", "option": "ANA @ NYR · 2026-10-19"},
+        blocking=True,
+    )
+    manager = entry.runtime_data
+    manager.clock.seek_index(len(manager.game.plays) - 1, manager._now())
+    manager._notify()
+    stats = hass.states.get(f"sensor.{device}_team_stats")
+    assert stats.state == "30"  # shots on goal, as in the official box score
+    assert stats.attributes["hits"] == 15 and stats.attributes["power_play_goals"] == 1
+    assert " pts (" in hass.states.get(f"sensor.{device}_team_players").state
+    assert hass.states.get(f"sensor.{device}_team_on_court") is None

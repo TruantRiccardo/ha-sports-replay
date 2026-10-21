@@ -48,6 +48,8 @@ blueprint:
             - own_goal
             - penalty_goal
             - penalty_missed
+            - shot_on_target
+            - woodwork
             - yellow_card
             - red_card
     side:

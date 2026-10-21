@@ -114,6 +114,12 @@
       },
       "opponent_on_court": {
         "name": "Avversario in campo"
+      },
+      "team_on_field": {
+        "name": "{team} in campo"
+      },
+      "opponent_on_field": {
+        "name": "Avversario in campo"
       }
     },
     "select": {

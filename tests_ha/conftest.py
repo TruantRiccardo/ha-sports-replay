@@ -69,3 +69,14 @@ def espn_nba():
     )
     with a, b, c:
         yield
+
+
+@pytest.fixture
+def espn_nhl():
+    a, b, c = _patch(
+        [{"id": "13", "abbreviation": "NYR", "name": "New York Rangers", "short_name": "Rangers"}],
+        [ScheduledGame("401892535", datetime(2026, 10, 19, 23, 0, tzinfo=UTC), "ANA @ NYR", "", True)],
+        "nhl_401892535.json",
+    )
+    with a, b, c:
+        yield

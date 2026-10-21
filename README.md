@@ -11,6 +11,10 @@ winner. Nothing is revealed before the replay reaches it.
 Supported: **NFL, college football, NBA, WNBA, NHL, Serie A, Premier League, LaLiga, Bundesliga,
 Ligue 1, MLS, Champions League, Europa League.**
 
+Soccer replays follow ESPN's match commentary (shots, corners, fouls, offsides, cards,
+substitutions, goals: about 120 events a game), so the dashboard and the automations get more
+than the goals.
+
 > Status: **early (0.1)**. Each sport is tested on a real game (NFL, NBA, NHL, Serie A); college
 > football, WNBA and the other soccer leagues use the same feeds but are untested. Live mode is
 > planned.
@@ -110,30 +114,36 @@ One device per followed team (`Sports Replay SF`):
   - football only: **Down and distance**, **Possession**, **49ers timeouts left**,
     **Opponent timeouts left**.
 
-  - **statistics up to the current play** (football and basketball for now), never ESPN's final
-    box score, which would spoil the result:
-    - **49ers stats** / **Opponent stats**: football: total yards, with net passing and rushing
-      yards, plays, completions and attempts, first downs, third and fourth down efficiency,
-      turnovers, sacks, penalties and time of possession (drives already over) as attributes.
-      Basketball: field goal %, with field goals, three-pointers, free throws, rebounds
-      (offensive, defensive), assists, steals, blocks, turnovers and fouls as attributes;
-    - **49ers players** / **Opponent players**: football: the quarterback's line
-      (`B.Purdy 21/29, 264 yds`), with every passer, rusher and receiver in the attributes.
-      Basketball: the top scorer (`P. George 38 pts, 5 reb, 3 ast`), with every player's line
-      (points, shots, rebounds, assists, steals, blocks, turnovers, fouls) in the attributes.
-      Leaders first;
-    - basketball only, **Pistons on court** / **Opponent on court**: the five on the court
-      (starters, then every substitution).
+  - **statistics up to the current play**, never ESPN's final box score, which would spoil the
+    result:
+    - **49ers stats** / **Opponent stats**, headline value and attributes:
+      - football: total yards; net passing and rushing yards, plays, completions and attempts,
+        first downs, third and fourth down efficiency, turnovers, sacks, penalties, time of
+        possession (drives already over);
+      - basketball: field goal %; field goals, three-pointers, free throws, rebounds (offensive,
+        defensive), assists, steals, blocks, turnovers, fouls;
+      - hockey: shots on goal; goals, hits, blocked shots, faceoffs won and %, takeaways,
+        giveaways, penalties and penalty minutes, power play goals, saves;
+      - soccer: shots; shots on target, corners, fouls, offsides, yellow and red cards, saves;
+    - **49ers players** / **Opponent players**: the leader as the value, every player's line in
+      the attributes, leaders first. Football: the quarterback (`B.Purdy 21/29, 264 yds`), with
+      every passer, rusher and receiver; basketball: the top scorer (`P. George 38 pts, 5 reb,
+      3 ast`); hockey: the top point getter (`A. Fox 2 pts (1 G, 1 A)`); soccer: the top scorer
+      (`K. Gaspar 1 goal`), or the player with most shots;
+    - **who is playing**: basketball **Pistons on court** (the five), soccer **Lecce on the
+      field** (the eleven), each with the opponent's; from the starters and every substitution.
+      ESPN gives no such data for football and hockey.
 
-    Checked against the official box score of a full game. Basketball: every team and player
-    number matches. Football, whose play-by-play has no player list, so the numbers are read
-    from the play text: every number matches, except two incomplete passes wiped out by a
-    penalty that official stats still count as attempts, and one first down by penalty.
-    Football player names are as ESPN writes them in the play text (`B.Purdy`).
+    Checked against the official box score of a full game per sport. Basketball, hockey and
+    soccer: every team and player number matches. Football, whose play-by-play has no player
+    list, so the numbers are read from the play text: every number matches, except two
+    incomplete passes wiped out by a penalty that official stats still count as attempts, and
+    one first down by penalty. Football player names are as ESPN writes them in the play text
+    (`B.Purdy`). Soccer possession cannot be rebuilt: ESPN only gives the final figure.
 
   The team sensors are named after the team you configured, but their entity ids are the same for
   every team: `sensor.sports_replay_<abbreviation>_team_score`,
-  `sensor.sports_replay_<abbreviation>_team_timeouts_left`, `..._team_stats`, `..._team_players`, `..._team_on_court`.
+  `sensor.sports_replay_<abbreviation>_team_timeouts_left`, `..._team_stats`, `..._team_players`, `..._team_on_court`, `..._team_on_field`.
 - `select.*_game_to_replay` (loads the game), `select.*_timing_mode`.
 - Buttons: play, pause, previous/next play, back/forward 10 s, align here, restart, refresh games.
 - Numbers: speed (0.25×–4×) and the timing tunables.
@@ -197,7 +207,7 @@ mode: replay
 | football | `touchdown`, `field_goal`, `field_goal_missed`, `safety`, `turnover`, `interception`, `fumble_lost`, `turnover_on_downs`, `fourth_down_conversion`, `sack`, `big_play` (20+ yd), `red_zone`, `two_minute_warning`, `end_period`, `end_half`, `end_game` |
 | basketball | `three_pointer`, `two_pointer`, `free_throw`, `dunk`, `block`, `steal`, `turnover`, `foul`, `timeout`, `end_period`, `end_game` |
 | hockey | `goal`, `power_play_goal`, `shorthanded_goal`, `empty_net_goal`, `penalty`, `fight`, `period_start`, `end_period`, `end_game` |
-| soccer | `goal`, `own_goal`, `penalty_goal`, `header`, `penalty_missed`, `yellow_card`, `red_card`, `substitution`, `var`, `period_start`, `end_period`, `end_game` |
+| soccer | `goal`, `own_goal`, `penalty_goal`, `header`, `penalty_missed`, `shot_on_target`, `shot_off_target`, `shot_blocked`, `woodwork`, `corner`, `offside`, `foul`, `yellow_card`, `red_card`, `substitution`, `var`, `period_start`, `end_period`, `end_game` |
 
 `team` is the scorer for scores (defensive touchdowns and own goals included), the team that gained
 the ball for turnovers, steals and turnovers on downs, the penalized team for penalties and cards,

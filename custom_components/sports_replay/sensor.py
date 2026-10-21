@@ -99,11 +99,12 @@ def _timer_attributes(m: ReplayManager) -> dict[str, Any]:
 
 
 # Attributes holding lists of players: kept out of the recorder.
-_PLAYER_LISTS = ("passers", "rushers", "receivers", "players", "on_court")
+_PLAYER_LISTS = ("passers", "rushers", "receivers", "players", "on_court", "on_field")
 
 
 def _side_stats(side: str) -> Callable[[ReplayManager, dict[str, Any]], Any]:
-    """Headline statistic: total yards (football), field goal % (basketball)."""
+    """Headline statistic: total yards (football), field goal % (basketball), shots on goal
+    (hockey), shots (soccer)."""
 
     def value(m: ReplayManager, s: dict[str, Any]) -> Any:
         stats = m.stats()
@@ -112,6 +113,8 @@ def _side_stats(side: str) -> Callable[[ReplayManager, dict[str, Any]], Any]:
         team = stats[side]
         if m.sport is Sport.BASKETBALL:
             return round(100 * team["fgm"] / team["fga"]) if team["fga"] else None
+        if m.sport in (Sport.HOCKEY, Sport.SOCCER):
+            return team["shots"]
         return team["total_yards"]
 
     return value
@@ -129,18 +132,32 @@ def _side_stats_attributes(side: str) -> Callable[[ReplayManager], dict[str, Any
 
 def _leader(side: str) -> Callable[[ReplayManager, dict[str, Any]], Any]:
     """Football: the quarterback's line ("B.Purdy 21/29, 264 yds"), else the leading rusher.
-    Basketball: the top scorer ("P. George 38 pts, 5 reb, 3 ast")."""
+    Basketball: the top scorer ("P. George 38 pts, 5 reb, 3 ast").
+    Hockey: the top point getter ("A. Fox 2 pts (1 G, 1 A)").
+    Soccer: the top scorer ("K. Gaspar 1 goal"), else the player with most shots."""
 
     def value(m: ReplayManager, s: dict[str, Any]) -> Any:
         stats = m.stats()
         if not stats:
             return None
         team = stats[side]
+        players = team.get("players") or []
         if m.sport is Sport.BASKETBALL:
-            if players := team["players"]:
+            if players:
                 p = players[0]
                 return f"{p['name']} {p['points']} pts, {p['rebounds']} reb, {p['assists']} ast"
             return None
+        if m.sport is Sport.HOCKEY:
+            if players and players[0]["points"]:
+                p = players[0]
+                return f"{p['name']} {p['points']} pts ({p['goals']} G, {p['assists']} A)"
+            return None
+        if m.sport is Sport.SOCCER:
+            if players and players[0]["goals"]:
+                p = players[0]
+                return f"{p['name']} {p['goals']} goal{'s' if p['goals'] > 1 else ''}"
+            shooters = sorted((p for p in players if p["shots"]), key=lambda p: -p["shots"])
+            return f"{shooters[0]['name']} {shooters[0]['shots']} shots" if shooters else None
         if passers := team["passers"]:
             p = passers[0]
             return f"{p['name']} {p['completions']}/{p['attempts']}, {p['yards']} yds"
@@ -162,10 +179,10 @@ def _players_attributes(side: str) -> Callable[[ReplayManager], dict[str, Any]]:
     return attributes
 
 
-def _on_court(side: str) -> Callable[[ReplayManager, dict[str, Any]], Any]:
+def _line_up(side: str, key: str) -> Callable[[ReplayManager, dict[str, Any]], Any]:
     def value(m: ReplayManager, s: dict[str, Any]) -> Any:
         stats = m.stats()
-        return ", ".join(stats[side]["on_court"])[:MAX_STATE_LENGTH] if stats else None
+        return ", ".join(stats[side][key])[:MAX_STATE_LENGTH] if stats else None
 
     return value
 
@@ -186,8 +203,7 @@ class ReplaySensorDescription(SensorEntityDescription):
 
 
 FOOTBALL = frozenset({Sport.FOOTBALL})
-BASKETBALL = frozenset({Sport.BASKETBALL})
-STATS_SPORTS = FOOTBALL | BASKETBALL
+STATS_SPORTS = frozenset(Sport)
 
 SENSORS = (
     ReplaySensorDescription(
@@ -246,7 +262,9 @@ SENSORS = (
             attributes=_side_stats_attributes(side),
         )
         for side in ("team", "opponent")
-        for sport, unit in ((Sport.FOOTBALL, "yd"), (Sport.BASKETBALL, PERCENTAGE))
+        for sport, unit in (
+            (Sport.FOOTBALL, "yd"), (Sport.BASKETBALL, PERCENTAGE), (Sport.HOCKEY, None), (Sport.SOCCER, None)
+        )
     ),
     *(
         ReplaySensorDescription(
@@ -256,13 +274,18 @@ SENSORS = (
         )
         for side in ("team", "opponent")
     ),
+    # Who is playing: basketball (the five on the court), soccer (the eleven on the field).
     *(
         ReplaySensorDescription(
-            key=f"{side}_on_court", icon="mdi:basketball" if side == "team" else "mdi:basketball-hoop-outline",
-            sports=BASKETBALL, team_object_id="team_on_court" if side == "team" else None,
-            value=_on_court(side),
+            key=f"{side}_{where}", icon=icon,
+            sports=frozenset({sport}), team_object_id=f"team_{where}" if side == "team" else None,
+            value=_line_up(side, where),
         )
         for side in ("team", "opponent")
+        for sport, where, icon in (
+            (Sport.BASKETBALL, "on_court", "mdi:basketball"),
+            (Sport.SOCCER, "on_field", "mdi:soccer-field"),
+        )
     ),
 )
 
