@@ -119,3 +119,34 @@ def test_big_play_only_on_scrimmage(game):
         if "big_play" in e.categories or "red_zone" in e.categories:
             assert p.type_text in ("Rush", "Pass Reception"), p.text
             assert e.team_id == p.offense_team_id
+
+
+def test_timeouts_follow_the_play_text(game):
+    from engine import timeouts_remaining
+
+    by_text = {}
+    for i, p in enumerate(game.plays):
+        if p.type_id == "21":
+            by_text[(p.period, p.clock, p.text.split(" by ")[1].split()[0])] = timeouts_remaining(game, i)
+    # SF is home, Washington is "WAS" in the text but "WSH" as abbreviation.
+    assert by_text[(1, "5:42", "SF")] == (2, 3)
+    assert by_text[(2, "0:49", "WAS")] == (1, 1)
+    assert by_text[(4, "1:46", "WAS")] == (3, 0)  # reset at halftime, then all three used
+    assert by_text[(4, "0:06", "SF")] == (2, 0)
+
+
+def test_fourth_down(game):
+    conv, failed = [], []
+    for i, p in enumerate(game.plays):
+        e = classify(game, i)
+        if "fourth_down_conversion" in e.categories:
+            conv.append(e.team_id == p.offense_team_id)
+        if "turnover_on_downs" in e.categories:
+            failed.append(e.team_id != p.offense_team_id)  # credited to the defense
+    assert len(conv) == 3 and all(conv)
+    assert len(failed) == 2 and all(failed)
+
+
+def test_game_header(game):
+    assert game.name == "WSH @ SF"
+    assert game.date is not None and game.date.year == 2026

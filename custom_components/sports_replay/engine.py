@@ -7,6 +7,7 @@ seconds, and drives a clock over that timeline that reports which plays were cro
 from __future__ import annotations
 
 from bisect import bisect_right
+import re
 from dataclasses import dataclass, field
 from datetime import datetime
 from enum import StrEnum
@@ -60,6 +61,8 @@ class Play:
     away_score: int
     offense_team_id: str | None  # team in possession at the snap
     end_team_id: str | None  # team in possession after the play
+    down_before: int | None
+    down_after: int | None
     down_distance_before: str | None
     down_distance_after: str | None
     yards_to_endzone_before: int | None
@@ -76,7 +79,12 @@ class Game:
     event_id: str
     home: Team
     away: Team
+    date: datetime | None = None
     plays: list[Play] = field(default_factory=list)
+
+    @property
+    def name(self) -> str:
+        return f"{self.away.abbreviation} @ {self.home.abbreviation}"
 
     def team(self, team_id: str | None) -> Team | None:
         if team_id == self.home.id:
@@ -131,7 +139,12 @@ def parse_summary(data: dict[str, Any]) -> Game:
     """Build a Game from an ESPN football ``summary`` payload (NFL, college football)."""
     competition = data["header"]["competitions"][0]
     teams = {c.get("homeAway"): _team_from_competitor(c) for c in competition["competitors"]}
-    game = Game(event_id=str(data["header"].get("id", "")), home=teams["home"], away=teams["away"])
+    game = Game(
+        event_id=str(data["header"].get("id", "")),
+        home=teams["home"],
+        away=teams["away"],
+        date=_parse_time(competition.get("date")),
+    )
 
     win_prob = {
         str(w.get("playId")): w.get("homeWinPercentage")
@@ -164,6 +177,8 @@ def parse_summary(data: dict[str, Any]) -> Game:
                 away_score=_int(p.get("awayScore")),
                 offense_team_id=(start.get("team") or {}).get("id"),
                 end_team_id=(end.get("team") or {}).get("id"),
+                down_before=start.get("down"),
+                down_after=end.get("down"),
                 down_distance_before=start.get("downDistanceText"),
                 down_distance_after=end.get("downDistanceText"),
                 yards_to_endzone_before=start.get("yardsToEndzone"),
@@ -220,6 +235,7 @@ BIG_PLAY_YARDS = 20
 # Non-scoring rushes and receptions: the only plays that count as big plays or red zone entries
 # (kick returns, field goals and penalties would otherwise be credited to the wrong team).
 _SCRIMMAGE_TYPES = {"5", "24"}  # Rush, Pass Reception
+_INCOMPLETE_TYPES = {"3", "7"}  # Pass Incompletion, Sack: can still end a 4th down
 
 
 @dataclass(frozen=True)
@@ -282,6 +298,18 @@ def classify(game: Game, index: int) -> PlayEvent:
     ):
         cats.append("red_zone")
 
+    if play.type_id in _SCRIMMAGE_TYPES | _INCOMPLETE_TYPES and play.down_before == 4 and not play.scoring:
+        if play.end_team_id and play.end_team_id != play.offense_team_id and not play.is_turnover:
+            cats.append("turnover_on_downs")
+            gained = game.opponent_of(play.offense_team_id)
+            team_id = gained.id if gained else team_id
+        elif (
+            play.type_id in _SCRIMMAGE_TYPES
+            and play.end_team_id == play.offense_team_id
+            and play.down_after == 1
+        ):
+            cats.append("fourth_down_conversion")
+
     if play.type_id == "75" or "two-minute warning" in text:
         cats.append("two_minute_warning")
     if play.type_id == "2" or text == "end period":
@@ -293,6 +321,48 @@ def classify(game: Game, index: int) -> PlayEvent:
 
     opponent = game.opponent_of(team_id)
     return PlayEvent(tuple(cats), team_id, opponent.id if opponent else None)
+
+
+# --- timeouts ------------------------------------------------------------------------------
+
+_TIMEOUT_RE = re.compile(r"Timeout #\d+ by (\w+)", re.IGNORECASE)
+
+
+def timeouts_remaining(game: Game, index: int) -> tuple[int, int]:
+    """(home, away) timeouts left after play ``index``: 3 per half, 2 in overtime.
+
+    The caller is read from the play text ("Timeout #1 by WAS").
+    """
+    home = away = 3
+    half = 1
+    for p in game.plays[: index + 1]:
+        p_half = 1 if p.period <= 2 else 2 if p.period <= 4 else 3
+        if p_half != half:
+            half = p_half
+            home = away = 3 if half < 3 else 2
+        if p.type_id != "21" or not (m := _TIMEOUT_RE.search(p.text)):
+            continue
+        caller = _text_team(game, m.group(1))
+        if caller is game.home:
+            home = max(home - 1, 0)
+        elif caller is game.away:
+            away = max(away - 1, 0)
+    return home, away
+
+
+def _text_team(game: Game, abbr: str) -> Team | None:
+    """Team named by an abbreviation in a play description.
+
+    The text can use a different abbreviation than the team's (WAS for WSH): exact match
+    first, then the only team sharing the first two letters, then the first letter.
+    """
+    abbr = abbr.upper()
+    teams = (game.home, game.away)
+    for prefix in (len(abbr), 2, 1):
+        match = [t for t in teams if t.abbreviation.upper()[:prefix] == abbr[:prefix]]
+        if len(match) == 1:
+            return match[0]
+    return None
 
 
 # --- clock ---------------------------------------------------------------------------------
