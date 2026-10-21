@@ -18,11 +18,12 @@ from homeassistant.components.sensor import (
 )
 from homeassistant.const import PERCENTAGE, UnitOfTime
 from homeassistant.core import HomeAssistant
+from homeassistant.helpers import device_registry as dr
 from homeassistant.helpers.entity_platform import AddConfigEntryEntitiesCallback
 from homeassistant.util import dt as dt_util, slugify
 
 from . import SportsReplayConfigEntry
-from .const import CONF_TEAM_ABBR, CONF_TEAM_NAME
+from .const import CONF_TEAM_ABBR, CONF_TEAM_NAME, DOMAIN
 from .entity import SportsReplayEntity
 from .manager import ReplayManager
 from .replay import Sport
@@ -296,9 +297,15 @@ async def async_setup_entry(
     async_add_entities: AddConfigEntryEntitiesCallback,
 ) -> None:
     sport = entry.runtime_data.sport
+    # Entity ids follow the device's current name, renamed by the user or not: the new sensors
+    # of an update get the same prefix as the existing ones.
+    device = dr.async_get(hass).async_get_device(identifiers={(DOMAIN, entry.entry_id)})
+    prefix = slugify(
+        (device.name_by_user or device.name) if device else f"Sports Replay {entry.data[CONF_TEAM_ABBR]}"
+    )
     entities: list[SensorEntity] = [GameSensor(entry, "game"), WinProbabilitySensor(entry, "win_probability")]
     entities += [
-        (PlayersSensor if d.player_lists else ReplaySensor)(entry, d)
+        (PlayersSensor if d.player_lists else ReplaySensor)(entry, d, prefix)
         for d in SENSORS
         if d.sports is None or sport in d.sports
     ]
@@ -339,13 +346,15 @@ class ReplaySensor(SportsReplayEntity, SensorEntity):
 
     entity_description: ReplaySensorDescription
 
-    def __init__(self, entry: SportsReplayConfigEntry, description: ReplaySensorDescription) -> None:
+    def __init__(
+        self, entry: SportsReplayConfigEntry, description: ReplaySensorDescription, prefix: str
+    ) -> None:
         super().__init__(entry, description.key)
         self.entity_description = description
         if description.team_object_id:
             abbr = entry.data[CONF_TEAM_ABBR]
             self._attr_translation_placeholders = {"team": entry.data.get(CONF_TEAM_NAME, abbr)}
-            self.entity_id = f"sensor.{slugify(f'sports_replay_{abbr}')}_{description.team_object_id}"
+            self.entity_id = f"sensor.{prefix}_{description.team_object_id}"
 
     @property
     def native_value(self) -> Any:

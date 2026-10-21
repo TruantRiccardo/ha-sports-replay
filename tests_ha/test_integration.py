@@ -354,3 +354,23 @@ async def test_hockey_stats_sensors(hass: HomeAssistant, espn_nhl) -> None:
     assert stats.attributes["hits"] == 15 and stats.attributes["power_play_goals"] == 1
     assert " pts (" in hass.states.get(f"sensor.{device}_team_players").state
     assert hass.states.get(f"sensor.{device}_team_on_court") is None
+
+
+async def test_new_sensors_follow_a_renamed_device(hass: HomeAssistant, espn) -> None:
+    """A user who renamed the device before updating gets the new sensors with its prefix."""
+    from homeassistant.helpers import device_registry as dr
+
+    entry = MockConfigEntry(
+        domain=DOMAIN, data={"league": "nfl", "team_id": "25", "team_abbr": "SF"}, unique_id="nfl_25"
+    )
+    entry.add_to_hass(hass)
+    registry = dr.async_get(hass)
+    device = registry.async_get_or_create(
+        config_entry_id=entry.entry_id, identifiers={(DOMAIN, entry.entry_id)}, name="Sports Replay SF"
+    )
+    registry.async_update_device(device.id, name_by_user="Sports Replay NFL SF49ers")
+    assert await hass.config_entries.async_setup(entry.entry_id)
+    await hass.async_block_till_done()
+    assert hass.states.get("sensor.sports_replay_nfl_sf49ers_team_score") is not None
+    assert hass.states.get("sensor.sports_replay_nfl_sf49ers_team_stats") is not None
+    assert hass.states.get("sensor.sports_replay_sf_team_score") is None

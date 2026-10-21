@@ -142,7 +142,7 @@ One device per followed team (`Sports Replay SF`):
     (`B.Purdy`). Soccer possession cannot be rebuilt: ESPN only gives the final figure.
 
   The team sensors are named after the team you configured, but their entity ids are the same for
-  every team: `sensor.sports_replay_<abbreviation>_team_score`,
+  every team, after the device's name (renamed or not): `sensor.sports_replay_<abbreviation>_team_score`,
   `sensor.sports_replay_<abbreviation>_team_timeouts_left`, `..._team_stats`, `..._team_players`, `..._team_on_court`, `..._team_on_field`.
 - `select.*_game_to_replay` (loads the game), `select.*_timing_mode`.
 - Buttons: play, pause, previous/next play, back/forward 10 s, align here, restart, refresh games.
