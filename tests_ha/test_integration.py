@@ -276,3 +276,32 @@ async def test_football_only_sensors(hass: HomeAssistant, espn_soccer) -> None:
 async def test_team_name_added_to_old_entries(hass: HomeAssistant, espn) -> None:
     entry = await _setup(hass)  # created like 0.1.0 did: no team_name
     assert entry.data["team_name"] == "49ers"
+
+
+async def test_stats_sensors(hass: HomeAssistant, espn) -> None:
+    await _setup(hass)
+    await hass.services.async_call(
+        "select", "select_option",
+        {"entity_id": f"select.{DEVICE}_game_to_replay", "option": "Week 6 · WSH @ SF · 2026-10-20"},
+        blocking=True,
+    )
+    assert hass.states.get(f"sensor.{DEVICE}_team_stats").state == "0"  # nothing happened yet
+    await hass.services.async_call(DOMAIN, "seek", {"period": 4, "clock": "0:00"}, blocking=True)
+    await hass.services.async_call("button", "press", {"entity_id": f"button.{DEVICE}_next_play"}, blocking=True)
+
+    stats = hass.states.get(f"sensor.{DEVICE}_team_stats")
+    assert stats.state == "375"  # SF total yards, as in the official box score
+    assert stats.attributes["friendly_name"] == "Sports Replay SF 49ers stats"
+    assert stats.attributes["possession_time"] == "29:45"
+    assert "passers" not in stats.attributes
+    assert hass.states.get(f"sensor.{DEVICE}_opponent_stats").state == "314"
+
+    players = hass.states.get(f"sensor.{DEVICE}_team_players")
+    assert players.state == "B.Purdy 21/29, 264 yds"
+    assert players.attributes["rushers"][0]["name"] == "C.McCaffrey"
+    assert hass.states.get(f"sensor.{DEVICE}_opponent_players").state.startswith("J.Daniels 29/")
+
+    # Player lists stay out of the recorder (Home Assistant reads this per class).
+    from custom_components.sports_replay.sensor import PlayersSensor
+
+    assert {"passers", "rushers", "receivers"} <= PlayersSensor._Entity__combined_unrecorded_attributes

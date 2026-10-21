@@ -86,8 +86,9 @@ def _replay_end(m: ReplayManager, s: dict[str, Any]) -> datetime | None:
     return dt_util.parse_datetime(ends) if ends else None
 
 
-def _timer_attributes(s: dict[str, Any]) -> dict[str, Any]:
+def _timer_attributes(m: ReplayManager) -> dict[str, Any]:
     """The replay as a timer, e.g. for timer-bar-card (start_time/end_time attributes)."""
+    s = m.snapshot()
     return {
         "started_at": s.get("replay_started_at"),
         "ends_at": s.get("replay_ends_at"),
@@ -95,6 +96,55 @@ def _timer_attributes(s: dict[str, Any]) -> dict[str, Any]:
         "duration": s.get("replay_duration"),
         "speed": s.get("replay_speed"),
     }
+
+
+_PLAYER_LISTS = ("passers", "rushers", "receivers")
+
+
+def _side_stats(side: str) -> Callable[[ReplayManager, dict[str, Any]], Any]:
+    def value(m: ReplayManager, s: dict[str, Any]) -> Any:
+        stats = m.stats()
+        return stats[side]["total_yards"] if stats else None
+
+    return value
+
+
+def _side_stats_attributes(side: str) -> Callable[[ReplayManager], dict[str, Any]]:
+    def attributes(m: ReplayManager) -> dict[str, Any]:
+        stats = m.stats()
+        if not stats:
+            return {}
+        return {k: v for k, v in stats[side].items() if k not in _PLAYER_LISTS}
+
+    return attributes
+
+
+def _leader(side: str) -> Callable[[ReplayManager, dict[str, Any]], Any]:
+    """The quarterback's line ("B.Purdy 21/29, 264 yds"), else the leading rusher."""
+
+    def value(m: ReplayManager, s: dict[str, Any]) -> Any:
+        stats = m.stats()
+        if not stats:
+            return None
+        if passers := stats[side]["passers"]:
+            p = passers[0]
+            return f"{p['name']} {p['completions']}/{p['attempts']}, {p['yards']} yds"
+        if rushers := stats[side]["rushers"]:
+            r = rushers[0]
+            return f"{r['name']} {r['carries']} car, {r['yards']} yds"
+        return None
+
+    return value
+
+
+def _players_attributes(side: str) -> Callable[[ReplayManager], dict[str, Any]]:
+    def attributes(m: ReplayManager) -> dict[str, Any]:
+        stats = m.stats()
+        if not stats:
+            return {}
+        return {k: stats[side][k] for k in _PLAYER_LISTS}
+
+    return attributes
 
 
 def _key(key: str) -> Callable[[ReplayManager, dict[str, Any]], Any]:
@@ -108,7 +158,8 @@ class ReplaySensorDescription(SensorEntityDescription):
     # Name with the configured team's short name ("49ers score"); the entity id keeps this
     # generic suffix instead, the same for every team: sensor.sports_replay_sf_team_score.
     team_object_id: str | None = None
-    attributes: Callable[[dict[str, Any]], dict[str, Any]] | None = None
+    attributes: Callable[[ReplayManager], dict[str, Any]] | None = None
+    player_lists: bool = False  # attributes are player lists: kept out of the recorder
 
 
 FOOTBALL = frozenset({Sport.FOOTBALL})
@@ -161,6 +212,27 @@ SENSORS = (
         key="opponent_timeouts", icon="mdi:timer-pause-outline", sports=FOOTBALL,
         value=_key("opponent_timeouts"),
     ),
+    # Statistics up to the current play: football for now.
+    ReplaySensorDescription(
+        key="team_stats", icon="mdi:chart-box", sports=FOOTBALL, team_object_id="team_stats",
+        native_unit_of_measurement="yd", value=_side_stats("team"),
+        attributes=_side_stats_attributes("team"),
+    ),
+    ReplaySensorDescription(
+        key="opponent_stats", icon="mdi:chart-box-outline", sports=FOOTBALL,
+        native_unit_of_measurement="yd", value=_side_stats("opponent"),
+        attributes=_side_stats_attributes("opponent"),
+    ),
+    ReplaySensorDescription(
+        key="team_players", icon="mdi:account-group", sports=FOOTBALL, team_object_id="team_players",
+        value=_leader("team"), attributes=_players_attributes("team"),
+        player_lists=True,
+    ),
+    ReplaySensorDescription(
+        key="opponent_players", icon="mdi:account-group-outline", sports=FOOTBALL,
+        value=_leader("opponent"), attributes=_players_attributes("opponent"),
+        player_lists=True,
+    ),
 )
 
 
@@ -171,7 +243,11 @@ async def async_setup_entry(
 ) -> None:
     sport = entry.runtime_data.sport
     entities: list[SensorEntity] = [GameSensor(entry, "game"), WinProbabilitySensor(entry, "win_probability")]
-    entities += [ReplaySensor(entry, d) for d in SENSORS if d.sports is None or sport in d.sports]
+    entities += [
+        (PlayersSensor if d.player_lists else ReplaySensor)(entry, d)
+        for d in SENSORS
+        if d.sports is None or sport in d.sports
+    ]
     async_add_entities(entities)
 
 
@@ -225,4 +301,10 @@ class ReplaySensor(SportsReplayEntity, SensorEntity):
     def extra_state_attributes(self) -> dict[str, Any] | None:
         if self.entity_description.attributes is None:
             return None
-        return self.entity_description.attributes(self.manager.snapshot())
+        return self.entity_description.attributes(self.manager)
+
+
+class PlayersSensor(ReplaySensor):
+    """Home Assistant reads unrecorded attributes per class, not per entity: hence a subclass."""
+
+    _unrecorded_attributes = frozenset(_PLAYER_LISTS)

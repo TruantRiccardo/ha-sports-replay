@@ -110,9 +110,23 @@ One device per followed team (`Sports Replay SF`):
   - football only: **Down and distance**, **Possession**, **49ers timeouts left**,
     **Opponent timeouts left**.
 
+  - football only, **statistics up to the current play** (never ESPN's final box score, which
+    would spoil the result):
+    - **49ers stats** / **Opponent stats**: total yards, with net passing and rushing yards, plays,
+      completions and attempts, first downs, third and fourth down efficiency, turnovers, sacks,
+      penalties and time of possession (drives already over) as attributes;
+    - **49ers players** / **Opponent players**: the quarterback's line (`B.Purdy 21/29, 264 yds`),
+      with every passer, rusher and receiver (attempts, yards, touchdowns...) in the attributes,
+      leaders first. Player names are as ESPN writes them in the play text (`B.Purdy`).
+
+    Football play-by-play has no player list, so these are read from the play text. Checked
+    against the official box score of a full game: every team and player number matches,
+    except two incomplete passes wiped out by a penalty that official stats still count as
+    attempts, and one first down by penalty.
+
   The team sensors are named after the team you configured, but their entity ids are the same for
   every team: `sensor.sports_replay_<abbreviation>_team_score`,
-  `sensor.sports_replay_<abbreviation>_team_timeouts_left`.
+  `sensor.sports_replay_<abbreviation>_team_timeouts_left`, `..._team_stats`, `..._team_players`.
 - `select.*_game_to_replay` (loads the game), `select.*_timing_mode`.
 - Buttons: play, pause, previous/next play, back/forward 10 s, align here, restart, refresh games.
 - Numbers: speed (0.25×–4×) and the timing tunables.

@@ -35,6 +35,7 @@ from .replay import (
     parse_summary,
     timeouts_remaining,
 )
+from .replay.stats import team_stats
 
 _LOGGER = logging.getLogger(__name__)
 
@@ -69,6 +70,8 @@ class ReplayManager:
         self._unsub_schedule: CALLBACK_TYPE | None = None
         self._snapshot_key: tuple | None = None
         self._snapshot: dict[str, Any] = {}
+        self._stats_key: tuple | None = None
+        self._stats: dict[str, dict] | None = None
 
     # --- plumbing ------------------------------------------------------------------------
 
@@ -327,6 +330,24 @@ class ReplayManager:
         if self.game is None or self.my_team is None:
             return None
         return self.game.opponent_of(self.my_team.id)
+
+    def stats(self) -> dict[str, dict] | None:
+        """{"team": ..., "opponent": ...} statistics up to the current play; None if the sport
+        has none yet. Recomputed only when the play changes."""
+        if self.game is None:
+            return None
+        index = self.clock.current_index(self._now())
+        key = (self.game_id, index)
+        if key != self._stats_key:
+            by_team = team_stats(self.game, index)
+            mine, other = self.my_team, self.other_team
+            self._stats = (
+                {"team": by_team[mine.id], "opponent": by_team[other.id]}
+                if by_team is not None and mine is not None and other is not None
+                else None
+            )
+            self._stats_key = key
+        return self._stats
 
     def snapshot(self) -> dict[str, Any]:
         """State of the replay, Team Tracker-compatible; recomputed only when it can change."""

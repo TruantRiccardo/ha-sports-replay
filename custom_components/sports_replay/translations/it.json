@@ -96,6 +96,18 @@
       },
       "replay_end": {
         "name": "Fine del replay"
+      },
+      "team_stats": {
+        "name": "Statistiche {team}"
+      },
+      "opponent_stats": {
+        "name": "Statistiche avversario"
+      },
+      "team_players": {
+        "name": "Giocatori {team}"
+      },
+      "opponent_players": {
+        "name": "Giocatori avversario"
       }
     },
     "select": {
