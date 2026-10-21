@@ -11,6 +11,8 @@
        "id": "118",
        "abbreviation": "UDI",
        "displayName": "Udinese",
+       "name": "Udinese",
+       "shortDisplayName": "Udinese",
        "color": "19161D",
        "alternateColor": "0F1C3F",
        "logos": [
@@ -45,6 +47,8 @@
        "id": "113",
        "abbreviation": "LEC",
        "displayName": "Lecce",
+       "name": "Lecce",
+       "shortDisplayName": "Lecce",
        "color": "FCED0B",
        "alternateColor": "08305d",
        "logos": [

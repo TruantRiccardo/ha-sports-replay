@@ -7,6 +7,7 @@ DOMAIN = "sports_replay"
 CONF_LEAGUE = "league"
 CONF_TEAM_ID = "team_id"
 CONF_TEAM_ABBR = "team_abbr"
+CONF_TEAM_NAME = "team_name"  # short name: "49ers", "Lakers", "Milan"
 
 
 class League(NamedTuple):

@@ -15,8 +15,8 @@ FIXTURES = Path(__file__).parents[1] / "tests" / "fixtures"
 FIXTURE = FIXTURES / "nfl_401873008.json"
 
 TEAMS = [
-    {"id": "25", "abbreviation": "SF", "name": "San Francisco 49ers"},
-    {"id": "28", "abbreviation": "WSH", "name": "Washington Commanders"},
+    {"id": "25", "abbreviation": "SF", "name": "San Francisco 49ers", "short_name": "49ers"},
+    {"id": "28", "abbreviation": "WSH", "name": "Washington Commanders", "short_name": "Commanders"},
 ]
 GAMES = [
     ScheduledGame("401873008", datetime(2026, 10, 20, 0, 15, tzinfo=UTC), "WSH @ SF", "Week 6", True),
@@ -52,7 +52,7 @@ def _patch(teams, games, summary_file):
 @pytest.fixture
 def espn_soccer():
     a, b, c = _patch(
-        [{"id": "118", "abbreviation": "UDI", "name": "Udinese"}],
+        [{"id": "118", "abbreviation": "UDI", "name": "Udinese", "short_name": "Udinese"}],
         [ScheduledGame("401874771", datetime(2026, 10, 18, 10, 30, tzinfo=UTC), "LEC @ UDI", "", True)],
         "ita1_401874771.json",
     )
@@ -63,7 +63,7 @@ def espn_soccer():
 @pytest.fixture
 def espn_nba():
     a, b, c = _patch(
-        [{"id": "8", "abbreviation": "DET", "name": "Detroit Pistons"}],
+        [{"id": "8", "abbreviation": "DET", "name": "Detroit Pistons", "short_name": "Pistons"}],
         [ScheduledGame("401909088", datetime(2026, 10, 20, 23, 0, tzinfo=UTC), "BOS @ DET", "", True)],
         "nba_401909088.json",
     )

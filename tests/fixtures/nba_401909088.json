@@ -11,6 +11,7 @@
        "id": "8",
        "abbreviation": "DET",
        "displayName": "Detroit Pistons",
+       "name": "Pistons",
        "color": "1d428a",
        "alternateColor": "c8102e",
        "logos": [
@@ -200,6 +201,7 @@
        "id": "2",
        "abbreviation": "BOS",
        "displayName": "Boston Celtics",
+       "name": "Celtics",
        "color": "008348",
        "alternateColor": "ffffff",
        "logos": [

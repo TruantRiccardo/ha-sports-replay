@@ -16,7 +16,7 @@ from homeassistant.helpers.selector import (
 )
 
 from .api import EspnClient, EspnError
-from .const import CONF_LEAGUE, CONF_TEAM_ABBR, CONF_TEAM_ID, DOMAIN, LEAGUES
+from .const import CONF_LEAGUE, CONF_TEAM_ABBR, CONF_TEAM_ID, CONF_TEAM_NAME, DOMAIN, LEAGUES
 
 
 class SportsReplayConfigFlow(ConfigFlow, domain=DOMAIN):
@@ -58,6 +58,7 @@ class SportsReplayConfigFlow(ConfigFlow, domain=DOMAIN):
                     CONF_LEAGUE: self._league,
                     CONF_TEAM_ID: team["id"],
                     CONF_TEAM_ABBR: team["abbreviation"],
+                    CONF_TEAM_NAME: team["short_name"],
                 },
             )
         if not self._teams:

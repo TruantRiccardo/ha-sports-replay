@@ -82,6 +82,12 @@ def _clock_seconds(clock: dict[str, Any] | None) -> float | None:
         return None
 
 
+def short_name(team: dict[str, Any]) -> str:
+    """ "49ers", "Lakers", "Milan": soccer has shortDisplayName ("AC Milan" -> "Milan"), the US
+    leagues only ``name`` in game payloads."""
+    return team.get("shortDisplayName") or team.get("name") or team.get("abbreviation", "")
+
+
 def _team(comp: dict[str, Any]) -> Team:
     team = comp.get("team", {})
     logos = team.get("logos") or []
@@ -90,6 +96,7 @@ def _team(comp: dict[str, Any]) -> Team:
         abbreviation=team.get("abbreviation", ""),
         name=team.get("displayName") or team.get("name", ""),
         home_away=comp.get("homeAway", ""),
+        short_name=short_name(team),
         color=team.get("color"),
         alternate_color=team.get("alternateColor"),
         logo=team.get("logo") or (logos[0].get("href") if logos else None),

@@ -19,9 +19,10 @@ from homeassistant.components.sensor import (
 from homeassistant.const import PERCENTAGE, UnitOfTime
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.entity_platform import AddConfigEntryEntitiesCallback
-from homeassistant.util import dt as dt_util
+from homeassistant.util import dt as dt_util, slugify
 
 from . import SportsReplayConfigEntry
+from .const import CONF_TEAM_ABBR, CONF_TEAM_NAME
 from .entity import SportsReplayEntity
 from .manager import ReplayManager
 from .replay import Sport
@@ -32,7 +33,7 @@ STATUS_OPTIONS = ["not_loaded", "ready", "playing", "paused", "finished"]
 
 
 def _status(m: ReplayManager, s: dict[str, Any]) -> str:
-    if s["state"] == "NOT_LOADED":
+    if m.game is None:
         return "not_loaded"
     if s["replay_playing"]:
         return "playing"
@@ -104,6 +105,9 @@ def _key(key: str) -> Callable[[ReplayManager, dict[str, Any]], Any]:
 class ReplaySensorDescription(SensorEntityDescription):
     value: Callable[[ReplayManager, dict[str, Any]], Any]
     sports: frozenset[Sport] | None = None  # None: every sport
+    # Name with the configured team's short name ("49ers score"); the entity id keeps this
+    # generic suffix instead, the same for every team: sensor.sports_replay_sf_team_score.
+    team_object_id: str | None = None
     attributes: Callable[[dict[str, Any]], dict[str, Any]] | None = None
 
 
@@ -133,7 +137,7 @@ SENSORS = (
         suggested_display_precision=0, value=lambda m, s: s.get("replay_duration") if m.game else None,
     ),
     ReplaySensorDescription(
-        key="team_score", icon="mdi:scoreboard",
+        key="team_score", icon="mdi:scoreboard", team_object_id="team_score",
         value=lambda m, s: s.get("team_score") if m.game else None,
     ),
     ReplaySensorDescription(
@@ -150,7 +154,7 @@ SENSORS = (
         key="possession", icon="mdi:football-helmet", sports=FOOTBALL, value=_possession,
     ),
     ReplaySensorDescription(
-        key="team_timeouts", icon="mdi:timer-pause", sports=FOOTBALL,
+        key="team_timeouts", icon="mdi:timer-pause", sports=FOOTBALL, team_object_id="team_timeouts_left",
         value=_key("team_timeouts"),
     ),
     ReplaySensorDescription(
@@ -172,7 +176,7 @@ async def async_setup_entry(
 
 
 class GameSensor(SportsReplayEntity, SensorEntity):
-    """State PRE / IN / POST like Team Tracker (NOT_LOADED before a game is picked)."""
+    """State PRE / IN / POST like Team Tracker (NOT_FOUND before a game is picked)."""
 
     _unrecorded_attributes = frozenset(
         {"recent_plays", "win_probability_history", "team_logo", "opponent_logo", "last_update"}
@@ -208,6 +212,10 @@ class ReplaySensor(SportsReplayEntity, SensorEntity):
     def __init__(self, entry: SportsReplayConfigEntry, description: ReplaySensorDescription) -> None:
         super().__init__(entry, description.key)
         self.entity_description = description
+        if description.team_object_id:
+            abbr = entry.data[CONF_TEAM_ABBR]
+            self._attr_translation_placeholders = {"team": entry.data.get(CONF_TEAM_NAME, abbr)}
+            self.entity_id = f"sensor.{slugify(f'sports_replay_{abbr}')}_{description.team_object_id}"
 
     @property
     def native_value(self) -> Any:

@@ -11,6 +11,7 @@
        "id": "13",
        "abbreviation": "NYR",
        "displayName": "New York Rangers",
+       "name": "Rangers",
        "color": "0056ae",
        "alternateColor": "e51937",
        "logos": [
@@ -200,6 +201,7 @@
        "id": "25",
        "abbreviation": "ANA",
        "displayName": "Anaheim Ducks",
+       "name": "Ducks",
        "color": "fc4c02",
        "alternateColor": "000000",
        "logos": [

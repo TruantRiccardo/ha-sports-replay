@@ -11,6 +11,7 @@
        "id": "25",
        "abbreviation": "SF",
        "displayName": "San Francisco 49ers",
+       "name": "49ers",
        "color": "aa0000",
        "alternateColor": "b3995d",
        "logos": [
@@ -211,6 +212,7 @@
        "id": "28",
        "abbreviation": "WSH",
        "displayName": "Washington Commanders",
+       "name": "Commanders",
        "color": "5a1414",
        "alternateColor": "ffb612",
        "logos": [

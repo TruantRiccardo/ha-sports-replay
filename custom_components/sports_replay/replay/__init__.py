@@ -2,7 +2,7 @@
 
 from .classify import classify, timeouts_remaining
 from .model import Game, Play, PlayEvent, Sport, Team
-from .parse import parse_summary
+from .parse import parse_summary, short_name
 from .timeline import (
     DEFAULT_MODE,
     ReplayClock,
@@ -26,5 +26,6 @@ __all__ = [
     "classify",
     "find_play",
     "parse_summary",
+    "short_name",
     "timeouts_remaining",
 ]

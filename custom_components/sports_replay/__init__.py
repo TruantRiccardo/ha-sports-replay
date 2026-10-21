@@ -13,7 +13,8 @@ from homeassistant.helpers.aiohttp_client import async_get_clientsession
 from homeassistant.helpers.typing import ConfigType
 
 from .api import EspnClient
-from .const import CONF_LEAGUE, CONF_TEAM_ID, DOMAIN, SERVICE_SEEK
+from .api import EspnError
+from .const import CONF_LEAGUE, CONF_TEAM_ABBR, CONF_TEAM_ID, CONF_TEAM_NAME, DOMAIN, SERVICE_SEEK
 from .manager import ReplayManager
 
 PLATFORMS = [Platform.BUTTON, Platform.NUMBER, Platform.SELECT, Platform.SENSOR]
@@ -49,6 +50,8 @@ async def async_setup(hass: HomeAssistant, config: ConfigType) -> bool:
 async def async_setup_entry(hass: HomeAssistant, entry: SportsReplayConfigEntry) -> bool:
     league = entry.data[CONF_LEAGUE]
     client = EspnClient(async_get_clientsession(hass), league)
+    if CONF_TEAM_NAME not in entry.data:
+        await _add_team_name(hass, entry, client)
     manager = ReplayManager(hass, client, league, entry.data[CONF_TEAM_ID], entry.entry_id)
     if not await manager.async_refresh_games():
         raise ConfigEntryNotReady(manager.error)
@@ -59,6 +62,17 @@ async def async_setup_entry(hass: HomeAssistant, entry: SportsReplayConfigEntry)
     # The last game is reloaded from ESPN: do not hold up Home Assistant's startup for it.
     entry.async_create_background_task(hass, manager.async_restore(), f"{DOMAIN} restore")
     return True
+
+
+async def _add_team_name(hass: HomeAssistant, entry: ConfigEntry, client: EspnClient) -> None:
+    """Entries created by 0.1.0 have no short team name: look it up once (abbreviation if offline)."""
+    name = entry.data[CONF_TEAM_ABBR]
+    try:
+        teams = await client.teams()
+        name = next((t["short_name"] for t in teams if t["id"] == entry.data[CONF_TEAM_ID]), name)
+    except EspnError:
+        return  # try again at the next start
+    hass.config_entries.async_update_entry(entry, data={**entry.data, CONF_TEAM_NAME: name})
 
 
 async def async_unload_entry(hass: HomeAssistant, entry: SportsReplayConfigEntry) -> bool:

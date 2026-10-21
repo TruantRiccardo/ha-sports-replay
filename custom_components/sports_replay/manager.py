@@ -50,6 +50,7 @@ class ReplayManager:
     ) -> None:
         self.hass = hass
         self.client = client
+        self.entry_id = entry_id
         self.league = league
         self.sport = Sport(LEAGUES[league].sport)
         self.team_id = team_id
@@ -288,19 +289,28 @@ class ReplayManager:
             {
                 "mode": "replay",
                 "league": self.league,
+                "sport": self.sport.value,
+                "config_entry_id": self.entry_id,
                 "event_id": self.game_id,
                 "play_id": play.id,
                 "categories": list(event.categories),
-                "team": team.abbreviation if team else None,
-                "team_id": event.team_id,
-                "is_my_team": event.team_id == self.team_id,
                 "text": play.text,
                 "period": play.period,
                 "clock": play.clock,
-                "team_score": _score(play, mine),
+                # The team the event is for (scorer, team that gained the ball, ...).
+                "team": team.abbreviation if team else None,
+                "team_name": team.short_name if team else None,
+                "team_id": event.team_id,
+                "team_color": f"#{team.color}" if team and team.color else None,
+                "team_rgb": light_rgb(team),
+                "is_my_team": event.team_id == self.team_id,
+                # The two sides, from the configured team's point of view.
+                "my_team": mine.abbreviation if mine else None,
+                "my_team_name": mine.short_name if mine else None,
+                "opponent": other.abbreviation if other else None,
+                "opponent_name": other.short_name if other else None,
+                "my_score": _score(play, mine),
                 "opponent_score": _score(play, other),
-                "team_color": f"#{mine.color}" if mine and mine.color else None,
-                "opponent_color": f"#{other.color}" if other and other.color else None,
             },
         )
 
@@ -348,7 +358,9 @@ class ReplayManager:
 
     def _build_snapshot(self, index: int) -> dict[str, Any]:
         if self.game is None:
-            return {"state": "NOT_LOADED", "error": self.error}
+            # NOT_FOUND is Team Tracker's "no game" state. No api_message: its card would show
+            # it as "API Error".
+            return {"state": "NOT_FOUND", "error": self.error}
         game, plays = self.game, self.game.plays
         play = plays[index] if index >= 0 else None
         mine, other = self.my_team, self.other_team
@@ -432,6 +444,24 @@ class ReplayManager:
             "recent_plays": recent,
             "win_probability_history": history,
         }
+
+
+def _rgb(hex_color: str | None) -> list[int] | None:
+    try:
+        value = int((hex_color or "").lstrip("#"), 16)
+    except ValueError:
+        return None
+    return [(value >> 16) & 255, (value >> 8) & 255, value & 255]
+
+
+def light_rgb(team: Team | None) -> list[int]:
+    """A team color a light can show: the primary, else the alternate when the primary is too
+    dark to see (black would just switch the light off), else white."""
+    for color in ((team.color, team.alternate_color) if team else ()):
+        rgb = _rgb(color)
+        if rgb and max(rgb) >= 64:
+            return rgb
+    return [255, 255, 255]
 
 
 def _iso(value: datetime) -> str:

@@ -27,8 +27,9 @@ CLOCK_COUNTS_DOWN = {
 class Team:
     id: str
     abbreviation: str
-    name: str
+    name: str  # "San Francisco 49ers"
     home_away: str  # "home" | "away"
+    short_name: str = ""  # "49ers", "Lakers", "Milan"
     color: str | None = None  # hex without '#', as ESPN returns it
     alternate_color: str | None = None
     logo: str | None = None

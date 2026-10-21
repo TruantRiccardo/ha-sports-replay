@@ -40,7 +40,7 @@ async def test_config_flow(hass: HomeAssistant, espn) -> None:
     assert result["step_id"] == "team"
     result = await hass.config_entries.flow.async_configure(result["flow_id"], {"team_id": "25"})
     assert result["type"] is FlowResultType.CREATE_ENTRY
-    assert result["data"] == {"league": "nfl", "team_id": "25", "team_abbr": "SF"}
+    assert result["data"] == {"league": "nfl", "team_id": "25", "team_abbr": "SF", "team_name": "49ers"}
 
 
 async def test_game_select_is_spoiler_free(hass: HomeAssistant, espn) -> None:
@@ -49,7 +49,9 @@ async def test_game_select_is_spoiler_free(hass: HomeAssistant, espn) -> None:
     assert state is not None
     options = state.attributes["options"]
     assert options == ["—", "Week 6 · WSH @ SF · 2026-10-20"]  # completed games only, no score
-    assert hass.states.get(f"sensor.{DEVICE}_game").state == "NOT_LOADED"
+    game = hass.states.get(f"sensor.{DEVICE}_game")
+    assert game.state == "NOT_FOUND"  # Team Tracker's "no game"
+    assert "api_message" not in game.attributes  # the card would show it as "API Error"
 
 
 async def test_replay_controls_and_events(hass: HomeAssistant, espn) -> None:
@@ -87,9 +89,14 @@ async def test_replay_controls_and_events(hass: HomeAssistant, espn) -> None:
     assert len(events) == 1
     # The first score of the game: sport category plus the shared ones.
     assert events[0].data["categories"] == ["score", "lead_change", "touchdown"]
-    assert events[0].data["is_my_team"] is True
-    assert events[0].data["team"] == "SF"
-    assert events[0].data["team_score"] == 7
+    data = events[0].data
+    assert data["is_my_team"] is True
+    assert (data["team"], data["team_name"], data["my_team_name"], data["opponent_name"]) == (
+        "SF", "49ers", "49ers", "Commanders"
+    )
+    assert (data["my_score"], data["opponent_score"]) == (7, 0)
+    assert data["team_rgb"] == [170, 0, 0]  # 49ers red, ready for light.turn_on
+    assert data["config_entry_id"] == entry.entry_id
     assert hass.states.get(f"sensor.{DEVICE}_game").attributes["team_score"] == 7
 
     await _press(hass, "pause")
@@ -245,6 +252,8 @@ async def test_state_sensors(hass: HomeAssistant, espn) -> None:
     await hass.services.async_call(DOMAIN, "seek", {"period": 4, "clock": "1:46"}, blocking=True)
     assert s("period") == "Q4"
     assert s("team_score") == "23" and s("opponent_score") == "17"
+    # "49ers score" in the UI, generic entity id.
+    assert hass.states.get(f"sensor.{DEVICE}_team_score").attributes["friendly_name"] == "Sports Replay SF 49ers score"
     assert s("team_timeouts_left") == "3" and s("opponent_timeouts_left") == "0"
     assert s("possession") in ("SF", "WSH")
     assert s("down_and_distance") != "unknown"
@@ -262,3 +271,8 @@ async def test_football_only_sensors(hass: HomeAssistant, espn_soccer) -> None:
     assert hass.states.get("sensor.sports_replay_udi_period") is not None
     assert hass.states.get("sensor.sports_replay_udi_possession") is None
     assert hass.states.get("sensor.sports_replay_udi_down_and_distance") is None
+
+
+async def test_team_name_added_to_old_entries(hass: HomeAssistant, espn) -> None:
+    entry = await _setup(hass)  # created like 0.1.0 did: no team_name
+    assert entry.data["team_name"] == "49ers"

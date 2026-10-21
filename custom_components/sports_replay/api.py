@@ -9,6 +9,7 @@ from typing import Any
 import aiohttp
 
 from .const import ESPN_BASE_URL, LEAGUES
+from .replay import short_name
 
 TIMEOUT = aiohttp.ClientTimeout(total=20)
 
@@ -47,7 +48,7 @@ class EspnClient:
             raise EspnError(f"{url}: {err}") from err
 
     async def teams(self) -> list[dict[str, str]]:
-        """[{id, abbreviation, name}], sorted by name."""
+        """[{id, abbreviation, name, short_name}], sorted by name."""
         data = await self._get(f"{ESPN_BASE_URL}/{self._path}/teams", {"limit": 1000})
         try:
             raw = data["sports"][0]["leagues"][0]["teams"]
@@ -58,6 +59,7 @@ class EspnClient:
                 "id": str(t["team"]["id"]),
                 "abbreviation": t["team"].get("abbreviation", ""),
                 "name": t["team"].get("displayName", ""),
+                "short_name": short_name(t["team"]),
             }
             for t in raw
         ]
