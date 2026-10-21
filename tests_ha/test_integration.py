@@ -305,3 +305,28 @@ async def test_stats_sensors(hass: HomeAssistant, espn) -> None:
     from custom_components.sports_replay.sensor import PlayersSensor
 
     assert {"passers", "rushers", "receivers"} <= PlayersSensor._Entity__combined_unrecorded_attributes
+
+
+async def test_basketball_stats_sensors(hass: HomeAssistant, espn_nba) -> None:
+    entry = await _setup(hass, "nba", "8", "DET")
+    device = "sports_replay_det"
+    await hass.services.async_call(
+        "select", "select_option",
+        {"entity_id": f"select.{device}_game_to_replay", "option": "BOS @ DET · 2026-10-20"},
+        blocking=True,
+    )
+    manager = entry.runtime_data
+    manager.clock.seek_index(len(manager.game.plays) - 1, manager._now())
+    manager._notify()
+
+    stats = hass.states.get(f"sensor.{device}_team_stats")
+    assert stats.state == "45"  # 39/86 field goals
+    assert stats.attributes["unit_of_measurement"] == "%"
+    assert stats.attributes["rebounds"] == 49 and stats.attributes["turnovers"] == 17
+    assert hass.states.get(f"sensor.{device}_team_players").state.startswith("C. Cunningham ")
+    on_court = hass.states.get(f"sensor.{device}_team_on_court")
+    assert len(on_court.state.split(", ")) == 5
+    assert on_court.attributes["friendly_name"] == "Sports Replay DET Pistons on court"
+    assert hass.states.get(f"sensor.{device}_opponent_on_court") is not None
+    # Football-only sensors are not created for basketball.
+    assert hass.states.get(f"sensor.{device}_possession") is None

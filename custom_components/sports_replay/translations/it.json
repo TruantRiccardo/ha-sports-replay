@@ -108,6 +108,12 @@
       },
       "opponent_players": {
         "name": "Giocatori avversario"
+      },
+      "team_on_court": {
+        "name": "{team} in campo"
+      },
+      "opponent_on_court": {
+        "name": "Avversario in campo"
       }
     },
     "select": {

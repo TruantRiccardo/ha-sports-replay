@@ -98,13 +98,21 @@ def _timer_attributes(m: ReplayManager) -> dict[str, Any]:
     }
 
 
-_PLAYER_LISTS = ("passers", "rushers", "receivers")
+# Attributes holding lists of players: kept out of the recorder.
+_PLAYER_LISTS = ("passers", "rushers", "receivers", "players", "on_court")
 
 
 def _side_stats(side: str) -> Callable[[ReplayManager, dict[str, Any]], Any]:
+    """Headline statistic: total yards (football), field goal % (basketball)."""
+
     def value(m: ReplayManager, s: dict[str, Any]) -> Any:
         stats = m.stats()
-        return stats[side]["total_yards"] if stats else None
+        if not stats:
+            return None
+        team = stats[side]
+        if m.sport is Sport.BASKETBALL:
+            return round(100 * team["fgm"] / team["fga"]) if team["fga"] else None
+        return team["total_yards"]
 
     return value
 
@@ -120,16 +128,23 @@ def _side_stats_attributes(side: str) -> Callable[[ReplayManager], dict[str, Any
 
 
 def _leader(side: str) -> Callable[[ReplayManager, dict[str, Any]], Any]:
-    """The quarterback's line ("B.Purdy 21/29, 264 yds"), else the leading rusher."""
+    """Football: the quarterback's line ("B.Purdy 21/29, 264 yds"), else the leading rusher.
+    Basketball: the top scorer ("P. George 38 pts, 5 reb, 3 ast")."""
 
     def value(m: ReplayManager, s: dict[str, Any]) -> Any:
         stats = m.stats()
         if not stats:
             return None
-        if passers := stats[side]["passers"]:
+        team = stats[side]
+        if m.sport is Sport.BASKETBALL:
+            if players := team["players"]:
+                p = players[0]
+                return f"{p['name']} {p['points']} pts, {p['rebounds']} reb, {p['assists']} ast"
+            return None
+        if passers := team["passers"]:
             p = passers[0]
             return f"{p['name']} {p['completions']}/{p['attempts']}, {p['yards']} yds"
-        if rushers := stats[side]["rushers"]:
+        if rushers := team["rushers"]:
             r = rushers[0]
             return f"{r['name']} {r['carries']} car, {r['yards']} yds"
         return None
@@ -142,9 +157,17 @@ def _players_attributes(side: str) -> Callable[[ReplayManager], dict[str, Any]]:
         stats = m.stats()
         if not stats:
             return {}
-        return {k: stats[side][k] for k in _PLAYER_LISTS}
+        return {k: stats[side][k] for k in _PLAYER_LISTS if k in stats[side]}
 
     return attributes
+
+
+def _on_court(side: str) -> Callable[[ReplayManager, dict[str, Any]], Any]:
+    def value(m: ReplayManager, s: dict[str, Any]) -> Any:
+        stats = m.stats()
+        return ", ".join(stats[side]["on_court"])[:MAX_STATE_LENGTH] if stats else None
+
+    return value
 
 
 def _key(key: str) -> Callable[[ReplayManager, dict[str, Any]], Any]:
@@ -163,6 +186,8 @@ class ReplaySensorDescription(SensorEntityDescription):
 
 
 FOOTBALL = frozenset({Sport.FOOTBALL})
+BASKETBALL = frozenset({Sport.BASKETBALL})
+STATS_SPORTS = FOOTBALL | BASKETBALL
 
 SENSORS = (
     ReplaySensorDescription(
@@ -212,26 +237,32 @@ SENSORS = (
         key="opponent_timeouts", icon="mdi:timer-pause-outline", sports=FOOTBALL,
         value=_key("opponent_timeouts"),
     ),
-    # Statistics up to the current play: football for now.
-    ReplaySensorDescription(
-        key="team_stats", icon="mdi:chart-box", sports=FOOTBALL, team_object_id="team_stats",
-        native_unit_of_measurement="yd", value=_side_stats("team"),
-        attributes=_side_stats_attributes("team"),
+    # Statistics up to the current play.
+    *(
+        ReplaySensorDescription(
+            key=f"{side}_stats", icon="mdi:chart-box" if side == "team" else "mdi:chart-box-outline",
+            sports=frozenset({sport}), team_object_id="team_stats" if side == "team" else None,
+            native_unit_of_measurement=unit, value=_side_stats(side),
+            attributes=_side_stats_attributes(side),
+        )
+        for side in ("team", "opponent")
+        for sport, unit in ((Sport.FOOTBALL, "yd"), (Sport.BASKETBALL, PERCENTAGE))
     ),
-    ReplaySensorDescription(
-        key="opponent_stats", icon="mdi:chart-box-outline", sports=FOOTBALL,
-        native_unit_of_measurement="yd", value=_side_stats("opponent"),
-        attributes=_side_stats_attributes("opponent"),
+    *(
+        ReplaySensorDescription(
+            key=f"{side}_players", icon="mdi:account-group" if side == "team" else "mdi:account-group-outline",
+            sports=STATS_SPORTS, team_object_id="team_players" if side == "team" else None,
+            value=_leader(side), attributes=_players_attributes(side), player_lists=True,
+        )
+        for side in ("team", "opponent")
     ),
-    ReplaySensorDescription(
-        key="team_players", icon="mdi:account-group", sports=FOOTBALL, team_object_id="team_players",
-        value=_leader("team"), attributes=_players_attributes("team"),
-        player_lists=True,
-    ),
-    ReplaySensorDescription(
-        key="opponent_players", icon="mdi:account-group-outline", sports=FOOTBALL,
-        value=_leader("opponent"), attributes=_players_attributes("opponent"),
-        player_lists=True,
+    *(
+        ReplaySensorDescription(
+            key=f"{side}_on_court", icon="mdi:basketball" if side == "team" else "mdi:basketball-hoop-outline",
+            sports=BASKETBALL, team_object_id="team_on_court" if side == "team" else None,
+            value=_on_court(side),
+        )
+        for side in ("team", "opponent")
     ),
 )
 

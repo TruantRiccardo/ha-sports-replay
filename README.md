@@ -110,23 +110,30 @@ One device per followed team (`Sports Replay SF`):
   - football only: **Down and distance**, **Possession**, **49ers timeouts left**,
     **Opponent timeouts left**.
 
-  - football only, **statistics up to the current play** (never ESPN's final box score, which
-    would spoil the result):
-    - **49ers stats** / **Opponent stats**: total yards, with net passing and rushing yards, plays,
-      completions and attempts, first downs, third and fourth down efficiency, turnovers, sacks,
-      penalties and time of possession (drives already over) as attributes;
-    - **49ers players** / **Opponent players**: the quarterback's line (`B.Purdy 21/29, 264 yds`),
-      with every passer, rusher and receiver (attempts, yards, touchdowns...) in the attributes,
-      leaders first. Player names are as ESPN writes them in the play text (`B.Purdy`).
+  - **statistics up to the current play** (football and basketball for now), never ESPN's final
+    box score, which would spoil the result:
+    - **49ers stats** / **Opponent stats**: football: total yards, with net passing and rushing
+      yards, plays, completions and attempts, first downs, third and fourth down efficiency,
+      turnovers, sacks, penalties and time of possession (drives already over) as attributes.
+      Basketball: field goal %, with field goals, three-pointers, free throws, rebounds
+      (offensive, defensive), assists, steals, blocks, turnovers and fouls as attributes;
+    - **49ers players** / **Opponent players**: football: the quarterback's line
+      (`B.Purdy 21/29, 264 yds`), with every passer, rusher and receiver in the attributes.
+      Basketball: the top scorer (`P. George 38 pts, 5 reb, 3 ast`), with every player's line
+      (points, shots, rebounds, assists, steals, blocks, turnovers, fouls) in the attributes.
+      Leaders first;
+    - basketball only, **Pistons on court** / **Opponent on court**: the five on the court
+      (starters, then every substitution).
 
-    Football play-by-play has no player list, so these are read from the play text. Checked
-    against the official box score of a full game: every team and player number matches,
-    except two incomplete passes wiped out by a penalty that official stats still count as
-    attempts, and one first down by penalty.
+    Checked against the official box score of a full game. Basketball: every team and player
+    number matches. Football, whose play-by-play has no player list, so the numbers are read
+    from the play text: every number matches, except two incomplete passes wiped out by a
+    penalty that official stats still count as attempts, and one first down by penalty.
+    Football player names are as ESPN writes them in the play text (`B.Purdy`).
 
   The team sensors are named after the team you configured, but their entity ids are the same for
   every team: `sensor.sports_replay_<abbreviation>_team_score`,
-  `sensor.sports_replay_<abbreviation>_team_timeouts_left`, `..._team_stats`, `..._team_players`.
+  `sensor.sports_replay_<abbreviation>_team_timeouts_left`, `..._team_stats`, `..._team_players`, `..._team_on_court`.
 - `select.*_game_to_replay` (loads the game), `select.*_timing_mode`.
 - Buttons: play, pause, previous/next play, back/forward 10 s, align here, restart, refresh games.
 - Numbers: speed (0.25×–4×) and the timing tunables.

@@ -108,6 +108,12 @@
       },
       "opponent_players": {
         "name": "Opponent players"
+      },
+      "team_on_court": {
+        "name": "{team} on court"
+      },
+      "opponent_on_court": {
+        "name": "Opponent on court"
       }
     },
     "select": {
