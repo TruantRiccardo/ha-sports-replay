@@ -86,7 +86,8 @@ competition: ESPN schedules are per competition.
 
 One device per followed team (`Sports Replay SF`):
 
-- `sensor.*_game`: `NOT_LOADED` / `PRE` / `IN` / `POST`, with **Team Tracker-compatible attributes**
+- `sensor.*_game`: `PRE` / `IN` / `POST`, `NOT_FOUND` before a game is picked (Team Tracker's
+  states), with **Team Tracker-compatible attributes**
   (`sport`, `team_id`, `team_score`, `opponent_*`, `quarter`, `clock`, `last_play`,
   `team_win_probability`, `event_name`, `date`, logos, colors; for football also `possession`,
   `down_distance_text`, `team_timeouts`) so cards made for
@@ -103,12 +104,15 @@ One device per followed team (`Sports Replay SF`):
     play: they change play by play, not every second);
   - **Replay end**: when the replay will end while it plays (a timestamp: cards show "in 47
     minutes" and keep it current on their own);
-  - **Team score**, **Opponent score**, **Period** (`Q2`, `P3`, `OT`, `2nd half`, ...),
-    **Game clock**, **Last play**;
-  - football only: **Down and distance**, **Possession**, **Team timeouts left**,
+  - **49ers score** (your team's short name: *Lakers score*, *Milan score*, ...),
+    **Opponent score**, **Period** (`Q2`, `P3`, `OT`, `2nd half`, ...), **Game clock**,
+    **Last play**;
+  - football only: **Down and distance**, **Possession**, **49ers timeouts left**,
     **Opponent timeouts left**.
 
-  "Team" is always the team you configured.
+  The team sensors are named after the team you configured, but their entity ids are the same for
+  every team: `sensor.sports_replay_<abbreviation>_team_score`,
+  `sensor.sports_replay_<abbreviation>_team_timeouts_left`.
 - `select.*_game_to_replay` (loads the game), `select.*_timing_mode`.
 - Buttons: play, pause, previous/next play, back/forward 10 s, align here, restart, refresh games.
 - Numbers: speed (0.25×–4×) and the timing tunables.
@@ -144,13 +148,25 @@ Every play the replay crosses fires `sports_replay_play`:
 
 ```yaml
 categories: [score, lead_change, touchdown]
-team: SF                  # who the event is for, see below
-is_my_team: true
-team_score: 7
-opponent_score: 0
 text: "B.Purdy pass short left to G.Kittle for 11 yards, TOUCHDOWN."
 period: 1
 clock: "10:53"
+# the team the event is for (see below)
+team: SF
+team_name: 49ers
+team_color: "#aa0000"
+team_rgb: [170, 0, 0]     # ready for light.turn_on; the alternate color if the main one is too dark
+is_my_team: true
+# both sides, from your team's point of view
+my_team: SF
+my_team_name: 49ers
+opponent: WSH
+opponent_name: Commanders
+my_score: 7
+opponent_score: 0
+config_entry_id: 01J...  # which followed team, when you follow more than one
+league: nfl
+sport: football
 mode: replay
 ```
 
@@ -169,22 +185,74 @@ the team of the play otherwise.
 Jumps (seek, previous/next play, ±10 s, align here) fire nothing, so skipping ahead never sets off a
 burst of flashes.
 
+## Dashboard: the Team Tracker card
+
+The game sensor speaks Team Tracker's language, so the scoreboard card made for it shows the replay:
+[**ha-teamtracker-card**](https://github.com/vasqued2/ha-teamtracker-card) by
+[@vasqued2](https://github.com/vasqued2), with layouts for football, basketball, hockey and soccer.
+
+1. Install it from HACS: search for "Team Tracker Card" (it is in the default HACS list), download
+   it and reload the browser.
+2. Add it to a dashboard pointing at the game sensor:
+
 ```yaml
-automation:
-  - alias: My team scores
-    triggers:
-      - trigger: event
-        event_type: sports_replay_play
-        event_data:
-          is_my_team: true
-    conditions:
-      - condition: template
-        value_template: "{{ 'score' in trigger.event.data.categories }}"
-    actions:
-      - action: light.turn_on
-        target: { entity_id: light.living_room }
-        data: { rgb_color: [170, 0, 0], flash: long }
+type: custom:teamtracker-card
+entity: sensor.sports_replay_sf_game
+outline: true
 ```
+
+The card shows the replay as if it were live (`IN`), the final once the replay reaches the end
+(`POST`) and its "not found" panel before a game is loaded. Team Tracker fields that a replay
+does not have (TV network, odds, records) stay empty. For the controls, add the buttons and the
+selects of the device in an entities card next to it, and the replay clock below.
+
+## Automations: lights and announcements
+
+The **Game event** blueprint flashes lights in the team's colors and makes an announcement on the
+events you pick, then gives the lights back the state they had (effects included).
+
+[![Open your Home Assistant instance and show the blueprint import dialog with a specific blueprint pre-filled.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fgithub.com%2FTruantRiccardo%2Fha-sports-replay%2Fblob%2Fmain%2Fblueprints%2Fautomation%2Fsports_replay%2Fgame_event.yaml)
+
+Or by hand: *Settings → Automations & scenes → Blueprints → Import blueprint* and paste
+`https://github.com/TruantRiccardo/ha-sports-replay/blob/main/blueprints/automation/sports_replay/game_event.yaml`.
+
+Then *Create automation* from it, once per reaction you want. Some recipes:
+
+| Automation | Events | Whose | Lights | Announcement |
+|---|---|---|---|---|
+| My team scores | `score` | My team | team color, 5 flashes | `{{ team_name }}! {{ my_team_name }} {{ my_score }}, {{ opponent_name }} {{ opponent_score }}.` |
+| The opponent scores | `score` | The opponent | team color, 1 flash | none |
+| Ball won | `turnover`, `turnover_on_downs`, `steal` | My team | fixed amber, 3 flashes | `Ball to the {{ team_name }}!` |
+| Trouble | `red_card`, `penalty` | My team | fixed red, 2 flashes | `{{ text }}` |
+| Final whistle | `end_game` | Both | none | `{% if my_score > opponent_score %}{{ my_team_name }} win {{ my_score }} to {{ opponent_score }}!{% elif my_score < opponent_score %}{{ my_team_name }} lose {{ my_score }} to {{ opponent_score }}.{% else %}It ends in a tie, {{ my_score }} all.{% endif %}` |
+
+The same automation in YAML, if you prefer:
+
+```yaml
+alias: 49ers score
+use_blueprint:
+  path: sports_replay/game_event.yaml
+  input:
+    team: 01J...          # the Sports Replay entry: pick it in the UI
+    categories: [score]
+    side: mine
+    lights: [light.living_room, light.tv_strip]
+    flashes: 5
+    satellites: [assist_satellite.kitchen]
+```
+
+## Credits
+
+- [Team Tracker](https://github.com/vasqued2/ha-teamtracker) and
+  [ha-teamtracker-card](https://github.com/vasqued2/ha-teamtracker-card) by
+  [@vasqued2](https://github.com/vasqued2): the attribute names this integration follows and the
+  card that displays it.
+- [ha-nfl](https://github.com/zacs/ha-nfl) by [@zacs](https://github.com/zacs), where Team Tracker
+  started, and the model for this README's installation guide.
+- [timer-bar-card](https://github.com/rianadon/timer-bar-card) by
+  [@rianadon](https://github.com/rianadon) for the replay clock.
+- [My Home Assistant](https://my.home-assistant.io/) for the one-click buttons.
+- Data: ESPN.
 
 ## Data source and disclaimer
 
