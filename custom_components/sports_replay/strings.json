@@ -47,6 +47,52 @@
       },
       "win_probability": {
         "name": "Win probability"
+      },
+      "status": {
+        "name": "Replay status",
+        "state": {
+          "not_loaded": "No game loaded",
+          "ready": "Ready",
+          "playing": "Playing",
+          "paused": "Paused",
+          "finished": "Finished"
+        }
+      },
+      "progress": {
+        "name": "Replay progress"
+      },
+      "replay_time": {
+        "name": "Replay time"
+      },
+      "replay_duration": {
+        "name": "Replay duration"
+      },
+      "team_score": {
+        "name": "{team} score"
+      },
+      "opponent_score": {
+        "name": "Opponent score"
+      },
+      "period": {
+        "name": "Period"
+      },
+      "game_clock": {
+        "name": "Game clock"
+      },
+      "last_play": {
+        "name": "Last play"
+      },
+      "down_distance": {
+        "name": "Down and distance"
+      },
+      "possession": {
+        "name": "Possession"
+      },
+      "team_timeouts": {
+        "name": "{team} timeouts left"
+      },
+      "opponent_timeouts": {
+        "name": "Opponent timeouts left"
       }
     },
     "select": {

@@ -47,6 +47,52 @@
       },
       "win_probability": {
         "name": "Probabilità di vittoria"
+      },
+      "status": {
+        "name": "Stato del replay",
+        "state": {
+          "not_loaded": "Nessuna partita caricata",
+          "ready": "Pronto",
+          "playing": "In riproduzione",
+          "paused": "In pausa",
+          "finished": "Finito"
+        }
+      },
+      "progress": {
+        "name": "Avanzamento del replay"
+      },
+      "replay_time": {
+        "name": "Tempo del replay"
+      },
+      "replay_duration": {
+        "name": "Durata del replay"
+      },
+      "team_score": {
+        "name": "Punteggio {team}"
+      },
+      "opponent_score": {
+        "name": "Punteggio avversario"
+      },
+      "period": {
+        "name": "Periodo"
+      },
+      "game_clock": {
+        "name": "Cronometro di gioco"
+      },
+      "last_play": {
+        "name": "Ultima giocata"
+      },
+      "down_distance": {
+        "name": "Down e yard"
+      },
+      "possession": {
+        "name": "Possesso"
+      },
+      "team_timeouts": {
+        "name": "Timeout rimasti {team}"
+      },
+      "opponent_timeouts": {
+        "name": "Timeout rimasti avversario"
       }
     },
     "select": {

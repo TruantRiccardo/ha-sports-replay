@@ -400,11 +400,13 @@ class ReplayManager:
             "last_play": play.text if play else None,
             "down_distance_text": play.down_distance_after if play and football else None,
             "last_update": dt_util.utcnow().isoformat(),
-            # Replay-specific. No replay position: it changes every second and would flood the
-            # recorder; the state only changes when the play does.
+            # Replay-specific. Positions are those of the current play, not of the running clock:
+            # a value changing every second would flood the recorder.
             "replay_mode": self.mode.value,
             "replay_playing": self.clock.playing,
             "replay_speed": self.clock.speed,
+            "replay_time": round(max(self.clock.times[index], 0)) if index >= 0 else 0,
+            "replay_duration": round(self.clock.duration),
             "play_index": index + 1,
             "play_count": len(plays),
             "recent_plays": recent,

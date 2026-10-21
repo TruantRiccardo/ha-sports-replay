@@ -95,6 +95,16 @@ One device per followed team (`Sports Replay SF`):
   `win_probability_history`, `play_index` / `play_count`.
 - `sensor.*_win_probability`: your team's win probability, % (NFL, college football, NBA; ESPN has
   none for hockey and soccer).
+- The same state as separate sensors, for the device page, dashboards and automations without
+  templates:
+  - **Replay status**: `not_loaded`, `ready` (loaded, first play not reached yet), `playing`,
+    `paused`, `finished`;
+  - **Replay progress** (% of the plays), **Replay time** and **Replay duration** (at the current
+    play: they change play by play, not every second);
+  - **SF score**, **Opponent score**, **Period** (`Q2`, `P3`, `OT`, `2nd half`, ...),
+    **Game clock**, **Last play**;
+  - football only: **Down and distance**, **Possession**, **SF timeouts left**,
+    **Opponent timeouts left**.
 - `select.*_game_to_replay` (loads the game), `select.*_timing_mode`.
 - Buttons: play, pause, previous/next play, back/forward 10 s, align here, restart, refresh games.
 - Numbers: speed (0.25×–4×) and the timing tunables.

@@ -213,3 +213,42 @@ async def test_nba_events(hass: HomeAssistant, espn_nba) -> None:
     a = hass.states.get(f"sensor.{device}_game").attributes
     assert a["sport"] == "basketball"
     assert a["team_win_probability"] is not None
+
+
+async def test_state_sensors(hass: HomeAssistant, espn) -> None:
+    entry = await _setup(hass)
+    s = lambda key: hass.states.get(f"sensor.{DEVICE}_{key}").state  # noqa: E731
+    assert s("replay_status") == "not_loaded"
+    await hass.services.async_call(
+        "select", "select_option",
+        {"entity_id": f"select.{DEVICE}_game_to_replay", "option": "Week 6 · WSH @ SF · 2026-10-20"},
+        blocking=True,
+    )
+    assert s("replay_status") == "ready"
+    assert s("replay_progress") == "0"
+    await _press(hass, "play")
+    assert s("replay_status") == "playing"
+    await _press(hass, "next_play")
+    await _press(hass, "pause")
+    assert s("replay_status") == "paused"  # "ready" only until the first play is reached
+
+    await hass.services.async_call(DOMAIN, "seek", {"period": 4, "clock": "1:46"}, blocking=True)
+    assert s("period") == "Q4"
+    assert s("sf_score") == "23" and s("opponent_score") == "17"
+    assert s("sf_timeouts_left") == "3" and s("opponent_timeouts_left") == "0"
+    assert s("possession") in ("SF", "WSH")
+    assert s("down_and_distance") != "unknown"
+    assert 90 < int(s("replay_progress")) < 100
+    assert float(s("replay_time")) < float(s("replay_duration"))
+
+    manager = entry.runtime_data
+    manager.clock.seek_index(len(manager.game.plays) - 1, manager._now())
+    manager._notify()
+    assert s("replay_status") == "finished"
+
+
+async def test_football_only_sensors(hass: HomeAssistant, espn_soccer) -> None:
+    await _setup(hass, "serie-a", "118", "UDI")
+    assert hass.states.get("sensor.sports_replay_udi_period") is not None
+    assert hass.states.get("sensor.sports_replay_udi_possession") is None
+    assert hass.states.get("sensor.sports_replay_udi_down_and_distance") is None
