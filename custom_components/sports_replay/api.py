@@ -36,7 +36,7 @@ class ScheduledGame:
 class EspnClient:
     def __init__(self, session: aiohttp.ClientSession, league: str) -> None:
         self._session = session
-        self._path = LEAGUES[league]
+        self._path = LEAGUES[league].path
 
     async def _get(self, url: str, params: dict[str, Any] | None = None) -> dict[str, Any]:
         try:
@@ -64,12 +64,14 @@ class EspnClient:
         return sorted(teams, key=lambda t: t["name"])
 
     async def schedule(self, team_id: str) -> list[ScheduledGame]:
-        """Regular season and postseason games of the team, oldest first."""
+        """Games of the current season, postseason included, oldest first.
+
+        Without ``seasontype`` ESPN returns the current season (the only form soccer accepts);
+        ``seasontype=3`` adds the postseason of the US leagues (empty for soccer).
+        """
         games: dict[str, ScheduledGame] = {}
-        for season_type in (2, 3):
-            data = await self._get(
-                f"{ESPN_BASE_URL}/{self._path}/teams/{team_id}/schedule", {"seasontype": season_type}
-            )
+        for params in ({}, {"seasontype": 3}):
+            data = await self._get(f"{ESPN_BASE_URL}/{self._path}/teams/{team_id}/schedule", params)
             for e in data.get("events") or []:
                 try:
                     status = e["competitions"][0]["status"]["type"]

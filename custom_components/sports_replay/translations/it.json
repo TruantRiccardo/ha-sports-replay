@@ -25,7 +25,18 @@
     "league": {
       "options": {
         "nfl": "NFL",
-        "college-football": "Football universitario (NCAA)"
+        "college-football": "Football universitario (NCAA)",
+        "nba": "NBA",
+        "wnba": "WNBA",
+        "nhl": "NHL",
+        "serie-a": "Serie A",
+        "premier-league": "Premier League",
+        "laliga": "LaLiga",
+        "bundesliga": "Bundesliga",
+        "ligue-1": "Ligue 1",
+        "mls": "MLS",
+        "champions-league": "UEFA Champions League",
+        "europa-league": "UEFA Europa League"
       }
     }
   },
@@ -47,7 +58,8 @@
         "state": {
           "full_no_ads": "Partita completa, senza pubblicità",
           "broadcast": "Registrazione della diretta",
-          "condensed": "Partita condensata"
+          "condensed": "Partita condensata",
+          "game_clock": "Segui il cronometro di gioco (calcio)"
         }
       }
     },
@@ -88,7 +100,7 @@
         "name": "Soglia pausa"
       },
       "gap_pause": {
-        "name": "Pausa sostituita con"
+        "name": "Pausa / intervallo sostituiti con"
       },
       "condensed_per_play": {
         "name": "Condensata: secondi per giocata"

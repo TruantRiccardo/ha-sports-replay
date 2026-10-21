@@ -7,7 +7,7 @@ from homeassistant.core import HomeAssistant
 from homeassistant.helpers.entity_platform import AddConfigEntryEntitiesCallback
 
 from . import SportsReplayConfigEntry
-from .engine import TimingMode
+from .replay import TimingMode
 from .entity import SportsReplayEntity
 
 NO_GAME = "—"

@@ -38,7 +38,7 @@ class SportsReplayConfigFlow(ConfigFlow, domain=DOMAIN):
                         SelectSelectorConfig(
                             options=list(LEAGUES),
                             translation_key=CONF_LEAGUE,
-                            mode=SelectSelectorMode.LIST,
+                            mode=SelectSelectorMode.DROPDOWN,
                         )
                     )
                 }
@@ -53,7 +53,7 @@ class SportsReplayConfigFlow(ConfigFlow, domain=DOMAIN):
             await self.async_set_unique_id(f"{self._league}_{team['id']}")
             self._abort_if_unique_id_configured()
             return self.async_create_entry(
-                title=f"{team['name']} ({self._league.upper()})",
+                title=f"{team['name']} ({LEAGUES[self._league].name})",
                 data={
                     CONF_LEAGUE: self._league,
                     CONF_TEAM_ID: team["id"],

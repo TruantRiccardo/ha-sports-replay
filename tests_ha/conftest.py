@@ -11,7 +11,8 @@ from custom_components.sports_replay.api import ScheduledGame
 
 pytest_plugins = "pytest_homeassistant_custom_component"
 
-FIXTURE = Path(__file__).parents[1] / "tests" / "fixtures" / "nfl_401873008.json"
+FIXTURES = Path(__file__).parents[1] / "tests" / "fixtures"
+FIXTURE = FIXTURES / "nfl_401873008.json"
 
 TEAMS = [
     {"id": "25", "abbreviation": "SF", "name": "San Francisco 49ers"},
@@ -36,4 +37,35 @@ def espn():
         patch("custom_components.sports_replay.api.EspnClient.schedule", return_value=GAMES),
         patch("custom_components.sports_replay.api.EspnClient.summary", return_value=summary),
     ):
+        yield
+
+
+def _patch(teams, games, summary_file):
+    summary = json.loads((FIXTURES / summary_file).read_text(encoding="utf-8"))
+    return (
+        patch("custom_components.sports_replay.api.EspnClient.teams", return_value=teams),
+        patch("custom_components.sports_replay.api.EspnClient.schedule", return_value=games),
+        patch("custom_components.sports_replay.api.EspnClient.summary", return_value=summary),
+    )
+
+
+@pytest.fixture
+def espn_soccer():
+    a, b, c = _patch(
+        [{"id": "118", "abbreviation": "UDI", "name": "Udinese"}],
+        [ScheduledGame("401874771", datetime(2026, 10, 18, 10, 30, tzinfo=UTC), "LEC @ UDI", "", True)],
+        "ita1_401874771.json",
+    )
+    with a, b, c:
+        yield
+
+
+@pytest.fixture
+def espn_nba():
+    a, b, c = _patch(
+        [{"id": "8", "abbreviation": "DET", "name": "Detroit Pistons"}],
+        [ScheduledGame("401909088", datetime(2026, 10, 20, 23, 0, tzinfo=UTC), "BOS @ DET", "", True)],
+        "nba_401909088.json",
+    )
+    with a, b, c:
         yield

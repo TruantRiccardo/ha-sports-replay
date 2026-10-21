@@ -19,11 +19,13 @@ from homeassistant.helpers.storage import Store
 from homeassistant.util import dt as dt_util
 
 from .api import EspnClient, EspnError, ScheduledGame
-from .const import DOMAIN, EVENT_PLAY, TICK_SECONDS
-from .engine import (
+from .const import DOMAIN, EVENT_PLAY, LEAGUES, TICK_SECONDS
+from .replay import (
+    DEFAULT_MODE,
     Game,
     Play,
     ReplayClock,
+    Sport,
     Team,
     TimingMode,
     TimingParams,
@@ -49,12 +51,13 @@ class ReplayManager:
         self.hass = hass
         self.client = client
         self.league = league
+        self.sport = Sport(LEAGUES[league].sport)
         self.team_id = team_id
 
         self.games: list[ScheduledGame] = []
         self.game_id: str | None = None
         self.game: Game | None = None
-        self.mode = TimingMode.FULL_NO_ADS
+        self.mode = DEFAULT_MODE[self.sport]
         self.params = TimingParams()
         self.clock = ReplayClock(times=[])
         self.error: str | None = None
@@ -159,7 +162,7 @@ class ReplayManager:
     async def async_load_game(self, event_id: str) -> None:
         self.pause()
         try:
-            game = parse_summary(await self.client.summary(event_id))
+            game = parse_summary(await self.client.summary(event_id), self.sport)
         except (EspnError, KeyError, IndexError, TypeError) as err:
             self.error = f"Could not load game {event_id}: {err}"
             _LOGGER.warning(self.error)
@@ -181,7 +184,7 @@ class ReplayManager:
         index = self.clock.current_index(now) if keep_index else -1
         playing = self.clock.playing
         self.clock = ReplayClock(
-            times=build_timeline(self.game.plays, self.mode, self.params), speed=self.clock.speed
+            times=build_timeline(self.game, self.mode, self.params), speed=self.clock.speed
         )
         if index >= 0:
             self.clock.seek_index(index, now)
@@ -334,13 +337,16 @@ class ReplayManager:
 
         if index < 0:
             state = "PRE"
-        elif index == len(plays) - 1 or (play and play.type_text == "End of Game"):
+        elif index == len(plays) - 1 or "end_game" in classify(game, index).categories:
             state = "POST"
         else:
             state = "IN"
 
         team_wp = _team_wp(play, mine)
-        home_to, away_to = timeouts_remaining(game, index) if index >= 0 else (3, 3)
+        football = game.sport is Sport.FOOTBALL
+        home_to = away_to = None  # timeouts: football only
+        if football:
+            home_to, away_to = timeouts_remaining(game, index) if index >= 0 else (3, 3)
         team_score, opponent_score = _score(play, mine), _score(play, other)
 
         recent = []
@@ -363,7 +369,7 @@ class ReplayManager:
             "state": state,
             "error": self.error,
             # Team Tracker-compatible
-            "sport": "football",
+            "sport": game.sport.value,
             "league": self.league.upper(),
             "event_id": self.game_id,
             "event_name": game.name,
@@ -390,9 +396,9 @@ class ReplayManager:
             "opponent_winner": opponent_score > team_score if state == "POST" else None,
             "quarter": play.period if play else None,
             "clock": play.clock if play else None,
-            "possession": play.end_team_id if play else None,
+            "possession": play.end_team_id if play and football else None,
             "last_play": play.text if play else None,
-            "down_distance_text": play.down_distance_after if play else None,
+            "down_distance_text": play.down_distance_after if play and football else None,
             "last_update": dt_util.utcnow().isoformat(),
             # Replay-specific. No replay position: it changes every second and would flood the
             # recorder; the state only changes when the play does.

@@ -14,11 +14,11 @@ from custom_components.sports_replay.const import DOMAIN, EVENT_PLAY
 DEVICE = "sports_replay_sf"
 
 
-async def _setup(hass: HomeAssistant) -> MockConfigEntry:
+async def _setup(hass: HomeAssistant, league="nfl", team_id="25", abbr="SF") -> MockConfigEntry:
     entry = MockConfigEntry(
         domain=DOMAIN,
-        data={"league": "nfl", "team_id": "25", "team_abbr": "SF"},
-        unique_id="nfl_25",
+        data={"league": league, "team_id": team_id, "team_abbr": abbr},
+        unique_id=f"{league}_{team_id}",
     )
     entry.add_to_hass(hass)
     assert await hass.config_entries.async_setup(entry.entry_id)
@@ -81,7 +81,9 @@ async def test_replay_controls_and_events(hass: HomeAssistant, espn) -> None:
     now[0] += manager.clock.times[td] - manager.clock.times[td - 1] + 0.5
     manager._tick()
     await hass.async_block_till_done()
-    assert [e.data["categories"] for e in events] == [["touchdown"]]
+    assert len(events) == 1
+    # The first score of the game: sport category plus the shared ones.
+    assert events[0].data["categories"] == ["score", "lead_change", "touchdown"]
     assert events[0].data["is_my_team"] is True
     assert events[0].data["team"] == "SF"
     assert events[0].data["team_score"] == 7
@@ -167,3 +169,47 @@ async def test_restore_after_restart(hass: HomeAssistant, espn, hass_storage) ->
     assert a["replay_speed"] == 1.5
     assert entry.runtime_data.params.condensed_per_play == 20
     assert a["replay_playing"] is False  # never resumes on its own
+
+
+async def test_soccer_replay(hass: HomeAssistant, espn_soccer) -> None:
+    await _setup(hass, "serie-a", "118", "UDI")
+    device = "sports_replay_udi"
+    await hass.services.async_call(
+        "select", "select_option",
+        {"entity_id": f"select.{device}_game_to_replay", "option": "LEC @ UDI · 2026-10-18"},
+        blocking=True,
+    )
+    assert hass.states.get(f"select.{device}_timing_mode").state == "game_clock"
+    # TV clock 85:00 in the 2nd half: the next event is Lecce's third goal (85:15).
+    await hass.services.async_call(DOMAIN, "seek", {"period": 2, "clock": "85:00"}, blocking=True)
+    a = hass.states.get(f"sensor.{device}_game").attributes
+    assert a["sport"] == "soccer"
+    assert (a["team_score"], a["opponent_score"]) == (0, 3)
+    assert a["clock"] == "86'"
+    assert a["team_timeouts"] is None and a["possession"] is None
+    assert hass.states.get(f"sensor.{device}_win_probability").state == "unknown"
+
+
+async def test_nba_events(hass: HomeAssistant, espn_nba) -> None:
+    entry = await _setup(hass, "nba", "8", "DET")
+    device = "sports_replay_det"
+    events = async_capture_events(hass, EVENT_PLAY)
+    await hass.services.async_call(
+        "select", "select_option",
+        {"entity_id": f"select.{device}_game_to_replay", "option": "BOS @ DET · 2026-10-20"},
+        blocking=True,
+    )
+    manager = entry.runtime_data
+    now = [0.0]
+    manager._now = lambda: now[0]
+    three = next(i for i, p in enumerate(manager.game.plays) if p.scoring and p.score_value == 3)
+    manager.clock.seek_index(three - 1, now[0])
+    manager.play()
+    now[0] += manager.clock.times[three] - manager.clock.times[three - 1] + 0.1
+    manager._tick()
+    await hass.async_block_till_done()
+    assert "three_pointer" in events[-1].data["categories"]
+    assert "score" in events[-1].data["categories"]
+    a = hass.states.get(f"sensor.{device}_game").attributes
+    assert a["sport"] == "basketball"
+    assert a["team_win_probability"] is not None
