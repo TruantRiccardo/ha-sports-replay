@@ -71,6 +71,7 @@ class Play:
     # basketball (and hockey, soccer later): athletes involved, ESPN's order
     # (shooter then assister/blocker, player losing the ball then stealer, entering then leaving)
     participants: tuple[str, ...] = ()
+    participant_roles: tuple[str | None, ...] = ()  # hockey: "scorer", "assister", "hit-credited", ...
     shooting: bool = False
     points_attempted: int = 0
     # hockey
@@ -110,7 +111,7 @@ class Game:
     date: datetime | None = None
     plays: list[Play] = field(default_factory=list)
     drives: list[Drive] = field(default_factory=list)  # football only
-    players: dict[str, Player] = field(default_factory=dict)  # basketball: id -> player
+    players: dict[str, Player] = field(default_factory=dict)  # id -> player (not football)
 
     @property
     def name(self) -> str:

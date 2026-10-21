@@ -93,11 +93,30 @@ def test_soccer_score_and_events(soccer):
 def test_soccer_game_clock_counts_stoppage_time(soccer):
     assert DEFAULT_MODE[Sport.SOCCER] is TimingMode.GAME_CLOCK
     t = build_timeline(soccer, TimingMode.GAME_CLOCK)
-    by_clock = {p.clock: x / 60 for p, x in zip(soccer.plays, t)}
-    assert by_clock["11'"] == pytest.approx(650 / 60)  # 10:50 into the match
-    # Halftime at 45'+2' is after 45:00, not clamped to it.
-    assert by_clock["45'+2'"] == pytest.approx(46.5)
+    at = {}
+    for p, x in zip(soccer.plays, t):
+        at.setdefault((p.type_text, p.clock), x / 60)
+    first_goal = at[("Goal - Header", "11'")]
+    halftime = at[("Halftime", "45'+2'")]
+    third_goal = at[("Goal", "86'")]
+    final_whistle = at[("End Regular Time", "90'+3'")]
+    assert first_goal - at[("Kickoff", "")] == pytest.approx(650 / 60)  # 10:50 into the match
+    # Halftime at 45'+2' is after 45:00, not clamped to it (events of a same minute are 1 s apart).
+    assert halftime == pytest.approx(46.5, abs=0.1)
     # 2nd half: its own clock from 45:00, after the 1st half and a 40 s break.
-    assert by_clock["86'"] == pytest.approx(46.5 + 40 / 60 + (5115 - 2700) / 60)
+    assert third_goal == pytest.approx(46.5 + 40 / 60 + (5115 - 2700) / 60, abs=0.1)
     # The final whistle at 90'+3' lands ~2.5 minutes after 90:00.
-    assert by_clock["90'+3'"] - by_clock["86'"] == pytest.approx((5400 + 150 - 5115) / 60)
+    assert final_whistle - third_goal == pytest.approx((5400 + 150 - 5115) / 60, abs=0.1)
+
+
+def test_soccer_commentary(soccer):
+    kinds = [p.type_text for p in soccer.plays]
+    # The commentary adds shots, corners, fouls and offsides to the key events.
+    assert kinds.count("Foul") == 38 and kinds.count("Corner Awarded") == 5
+    # ...but each foul appears twice ("Foul by X", "Y wins a free kick"): one event only.
+    assert sum("foul" in classify(soccer, i).categories for i in range(len(soccer.plays))) == 21
+    assert "Halftime" in kinds and "Start 2nd Half" in kinds  # key events missing from it
+    # Every play with players has a team; only whistles have none.
+    assert {p.type_text for p in soccer.plays if p.team_id is None} <= {
+        "Kickoff", "Halftime", "Start 2nd Half", "End Regular Time"
+    }

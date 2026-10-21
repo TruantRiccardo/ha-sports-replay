@@ -87,11 +87,6 @@ def test_stats_run_with_the_replay(game):
     assert at_half[SF]["possession_seconds"] + at_half[WSH]["possession_seconds"] <= 30 * 60
 
 
-def test_other_sports_not_supported_yet():
-    data = json.loads((FIXTURE.parent / "nhl_401892535.json").read_text(encoding="utf-8"))
-    assert team_stats(parse_summary(data, Sport.HOCKEY), 10) is None
-
-
 # --- basketball: BOS @ DET, 2026-10-20 ------------------------------------------------------
 
 DET, BOS = "8", "2"
@@ -135,3 +130,52 @@ def test_basketball_five_on_court_all_game(nba):
         stats = team_stats(nba, index)
         assert len(stats[DET]["on_court"]) == 5 and len(stats[BOS]["on_court"]) == 5, index
     assert team_stats(nba, -1)[BOS]["points"] == 0
+
+
+# --- hockey: ANA @ NYR, 2026-10-19 ----------------------------------------------------------
+
+ANA, NYR = "25", "13"
+
+
+def _load(name, sport):
+    return parse_summary(json.loads((FIXTURE.parent / name).read_text(encoding="utf-8")), sport)
+
+
+def test_hockey_stats_match_the_official_box_score():
+    game = _load("nhl_401892535.json", Sport.HOCKEY)
+    final = team_stats(game, len(game.plays) - 1)
+    pick = ("goals", "shots", "hits", "blocked_shots", "faceoffs_won", "takeaways", "giveaways",
+            "penalties", "penalty_minutes", "power_play_goals")
+    assert [final[ANA][k] for k in pick] == [2, 31, 29, 13, 26, 4, 13, 4, 8, 0]
+    assert [final[NYR][k] for k in pick] == [5, 30, 15, 17, 31, 2, 19, 3, 6, 1]
+    # Points = goals + assists; the leaders first.
+    top = final[NYR]["players"][0]
+    assert top["points"] == top["goals"] + top["assists"] > 0
+    assert sum(p["goals"] for p in final[NYR]["players"]) == 5
+
+
+# --- soccer: Udinese - Lecce, 2026-10-18 ----------------------------------------------------
+
+UDI, LEC = "118", "113"
+
+
+def test_soccer_stats_match_the_official_box_score():
+    game = _load("ita1_401874771.json", Sport.SOCCER)
+    final = team_stats(game, len(game.plays) - 1)
+    pick = ("goals", "shots", "shots_on_target", "corners", "fouls", "offsides", "yellow_cards", "red_cards", "saves")
+    assert [final[UDI][k] for k in pick] == [0, 14, 2, 1, 10, 3, 1, 0, 8]
+    assert [final[LEC][k] for k in pick] == [3, 17, 11, 4, 11, 8, 0, 0, 2]
+    scorers = {p["name"] for p in final[LEC]["players"] if p["goals"]}
+    assert scorers == {"K. Gaspar", "J. Siebert"} | {p["name"] for p in final[LEC]["players"] if p["name"].startswith("K. N")}
+    # The third goal came from a fast break, without an assist.
+    assert {p["name"] for p in final[LEC]["players"] if p["assists"]} == {"A. Gallo", "Tiago Gabriel"}
+    assert final[LEC]["players"][0]["goals"] == 1  # scorers first
+
+
+def test_soccer_eleven_on_the_field_all_game():
+    game = _load("ita1_401874771.json", Sport.SOCCER)
+    start = team_stats(game, -1)
+    end = team_stats(game, len(game.plays) - 1)
+    for team in (UDI, LEC):
+        assert len(start[team]["on_field"]) == 11 and len(end[team]["on_field"]) == 11
+        assert start[team]["on_field"] != end[team]["on_field"]  # substitutions applied

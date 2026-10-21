@@ -186,6 +186,18 @@ def _hockey(game: Game, play: Play) -> tuple[list[str], str | None]:
 # --- soccer --------------------------------------------------------------------------------
 
 _SECOND_YELLOW = re.compile(r"second yellow", re.IGNORECASE)
+def is_soccer_foul(play: Play) -> bool:
+    """The commentary reports a foul twice: "Foul by X (Lecce)." and "Y (Udinese) wins a free
+    kick ...". Only the first is the foul."""
+    return play.type_text.lower() in ("foul", "handball") and "wins a free kick" not in play.text.lower()
+
+
+_SOCCER_SHOTS = {
+    "shot on target": "shot_on_target",
+    "shot off target": "shot_off_target",
+    "shot blocked": "shot_blocked",
+    "shot hit woodwork": "woodwork",
+}
 
 
 def _soccer(game: Game, play: Play) -> tuple[list[str], str | None]:
@@ -208,6 +220,15 @@ def _soccer(game: Game, play: Play) -> tuple[list[str], str | None]:
         cats.append("red_card")
     if kind == "substitution":
         cats.append("substitution")
+    shot = _SOCCER_SHOTS.get(kind)
+    if shot:
+        cats.append(shot)
+    if kind == "corner awarded":
+        cats.append("corner")
+    if kind == "offside":
+        cats.append("offside")
+    if is_soccer_foul(play):
+        cats.append("foul")
     if "var" in kind.split():
         cats.append("var")
     if kind in ("kickoff", "start 2nd half", "start extra time"):

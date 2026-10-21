@@ -32,11 +32,11 @@ def parse_summary(data: dict[str, Any], sport: Sport = Sport.FOOTBALL) -> Game:
         plays = [_football_play(p, d, win_prob) for d, p in _football_raw(data)]
         game.drives = [_drive(d) for d in _football_drives(data)]
     elif sport is Sport.SOCCER:
+        game.players = _roster_players(data)
         plays = _soccer_plays(data, game)
     else:
         plays = [_flat_play(p, win_prob) for p in data.get("plays") or []]
-        if sport is Sport.BASKETBALL:
-            game.players = _box_players(data)
+        game.players = _box_players(data)
     plays.sort(key=lambda pl: pl.sequence)
     game.plays = plays
     return game
@@ -193,6 +193,7 @@ def _flat_play(p: dict[str, Any], win_prob: dict[str, float]) -> Play:
         participants=tuple(
             str((x.get("athlete") or {}).get("id")) for x in p.get("participants") or [] if x.get("athlete")
         ),
+        participant_roles=tuple(x.get("type") for x in p.get("participants") or [] if x.get("athlete")),
         shooting=bool(p.get("shootingPlay")),
         points_attempted=_int(p.get("pointsAttempted")),
         strength=(p.get("strength") or {}).get("abbreviation"),
@@ -229,20 +230,64 @@ def _box_players(data: dict[str, Any]) -> dict[str, Player]:
 _SCORE_RE = re.compile(r"(\d+), [^.,]*?(\d+)\.")
 
 
-def _soccer_plays(data: dict[str, Any], game: Game) -> list[Play]:
-    """Key events with a running score.
+def _roster_players(data: dict[str, Any]) -> dict[str, Player]:
+    """Line-ups from the rosters: names, teams, starters, shirt numbers. Never their statistics
+    nor the subbedIn/subbedOut flags: those are final, a spoiler."""
+    players = {}
+    for roster in data.get("rosters") or []:
+        team_id = str((roster.get("team") or {}).get("id", ""))
+        for entry in roster.get("roster") or []:
+            athlete = entry.get("athlete") or {}
+            if not athlete.get("id"):
+                continue
+            pid = str(athlete["id"])
+            players[pid] = Player(
+                id=pid,
+                name=athlete.get("displayName", ""),
+                short_name=athlete.get("shortName") or athlete.get("displayName", ""),
+                team_id=team_id,
+                starter=bool(entry.get("starter")),
+                jersey=entry.get("jersey"),
+            )
+    return players
 
-    Key events carry no score: it is read from the goal text, which also gets own goals
-    right, and counted per team as a fallback. Shoot-out kicks never change the score.
+
+def _soccer_plays(data: dict[str, Any], game: Game) -> list[Play]:
+    """The match commentary (shots, corners, fouls, offsides, goals, cards, substitutions), plus
+    the key events it lacks (halftime, second half kick-off); key events only when there is no
+    commentary.
+
+    Commentary has no team ids: the team comes from the matching key event, else from the first
+    player (rosters), else from the team name in the text ("Corner, Lecce."). The score is read
+    from the goal text, which also gets own goals right, and counted per team as a fallback.
+    Shoot-out kicks never change the score.
     """
+    key_events = {str(e.get("id")): e for e in data.get("keyEvents") or [] if e.get("id") is not None}
+    by_name = {p.name: p for p in game.players.values()}
+    raw: list[tuple[datetime | None, int, dict[str, Any], str | None]] = []
+    commentary = [c for c in data.get("commentary") or [] if c.get("play")]
+    for c in commentary:
+        play = c["play"]
+        event = key_events.get(str(play.get("id")), play)
+        raw.append((_time(play.get("wallclock")), _int(c.get("sequence")), event, c.get("text")))
+    known = {str(c["play"].get("id")) for c in commentary}
+    raw += [(_time(e.get("wallclock")), -1, e, None) for k, e in key_events.items() if k not in known]
+    # Chronological; ties keep the commentary order.
+    raw.sort(key=lambda r: ((r[0].timestamp() if r[0] else 0.0), r[1]))
+
     home = away = 0
     plays = []
-    for i, e in enumerate(data.get("keyEvents") or []):
+    for i, (_, _, e, outer_text) in enumerate(raw):
         etype = e.get("type") or {}
-        team_id = str((e.get("team") or {}).get("id", "")) or None
+        athletes = [(x.get("athlete") or {}) for x in e.get("participants") or []]
+        participants = tuple(_athlete_id(a, by_name) for a in athletes)
+        # The commentary line ("Foul by X (Lecce).") rather than the play's own text, which can be
+        # the next line ("Y wins a free kick").
+        text = outer_text or e.get("text") or e.get("shortText") or etype.get("text", "")
+        team_id = _soccer_team(game, e, participants, text)
         scoring = bool(e.get("scoringPlay")) and not e.get("shootout")
         if scoring:
-            if m := _SCORE_RE.search(e.get("text", "")):
+            if m := _SCORE_RE.search(e.get("text") or text):
                 home, away = int(m.group(1)), int(m.group(2))
             elif team_id == game.home.id:
                 home += 1
@@ -255,7 +300,7 @@ def _soccer_plays(data: dict[str, Any], game: Game) -> list[Play]:
                 sequence=i,
                 type_id=str(etype.get("id", "")),
                 type_text=etype.get("text", ""),
-                text=e.get("text") or e.get("shortText") or etype.get("text", ""),
+                text=text,
                 period=_int((e.get("period") or {}).get("number")),
                 clock=clock.get("displayValue", ""),
                 clock_seconds=_clock_seconds(clock),
@@ -265,7 +310,27 @@ def _soccer_plays(data: dict[str, Any], game: Game) -> list[Play]:
                 team_id=team_id,
                 scoring=scoring,
                 score_value=1 if scoring else 0,
+                participants=participants,
                 shootout=bool(e.get("shootout")),
             )
         )
     return plays
+
+
+def _athlete_id(athlete: dict[str, Any], by_name: dict[str, Player]) -> str:
+    if athlete.get("id"):
+        return str(athlete["id"])
+    player = by_name.get(athlete.get("displayName", ""))
+    return player.id if player else ""
+
+
+def _soccer_team(game: Game, event: dict[str, Any], participants: tuple[str, ...], text: str) -> str | None:
+    if team_id := (event.get("team") or {}).get("id"):
+        return str(team_id)
+    if participants and participants[0] in game.players:
+        return game.players[participants[0]].team_id
+    for team in (game.home, game.away):
+        for name in {team.name, team.short_name}:
+            if name and (f"({name})" in text or f", {name}." in text):
+                return team.id
+    return None

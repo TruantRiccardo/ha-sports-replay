@@ -5,6 +5,9 @@ Football: player statistics come from the play text ("B.Purdy pass short left to
 11 yards"), as ESPN's football play-by-play does not list participants.
 Basketball: from the participants of each play, plus who is on the court (starters, then
 substitutions).
+Hockey: from the participants and their roles (scorer, assister, shooter, hitter, ...).
+Soccer: from the match commentary (shots, corners, fouls, offsides, cards) and the line-ups
+(starters, then substitutions).
 """
 
 from __future__ import annotations
@@ -12,7 +15,7 @@ from __future__ import annotations
 from dataclasses import asdict, dataclass, field
 import re
 
-from .classify import _text_team
+from .classify import _text_team, is_soccer_foul
 from .model import Game, Play, Sport
 
 _NAME = r"([A-Z][A-Za-z'.\-]*\.[A-Za-z'\-]+(?: [JS]r\.| I{2,3})?)"
@@ -108,6 +111,10 @@ def team_stats(game: Game, index: int) -> dict[str, dict] | None:
     """{team_id: stats} after play ``index`` (-1: before the first play). None if not supported."""
     if game.sport is Sport.BASKETBALL:
         return _basketball(game, index)
+    if game.sport is Sport.HOCKEY:
+        return _hockey(game, index)
+    if game.sport is Sport.SOCCER:
+        return _soccer(game, index)
     if game.sport is not Sport.FOOTBALL:
         return None
     stats = {game.home.id: FootballTeamStats(), game.away.id: FootballTeamStats()}
@@ -329,5 +336,165 @@ def _basketball(game: Game, index: int) -> dict[str, dict]:
             "free_throws": f"{totals['ftm']}/{totals['fta']}",
             "players": sorted(roster, key=lambda p: (-p["points"], p["name"])),
             "on_court": [game.players[pid].short_name for pid in on_court[team_id]],
+        }
+    return result
+
+
+# --- shared by the player-based sports -----------------------------------------------------
+
+
+class _Book:
+    """Counters per team and per player, players registered from the game's rosters."""
+
+    def __init__(self, game: Game, counters: tuple[str, ...]) -> None:
+        self.game = game
+        self.counters = counters
+        self.teams = {t.id: dict.fromkeys(counters, 0) for t in (game.home, game.away)}
+        self.players: dict[str, dict] = {}
+
+    def player(self, pid: str | None) -> dict | None:
+        info = self.game.players.get(pid or "")
+        if info is None or info.team_id not in self.teams:
+            return None
+        if info.id not in self.players:
+            self.players[info.id] = {"name": info.short_name, "jersey": info.jersey, **dict.fromkeys(self.counters, 0)}
+        return self.players[info.id]
+
+    def add(self, pid: str | None, team_id: str | None = None, **counts: int) -> None:
+        """Count for the player (and their team), or for ``team_id`` when there is no player."""
+        target = self.player(pid)
+        team = self.teams.get(self.game.players[pid].team_id if target is not None else team_id or "")
+        for key, n in counts.items():
+            if target is not None:
+                target[key] += n
+            if team is not None:
+                team[key] += n
+
+    def roster(self, team_id: str, sort: str) -> list[dict]:
+        mine = [p for pid, p in self.players.items() if self.game.players[pid].team_id == team_id]
+        return sorted(mine, key=lambda p: (-p[sort], p["name"]))
+
+
+def _line_up(game: Game, index: int) -> dict[str, list[str]]:
+    """Players on the field/court: starters, then substitutions (entering, leaving)."""
+    lineup = {t.id: [p.id for p in game.players.values() if p.team_id == t.id and p.starter] for t in (game.home, game.away)}
+    for play in game.plays[: index + 1]:
+        if play.type_text.lower() != "substitution" or len(play.participants) < 2:
+            continue
+        entering, leaving = play.participants[0], play.participants[1]
+        info = game.players.get(entering)
+        if info is None or info.team_id not in lineup:
+            continue
+        team = lineup[info.team_id]
+        if leaving in team:
+            team[team.index(leaving)] = entering
+        elif entering not in team:
+            team.append(entering)
+    return {t: [game.players[pid].short_name for pid in ids] for t, ids in lineup.items()}
+
+
+def _same_team(game: Game, a: str | None, b: str | None) -> bool:
+    pa, pb = game.players.get(a or ""), game.players.get(b or "")
+    return pa is not None and pb is not None and pa.team_id == pb.team_id
+
+
+# --- hockey --------------------------------------------------------------------------------
+
+_HOCKEY_COUNTERS = (
+    "goals", "assists", "points", "shots", "hits", "blocked_shots", "faceoffs_won",
+    "takeaways", "giveaways", "penalties", "penalty_minutes", "saves", "power_play_goals",
+)
+
+
+def _hockey(game: Game, index: int) -> dict[str, dict]:
+    book = _Book(game, _HOCKEY_COUNTERS)
+    faceoffs = 0
+    for play in game.plays[: index + 1]:
+        roles = dict(zip(play.participant_roles, play.participants))
+        kind = play.type_text.lower()
+        if play.scoring:
+            book.add(roles.get("scorer"), play.team_id, goals=1, points=1, shots=1,
+                     power_play_goals=int(play.strength == "power-play"))
+            for role, pid in zip(play.participant_roles, play.participants):
+                if role == "assister":
+                    book.add(pid, None, assists=1, points=1)
+        elif kind == "shot":
+            book.add(roles.get("shooter"), play.team_id, shots=1)
+            book.add(roles.get("saver"), None, saves=1)
+        elif kind == "hit":
+            book.add(roles.get("hit-credited"), play.team_id, hits=1)
+        elif kind == "blocked":
+            defender, shooter = roles.get("defender"), roles.get("shooter")
+            # A shot blocked by a teammate is not a blocked shot for anyone.
+            if not _same_team(game, defender, shooter):
+                book.add(defender, None, blocked_shots=1)
+        elif kind == "face off":
+            faceoffs += 1
+            book.add(roles.get("face-off-winner"), play.team_id, faceoffs_won=1)
+        elif kind == "takeaway":
+            book.add(roles.get("taker"), play.team_id, takeaways=1)
+        elif kind == "giveaway":
+            book.add(roles.get("giver"), play.team_id, giveaways=1)
+        if play.penalty_minutes is not None:
+            book.add(play.participants[0] if play.participants else None, play.team_id,
+                     penalties=1, penalty_minutes=play.penalty_minutes)
+
+    result = {}
+    for team_id, totals in book.teams.items():
+        result[team_id] = {
+            **totals,
+            "faceoff_pct": round(100 * totals["faceoffs_won"] / faceoffs) if faceoffs else None,
+            "players": book.roster(team_id, "points"),
+        }
+    return result
+
+
+# --- soccer --------------------------------------------------------------------------------
+
+_SOCCER_COUNTERS = (
+    "goals", "assists", "shots", "shots_on_target", "corners", "fouls", "offsides",
+    "yellow_cards", "red_cards", "saves",
+)
+_SOCCER_ON_TARGET = {"shot on target"}
+_SOCCER_SHOT_TYPES = {"shot on target", "shot off target", "shot blocked", "shot hit woodwork"}
+
+
+def _soccer(game: Game, index: int) -> dict[str, dict]:
+    book = _Book(game, _SOCCER_COUNTERS)
+    for play in game.plays[: index + 1]:
+        kind = play.type_text.lower()
+        first = play.participants[0] if play.participants else None
+        if play.scoring:
+            own_goal = "own goal" in kind
+            # An own goal is not a shot nor a goal of the player.
+            if not own_goal:
+                book.add(first, play.team_id, goals=1, shots=1, shots_on_target=1)
+                if len(play.participants) >= 2:
+                    book.add(play.participants[1], None, assists=1)
+            elif (scorer := game.opponent_of(play.team_id)) is not None:
+                book.teams[scorer.id]["goals"] += 1
+        elif kind in _SOCCER_SHOT_TYPES:
+            on_target = kind in _SOCCER_ON_TARGET
+            book.add(first, play.team_id, shots=1, shots_on_target=int(on_target))
+            if on_target and (keeper_team := game.opponent_of(play.team_id)) is not None:
+                book.teams[keeper_team.id]["saves"] += 1
+        elif kind == "corner awarded":
+            book.add(None, play.team_id, corners=1)
+        elif kind == "offside":
+            book.add(None, play.team_id, offsides=1)
+        elif is_soccer_foul(play):
+            book.add(first, play.team_id, fouls=1)
+        if "yellow card" in kind and "second yellow" not in play.text.lower():
+            book.add(first, play.team_id, yellow_cards=1)
+        if "red card" in kind or "second yellow" in play.text.lower():
+            book.add(first, play.team_id, red_cards=1)
+
+    lineup = _line_up(game, index)
+    result = {}
+    for team_id, totals in book.teams.items():
+        result[team_id] = {
+            **totals,
+            "players": book.roster(team_id, "goals"),
+            "on_field": lineup[team_id],
         }
     return result

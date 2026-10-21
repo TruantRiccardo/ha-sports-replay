@@ -414,7 +414,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000000510",
@@ -443,7 +444,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5831",
+      "displayName": "Mikael Granlund"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "2562637",
+      "displayName": "Mika Zibanejad"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000640",
@@ -472,7 +490,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "5216858",
+      "displayName": "Beckett Sennecke"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "5149204",
+      "displayName": "Gabe Perreault"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000740",
@@ -501,7 +536,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "5216858",
+      "displayName": "Beckett Sennecke"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "4197146",
+      "displayName": "Adam Fox"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000730",
@@ -530,7 +582,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "5080220",
+      "displayName": "Tristan Luneau"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000660",
@@ -559,7 +621,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4378683",
+      "displayName": "Sean Durzi"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "5103702",
+      "displayName": "Tyson Hinds"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000690",
@@ -588,7 +667,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4588750",
+      "displayName": "Tye Kartye"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000700",
@@ -617,7 +713,31 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "scorer",
+     "athlete": {
+      "id": "4378683",
+      "displayName": "Sean Durzi"
+     }
+    },
+    {
+     "type": "assister",
+     "athlete": {
+      "id": "4587588",
+      "displayName": "Pavel Dorofeyev"
+     }
+    },
+    {
+     "type": "assister",
+     "athlete": {
+      "id": "4588750",
+      "displayName": "Tye Kartye"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000710",
@@ -646,7 +766,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5188370",
+      "displayName": "Noah Laba"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "5291946",
+      "displayName": "Roger McQueen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000850",
@@ -675,7 +812,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "3648015",
+      "displayName": "A.J. Greer"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "4697402",
+      "displayName": "Braden Schneider"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000770",
@@ -704,7 +858,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4233720",
+      "displayName": "Eeli Tolvanen"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000940",
@@ -733,7 +904,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "4697468",
+      "displayName": "Will Cuylle"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "5080145",
+      "displayName": "Cutter Gauthier"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000800",
@@ -762,7 +950,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5080220",
+      "displayName": "Tristan Luneau"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000810",
@@ -791,7 +996,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5080145",
+      "displayName": "Cutter Gauthier"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000080",
@@ -817,7 +1039,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000000820",
@@ -846,7 +1069,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "4996085",
+      "displayName": "Tim Washe"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "3067879",
+      "displayName": "Justin Dowling"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000910",
@@ -877,7 +1117,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": null,
+     "athlete": {
+      "id": "4895214",
+      "displayName": "Jeff Malott"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "4197146",
+      "displayName": "Adam Fox"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000870",
@@ -906,7 +1163,24 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "2590852",
+      "displayName": "J.T. Miller"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "4996085",
+      "displayName": "Tim Washe"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000950",
@@ -935,7 +1209,24 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4697382",
+      "displayName": "Alexis Lafreniere"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000970",
@@ -964,7 +1255,24 @@
     "id": "703",
     "text": "Shorthanded",
     "abbreviation": "short-handed"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4565262",
+      "displayName": "Jackson LaCombe"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000001050",
@@ -993,7 +1301,17 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "2562637",
+      "displayName": "Mika Zibanejad"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000001100",
@@ -1024,7 +1342,17 @@
     "id": "703",
     "text": "Shorthanded",
     "abbreviation": "short-handed"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": null,
+     "athlete": {
+      "id": "3025608",
+      "displayName": "Nick Jensen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000001060",
@@ -1053,7 +1381,24 @@
     "id": "703",
     "text": "Shorthanded",
     "abbreviation": "short-handed"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "4996085",
+      "displayName": "Tim Washe"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "2590852",
+      "displayName": "J.T. Miller"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000001130",
@@ -1082,7 +1427,24 @@
     "id": "703",
     "text": "Shorthanded",
     "abbreviation": "short-handed"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "2590852",
+      "displayName": "J.T. Miller"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "4565262",
+      "displayName": "Jackson LaCombe"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000001140",
@@ -1111,7 +1473,24 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4697382",
+      "displayName": "Alexis Lafreniere"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000110",
@@ -1137,7 +1516,8 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000001150",
@@ -1166,7 +1546,24 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "2590852",
+      "displayName": "J.T. Miller"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "5831",
+      "displayName": "Mikael Granlund"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000001210",
@@ -1195,7 +1592,24 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4587588",
+      "displayName": "Pavel Dorofeyev"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000001380",
@@ -1224,7 +1638,24 @@
     "id": "703",
     "text": "Shorthanded",
     "abbreviation": "short-handed"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "4996085",
+      "displayName": "Tim Washe"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "5149204",
+      "displayName": "Gabe Perreault"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000001270",
@@ -1253,7 +1684,24 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4697468",
+      "displayName": "Will Cuylle"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000001290",
@@ -1282,7 +1730,24 @@
     "id": "703",
     "text": "Shorthanded",
     "abbreviation": "short-handed"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4587588",
+      "displayName": "Pavel Dorofeyev"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "5103702",
+      "displayName": "Tyson Hinds"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000001300",
@@ -1311,7 +1776,24 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4587588",
+      "displayName": "Pavel Dorofeyev"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000001320",
@@ -1340,7 +1822,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4587588",
+      "displayName": "Pavel Dorofeyev"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000001540",
@@ -1369,7 +1868,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "5291946",
+      "displayName": "Roger McQueen"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "4378683",
+      "displayName": "Sean Durzi"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000001390",
@@ -1398,7 +1914,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5291946",
+      "displayName": "Roger McQueen"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "4378683",
+      "displayName": "Sean Durzi"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000001470",
@@ -1427,7 +1960,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "4565262",
+      "displayName": "Jackson LaCombe"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000001430",
@@ -1456,7 +1999,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5291946",
+      "displayName": "Roger McQueen"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000001550",
@@ -1485,7 +2045,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "4755684",
+      "displayName": "Judd Caulfield"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000001610",
@@ -1514,7 +2084,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "4697402",
+      "displayName": "Braden Schneider"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000001620",
@@ -1543,7 +2123,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "4755684",
+      "displayName": "Judd Caulfield"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "2562637",
+      "displayName": "Mika Zibanejad"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000001570",
@@ -1574,7 +2171,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": null,
+     "athlete": {
+      "id": "5334662",
+      "displayName": "Alberts Smits"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "4895214",
+      "displayName": "Jeff Malott"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000130",
@@ -1600,7 +2214,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000001520",
@@ -1629,7 +2244,24 @@
     "id": "703",
     "text": "Shorthanded",
     "abbreviation": "short-handed"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5188370",
+      "displayName": "Noah Laba"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "5080145",
+      "displayName": "Cutter Gauthier"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000001670",
@@ -1658,7 +2290,24 @@
     "id": "703",
     "text": "Shorthanded",
     "abbreviation": "short-handed"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "3942292",
+      "displayName": "Vladislav Gavrikov"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "5216858",
+      "displayName": "Beckett Sennecke"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000001700",
@@ -1687,7 +2336,17 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "5216858",
+      "displayName": "Beckett Sennecke"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000001680",
@@ -1716,7 +2375,24 @@
     "id": "703",
     "text": "Shorthanded",
     "abbreviation": "short-handed"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5080145",
+      "displayName": "Cutter Gauthier"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "4588750",
+      "displayName": "Tye Kartye"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000001690",
@@ -1745,7 +2421,24 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5080145",
+      "displayName": "Cutter Gauthier"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000002510",
@@ -1774,7 +2467,24 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5831",
+      "displayName": "Mikael Granlund"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000001710",
@@ -1803,7 +2513,24 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5831",
+      "displayName": "Mikael Granlund"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000140",
@@ -1829,7 +2556,8 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000001720",
@@ -1858,7 +2586,24 @@
     "id": "703",
     "text": "Shorthanded",
     "abbreviation": "short-handed"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5188370",
+      "displayName": "Noah Laba"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "5291946",
+      "displayName": "Roger McQueen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000001860",
@@ -1887,7 +2632,17 @@
     "id": "703",
     "text": "Shorthanded",
     "abbreviation": "short-handed"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "3942292",
+      "displayName": "Vladislav Gavrikov"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000001930",
@@ -1916,7 +2671,17 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "5291946",
+      "displayName": "Roger McQueen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000001880",
@@ -1945,7 +2710,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "2562637",
+      "displayName": "Mika Zibanejad"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000150",
@@ -1971,7 +2753,8 @@
     "id": "703",
     "text": "Shorthanded",
     "abbreviation": "short-handed"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000001890",
@@ -2000,7 +2783,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5831",
+      "displayName": "Mikael Granlund"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "2590852",
+      "displayName": "J.T. Miller"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000001980",
@@ -2029,7 +2829,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "3648015",
+      "displayName": "A.J. Greer"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000002200",
@@ -2058,7 +2875,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "4697468",
+      "displayName": "Will Cuylle"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "3025608",
+      "displayName": "Nick Jensen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000002150",
@@ -2087,7 +2921,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4063502",
+      "displayName": "Taylor Raddysh"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000002360",
@@ -2116,7 +2967,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "3114995",
+      "displayName": "Marcus Pettersson"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "5149153",
+      "displayName": "Leo Carlsson"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000002520",
@@ -2145,7 +3013,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4968",
+      "displayName": "Alex Killorn"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "4197146",
+      "displayName": "Adam Fox"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000002160",
@@ -2174,7 +3059,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5149153",
+      "displayName": "Leo Carlsson"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000002170",
@@ -2203,7 +3105,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4968",
+      "displayName": "Alex Killorn"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000002260",
@@ -2232,7 +3151,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "taker",
+     "athlete": {
+      "id": "2562637",
+      "displayName": "Mika Zibanejad"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000002250",
@@ -2261,7 +3190,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4697402",
+      "displayName": "Braden Schneider"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000002530",
@@ -2290,7 +3236,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4755684",
+      "displayName": "Judd Caulfield"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000160",
@@ -2316,7 +3279,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000002320",
@@ -2345,7 +3309,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5831",
+      "displayName": "Mikael Granlund"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "2590852",
+      "displayName": "J.T. Miller"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000003010",
@@ -2374,7 +3355,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "4587588",
+      "displayName": "Pavel Dorofeyev"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000002430",
@@ -2403,7 +3394,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5149153",
+      "displayName": "Leo Carlsson"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000002480",
@@ -2432,7 +3440,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5188370",
+      "displayName": "Noah Laba"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000003070",
@@ -2461,7 +3486,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "4233720",
+      "displayName": "Eeli Tolvanen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000003090",
@@ -2490,7 +3525,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "4697468",
+      "displayName": "Will Cuylle"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "5080220",
+      "displayName": "Tristan Luneau"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000003080",
@@ -2519,7 +3571,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "4197146",
+      "displayName": "Adam Fox"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000003040",
@@ -2548,7 +3610,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5103702",
+      "displayName": "Tyson Hinds"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000170",
@@ -2574,7 +3653,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000003050",
@@ -2603,7 +3683,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "2562637",
+      "displayName": "Mika Zibanejad"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "5149153",
+      "displayName": "Leo Carlsson"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000003190",
@@ -2632,7 +3729,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5334662",
+      "displayName": "Alberts Smits"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "3025608",
+      "displayName": "Nick Jensen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000005010",
@@ -2661,7 +3775,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4587588",
+      "displayName": "Pavel Dorofeyev"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000003200",
@@ -2690,7 +3821,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4587588",
+      "displayName": "Pavel Dorofeyev"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000003290",
@@ -2719,7 +3867,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "3648015",
+      "displayName": "A.J. Greer"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "4588750",
+      "displayName": "Tye Kartye"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000003230",
@@ -2748,7 +3913,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5080145",
+      "displayName": "Cutter Gauthier"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "5334662",
+      "displayName": "Alberts Smits"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000180",
@@ -2774,7 +3956,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000003240",
@@ -2803,7 +3986,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "4996085",
+      "displayName": "Tim Washe"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "3067879",
+      "displayName": "Justin Dowling"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000003280",
@@ -2832,7 +4032,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4755684",
+      "displayName": "Judd Caulfield"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000190",
@@ -2858,7 +4075,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000003300",
@@ -2887,7 +4105,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "4996085",
+      "displayName": "Tim Washe"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "3067879",
+      "displayName": "Justin Dowling"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000003420",
@@ -2916,7 +4151,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "4063502",
+      "displayName": "Taylor Raddysh"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "4755684",
+      "displayName": "Judd Caulfield"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000003520",
@@ -2945,7 +4197,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "4895214",
+      "displayName": "Jeff Malott"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "3114995",
+      "displayName": "Marcus Pettersson"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000003560",
@@ -2974,7 +4243,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "4755684",
+      "displayName": "Judd Caulfield"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "3042095",
+      "displayName": "Oliver Bjorkstrand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000003500",
@@ -3003,7 +4289,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "taker",
+     "athlete": {
+      "id": "4755684",
+      "displayName": "Judd Caulfield"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000003400",
@@ -3032,7 +4328,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "3527554",
+      "displayName": "Frank Vatrano"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000003640",
@@ -3061,7 +4374,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "4697468",
+      "displayName": "Will Cuylle"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "5216858",
+      "displayName": "Beckett Sennecke"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000006010",
@@ -3090,7 +4420,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4233720",
+      "displayName": "Eeli Tolvanen"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000210",
@@ -3116,7 +4463,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000003450",
@@ -3145,7 +4493,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "2562637",
+      "displayName": "Mika Zibanejad"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "5149153",
+      "displayName": "Leo Carlsson"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000003510",
@@ -3174,7 +4539,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4697382",
+      "displayName": "Alexis Lafreniere"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "3025608",
+      "displayName": "Nick Jensen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000230",
@@ -3200,7 +4582,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000003530",
@@ -3229,7 +4612,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "2562637",
+      "displayName": "Mika Zibanejad"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "5149153",
+      "displayName": "Leo Carlsson"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000003650",
@@ -3258,7 +4658,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "3942292",
+      "displayName": "Vladislav Gavrikov"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000003580",
@@ -3287,7 +4697,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5149204",
+      "displayName": "Gabe Perreault"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000003590",
@@ -3316,7 +4743,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "3942292",
+      "displayName": "Vladislav Gavrikov"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000240",
@@ -3342,7 +4786,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000003600",
@@ -3371,7 +4816,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "2590852",
+      "displayName": "J.T. Miller"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "5291946",
+      "displayName": "Roger McQueen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000003800",
@@ -3400,7 +4862,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "4588750",
+      "displayName": "Tye Kartye"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "3648015",
+      "displayName": "A.J. Greer"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000003670",
@@ -3429,7 +4908,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4697402",
+      "displayName": "Braden Schneider"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000003860",
@@ -3458,7 +4954,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "5103702",
+      "displayName": "Tyson Hinds"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "5188370",
+      "displayName": "Noah Laba"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000250",
@@ -3484,7 +4997,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000003770",
@@ -3513,7 +5027,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "4996085",
+      "displayName": "Tim Washe"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "5188370",
+      "displayName": "Noah Laba"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000003890",
@@ -3542,7 +5073,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "4233720",
+      "displayName": "Eeli Tolvanen"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "5216858",
+      "displayName": "Beckett Sennecke"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000003820",
@@ -3571,7 +5119,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5216858",
+      "displayName": "Beckett Sennecke"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "5188370",
+      "displayName": "Noah Laba"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000260",
@@ -3597,7 +5162,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000003830",
@@ -3626,7 +5192,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "2562637",
+      "displayName": "Mika Zibanejad"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "5831",
+      "displayName": "Mikael Granlund"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000002540",
@@ -3655,7 +5238,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5216858",
+      "displayName": "Beckett Sennecke"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000270",
@@ -3681,7 +5281,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000003930",
@@ -3707,7 +5308,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000003920",
@@ -3736,7 +5338,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5831",
+      "displayName": "Mikael Granlund"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "2562637",
+      "displayName": "Mika Zibanejad"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000003940",
@@ -3765,7 +5384,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5149204",
+      "displayName": "Gabe Perreault"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000005030",
@@ -3794,7 +5430,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5149204",
+      "displayName": "Gabe Perreault"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000320",
@@ -3820,7 +5473,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000003950",
@@ -3849,7 +5503,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "4996085",
+      "displayName": "Tim Washe"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "2562637",
+      "displayName": "Mika Zibanejad"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000003980",
@@ -3878,7 +5549,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5103702",
+      "displayName": "Tyson Hinds"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "4697382",
+      "displayName": "Alexis Lafreniere"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000003990",
@@ -3907,7 +5595,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4755684",
+      "displayName": "Judd Caulfield"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000330",
@@ -3933,7 +5638,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000004000",
@@ -3962,7 +5668,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "2590852",
+      "displayName": "J.T. Miller"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "5149153",
+      "displayName": "Leo Carlsson"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000004540",
@@ -3991,7 +5714,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4587588",
+      "displayName": "Pavel Dorofeyev"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000340",
@@ -4017,7 +5757,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000004550",
@@ -4046,7 +5787,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5188370",
+      "displayName": "Noah Laba"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "5291946",
+      "displayName": "Roger McQueen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000004600",
@@ -4075,7 +5833,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "4233720",
+      "displayName": "Eeli Tolvanen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000002550",
@@ -4104,7 +5872,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "3648015",
+      "displayName": "A.J. Greer"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000004610",
@@ -4133,7 +5918,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4697468",
+      "displayName": "Will Cuylle"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000004650",
@@ -4162,7 +5964,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4697402",
+      "displayName": "Braden Schneider"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "5291946",
+      "displayName": "Roger McQueen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000004670",
@@ -4191,7 +6010,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "3114995",
+      "displayName": "Marcus Pettersson"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000004730",
@@ -4220,7 +6056,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4697402",
+      "displayName": "Braden Schneider"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000004770",
@@ -4249,7 +6102,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5080210",
+      "displayName": "Noah Warren"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000350",
@@ -4275,7 +6145,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000004820",
@@ -4304,7 +6175,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5149153",
+      "displayName": "Leo Carlsson"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "2562637",
+      "displayName": "Mika Zibanejad"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000004920",
@@ -4333,7 +6221,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "4968",
+      "displayName": "Alex Killorn"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "4197146",
+      "displayName": "Adam Fox"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000004880",
@@ -4364,7 +6269,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": null,
+     "athlete": {
+      "id": "5361658",
+      "displayName": "Nikita Klepov"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "5149204",
+      "displayName": "Gabe Perreault"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000004850",
@@ -4393,7 +6315,24 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "2590852",
+      "displayName": "J.T. Miller"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "4996085",
+      "displayName": "Tim Washe"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000004930",
@@ -4422,7 +6361,31 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "scorer",
+     "athlete": {
+      "id": "2590852",
+      "displayName": "J.T. Miller"
+     }
+    },
+    {
+     "type": "assister",
+     "athlete": {
+      "id": "4197146",
+      "displayName": "Adam Fox"
+     }
+    },
+    {
+     "type": "assister",
+     "athlete": {
+      "id": "4697382",
+      "displayName": "Alexis Lafreniere"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000004940",
@@ -4451,7 +6414,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5831",
+      "displayName": "Mikael Granlund"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "5188370",
+      "displayName": "Noah Laba"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000005660",
@@ -4480,7 +6460,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "5188370",
+      "displayName": "Noah Laba"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "5831",
+      "displayName": "Mikael Granlund"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000005680",
@@ -4509,7 +6506,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "5103702",
+      "displayName": "Tyson Hinds"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "4587588",
+      "displayName": "Pavel Dorofeyev"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000005530",
@@ -4538,7 +6552,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4588750",
+      "displayName": "Tye Kartye"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000360",
@@ -4564,7 +6595,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000005600",
@@ -4593,7 +6625,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "2590852",
+      "displayName": "J.T. Miller"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "5291946",
+      "displayName": "Roger McQueen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000005620",
@@ -4622,7 +6671,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5334662",
+      "displayName": "Alberts Smits"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000005630",
@@ -4651,7 +6717,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4587588",
+      "displayName": "Pavel Dorofeyev"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000370",
@@ -4677,7 +6760,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000005640",
@@ -4706,7 +6790,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5831",
+      "displayName": "Mikael Granlund"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "2562637",
+      "displayName": "Mika Zibanejad"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000005760",
@@ -4735,7 +6836,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "5080210",
+      "displayName": "Noah Warren"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000005700",
@@ -4764,7 +6875,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4697382",
+      "displayName": "Alexis Lafreniere"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000005710",
@@ -4793,7 +6921,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5216858",
+      "displayName": "Beckett Sennecke"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000380",
@@ -4819,7 +6964,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000005720",
@@ -4848,7 +6994,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5188370",
+      "displayName": "Noah Laba"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "5149153",
+      "displayName": "Leo Carlsson"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000005890",
@@ -4877,7 +7040,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "4968",
+      "displayName": "Alex Killorn"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "4233720",
+      "displayName": "Eeli Tolvanen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000005770",
@@ -4906,7 +7086,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4697468",
+      "displayName": "Will Cuylle"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "5080220",
+      "displayName": "Tristan Luneau"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000005860",
@@ -4935,7 +7132,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "3025608",
+      "displayName": "Nick Jensen"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000005950",
@@ -4964,7 +7178,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "4755684",
+      "displayName": "Judd Caulfield"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "3067879",
+      "displayName": "Justin Dowling"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000005970",
@@ -4993,7 +7224,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "4895214",
+      "displayName": "Jeff Malott"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "5334662",
+      "displayName": "Alberts Smits"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000005870",
@@ -5022,7 +7270,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "3025608",
+      "displayName": "Nick Jensen"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "3067879",
+      "displayName": "Justin Dowling"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000390",
@@ -5048,7 +7313,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000005880",
@@ -5077,7 +7343,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "4588750",
+      "displayName": "Tye Kartye"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "5291946",
+      "displayName": "Roger McQueen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000006610",
@@ -5106,7 +7389,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "5291946",
+      "displayName": "Roger McQueen"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "4197146",
+      "displayName": "Adam Fox"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000005940",
@@ -5135,7 +7435,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4588750",
+      "displayName": "Tye Kartye"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000005960",
@@ -5164,7 +7481,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4588750",
+      "displayName": "Tye Kartye"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "5080210",
+      "displayName": "Noah Warren"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000006560",
@@ -5193,7 +7527,31 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "scorer",
+     "athlete": {
+      "id": "5149204",
+      "displayName": "Gabe Perreault"
+     }
+    },
+    {
+     "type": "assister",
+     "athlete": {
+      "id": "2562637",
+      "displayName": "Mika Zibanejad"
+     }
+    },
+    {
+     "type": "assister",
+     "athlete": {
+      "id": "4697382",
+      "displayName": "Alexis Lafreniere"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000006570",
@@ -5222,7 +7580,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5188370",
+      "displayName": "Noah Laba"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "5149153",
+      "displayName": "Leo Carlsson"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000400",
@@ -5248,7 +7623,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000006620",
@@ -5277,7 +7653,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "2562637",
+      "displayName": "Mika Zibanejad"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "4996085",
+      "displayName": "Tim Washe"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000006660",
@@ -5306,7 +7699,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4697382",
+      "displayName": "Alexis Lafreniere"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "5080154",
+      "displayName": "Pavel Mintyukov"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000006680",
@@ -5335,7 +7745,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "3527554",
+      "displayName": "Frank Vatrano"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000006740",
@@ -5364,7 +7791,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4895214",
+      "displayName": "Jeff Malott"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000410",
@@ -5390,7 +7834,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000006760",
@@ -5419,7 +7864,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5149153",
+      "displayName": "Leo Carlsson"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "2590852",
+      "displayName": "J.T. Miller"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000006800",
@@ -5448,7 +7910,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4895214",
+      "displayName": "Jeff Malott"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "3942292",
+      "displayName": "Vladislav Gavrikov"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000006940",
@@ -5477,7 +7956,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "5080210",
+      "displayName": "Noah Warren"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "4063502",
+      "displayName": "Taylor Raddysh"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000006920",
@@ -5506,7 +8002,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "4063502",
+      "displayName": "Taylor Raddysh"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000006930",
@@ -5535,7 +8041,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "5216858",
+      "displayName": "Beckett Sennecke"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000006880",
@@ -5564,7 +8080,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "scorer",
+     "athlete": {
+      "id": "3042095",
+      "displayName": "Oliver Bjorkstrand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000006890",
@@ -5593,7 +8119,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5188370",
+      "displayName": "Noah Laba"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "5291946",
+      "displayName": "Roger McQueen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000007060",
@@ -5622,7 +8165,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "5334662",
+      "displayName": "Alberts Smits"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000007090",
@@ -5651,7 +8204,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "5334662",
+      "displayName": "Alberts Smits"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "3648015",
+      "displayName": "A.J. Greer"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000006960",
@@ -5680,7 +8250,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5188370",
+      "displayName": "Noah Laba"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000420",
@@ -5706,7 +8293,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000007030",
@@ -5735,7 +8323,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5291946",
+      "displayName": "Roger McQueen"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "2562637",
+      "displayName": "Mika Zibanejad"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000007200",
@@ -5764,7 +8369,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "4197146",
+      "displayName": "Adam Fox"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000007100",
@@ -5793,7 +8408,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5080210",
+      "displayName": "Noah Warren"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "4197146",
+      "displayName": "Adam Fox"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000007260",
@@ -5822,7 +8454,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "2562637",
+      "displayName": "Mika Zibanejad"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000007350",
@@ -5851,7 +8493,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "4588750",
+      "displayName": "Tye Kartye"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000002580",
@@ -5880,7 +8532,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4565262",
+      "displayName": "Jackson LaCombe"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "4197146",
+      "displayName": "Adam Fox"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000007430",
@@ -5909,7 +8578,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "3527554",
+      "displayName": "Frank Vatrano"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "3114995",
+      "displayName": "Marcus Pettersson"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000007270",
@@ -5938,7 +8624,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4587588",
+      "displayName": "Pavel Dorofeyev"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000007410",
@@ -5967,7 +8670,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "5080154",
+      "displayName": "Pavel Mintyukov"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000007360",
@@ -5996,7 +8709,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4996085",
+      "displayName": "Tim Washe"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000002560",
@@ -6025,7 +8755,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4996085",
+      "displayName": "Tim Washe"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000002570",
@@ -6054,7 +8801,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4996085",
+      "displayName": "Tim Washe"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000007380",
@@ -6083,7 +8847,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "3648015",
+      "displayName": "A.J. Greer"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000430",
@@ -6109,7 +8890,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000007390",
@@ -6138,7 +8920,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "4996085",
+      "displayName": "Tim Washe"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "5188370",
+      "displayName": "Noah Laba"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000007870",
@@ -6167,7 +8966,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "3648015",
+      "displayName": "A.J. Greer"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "5334662",
+      "displayName": "Alberts Smits"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000007480",
@@ -6198,7 +9014,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": null,
+     "athlete": {
+      "id": "5361658",
+      "displayName": "Nikita Klepov"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "4233720",
+      "displayName": "Eeli Tolvanen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000007440",
@@ -6227,7 +9060,24 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "2590852",
+      "displayName": "J.T. Miller"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "4996085",
+      "displayName": "Tim Washe"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000007520",
@@ -6256,7 +9106,24 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4587588",
+      "displayName": "Pavel Dorofeyev"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000007660",
@@ -6287,7 +9154,24 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": null,
+     "athlete": {
+      "id": "4233720",
+      "displayName": "Eeli Tolvanen"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "3025608",
+      "displayName": "Nick Jensen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000007620",
@@ -6316,7 +9200,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "2562637",
+      "displayName": "Mika Zibanejad"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "4996085",
+      "displayName": "Tim Washe"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000007730",
@@ -6345,7 +9246,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "4996085",
+      "displayName": "Tim Washe"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "4378683",
+      "displayName": "Sean Durzi"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000007740",
@@ -6374,7 +9292,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "2562637",
+      "displayName": "Mika Zibanejad"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000007700",
@@ -6403,7 +9331,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5103702",
+      "displayName": "Tyson Hinds"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "4378683",
+      "displayName": "Sean Durzi"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000002590",
@@ -6432,7 +9377,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4996085",
+      "displayName": "Tim Washe"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000460",
@@ -6458,7 +9420,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000007710",
@@ -6487,7 +9450,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5188370",
+      "displayName": "Noah Laba"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "5291946",
+      "displayName": "Roger McQueen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000007830",
@@ -6516,7 +9496,24 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5216858",
+      "displayName": "Beckett Sennecke"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000000470",
@@ -6542,7 +9539,8 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000007910",
@@ -6568,7 +9566,8 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000007900",
@@ -6597,7 +9596,24 @@
     "id": "703",
     "text": "Shorthanded",
     "abbreviation": "short-handed"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5188370",
+      "displayName": "Noah Laba"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "5831",
+      "displayName": "Mikael Granlund"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000008170",
@@ -6626,7 +9642,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "2562637",
+      "displayName": "Mika Zibanejad"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000008280",
@@ -6655,7 +9681,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "taker",
+     "athlete": {
+      "id": "4565262",
+      "displayName": "Jackson LaCombe"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000008350",
@@ -6684,7 +9720,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "5188370",
+      "displayName": "Noah Laba"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "3025608",
+      "displayName": "Nick Jensen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000008200",
@@ -6713,7 +9766,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5080210",
+      "displayName": "Noah Warren"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "4233720",
+      "displayName": "Eeli Tolvanen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000008340",
@@ -6742,7 +9812,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "taker",
+     "athlete": {
+      "id": "5216858",
+      "displayName": "Beckett Sennecke"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000008450",
@@ -6771,7 +9851,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "5080145",
+      "displayName": "Cutter Gauthier"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "4697402",
+      "displayName": "Braden Schneider"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000008310",
@@ -6800,7 +9897,31 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "scorer",
+     "athlete": {
+      "id": "3042095",
+      "displayName": "Oliver Bjorkstrand"
+     }
+    },
+    {
+     "type": "assister",
+     "athlete": {
+      "id": "4063502",
+      "displayName": "Taylor Raddysh"
+     }
+    },
+    {
+     "type": "assister",
+     "athlete": {
+      "id": "4697402",
+      "displayName": "Braden Schneider"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000008320",
@@ -6829,7 +9950,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "4996085",
+      "displayName": "Tim Washe"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "3067879",
+      "displayName": "Justin Dowling"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000008580",
@@ -6858,7 +9996,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "3648015",
+      "displayName": "A.J. Greer"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "3067879",
+      "displayName": "Justin Dowling"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000008620",
@@ -6887,7 +10042,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "4697402",
+      "displayName": "Braden Schneider"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "3648015",
+      "displayName": "A.J. Greer"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000008600",
@@ -6916,7 +10088,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "4587588",
+      "displayName": "Pavel Dorofeyev"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000008610",
@@ -6945,7 +10127,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "3025608",
+      "displayName": "Nick Jensen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000008430",
@@ -6974,7 +10166,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4378683",
+      "displayName": "Sean Durzi"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "3527554",
+      "displayName": "Frank Vatrano"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000008630",
@@ -7003,7 +10212,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "5080154",
+      "displayName": "Pavel Mintyukov"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000008700",
@@ -7032,7 +10251,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "3527554",
+      "displayName": "Frank Vatrano"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "4587588",
+      "displayName": "Pavel Dorofeyev"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000004020",
@@ -7058,7 +10294,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000008560",
@@ -7087,7 +10324,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5188370",
+      "displayName": "Noah Laba"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "4968",
+      "displayName": "Alex Killorn"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000008640",
@@ -7116,7 +10370,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5831",
+      "displayName": "Mikael Granlund"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000008860",
@@ -7145,7 +10416,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "4968",
+      "displayName": "Alex Killorn"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "4233720",
+      "displayName": "Eeli Tolvanen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000004030",
@@ -7171,7 +10459,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000008660",
@@ -7200,7 +10489,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "3067879",
+      "displayName": "Justin Dowling"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "5291946",
+      "displayName": "Roger McQueen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000008770",
@@ -7229,7 +10535,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "taker",
+     "athlete": {
+      "id": "4378683",
+      "displayName": "Sean Durzi"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000008990",
@@ -7258,7 +10574,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "5291946",
+      "displayName": "Roger McQueen"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "4378683",
+      "displayName": "Sean Durzi"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000008720",
@@ -7287,7 +10620,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "3042095",
+      "displayName": "Oliver Bjorkstrand"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000009140",
@@ -7316,7 +10666,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "3025608",
+      "displayName": "Nick Jensen"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "4063502",
+      "displayName": "Taylor Raddysh"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000005040",
@@ -7345,7 +10712,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "3042095",
+      "displayName": "Oliver Bjorkstrand"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000008740",
@@ -7374,7 +10758,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "2590852",
+      "displayName": "J.T. Miller"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000008750",
@@ -7403,7 +10804,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "2590852",
+      "displayName": "J.T. Miller"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "3025608",
+      "displayName": "Nick Jensen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000008840",
@@ -7432,7 +10850,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5080220",
+      "displayName": "Tristan Luneau"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "4996085",
+      "displayName": "Tim Washe"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000008850",
@@ -7461,7 +10896,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5080220",
+      "displayName": "Tristan Luneau"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000008960",
@@ -7490,7 +10942,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "5080154",
+      "displayName": "Pavel Mintyukov"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000009010",
@@ -7519,7 +10981,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "4996085",
+      "displayName": "Tim Washe"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000008950",
@@ -7548,7 +11020,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4755684",
+      "displayName": "Judd Caulfield"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000009100",
@@ -7577,7 +11066,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5831",
+      "displayName": "Mikael Granlund"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000009150",
@@ -7606,7 +11112,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5080220",
+      "displayName": "Tristan Luneau"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "4378683",
+      "displayName": "Sean Durzi"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000009200",
@@ -7635,7 +11158,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5080145",
+      "displayName": "Cutter Gauthier"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "3942292",
+      "displayName": "Vladislav Gavrikov"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000009390",
@@ -7664,7 +11204,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "4895214",
+      "displayName": "Jeff Malott"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "3114995",
+      "displayName": "Marcus Pettersson"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000009320",
@@ -7693,7 +11250,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "3042095",
+      "displayName": "Oliver Bjorkstrand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000002600",
@@ -7722,7 +11289,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "3648015",
+      "displayName": "A.J. Greer"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000009340",
@@ -7751,7 +11335,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "5080154",
+      "displayName": "Pavel Mintyukov"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000005050",
@@ -7780,7 +11374,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "2590852",
+      "displayName": "J.T. Miller"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000004050",
@@ -7806,7 +11417,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000009310",
@@ -7835,7 +11447,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5149153",
+      "displayName": "Leo Carlsson"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "2562637",
+      "displayName": "Mika Zibanejad"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000004060",
@@ -7861,7 +11490,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000009370",
@@ -7890,7 +11520,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5149153",
+      "displayName": "Leo Carlsson"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "2562637",
+      "displayName": "Mika Zibanejad"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000004070",
@@ -7916,7 +11563,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000009400",
@@ -7945,7 +11593,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5149153",
+      "displayName": "Leo Carlsson"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "2562637",
+      "displayName": "Mika Zibanejad"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000009420",
@@ -7974,7 +11639,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "3025608",
+      "displayName": "Nick Jensen"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "3942292",
+      "displayName": "Vladislav Gavrikov"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000009610",
@@ -8003,7 +11685,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "4755684",
+      "displayName": "Judd Caulfield"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "4197146",
+      "displayName": "Adam Fox"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000009450",
@@ -8032,7 +11731,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4197146",
+      "displayName": "Adam Fox"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "3025608",
+      "displayName": "Nick Jensen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000009560",
@@ -8061,7 +11777,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5216858",
+      "displayName": "Beckett Sennecke"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000009690",
@@ -8090,7 +11823,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "4697468",
+      "displayName": "Will Cuylle"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "5216858",
+      "displayName": "Beckett Sennecke"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000009570",
@@ -8119,7 +11869,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4968",
+      "displayName": "Alex Killorn"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "4697402",
+      "displayName": "Braden Schneider"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000009580",
@@ -8148,7 +11915,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5103702",
+      "displayName": "Tyson Hinds"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000004080",
@@ -8174,7 +11958,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000009590",
@@ -8203,7 +11988,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5188370",
+      "displayName": "Noah Laba"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "5831",
+      "displayName": "Mikael Granlund"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000004090",
@@ -8229,7 +12031,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000009630",
@@ -8258,7 +12061,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5291946",
+      "displayName": "Roger McQueen"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "3067879",
+      "displayName": "Justin Dowling"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000009670",
@@ -8287,7 +12107,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5080145",
+      "displayName": "Cutter Gauthier"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "4378683",
+      "displayName": "Sean Durzi"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000009680",
@@ -8316,7 +12153,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5291946",
+      "displayName": "Roger McQueen"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000004100",
@@ -8342,7 +12196,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000009700",
@@ -8371,7 +12226,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "4996085",
+      "displayName": "Tim Washe"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "2590852",
+      "displayName": "J.T. Miller"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000009780",
@@ -8402,7 +12274,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": null,
+     "athlete": {
+      "id": "5334662",
+      "displayName": "Alberts Smits"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "4996085",
+      "displayName": "Tim Washe"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000009750",
@@ -8431,7 +12320,24 @@
     "id": "703",
     "text": "Shorthanded",
     "abbreviation": "short-handed"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5188370",
+      "displayName": "Noah Laba"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "5831",
+      "displayName": "Mikael Granlund"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000009820",
@@ -8460,7 +12366,24 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5216858",
+      "displayName": "Beckett Sennecke"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000004120",
@@ -8486,7 +12409,8 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000009830",
@@ -8515,7 +12439,24 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5831",
+      "displayName": "Mikael Granlund"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "4588750",
+      "displayName": "Tye Kartye"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000009880",
@@ -8544,7 +12485,24 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5080145",
+      "displayName": "Cutter Gauthier"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000009890",
@@ -8573,7 +12531,24 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5080145",
+      "displayName": "Cutter Gauthier"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000004130",
@@ -8599,7 +12574,8 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000009900",
@@ -8628,7 +12604,24 @@
     "id": "702",
     "text": "Power Play",
     "abbreviation": "power-play"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5291946",
+      "displayName": "Roger McQueen"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "5188370",
+      "displayName": "Noah Laba"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000010040",
@@ -8657,7 +12650,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "taker",
+     "athlete": {
+      "id": "5080220",
+      "displayName": "Tristan Luneau"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000004140",
@@ -8683,7 +12686,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000010010",
@@ -8712,7 +12716,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "4996085",
+      "displayName": "Tim Washe"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "3067879",
+      "displayName": "Justin Dowling"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000004150",
@@ -8738,7 +12759,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000010060",
@@ -8767,7 +12789,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "2562637",
+      "displayName": "Mika Zibanejad"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "5291946",
+      "displayName": "Roger McQueen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000010250",
@@ -8796,7 +12835,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "4587588",
+      "displayName": "Pavel Dorofeyev"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000010190",
@@ -8825,7 +12874,31 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "scorer",
+     "athlete": {
+      "id": "3025608",
+      "displayName": "Nick Jensen"
+     }
+    },
+    {
+     "type": "assister",
+     "athlete": {
+      "id": "4968",
+      "displayName": "Alex Killorn"
+     }
+    },
+    {
+     "type": "assister",
+     "athlete": {
+      "id": "3527554",
+      "displayName": "Frank Vatrano"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000010200",
@@ -8854,7 +12927,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5188370",
+      "displayName": "Noah Laba"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "4996085",
+      "displayName": "Tim Washe"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000010290",
@@ -8883,7 +12973,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "4697468",
+      "displayName": "Will Cuylle"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "5361658",
+      "displayName": "Nikita Klepov"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000010410",
@@ -8912,7 +13019,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "hit-credited",
+     "athlete": {
+      "id": "4996085",
+      "displayName": "Tim Washe"
+     }
+    },
+    {
+     "type": "hitted",
+     "athlete": {
+      "id": "4233720",
+      "displayName": "Eeli Tolvanen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000010240",
@@ -8941,7 +13065,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "4697468",
+      "displayName": "Will Cuylle"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "3151137",
+      "displayName": "Ville Husso"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000004160",
@@ -8967,7 +13108,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000010260",
@@ -8996,7 +13138,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5188370",
+      "displayName": "Noah Laba"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "4996085",
+      "displayName": "Tim Washe"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000010280",
@@ -9025,7 +13184,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5334662",
+      "displayName": "Alberts Smits"
+     }
+    },
+    {
+     "type": "defender",
+     "athlete": {
+      "id": "5361658",
+      "displayName": "Nikita Klepov"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000010350",
@@ -9054,7 +13230,17 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "giver",
+     "athlete": {
+      "id": "4697402",
+      "displayName": "Braden Schneider"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000010300",
@@ -9083,7 +13269,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "scorer",
+     "athlete": {
+      "id": "3648015",
+      "displayName": "A.J. Greer"
+     }
+    },
+    {
+     "type": "assister",
+     "athlete": {
+      "id": "5080154",
+      "displayName": "Pavel Mintyukov"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000010310",
@@ -9112,7 +13315,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "5291946",
+      "displayName": "Roger McQueen"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "3067879",
+      "displayName": "Justin Dowling"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000004180",
@@ -9138,7 +13358,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000010360",
@@ -9167,7 +13388,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "face-off-winner",
+     "athlete": {
+      "id": "3067879",
+      "displayName": "Justin Dowling"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "5291946",
+      "displayName": "Roger McQueen"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000010380",
@@ -9196,7 +13434,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5291946",
+      "displayName": "Roger McQueen"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000010390",
@@ -9225,7 +13480,24 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true,
+   "participants": [
+    {
+     "type": "shooter",
+     "athlete": {
+      "id": "5080145",
+      "displayName": "Cutter Gauthier"
+     }
+    },
+    {
+     "type": "saver",
+     "athlete": {
+      "id": "4697705",
+      "displayName": "Dylan Garand"
+     }
+    }
+   ]
   },
   {
    "id": "401892535000004190",
@@ -9251,7 +13523,8 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   },
   {
    "id": "401892535000004230",
@@ -9276,7 +13549,376 @@
     "id": "701",
     "text": "Even Strength",
     "abbreviation": "even-strength"
-   }
+   },
+   "shootingPlay": true
   }
- ]
+ ],
+ "boxscore": {
+  "players": [
+   {
+    "team": {
+     "id": "25"
+    },
+    "statistics": [
+     {
+      "athletes": [
+       {
+        "starter": false,
+        "athlete": {
+         "id": "5149153",
+         "displayName": "Leo Carlsson",
+         "shortName": "L. Carlsson",
+         "jersey": "91"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "4755684",
+         "displayName": "Judd Caulfield",
+         "shortName": "J. Caulfield",
+         "jersey": "28"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "5080145",
+         "displayName": "Cutter Gauthier",
+         "shortName": "C. Gauthier",
+         "jersey": "61"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "5831",
+         "displayName": "Mikael Granlund",
+         "shortName": "M. Granlund",
+         "jersey": "64"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "3648015",
+         "displayName": "A.J. Greer",
+         "shortName": "A.J. Greer",
+         "jersey": "18"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "4968",
+         "displayName": "Alex Killorn",
+         "shortName": "A. Killorn",
+         "jersey": "17"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "5361658",
+         "displayName": "Nikita Klepov",
+         "shortName": "N. Klepov",
+         "jersey": "40"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "4895214",
+         "displayName": "Jeff Malott",
+         "shortName": "J. Malott",
+         "jersey": "39"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "5291946",
+         "displayName": "Roger McQueen",
+         "shortName": "R. McQueen",
+         "jersey": "95"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "5216858",
+         "displayName": "Beckett Sennecke",
+         "shortName": "B. Sennecke",
+         "jersey": "45"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "3527554",
+         "displayName": "Frank Vatrano",
+         "shortName": "F. Vatrano",
+         "jersey": "77"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "4996085",
+         "displayName": "Tim Washe",
+         "shortName": "T. Washe",
+         "jersey": "42"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "5103702",
+         "displayName": "Tyson Hinds",
+         "shortName": "T. Hinds",
+         "jersey": "55"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "3025608",
+         "displayName": "Nick Jensen",
+         "shortName": "N. Jensen",
+         "jersey": "4"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "4565262",
+         "displayName": "Jackson LaCombe",
+         "shortName": "J. LaCombe",
+         "jersey": "2"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "5080220",
+         "displayName": "Tristan Luneau",
+         "shortName": "T. Luneau",
+         "jersey": "67"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "5080154",
+         "displayName": "Pavel Mintyukov",
+         "shortName": "P. Mintyukov",
+         "jersey": "98"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "5080210",
+         "displayName": "Noah Warren",
+         "shortName": "N. Warren",
+         "jersey": "47"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "3151137",
+         "displayName": "Ville Husso",
+         "shortName": "V. Husso",
+         "jersey": "33"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "team": {
+     "id": "13"
+    },
+    "statistics": [
+     {
+      "athletes": [
+       {
+        "starter": false,
+        "athlete": {
+         "id": "3042095",
+         "displayName": "Oliver Bjorkstrand",
+         "shortName": "O. Bjorkstrand",
+         "jersey": "28"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "4697468",
+         "displayName": "Will Cuylle",
+         "shortName": "W. Cuylle",
+         "jersey": "50"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "4587588",
+         "displayName": "Pavel Dorofeyev",
+         "shortName": "P. Dorofeyev",
+         "jersey": "16"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "3067879",
+         "displayName": "Justin Dowling",
+         "shortName": "J. Dowling",
+         "jersey": "37"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "4588750",
+         "displayName": "Tye Kartye",
+         "shortName": "T. Kartye",
+         "jersey": "24"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "5188370",
+         "displayName": "Noah Laba",
+         "shortName": "N. Laba",
+         "jersey": "42"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "4697382",
+         "displayName": "Alexis Lafreniere",
+         "shortName": "A. Lafreniere",
+         "jersey": "13"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "2590852",
+         "displayName": "J.T. Miller",
+         "shortName": "J.T. Miller",
+         "jersey": "10"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "5149204",
+         "displayName": "Gabe Perreault",
+         "shortName": "G. Perreault",
+         "jersey": "94"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "4063502",
+         "displayName": "Taylor Raddysh",
+         "shortName": "T. Raddysh",
+         "jersey": "14"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "4233720",
+         "displayName": "Eeli Tolvanen",
+         "shortName": "E. Tolvanen",
+         "jersey": "17"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "2562637",
+         "displayName": "Mika Zibanejad",
+         "shortName": "M. Zibanejad",
+         "jersey": "93"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "4378683",
+         "displayName": "Sean Durzi",
+         "shortName": "S. Durzi",
+         "jersey": "5"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "4197146",
+         "displayName": "Adam Fox",
+         "shortName": "A. Fox",
+         "jersey": "23"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "3942292",
+         "displayName": "Vladislav Gavrikov",
+         "shortName": "V. Gavrikov",
+         "jersey": "44"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "3114995",
+         "displayName": "Marcus Pettersson",
+         "shortName": "M. Pettersson",
+         "jersey": "26"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "4697402",
+         "displayName": "Braden Schneider",
+         "shortName": "B. Schneider",
+         "jersey": "4"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "5334662",
+         "displayName": "Alberts Smits",
+         "shortName": "A. Smits",
+         "jersey": "12"
+        }
+       },
+       {
+        "starter": false,
+        "athlete": {
+         "id": "4697705",
+         "displayName": "Dylan Garand",
+         "shortName": "D. Garand",
+         "jersey": "33"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
 }

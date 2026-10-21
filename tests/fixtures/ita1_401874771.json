@@ -122,7 +122,23 @@
    "team": {
     "id": "113"
    },
-   "shootout": false
+   "shootout": false,
+   "participants": [
+    {
+     "type": null,
+     "athlete": {
+      "id": "318604",
+      "displayName": "Kialonda Gaspar"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "277441",
+      "displayName": "Antonino Gallo"
+     }
+    }
+   ]
   },
   {
    "id": "53879984",
@@ -231,7 +247,23 @@
    "team": {
     "id": "113"
    },
-   "shootout": false
+   "shootout": false,
+   "participants": [
+    {
+     "type": null,
+     "athlete": {
+      "id": "286582",
+      "displayName": "Konan N’Dri"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "379865",
+      "displayName": "Tiago Gabriel"
+     }
+    }
+   ]
   },
   {
    "id": "53881515",
@@ -340,7 +372,23 @@
    "team": {
     "id": "113"
    },
-   "shootout": false
+   "shootout": false,
+   "participants": [
+    {
+     "type": null,
+     "athlete": {
+      "id": "223292",
+      "displayName": "Mohamed Kaba"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "223947",
+      "displayName": "Lassana Coulibaly"
+     }
+    }
+   ]
   },
   {
    "id": "53881759",
@@ -363,7 +411,16 @@
    "team": {
     "id": "118"
    },
-   "shootout": false
+   "shootout": false,
+   "participants": [
+    {
+     "type": null,
+     "athlete": {
+      "id": "193919",
+      "displayName": "Hassane Kamara"
+     }
+    }
+   ]
   },
   {
    "id": "53882013",
@@ -404,7 +461,23 @@
    "team": {
     "id": "118"
    },
-   "shootout": false
+   "shootout": false,
+   "participants": [
+    {
+     "type": null,
+     "athlete": {
+      "id": "384519",
+      "displayName": "Matteo Palma"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "118444",
+      "displayName": "David Alaba"
+     }
+    }
+   ]
   },
   {
    "id": "53883119",
@@ -427,7 +500,23 @@
    "team": {
     "id": "118"
    },
-   "shootout": false
+   "shootout": false,
+   "participants": [
+    {
+     "type": null,
+     "athlete": {
+      "id": "360207",
+      "displayName": "Juan David Arizala"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "193919",
+      "displayName": "Hassane Kamara"
+     }
+    }
+   ]
   },
   {
    "id": "53883120",
@@ -450,7 +539,23 @@
    "team": {
     "id": "118"
    },
-   "shootout": false
+   "shootout": false,
+   "participants": [
+    {
+     "type": null,
+     "athlete": {
+      "id": "276267",
+      "displayName": "Jakub Piotrowski"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "306579",
+      "displayName": "Oier Zarraga"
+     }
+    }
+   ]
   },
   {
    "id": "53883118",
@@ -533,7 +638,23 @@
    "team": {
     "id": "118"
    },
-   "shootout": false
+   "shootout": false,
+   "participants": [
+    {
+     "type": null,
+     "athlete": {
+      "id": "362376",
+      "displayName": "Unai Gómez"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "258933",
+      "displayName": "Giorgi Chakvetadze"
+     }
+    }
+   ]
   },
   {
    "id": "53884436",
@@ -556,7 +677,23 @@
    "team": {
     "id": "118"
    },
-   "shootout": false
+   "shootout": false,
+   "participants": [
+    {
+     "type": null,
+     "athlete": {
+      "id": "270010",
+      "displayName": "Alessandro Zanoli"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "242601",
+      "displayName": "Enzo Ebosse"
+     }
+    }
+   ]
   },
   {
    "id": "53884647",
@@ -579,7 +716,23 @@
    "team": {
     "id": "113"
    },
-   "shootout": false
+   "shootout": false,
+   "participants": [
+    {
+     "type": null,
+     "athlete": {
+      "id": "288429",
+      "displayName": "Santiago Pierotti"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "330550",
+      "displayName": "Amar Ahmed"
+     }
+    }
+   ]
   },
   {
    "id": "53884648",
@@ -602,7 +755,23 @@
    "team": {
     "id": "113"
    },
-   "shootout": false
+   "shootout": false,
+   "participants": [
+    {
+     "type": null,
+     "athlete": {
+      "id": "3123406",
+      "displayName": "Francisco Esteban Sánchez"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "259744",
+      "displayName": "Willem Geubbels"
+     }
+    }
+   ]
   },
   {
    "id": "53885617",
@@ -625,7 +794,23 @@
    "team": {
     "id": "113"
    },
-   "shootout": false
+   "shootout": false,
+   "participants": [
+    {
+     "type": null,
+     "athlete": {
+      "id": "307893",
+      "displayName": "Joel Monteiro"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "286582",
+      "displayName": "Konan N’Dri"
+     }
+    }
+   ]
   },
   {
    "id": "53885691",
@@ -648,7 +833,23 @@
    "team": {
     "id": "113"
    },
-   "shootout": false
+   "shootout": false,
+   "participants": [
+    {
+     "type": null,
+     "athlete": {
+      "id": "307391",
+      "displayName": "Jamil Siebert"
+     }
+    },
+    {
+     "type": null,
+     "athlete": {
+      "id": "241405",
+      "displayName": "Youssef Maleh"
+     }
+    }
+   ]
   },
   {
    "id": "53885951",
@@ -671,7 +872,16 @@
    "team": {
     "id": "113"
    },
-   "shootout": false
+   "shootout": false,
+   "participants": [
+    {
+     "type": null,
+     "athlete": {
+      "id": "307391",
+      "displayName": "Jamil Siebert"
+     }
+    }
+   ]
   },
   {
    "id": "53886607",
@@ -691,6 +901,4316 @@
    "wallclock": "2026-10-18T12:24:05Z",
    "scoringPlay": false,
    "shootout": false
+  }
+ ],
+ "commentary": [
+  {
+   "sequence": 1,
+   "text": "First Half begins.",
+   "play": {
+    "id": "53879384",
+    "type": {
+     "id": "80",
+     "text": "Kickoff",
+     "type": "kickoff"
+    },
+    "text": "First Half begins.",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 0.0,
+     "displayValue": ""
+    },
+    "wallclock": "2026-10-18T10:32:10Z"
+   }
+  },
+  {
+   "sequence": 2,
+   "text": "Handball by Willem Geubbels (Lecce).",
+   "play": {
+    "id": "53879608",
+    "type": {
+     "id": "122",
+     "text": "Handball",
+     "type": "handball"
+    },
+    "text": "Handball by Willem Geubbels (Lecce).",
+    "shortText": "Willem Geubbels Handball",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 263.0,
+     "displayValue": "5'"
+    },
+    "wallclock": "2026-10-18T10:36:33Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Willem Geubbels"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 3,
+   "text": "Foul by Danilo Veiga (Lecce).",
+   "play": {
+    "id": "53879640",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Hassane Kamara (Udinese) wins a free kick in the defensive half.",
+    "shortText": "Danilo Veiga Foul",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 290.0,
+     "displayValue": "5'"
+    },
+    "wallclock": "2026-10-18T10:37:01Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Danilo Veiga"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Hassane Kamara"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 4,
+   "text": "Hassane Kamara (Udinese) wins a free kick in the defensive half.",
+   "play": {
+    "id": "53879640",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Hassane Kamara (Udinese) wins a free kick in the defensive half.",
+    "shortText": "Danilo Veiga Foul",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 290.0,
+     "displayValue": "5'"
+    },
+    "wallclock": "2026-10-18T10:37:01Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Danilo Veiga"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Hassane Kamara"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 5,
+   "text": "Foul by Oumar Ngom (Lecce).",
+   "play": {
+    "id": "53879714",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Giorgi Chakvetadze (Udinese) wins a free kick on the left wing.",
+    "shortText": "Oumar Ngom Foul",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 361.0,
+     "displayValue": "7'"
+    },
+    "wallclock": "2026-10-18T10:38:12Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Oumar Ngom"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Giorgi Chakvetadze"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 6,
+   "text": "Giorgi Chakvetadze (Udinese) wins a free kick on the left wing.",
+   "play": {
+    "id": "53879714",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Giorgi Chakvetadze (Udinese) wins a free kick on the left wing.",
+    "shortText": "Oumar Ngom Foul",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 361.0,
+     "displayValue": "7'"
+    },
+    "wallclock": "2026-10-18T10:38:12Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Oumar Ngom"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Giorgi Chakvetadze"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 7,
+   "text": "Attempt saved. Giorgi Chakvetadze (Udinese) right footed shot from outside the box is saved in the centre of the goal by Wladimiro Falcone (Lecce). Assisted by Mërgim Vojvoda.",
+   "play": {
+    "id": "53879717",
+    "type": {
+     "id": "106",
+     "text": "Shot On Target",
+     "type": "shot-on-target"
+    },
+    "text": "Attempt saved. Giorgi Chakvetadze (Udinese) right footed shot from outside the box is saved in the centre of the goal by Wladimiro Falcone (Lecce). Assisted by Mërgim Vojvoda.",
+    "shortText": "Giorgi Chakvetadze Shot On Targe",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 397.0,
+     "displayValue": "7'"
+    },
+    "wallclock": "2026-10-18T10:38:48Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Giorgi Chakvetadze"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Mërgim Vojvoda"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 8,
+   "text": "Corner, Lecce. Conceded by Mërgim Vojvoda.",
+   "play": {
+    "id": "53879858",
+    "type": {
+     "id": "95",
+     "text": "Corner Awarded",
+     "type": "corner-awarded"
+    },
+    "text": "Corner, Lecce. Conceded by Mërgim Vojvoda.",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 619.0,
+     "displayValue": "11'"
+    },
+    "wallclock": "2026-10-18T10:42:30Z",
+    "team": {
+     "id": null
+    }
+   }
+  },
+  {
+   "sequence": 9,
+   "text": "Goal! Udinese 0, Lecce 1. Kialonda Gaspar (Lecce) header from very close range to the top left corner. Assisted by Antonino Gallo with a cross following a corner.",
+   "play": {
+    "id": "53879877",
+    "type": {
+     "id": "137",
+     "text": "Goal - Header",
+     "type": "goal---header"
+    },
+    "text": "Goal! Udinese 0, Lecce 1. Kialonda Gaspar (Lecce) header from very close range to the top left corner. Assisted by Antonino Gallo with a cross following a corner.",
+    "shortText": "Kialonda Gaspar Goal - Header",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 650.0,
+     "displayValue": "11'"
+    },
+    "wallclock": "2026-10-18T10:43:01Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Kialonda Gaspar"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Antonino Gallo"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 10,
+   "text": "Delay in match (Udinese).",
+   "play": {
+    "id": "53879984",
+    "type": {
+     "id": "129",
+     "text": "Start Delay",
+     "type": "start-delay"
+    },
+    "text": "Delay in match (Udinese).",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 741.0,
+     "displayValue": "13'"
+    },
+    "wallclock": "2026-10-18T10:44:32Z",
+    "team": {
+     "id": null
+    }
+   }
+  },
+  {
+   "sequence": 11,
+   "text": "Delay over. They are ready to continue.",
+   "play": {
+    "id": "53879986",
+    "type": {
+     "id": "130",
+     "text": "End Delay",
+     "type": "end-delay"
+    },
+    "text": "Delay over. They are ready to continue.",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 752.0,
+     "displayValue": "13'"
+    },
+    "wallclock": "2026-10-18T10:44:43Z",
+    "team": {
+     "id": null
+    }
+   }
+  },
+  {
+   "sequence": 12,
+   "text": "Offside, Lecce. Willem Geubbels is caught offside.",
+   "play": {
+    "id": "53879993",
+    "type": {
+     "id": "68",
+     "text": "Offside",
+     "type": "offside"
+    },
+    "text": "Offside, Lecce. Willem Geubbels is caught offside.",
+    "shortText": "Konan N’Dri Offside",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 773.0,
+     "displayValue": "13'"
+    },
+    "wallclock": "2026-10-18T10:45:03Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Konan N’Dri"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 13,
+   "text": "Offside, Udinese. Hassane Kamara is caught offside.",
+   "play": {
+    "id": "53880117",
+    "type": {
+     "id": "68",
+     "text": "Offside",
+     "type": "offside"
+    },
+    "text": "Offside, Udinese. Hassane Kamara is caught offside.",
+    "shortText": "Oumar Solet Offside",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 990.0,
+     "displayValue": "17'"
+    },
+    "wallclock": "2026-10-18T10:48:41Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Oumar Solet"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 14,
+   "text": "Lassana Coulibaly (Lecce) wins a free kick in the defensive half.",
+   "play": {
+    "id": "53880168",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Foul by Hassane Kamara (Udinese).",
+    "shortText": "Hassane Kamara Foul",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 1057.0,
+     "displayValue": "18'"
+    },
+    "wallclock": "2026-10-18T10:49:48Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Hassane Kamara"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Lassana Coulibaly"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 15,
+   "text": "Foul by Hassane Kamara (Udinese).",
+   "play": {
+    "id": "53880168",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Foul by Hassane Kamara (Udinese).",
+    "shortText": "Hassane Kamara Foul",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 1057.0,
+     "displayValue": "18'"
+    },
+    "wallclock": "2026-10-18T10:49:48Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Hassane Kamara"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Lassana Coulibaly"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 16,
+   "text": "Offside, Udinese. Hassane Kamara is caught offside.",
+   "play": {
+    "id": "53880254",
+    "type": {
+     "id": "68",
+     "text": "Offside",
+     "type": "offside"
+    },
+    "text": "Offside, Udinese. Hassane Kamara is caught offside.",
+    "shortText": "Giorgi Chakvetadze Offside",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 1248.0,
+     "displayValue": "21'"
+    },
+    "wallclock": "2026-10-18T10:52:59Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Giorgi Chakvetadze"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 17,
+   "text": "Attempt saved. Oumar Solet (Udinese) left footed shot from outside the box is saved in the bottom left corner by Wladimiro Falcone (Lecce). Assisted by Jurgen Ekkelenkamp.",
+   "play": {
+    "id": "53880279",
+    "type": {
+     "id": "106",
+     "text": "Shot On Target",
+     "type": "shot-on-target"
+    },
+    "text": "Attempt saved. Oumar Solet (Udinese) left footed shot from outside the box is saved in the bottom left corner by Wladimiro Falcone (Lecce). Assisted by Jurgen Ekkelenkamp.",
+    "shortText": "Oumar Solet Shot On Target",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 1344.0,
+     "displayValue": "23'"
+    },
+    "wallclock": "2026-10-18T10:54:35Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Oumar Solet"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Jurgen Ekkelenkamp"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 18,
+   "text": "Danilo Veiga (Lecce) wins a free kick on the right wing.",
+   "play": {
+    "id": "53880454",
+    "type": {
+     "id": "178",
+     "text": "Take On",
+     "type": "take-on"
+    },
+    "text": "Danilo Veiga (Lecce) wins a free kick on the right wing.",
+    "shortText": "Danilo Veiga Take On",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 1508.0,
+     "displayValue": "26'"
+    },
+    "wallclock": "2026-10-18T10:57:19Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Danilo Veiga"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 19,
+   "text": "Foul by Enzo Ebosse (Udinese).",
+   "play": {
+    "id": "53880456",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Foul by Enzo Ebosse (Udinese).",
+    "shortText": "Enzo Ebosse Foul",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 1508.0,
+     "displayValue": "26'"
+    },
+    "wallclock": "2026-10-18T10:57:19Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Enzo Ebosse"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Danilo Veiga"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 20,
+   "text": "Offside, Lecce. Danilo Veiga is caught offside.",
+   "play": {
+    "id": "53880529",
+    "type": {
+     "id": "68",
+     "text": "Offside",
+     "type": "offside"
+    },
+    "text": "Offside, Lecce. Danilo Veiga is caught offside.",
+    "shortText": "Konan N’Dri Offside",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 1626.0,
+     "displayValue": "28'"
+    },
+    "wallclock": "2026-10-18T10:59:17Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Konan N’Dri"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 21,
+   "text": "Lassana Coulibaly (Lecce) wins a free kick in the defensive half.",
+   "play": {
+    "id": "53880653",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Foul by Oumar Solet (Udinese).",
+    "shortText": "Oumar Solet Foul",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 1803.0,
+     "displayValue": "31'"
+    },
+    "wallclock": "2026-10-18T11:02:14Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Oumar Solet"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Lassana Coulibaly"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 22,
+   "text": "Foul by Oumar Solet (Udinese).",
+   "play": {
+    "id": "53880653",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Foul by Oumar Solet (Udinese).",
+    "shortText": "Oumar Solet Foul",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 1803.0,
+     "displayValue": "31'"
+    },
+    "wallclock": "2026-10-18T11:02:14Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Oumar Solet"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Lassana Coulibaly"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 23,
+   "text": "Foul by Tiago Gabriel (Lecce).",
+   "play": {
+    "id": "53880765",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Keinan Davis (Udinese) wins a free kick in the defensive half.",
+    "shortText": "Tiago Gabriel Foul",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 1863.0,
+     "displayValue": "32'"
+    },
+    "wallclock": "2026-10-18T11:03:14Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Tiago Gabriel"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Keinan Davis"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 24,
+   "text": "Keinan Davis (Udinese) wins a free kick in the defensive half.",
+   "play": {
+    "id": "53880765",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Keinan Davis (Udinese) wins a free kick in the defensive half.",
+    "shortText": "Tiago Gabriel Foul",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 1863.0,
+     "displayValue": "32'"
+    },
+    "wallclock": "2026-10-18T11:03:14Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Tiago Gabriel"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Keinan Davis"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 25,
+   "text": "Corner, Lecce. Conceded by Oier Zarraga.",
+   "play": {
+    "id": "53880864",
+    "type": {
+     "id": "95",
+     "text": "Corner Awarded",
+     "type": "corner-awarded"
+    },
+    "text": "Corner, Lecce. Conceded by Oier Zarraga.",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 1897.0,
+     "displayValue": "32'"
+    },
+    "wallclock": "2026-10-18T11:03:47Z",
+    "team": {
+     "id": null
+    }
+   }
+  },
+  {
+   "sequence": 26,
+   "text": "Attempt blocked. Tiago Gabriel (Lecce) header from the centre of the box is blocked. Assisted by Kialonda Gaspar with a headed pass.",
+   "play": {
+    "id": "53880871",
+    "type": {
+     "id": "135",
+     "text": "Shot Blocked",
+     "type": "shot-blocked"
+    },
+    "text": "Attempt blocked. Tiago Gabriel (Lecce) header from the centre of the box is blocked. Assisted by Kialonda Gaspar with a headed pass.",
+    "shortText": "Tiago Gabriel Shot Blocked",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 1937.0,
+     "displayValue": "33'"
+    },
+    "wallclock": "2026-10-18T11:04:28Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Tiago Gabriel"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Kialonda Gaspar"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 27,
+   "text": "Goal! Udinese 0, Lecce 2. Konan N’Dri (Lecce) with an attempt from very close range to the bottom right corner. Assisted by Tiago Gabriel following a corner.",
+   "play": {
+    "id": "53880909",
+    "type": {
+     "id": "70",
+     "text": "Goal",
+     "type": "goal"
+    },
+    "text": "Goal! Udinese 0, Lecce 2. Konan N’Dri (Lecce) with an attempt from very close range to the bottom right corner. Assisted by Tiago Gabriel following a corner.",
+    "shortText": "Konan N’Dri Goal",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 1939.0,
+     "displayValue": "33'"
+    },
+    "wallclock": "2026-10-18T11:04:30Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Konan N’Dri"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Tiago Gabriel"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 28,
+   "text": "Youssef Maleh (Lecce) wins a free kick in the attacking half.",
+   "play": {
+    "id": "53881108",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Foul by Oier Zarraga (Udinese).",
+    "shortText": "Oier Zarraga Foul",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 2065.0,
+     "displayValue": "35'"
+    },
+    "wallclock": "2026-10-18T11:06:36Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Oier Zarraga"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Youssef Maleh"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 29,
+   "text": "Foul by Oier Zarraga (Udinese).",
+   "play": {
+    "id": "53881108",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Foul by Oier Zarraga (Udinese).",
+    "shortText": "Oier Zarraga Foul",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 2065.0,
+     "displayValue": "35'"
+    },
+    "wallclock": "2026-10-18T11:06:36Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Oier Zarraga"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Youssef Maleh"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 30,
+   "text": "Amar Fatah (Lecce) hits the bar with a right footed shot from the centre of the box. Assisted by Konan N’Dri following a fast break.",
+   "play": {
+    "id": "53881155",
+    "type": {
+     "id": "136",
+     "text": "Shot Hit Woodwork",
+     "type": "shot-hit-woodwork"
+    },
+    "text": "Amar Fatah (Lecce) hits the bar with a right footed shot from the centre of the box. Assisted by Konan N’Dri following a fast break.",
+    "shortText": "Amar Ahmed Shot Hit Woodwork",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 2127.0,
+     "displayValue": "36'"
+    },
+    "wallclock": "2026-10-18T11:07:38Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Amar Ahmed"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Konan N’Dri"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 31,
+   "text": "Offside, Lecce. Willem Geubbels is caught offside.",
+   "play": {
+    "id": "53881235",
+    "type": {
+     "id": "68",
+     "text": "Offside",
+     "type": "offside"
+    },
+    "text": "Offside, Lecce. Willem Geubbels is caught offside.",
+    "shortText": "Oumar Ngom Offside",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 2171.0,
+     "displayValue": "37'"
+    },
+    "wallclock": "2026-10-18T11:08:22Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Oumar Ngom"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 32,
+   "text": "Attempt missed. Keinan Davis (Udinese) right footed shot from the right side of the box is close, but misses to the right. Assisted by Mërgim Vojvoda.",
+   "play": {
+    "id": "53881354",
+    "type": {
+     "id": "117",
+     "text": "Shot Off Target",
+     "type": "shot-off-target"
+    },
+    "text": "Attempt missed. Keinan Davis (Udinese) right footed shot from the right side of the box is close, but misses to the right. Assisted by Mërgim Vojvoda.",
+    "shortText": "Keinan Davis Shot Off Target",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 2260.0,
+     "displayValue": "38'"
+    },
+    "wallclock": "2026-10-18T11:09:51Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Keinan Davis"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Mërgim Vojvoda"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 33,
+   "text": "Attempt saved. Konan N’Dri (Lecce) left footed shot from the right side of the box is saved in the bottom right corner by Maduka Okoye (Udinese).",
+   "play": {
+    "id": "53881431",
+    "type": {
+     "id": "106",
+     "text": "Shot On Target",
+     "type": "shot-on-target"
+    },
+    "text": "Attempt saved. Konan N’Dri (Lecce) left footed shot from the right side of the box is saved in the bottom right corner by Maduka Okoye (Udinese).",
+    "shortText": "Konan N’Dri Shot On Target",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 2333.0,
+     "displayValue": "39'"
+    },
+    "wallclock": "2026-10-18T11:11:04Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Konan N’Dri"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 34,
+   "text": "Delay in match because of an injury Lassana Coulibaly (Lecce).",
+   "play": {
+    "id": "53881515",
+    "type": {
+     "id": "129",
+     "text": "Start Delay",
+     "type": "start-delay"
+    },
+    "text": "Delay in match because of an injury Lassana Coulibaly (Lecce).",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 2380.0,
+     "displayValue": "40'"
+    },
+    "wallclock": "2026-10-18T11:11:51Z",
+    "team": {
+     "id": null
+    }
+   }
+  },
+  {
+   "sequence": 35,
+   "text": "Delay over. They are ready to continue.",
+   "play": {
+    "id": "53881648",
+    "type": {
+     "id": "130",
+     "text": "End Delay",
+     "type": "end-delay"
+    },
+    "text": "Delay over. They are ready to continue.",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 2426.0,
+     "displayValue": "41'"
+    },
+    "wallclock": "2026-10-18T11:12:37Z",
+    "team": {
+     "id": null
+    }
+   }
+  },
+  {
+   "sequence": 36,
+   "text": "Substitution, Lecce. Mohamed Kaba replaces Lassana Coulibaly because of an injury.",
+   "play": {
+    "id": "53881660",
+    "type": {
+     "id": "76",
+     "text": "Substitution",
+     "type": "substitution"
+    },
+    "text": "Substitution, Lecce. Mohamed Kaba replaces Lassana Coulibaly because of an injury.",
+    "shortText": "Mohamed Kaba Substitution",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 2437.0,
+     "displayValue": "41'"
+    },
+    "wallclock": "2026-10-18T11:12:48Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Mohamed Kaba"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Lassana Coulibaly"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 37,
+   "text": "Mohamed Kaba (Lecce) wins a free kick in the defensive half.",
+   "play": {
+    "id": "53881654",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Foul by Oier Zarraga (Udinese).",
+    "shortText": "Oier Zarraga Foul",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 2457.0,
+     "displayValue": "41'"
+    },
+    "wallclock": "2026-10-18T11:13:07Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Oier Zarraga"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Mohamed Kaba"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 38,
+   "text": "Foul by Oier Zarraga (Udinese).",
+   "play": {
+    "id": "53881654",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Foul by Oier Zarraga (Udinese).",
+    "shortText": "Oier Zarraga Foul",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 2457.0,
+     "displayValue": "41'"
+    },
+    "wallclock": "2026-10-18T11:13:07Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Oier Zarraga"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Mohamed Kaba"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 39,
+   "text": "Oumar Ngom (Lecce) wins a free kick in the defensive half.",
+   "play": {
+    "id": "53881659",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Foul by Oier Zarraga (Udinese).",
+    "shortText": "Oier Zarraga Foul",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 2501.0,
+     "displayValue": "42'"
+    },
+    "wallclock": "2026-10-18T11:13:51Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Oier Zarraga"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Oumar Ngom"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 40,
+   "text": "Foul by Oier Zarraga (Udinese).",
+   "play": {
+    "id": "53881659",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Foul by Oier Zarraga (Udinese).",
+    "shortText": "Oier Zarraga Foul",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 2501.0,
+     "displayValue": "42'"
+    },
+    "wallclock": "2026-10-18T11:13:51Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Oier Zarraga"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Oumar Ngom"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 41,
+   "text": "Konan N’Dri (Lecce) wins a free kick on the right wing.",
+   "play": {
+    "id": "53881758",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Foul by Hassane Kamara (Udinese).",
+    "shortText": "Hassane Kamara Foul",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 2521.0,
+     "displayValue": "43'"
+    },
+    "wallclock": "2026-10-18T11:14:12Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Hassane Kamara"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Konan N’Dri"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 42,
+   "text": "Foul by Hassane Kamara (Udinese).",
+   "play": {
+    "id": "53881758",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Foul by Hassane Kamara (Udinese).",
+    "shortText": "Hassane Kamara Foul",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 2521.0,
+     "displayValue": "43'"
+    },
+    "wallclock": "2026-10-18T11:14:12Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Hassane Kamara"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Konan N’Dri"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 43,
+   "text": "Hassane Kamara (Udinese) is shown the yellow card for a bad foul.",
+   "play": {
+    "id": "53881759",
+    "type": {
+     "id": "94",
+     "text": "Yellow Card",
+     "type": "yellow-card"
+    },
+    "text": "Hassane Kamara (Udinese) is shown the yellow card for a bad foul.",
+    "shortText": "Hassane Kamara Yellow Card",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 2529.0,
+     "displayValue": "43'"
+    },
+    "wallclock": "2026-10-18T11:14:20Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Hassane Kamara"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 44,
+   "text": "Attempt saved. Konan N’Dri (Lecce) left footed shot from the right side of the box is saved in the centre of the goal by Maduka Okoye (Udinese). Assisted by Danilo Veiga.",
+   "play": {
+    "id": "53881793",
+    "type": {
+     "id": "106",
+     "text": "Shot On Target",
+     "type": "shot-on-target"
+    },
+    "text": "Attempt saved. Konan N’Dri (Lecce) left footed shot from the right side of the box is saved in the centre of the goal by Maduka Okoye (Udinese). Assisted by Danilo Veiga.",
+    "shortText": "Konan N’Dri Shot On Target",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 2636.0,
+     "displayValue": "44'"
+    },
+    "wallclock": "2026-10-18T11:16:07Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Konan N’Dri"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Danilo Veiga"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 45,
+   "text": "Attempt saved. Willem Geubbels (Lecce) right footed shot from very close range is saved in the centre of the goal by Maduka Okoye (Udinese).",
+   "play": {
+    "id": "53881794",
+    "type": {
+     "id": "106",
+     "text": "Shot On Target",
+     "type": "shot-on-target"
+    },
+    "text": "Attempt saved. Willem Geubbels (Lecce) right footed shot from very close range is saved in the centre of the goal by Maduka Okoye (Udinese).",
+    "shortText": "Willem Geubbels Shot On Target",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 2638.0,
+     "displayValue": "44'"
+    },
+    "wallclock": "2026-10-18T11:16:08Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Willem Geubbels"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 46,
+   "text": "Attempt saved. Mohamed Kaba (Lecce) right footed shot from a difficult angle on the right is saved in the centre of the goal by Maduka Okoye (Udinese). Assisted by Danilo Veiga.",
+   "play": {
+    "id": "53881859",
+    "type": {
+     "id": "106",
+     "text": "Shot On Target",
+     "type": "shot-on-target"
+    },
+    "text": "Attempt saved. Mohamed Kaba (Lecce) right footed shot from a difficult angle on the right is saved in the centre of the goal by Maduka Okoye (Udinese). Assisted by Danilo Veiga.",
+    "shortText": "Mohamed Kaba Shot On Target",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 2667.0,
+     "displayValue": "45'"
+    },
+    "wallclock": "2026-10-18T11:16:38Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Mohamed Kaba"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Danilo Veiga"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 47,
+   "text": "Corner, Lecce. Conceded by Maduka Okoye.",
+   "play": {
+    "id": "53881861",
+    "type": {
+     "id": "95",
+     "text": "Corner Awarded",
+     "type": "corner-awarded"
+    },
+    "text": "Corner, Lecce. Conceded by Maduka Okoye.",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 2670.0,
+     "displayValue": "45'"
+    },
+    "wallclock": "2026-10-18T11:16:41Z",
+    "team": {
+     "id": null
+    }
+   }
+  },
+  {
+   "sequence": 49,
+   "text": "Attempt blocked. Amar Fatah (Lecce) right footed shot from the centre of the box is blocked. Assisted by Tiago Gabriel with a headed pass.",
+   "play": {
+    "id": "53881889",
+    "type": {
+     "id": "135",
+     "text": "Shot Blocked",
+     "type": "shot-blocked"
+    },
+    "text": "Attempt blocked. Amar Fatah (Lecce) right footed shot from the centre of the box is blocked. Assisted by Tiago Gabriel with a headed pass.",
+    "shortText": "Amar Ahmed Shot Blocked",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 2700.0,
+     "displayValue": "45'+1'"
+    },
+    "wallclock": "2026-10-18T11:17:28Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Amar Ahmed"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Tiago Gabriel"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 50,
+   "text": "Attempt missed. Willem Geubbels (Lecce) right footed shot from the centre of the box is close, but misses to the right. Assisted by Amar Fatah with a through ball following a fast break.",
+   "play": {
+    "id": "53881905",
+    "type": {
+     "id": "117",
+     "text": "Shot Off Target",
+     "type": "shot-off-target"
+    },
+    "text": "Attempt missed. Willem Geubbels (Lecce) right footed shot from the centre of the box is close, but misses to the right. Assisted by Amar Fatah with a through ball following a fast break.",
+    "shortText": "Willem Geubbels Shot Off Target",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 2700.0,
+     "displayValue": "45'+1'"
+    },
+    "wallclock": "2026-10-18T11:18:05Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Willem Geubbels"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Amar Ahmed"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 51,
+   "text": "Mohamed Kaba (Lecce) wins a free kick in the defensive half.",
+   "play": {
+    "id": "53882006",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Foul by Jesper Karlström (Udinese).",
+    "shortText": "Jesper Karlström Foul",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 2700.0,
+     "displayValue": "45'+2'"
+    },
+    "wallclock": "2026-10-18T11:18:40Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Jesper Karlström"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Mohamed Kaba"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 52,
+   "text": "Foul by Jesper Karlström (Udinese).",
+   "play": {
+    "id": "53882006",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Foul by Jesper Karlström (Udinese).",
+    "shortText": "Jesper Karlström Foul",
+    "period": {
+     "number": 1
+    },
+    "clock": {
+     "value": 2700.0,
+     "displayValue": "45'+2'"
+    },
+    "wallclock": "2026-10-18T11:18:40Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Jesper Karlström"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Mohamed Kaba"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 55,
+   "text": "Substitution, Udinese. Matteo Palma replaces David Alaba.",
+   "play": {
+    "id": "53883024",
+    "type": {
+     "id": "76",
+     "text": "Substitution",
+     "type": "substitution"
+    },
+    "text": "Substitution, Udinese. Matteo Palma replaces David Alaba.",
+    "shortText": "Matteo Palma Substitution",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 2700.0,
+     "displayValue": "45'"
+    },
+    "wallclock": "2026-10-18T11:34:48Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Matteo Palma"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "David Alaba"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 56,
+   "text": "Substitution, Udinese. Juan Arizala replaces Hassane Kamara.",
+   "play": {
+    "id": "53883119",
+    "type": {
+     "id": "76",
+     "text": "Substitution",
+     "type": "substitution"
+    },
+    "text": "Substitution, Udinese. Juan Arizala replaces Hassane Kamara.",
+    "shortText": "Juan David Arizala Substitution",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 2700.0,
+     "displayValue": "45'"
+    },
+    "wallclock": "2026-10-18T11:34:48Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Juan David Arizala"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Hassane Kamara"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 57,
+   "text": "Substitution, Udinese. Jakub Piotrowski replaces Oier Zarraga.",
+   "play": {
+    "id": "53883120",
+    "type": {
+     "id": "76",
+     "text": "Substitution",
+     "type": "substitution"
+    },
+    "text": "Substitution, Udinese. Jakub Piotrowski replaces Oier Zarraga.",
+    "shortText": "Jakub Piotrowski Substitution",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 2700.0,
+     "displayValue": "45'"
+    },
+    "wallclock": "2026-10-18T11:34:48Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Jakub Piotrowski"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Oier Zarraga"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 58,
+   "text": "Attempt saved. Konan N’Dri (Lecce) left footed shot from outside the box is saved in the bottom right corner by Maduka Okoye (Udinese). Assisted by Danilo Veiga.",
+   "play": {
+    "id": "53883170",
+    "type": {
+     "id": "106",
+     "text": "Shot On Target",
+     "type": "shot-on-target"
+    },
+    "text": "Attempt saved. Konan N’Dri (Lecce) left footed shot from outside the box is saved in the bottom right corner by Maduka Okoye (Udinese). Assisted by Danilo Veiga.",
+    "shortText": "Konan N’Dri Shot On Target",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 2736.0,
+     "displayValue": "46'"
+    },
+    "wallclock": "2026-10-18T11:36:30Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Konan N’Dri"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Danilo Veiga"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 59,
+   "text": "Konan N’Dri (Lecce) wins a free kick on the right wing.",
+   "play": {
+    "id": "53883396",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Foul by Enzo Ebosse (Udinese).",
+    "shortText": "Enzo Ebosse Foul",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 2860.0,
+     "displayValue": "48'"
+    },
+    "wallclock": "2026-10-18T11:38:34Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Enzo Ebosse"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Konan N’Dri"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 60,
+   "text": "Foul by Enzo Ebosse (Udinese).",
+   "play": {
+    "id": "53883396",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Foul by Enzo Ebosse (Udinese).",
+    "shortText": "Enzo Ebosse Foul",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 2860.0,
+     "displayValue": "48'"
+    },
+    "wallclock": "2026-10-18T11:38:34Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Enzo Ebosse"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Konan N’Dri"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 61,
+   "text": "Offside, Lecce. Amar Fatah is caught offside.",
+   "play": {
+    "id": "53883433",
+    "type": {
+     "id": "68",
+     "text": "Offside",
+     "type": "offside"
+    },
+    "text": "Offside, Lecce. Amar Fatah is caught offside.",
+    "shortText": "Mohamed Kaba Offside",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 2943.0,
+     "displayValue": "50'"
+    },
+    "wallclock": "2026-10-18T11:39:58Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Mohamed Kaba"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 62,
+   "text": "Offside, Lecce. Amar Fatah is caught offside.",
+   "play": {
+    "id": "53883573",
+    "type": {
+     "id": "68",
+     "text": "Offside",
+     "type": "offside"
+    },
+    "text": "Offside, Lecce. Amar Fatah is caught offside.",
+    "shortText": "Antonino Gallo Offside",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 2975.0,
+     "displayValue": "50'"
+    },
+    "wallclock": "2026-10-18T11:40:30Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Antonino Gallo"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 63,
+   "text": "Foul by Oumar Ngom (Lecce).",
+   "play": {
+    "id": "53883593",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Juan Arizala (Udinese) wins a free kick on the left wing.",
+    "shortText": "Oumar Ngom Foul",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 3025.0,
+     "displayValue": "51'"
+    },
+    "wallclock": "2026-10-18T11:41:20Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Oumar Ngom"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Juan David Arizala"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 64,
+   "text": "Juan Arizala (Udinese) wins a free kick on the left wing.",
+   "play": {
+    "id": "53883593",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Juan Arizala (Udinese) wins a free kick on the left wing.",
+    "shortText": "Oumar Ngom Foul",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 3025.0,
+     "displayValue": "51'"
+    },
+    "wallclock": "2026-10-18T11:41:20Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Oumar Ngom"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Juan David Arizala"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 65,
+   "text": "Corner, Udinese. Conceded by Antonino Gallo.",
+   "play": {
+    "id": "53883708",
+    "type": {
+     "id": "95",
+     "text": "Corner Awarded",
+     "type": "corner-awarded"
+    },
+    "text": "Corner, Udinese. Conceded by Antonino Gallo.",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 3078.0,
+     "displayValue": "52'"
+    },
+    "wallclock": "2026-10-18T11:42:12Z",
+    "team": {
+     "id": null
+    }
+   }
+  },
+  {
+   "sequence": 66,
+   "text": "Attempt missed. Keinan Davis (Udinese) header from the centre of the box is high and wide to the right. Assisted by Mërgim Vojvoda with a cross following a corner.",
+   "play": {
+    "id": "53883711",
+    "type": {
+     "id": "117",
+     "text": "Shot Off Target",
+     "type": "shot-off-target"
+    },
+    "text": "Attempt missed. Keinan Davis (Udinese) header from the centre of the box is high and wide to the right. Assisted by Mërgim Vojvoda with a cross following a corner.",
+    "shortText": "Keinan Davis Shot Off Target",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 3105.0,
+     "displayValue": "52'"
+    },
+    "wallclock": "2026-10-18T11:42:39Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Keinan Davis"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Mërgim Vojvoda"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 67,
+   "text": "Attempt saved. Willem Geubbels (Lecce) right footed shot from outside the box is saved in the centre of the goal by Maduka Okoye (Udinese). Assisted by Konan N’Dri.",
+   "play": {
+    "id": "53883934",
+    "type": {
+     "id": "106",
+     "text": "Shot On Target",
+     "type": "shot-on-target"
+    },
+    "text": "Attempt saved. Willem Geubbels (Lecce) right footed shot from outside the box is saved in the centre of the goal by Maduka Okoye (Udinese). Assisted by Konan N’Dri.",
+    "shortText": "Willem Geubbels Shot On Target",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 3240.0,
+     "displayValue": "54'"
+    },
+    "wallclock": "2026-10-18T11:44:55Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Willem Geubbels"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Konan N’Dri"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 68,
+   "text": "Attempt missed. Jurgen Ekkelenkamp (Udinese) right footed shot from outside the box misses to the left. Assisted by Jesper Karlström.",
+   "play": {
+    "id": "53883942",
+    "type": {
+     "id": "117",
+     "text": "Shot Off Target",
+     "type": "shot-off-target"
+    },
+    "text": "Attempt missed. Jurgen Ekkelenkamp (Udinese) right footed shot from outside the box misses to the left. Assisted by Jesper Karlström.",
+    "shortText": "Jurgen Ekkelenkamp Shot Off Targ",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 3271.0,
+     "displayValue": "55'"
+    },
+    "wallclock": "2026-10-18T11:45:25Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Jurgen Ekkelenkamp"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Jesper Karlström"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 69,
+   "text": "Attempt missed. Konan N’Dri (Lecce) left footed shot from the right side of the box is too high.",
+   "play": {
+    "id": "53884087",
+    "type": {
+     "id": "117",
+     "text": "Shot Off Target",
+     "type": "shot-off-target"
+    },
+    "text": "Attempt missed. Konan N’Dri (Lecce) left footed shot from the right side of the box is too high.",
+    "shortText": "Konan N’Dri Shot Off Target",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 3371.0,
+     "displayValue": "57'"
+    },
+    "wallclock": "2026-10-18T11:47:05Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Konan N’Dri"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 70,
+   "text": "Attempt blocked. Juan Arizala (Udinese) left footed shot from the left side of the box is blocked. Assisted by Oumar Solet.",
+   "play": {
+    "id": "53884199",
+    "type": {
+     "id": "135",
+     "text": "Shot Blocked",
+     "type": "shot-blocked"
+    },
+    "text": "Attempt blocked. Juan Arizala (Udinese) left footed shot from the left side of the box is blocked. Assisted by Oumar Solet.",
+    "shortText": "Juan David Arizala Shot Blocked",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 3477.0,
+     "displayValue": "58'"
+    },
+    "wallclock": "2026-10-18T11:48:51Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Juan David Arizala"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Oumar Solet"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 71,
+   "text": "Offside, Udinese. Jakub Piotrowski is caught offside.",
+   "play": {
+    "id": "53884250",
+    "type": {
+     "id": "68",
+     "text": "Offside",
+     "type": "offside"
+    },
+    "text": "Offside, Udinese. Jakub Piotrowski is caught offside.",
+    "shortText": "Juan David Arizala Offside",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 3527.0,
+     "displayValue": "59'"
+    },
+    "wallclock": "2026-10-18T11:49:41Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Juan David Arizala"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 72,
+   "text": "GOAL OVERTURNED BY VAR: Jakub Piotrowski (Udinese) scores but the goal is ruled out after a VAR review.",
+   "play": {
+    "id": "53884252",
+    "type": {
+     "id": "175",
+     "text": "Deleted After Review",
+     "type": "deleted-after-review"
+    },
+    "text": "GOAL OVERTURNED BY VAR: Jakub Piotrowski (Udinese) scores but the goal is ruled out after a VAR review.",
+    "shortText": "Jakub Piotrowski Deleted After R",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 3529.0,
+     "displayValue": "59'"
+    },
+    "wallclock": "2026-10-18T11:49:43Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Jakub Piotrowski"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Juan David Arizala"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 73,
+   "text": "VAR Decision: No Goal Udinese 0-2 Lecce.",
+   "play": {
+    "id": "53884302",
+    "type": {
+     "id": "172",
+     "text": "VAR - Referee decision cancelled",
+     "type": "var---referee-decision-cancelled"
+    },
+    "text": "VAR Decision: No Goal Udinese 0-2 Lecce.",
+    "shortText": "Jakub Piotrowski VAR - Referee d",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 3532.0,
+     "displayValue": "59'"
+    },
+    "wallclock": "2026-10-18T11:49:46Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Jakub Piotrowski"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 74,
+   "text": "Substitution, Udinese. Unai Gómez replaces Giorgi Chakvetadze.",
+   "play": {
+    "id": "53884381",
+    "type": {
+     "id": "76",
+     "text": "Substitution",
+     "type": "substitution"
+    },
+    "text": "Substitution, Udinese. Unai Gómez replaces Giorgi Chakvetadze.",
+    "shortText": "Unai Gómez Substitution",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 3796.0,
+     "displayValue": "64'"
+    },
+    "wallclock": "2026-10-18T11:54:11Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Unai Gómez"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Giorgi Chakvetadze"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 75,
+   "text": "Substitution, Udinese. Alessandro Zanoli replaces Enzo Ebosse.",
+   "play": {
+    "id": "53884436",
+    "type": {
+     "id": "76",
+     "text": "Substitution",
+     "type": "substitution"
+    },
+    "text": "Substitution, Udinese. Alessandro Zanoli replaces Enzo Ebosse.",
+    "shortText": "Alessandro Zanoli Substitution",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 3806.0,
+     "displayValue": "64'"
+    },
+    "wallclock": "2026-10-18T11:54:20Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Alessandro Zanoli"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Enzo Ebosse"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 76,
+   "text": "Attempt saved. Willem Geubbels (Lecce) right footed shot from the centre of the box is saved in the centre of the goal by Maduka Okoye (Udinese).",
+   "play": {
+    "id": "53884431",
+    "type": {
+     "id": "106",
+     "text": "Shot On Target",
+     "type": "shot-on-target"
+    },
+    "text": "Attempt saved. Willem Geubbels (Lecce) right footed shot from the centre of the box is saved in the centre of the goal by Maduka Okoye (Udinese).",
+    "shortText": "Willem Geubbels Shot On Target",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 3868.0,
+     "displayValue": "65'"
+    },
+    "wallclock": "2026-10-18T11:55:22Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Willem Geubbels"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 77,
+   "text": "Corner, Lecce. Conceded by Maduka Okoye.",
+   "play": {
+    "id": "53884433",
+    "type": {
+     "id": "95",
+     "text": "Corner Awarded",
+     "type": "corner-awarded"
+    },
+    "text": "Corner, Lecce. Conceded by Maduka Okoye.",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 3870.0,
+     "displayValue": "65'"
+    },
+    "wallclock": "2026-10-18T11:55:24Z",
+    "team": {
+     "id": null
+    }
+   }
+  },
+  {
+   "sequence": 78,
+   "text": "Foul by Konan N’Dri (Lecce).",
+   "play": {
+    "id": "53884517",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Maduka Okoye (Udinese) wins a free kick in the defensive half.",
+    "shortText": "Konan N’Dri Foul",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 3912.0,
+     "displayValue": "66'"
+    },
+    "wallclock": "2026-10-18T11:56:07Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Konan N’Dri"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Maduka Okoye"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 79,
+   "text": "Maduka Okoye (Udinese) wins a free kick in the defensive half.",
+   "play": {
+    "id": "53884517",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Maduka Okoye (Udinese) wins a free kick in the defensive half.",
+    "shortText": "Konan N’Dri Foul",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 3912.0,
+     "displayValue": "66'"
+    },
+    "wallclock": "2026-10-18T11:56:07Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Konan N’Dri"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Maduka Okoye"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 80,
+   "text": "Attempt missed. Juan Arizala (Udinese) left footed shot from the left side of the box is high and wide to the left.",
+   "play": {
+    "id": "53884542",
+    "type": {
+     "id": "117",
+     "text": "Shot Off Target",
+     "type": "shot-off-target"
+    },
+    "text": "Attempt missed. Juan Arizala (Udinese) left footed shot from the left side of the box is high and wide to the left.",
+    "shortText": "Juan David Arizala Shot Off Targ",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 3975.0,
+     "displayValue": "67'"
+    },
+    "wallclock": "2026-10-18T11:57:09Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Juan David Arizala"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 81,
+   "text": "Foul by Willem Geubbels (Lecce).",
+   "play": {
+    "id": "53884547",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Matteo Palma (Udinese) wins a free kick in the defensive half.",
+    "shortText": "Willem Geubbels Foul",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 4006.0,
+     "displayValue": "67'"
+    },
+    "wallclock": "2026-10-18T11:57:40Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Willem Geubbels"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Matteo Palma"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 82,
+   "text": "Matteo Palma (Udinese) wins a free kick in the defensive half.",
+   "play": {
+    "id": "53884547",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Matteo Palma (Udinese) wins a free kick in the defensive half.",
+    "shortText": "Willem Geubbels Foul",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 4006.0,
+     "displayValue": "67'"
+    },
+    "wallclock": "2026-10-18T11:57:40Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Willem Geubbels"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Matteo Palma"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 83,
+   "text": "Foul by Tiago Gabriel (Lecce).",
+   "play": {
+    "id": "53884554",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Unai Gómez (Udinese) wins a free kick on the right wing.",
+    "shortText": "Tiago Gabriel Foul",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 4038.0,
+     "displayValue": "68'"
+    },
+    "wallclock": "2026-10-18T11:58:12Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Tiago Gabriel"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Unai Gómez"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 84,
+   "text": "Unai Gómez (Udinese) wins a free kick on the right wing.",
+   "play": {
+    "id": "53884554",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Unai Gómez (Udinese) wins a free kick on the right wing.",
+    "shortText": "Tiago Gabriel Foul",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 4038.0,
+     "displayValue": "68'"
+    },
+    "wallclock": "2026-10-18T11:58:12Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Tiago Gabriel"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Unai Gómez"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 85,
+   "text": "Offside, Lecce. Mohamed Kaba is caught offside.",
+   "play": {
+    "id": "53884587",
+    "type": {
+     "id": "68",
+     "text": "Offside",
+     "type": "offside"
+    },
+    "text": "Offside, Lecce. Mohamed Kaba is caught offside.",
+    "shortText": "Willem Geubbels Offside",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 4098.0,
+     "displayValue": "69'"
+    },
+    "wallclock": "2026-10-18T11:59:12Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Willem Geubbels"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 86,
+   "text": "Substitution, Lecce. Santiago Pierotti replaces Amar Fatah.",
+   "play": {
+    "id": "53884647",
+    "type": {
+     "id": "76",
+     "text": "Substitution",
+     "type": "substitution"
+    },
+    "text": "Substitution, Lecce. Santiago Pierotti replaces Amar Fatah.",
+    "shortText": "Santiago Pierotti Substitution",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 4135.0,
+     "displayValue": "69'"
+    },
+    "wallclock": "2026-10-18T11:59:49Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Santiago Pierotti"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Amar Ahmed"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 87,
+   "text": "Substitution, Lecce. Paco Esteban replaces Willem Geubbels.",
+   "play": {
+    "id": "53884648",
+    "type": {
+     "id": "76",
+     "text": "Substitution",
+     "type": "substitution"
+    },
+    "text": "Substitution, Lecce. Paco Esteban replaces Willem Geubbels.",
+    "shortText": "Francisco Esteban Sánchez Substi",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 4142.0,
+     "displayValue": "70'"
+    },
+    "wallclock": "2026-10-18T11:59:57Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Francisco Esteban Sánchez"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Willem Geubbels"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 88,
+   "text": "Attempt blocked. Jakub Piotrowski (Udinese) right footed shot from outside the box is blocked. Assisted by Oumar Solet.",
+   "play": {
+    "id": "53884707",
+    "type": {
+     "id": "135",
+     "text": "Shot Blocked",
+     "type": "shot-blocked"
+    },
+    "text": "Attempt blocked. Jakub Piotrowski (Udinese) right footed shot from outside the box is blocked. Assisted by Oumar Solet.",
+    "shortText": "Jakub Piotrowski Shot Blocked",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 4260.0,
+     "displayValue": "71'"
+    },
+    "wallclock": "2026-10-18T12:01:54Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Jakub Piotrowski"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Oumar Solet"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 89,
+   "text": "Attempt blocked. Jakub Piotrowski (Udinese) right footed shot from outside the box is blocked. Assisted by Jurgen Ekkelenkamp.",
+   "play": {
+    "id": "53884771",
+    "type": {
+     "id": "135",
+     "text": "Shot Blocked",
+     "type": "shot-blocked"
+    },
+    "text": "Attempt blocked. Jakub Piotrowski (Udinese) right footed shot from outside the box is blocked. Assisted by Jurgen Ekkelenkamp.",
+    "shortText": "Jakub Piotrowski Shot Blocked",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 4329.0,
+     "displayValue": "73'"
+    },
+    "wallclock": "2026-10-18T12:03:03Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Jakub Piotrowski"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Jurgen Ekkelenkamp"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 90,
+   "text": "Attempt blocked. Jakub Piotrowski (Udinese) header from the centre of the box is blocked. Assisted by Juan Arizala with a cross.",
+   "play": {
+    "id": "53884848",
+    "type": {
+     "id": "135",
+     "text": "Shot Blocked",
+     "type": "shot-blocked"
+    },
+    "text": "Attempt blocked. Jakub Piotrowski (Udinese) header from the centre of the box is blocked. Assisted by Juan Arizala with a cross.",
+    "shortText": "Jakub Piotrowski Shot Blocked",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 4350.0,
+     "displayValue": "73'"
+    },
+    "wallclock": "2026-10-18T12:03:25Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Jakub Piotrowski"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Juan David Arizala"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 91,
+   "text": "Attempt missed. Matteo Palma (Udinese) right footed shot from outside the box is high and wide to the left.",
+   "play": {
+    "id": "53884860",
+    "type": {
+     "id": "117",
+     "text": "Shot Off Target",
+     "type": "shot-off-target"
+    },
+    "text": "Attempt missed. Matteo Palma (Udinese) right footed shot from outside the box is high and wide to the left.",
+    "shortText": "Matteo Palma Shot Off Target",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 4388.0,
+     "displayValue": "74'"
+    },
+    "wallclock": "2026-10-18T12:04:03Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Matteo Palma"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 92,
+   "text": "Attempt saved. Paco Esteban (Lecce) right footed shot from the left side of the box is saved in the bottom right corner by Maduka Okoye (Udinese). Assisted by Santiago Pierotti with a headed pass.",
+   "play": {
+    "id": "53884960",
+    "type": {
+     "id": "106",
+     "text": "Shot On Target",
+     "type": "shot-on-target"
+    },
+    "text": "Attempt saved. Paco Esteban (Lecce) right footed shot from the left side of the box is saved in the bottom right corner by Maduka Okoye (Udinese). Assisted by Santiago Pierotti with a headed pass.",
+    "shortText": "Francisco Esteban Sánchez Shot O",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 4427.0,
+     "displayValue": "74'"
+    },
+    "wallclock": "2026-10-18T12:04:41Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Francisco Esteban Sánchez"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Santiago Pierotti"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 93,
+   "text": "Offside, Lecce. Paco Esteban is caught offside.",
+   "play": {
+    "id": "53885134",
+    "type": {
+     "id": "68",
+     "text": "Offside",
+     "type": "offside"
+    },
+    "text": "Offside, Lecce. Paco Esteban is caught offside.",
+    "shortText": "Mohamed Kaba Offside",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 4484.0,
+     "displayValue": "75'"
+    },
+    "wallclock": "2026-10-18T12:05:39Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Mohamed Kaba"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 94,
+   "text": "Foul by Tiago Gabriel (Lecce).",
+   "play": {
+    "id": "53885316",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Jakub Piotrowski (Udinese) wins a free kick in the attacking half.",
+    "shortText": "Tiago Gabriel Foul",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 4656.0,
+     "displayValue": "78'"
+    },
+    "wallclock": "2026-10-18T12:08:30Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Tiago Gabriel"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Jakub Piotrowski"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 95,
+   "text": "Jakub Piotrowski (Udinese) wins a free kick in the attacking half.",
+   "play": {
+    "id": "53885316",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Jakub Piotrowski (Udinese) wins a free kick in the attacking half.",
+    "shortText": "Tiago Gabriel Foul",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 4656.0,
+     "displayValue": "78'"
+    },
+    "wallclock": "2026-10-18T12:08:30Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Tiago Gabriel"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Jakub Piotrowski"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 96,
+   "text": "Paco Esteban (Lecce) wins a free kick in the attacking half.",
+   "play": {
+    "id": "53885496",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Foul by Oumar Solet (Udinese).",
+    "shortText": "Oumar Solet Foul",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 4746.0,
+     "displayValue": "80'"
+    },
+    "wallclock": "2026-10-18T12:10:01Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Oumar Solet"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Francisco Esteban Sánchez"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 97,
+   "text": "Foul by Oumar Solet (Udinese).",
+   "play": {
+    "id": "53885496",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Foul by Oumar Solet (Udinese).",
+    "shortText": "Oumar Solet Foul",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 4746.0,
+     "displayValue": "80'"
+    },
+    "wallclock": "2026-10-18T12:10:01Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Oumar Solet"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Francisco Esteban Sánchez"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 98,
+   "text": "Offside, Lecce. Youssef Maleh is caught offside.",
+   "play": {
+    "id": "53885500",
+    "type": {
+     "id": "68",
+     "text": "Offside",
+     "type": "offside"
+    },
+    "text": "Offside, Lecce. Youssef Maleh is caught offside.",
+    "shortText": "Antonino Gallo Offside",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 4792.0,
+     "displayValue": "80'"
+    },
+    "wallclock": "2026-10-18T12:10:46Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Antonino Gallo"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 99,
+   "text": "Substitution, Lecce. Joël Monteiro replaces Konan N’Dri.",
+   "play": {
+    "id": "53885617",
+    "type": {
+     "id": "76",
+     "text": "Substitution",
+     "type": "substitution"
+    },
+    "text": "Substitution, Lecce. Joël Monteiro replaces Konan N’Dri.",
+    "shortText": "Joel Monteiro Substitution",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 4868.0,
+     "displayValue": "82'"
+    },
+    "wallclock": "2026-10-18T12:12:03Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Joel Monteiro"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Konan N’Dri"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 100,
+   "text": "Substitution, Lecce. Jamil Siebert replaces Youssef Maleh.",
+   "play": {
+    "id": "53885691",
+    "type": {
+     "id": "76",
+     "text": "Substitution",
+     "type": "substitution"
+    },
+    "text": "Substitution, Lecce. Jamil Siebert replaces Youssef Maleh.",
+    "shortText": "Jamil Siebert Substitution",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 4880.0,
+     "displayValue": "82'"
+    },
+    "wallclock": "2026-10-18T12:12:15Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Jamil Siebert"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Youssef Maleh"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 101,
+   "text": "Attempt missed. Matteo Palma (Udinese) header from the centre of the box misses to the left. Assisted by Mërgim Vojvoda with a cross.",
+   "play": {
+    "id": "53885795",
+    "type": {
+     "id": "117",
+     "text": "Shot Off Target",
+     "type": "shot-off-target"
+    },
+    "text": "Attempt missed. Matteo Palma (Udinese) header from the centre of the box misses to the left. Assisted by Mërgim Vojvoda with a cross.",
+    "shortText": "Matteo Palma Shot Off Target",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 5002.0,
+     "displayValue": "84'"
+    },
+    "wallclock": "2026-10-18T12:14:17Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Matteo Palma"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Mërgim Vojvoda"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 102,
+   "text": "Paco Esteban (Lecce) hits the left post with a right footed shot from the centre of the box. Assisted by Joël Monteiro following a fast break.",
+   "play": {
+    "id": "53885800",
+    "type": {
+     "id": "136",
+     "text": "Shot Hit Woodwork",
+     "type": "shot-hit-woodwork"
+    },
+    "text": "Paco Esteban (Lecce) hits the left post with a right footed shot from the centre of the box. Assisted by Joël Monteiro following a fast break.",
+    "shortText": "Francisco Esteban Sánchez Shot H",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 5020.0,
+     "displayValue": "84'"
+    },
+    "wallclock": "2026-10-18T12:14:35Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Francisco Esteban Sánchez"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Joel Monteiro"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 103,
+   "text": "Goal! Udinese 0, Lecce 3. Jamil Siebert (Lecce) right footed shot from the right side of the box to the top left corner following a fast break.",
+   "play": {
+    "id": "53885951",
+    "type": {
+     "id": "70",
+     "text": "Goal",
+     "type": "goal"
+    },
+    "text": "Goal! Udinese 0, Lecce 3. Jamil Siebert (Lecce) right footed shot from the right side of the box to the top left corner following a fast break.",
+    "shortText": "Jamil Siebert Goal",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 5115.0,
+     "displayValue": "86'"
+    },
+    "wallclock": "2026-10-18T12:16:10Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Jamil Siebert"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 104,
+   "text": "Foul by Santiago Pierotti (Lecce).",
+   "play": {
+    "id": "53886168",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Keinan Davis (Udinese) wins a free kick in the defensive half.",
+    "shortText": "Santiago Pierotti Foul",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 5266.0,
+     "displayValue": "88'"
+    },
+    "wallclock": "2026-10-18T12:18:41Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Santiago Pierotti"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Keinan Davis"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 105,
+   "text": "Keinan Davis (Udinese) wins a free kick in the defensive half.",
+   "play": {
+    "id": "53886168",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Keinan Davis (Udinese) wins a free kick in the defensive half.",
+    "shortText": "Santiago Pierotti Foul",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 5266.0,
+     "displayValue": "88'"
+    },
+    "wallclock": "2026-10-18T12:18:41Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Santiago Pierotti"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Keinan Davis"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 106,
+   "text": "Attempt blocked. Oumar Solet (Udinese) right footed shot from outside the box is blocked. Assisted by Jurgen Ekkelenkamp.",
+   "play": {
+    "id": "53886329",
+    "type": {
+     "id": "135",
+     "text": "Shot Blocked",
+     "type": "shot-blocked"
+    },
+    "text": "Attempt blocked. Oumar Solet (Udinese) right footed shot from outside the box is blocked. Assisted by Jurgen Ekkelenkamp.",
+    "shortText": "Oumar Solet Shot Blocked",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 5354.0,
+     "displayValue": "90'"
+    },
+    "wallclock": "2026-10-18T12:20:08Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Oumar Solet"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Jurgen Ekkelenkamp"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 107,
+   "text": "Attempt missed. Unai Gómez (Udinese) header from the centre of the box is just a bit too high. Assisted by Jurgen Ekkelenkamp with a cross.",
+   "play": {
+    "id": "53886333",
+    "type": {
+     "id": "117",
+     "text": "Shot Off Target",
+     "type": "shot-off-target"
+    },
+    "text": "Attempt missed. Unai Gómez (Udinese) header from the centre of the box is just a bit too high. Assisted by Jurgen Ekkelenkamp with a cross.",
+    "shortText": "Unai Gómez Shot Off Target",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 5361.0,
+     "displayValue": "90'"
+    },
+    "wallclock": "2026-10-18T12:20:16Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Unai Gómez"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Jurgen Ekkelenkamp"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 109,
+   "text": "Foul by Tiago Gabriel (Lecce).",
+   "play": {
+    "id": "53886509",
+    "type": {
+     "id": "66",
+     "text": "Foul",
+     "type": "foul"
+    },
+    "text": "Foul by Tiago Gabriel (Lecce).",
+    "shortText": "Tiago Gabriel Foul",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 5400.0,
+     "displayValue": "90'+3'"
+    },
+    "wallclock": "2026-10-18T12:23:13Z",
+    "team": {
+     "id": null
+    },
+    "participants": [
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Tiago Gabriel"
+      }
+     },
+     {
+      "type": null,
+      "athlete": {
+       "displayName": "Unai Gómez"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "sequence": 111,
+   "text": "Second Half ends, Udinese 0, Lecce 3.",
+   "play": {
+    "id": "53886607",
+    "type": {
+     "id": "83",
+     "text": "End Regular Time",
+     "type": "end-regular-time"
+    },
+    "text": "Second Half ends, Udinese 0, Lecce 3.",
+    "period": {
+     "number": 2
+    },
+    "clock": {
+     "value": 5400.0,
+     "displayValue": "90'+3'"
+    },
+    "wallclock": "2026-10-18T12:24:05Z"
+   }
+  }
+ ],
+ "rosters": [
+  {
+   "homeAway": "home",
+   "team": {
+    "id": "118"
+   },
+   "roster": [
+    {
+     "starter": true,
+     "jersey": "40",
+     "athlete": {
+      "id": "295476",
+      "displayName": "Maduka Okoye",
+      "shortName": "M. Okoye"
+     }
+    },
+    {
+     "starter": true,
+     "jersey": "5",
+     "athlete": {
+      "id": "118444",
+      "displayName": "David Alaba",
+      "shortName": "D. Alaba"
+     }
+    },
+    {
+     "starter": true,
+     "jersey": "77",
+     "athlete": {
+      "id": "242601",
+      "displayName": "Enzo Ebosse",
+      "shortName": "E. Ebosse"
+     }
+    },
+    {
+     "starter": true,
+     "jersey": "28",
+     "athlete": {
+      "id": "261066",
+      "displayName": "Oumar Solet",
+      "shortName": "O. Solet"
+     }
+    },
+    {
+     "starter": true,
+     "jersey": "6",
+     "athlete": {
+      "id": "306579",
+      "displayName": "Oier Zarraga",
+      "shortName": "O. Zarraga"
+     }
+    },
+    {
+     "starter": true,
+     "jersey": "8",
+     "athlete": {
+      "id": "237055",
+      "displayName": "Jesper Karlström",
+      "shortName": "J. Karlström"
+     }
+    },
+    {
+     "starter": true,
+     "jersey": "11",
+     "athlete": {
+      "id": "193919",
+      "displayName": "Hassane Kamara",
+      "shortName": "H. Kamara"
+     }
+    },
+    {
+     "starter": true,
+     "jersey": "23",
+     "athlete": {
+      "id": "221436",
+      "displayName": "Mërgim Vojvoda",
+      "shortName": "M. Vojvoda"
+     }
+    },
+    {
+     "starter": true,
+     "jersey": "9",
+     "athlete": {
+      "id": "233654",
+      "displayName": "Keinan Davis",
+      "shortName": "K. Davis"
+     }
+    },
+    {
+     "starter": true,
+     "jersey": "30",
+     "athlete": {
+      "id": "258933",
+      "displayName": "Giorgi Chakvetadze",
+      "shortName": "G. Chakvetadze"
+     }
+    },
+    {
+     "starter": true,
+     "jersey": "32",
+     "athlete": {
+      "id": "270817",
+      "displayName": "Jurgen Ekkelenkamp",
+      "shortName": "J. Ekkelenkamp"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "45",
+     "athlete": {
+      "id": "408146",
+      "displayName": "Giulio Vinciati",
+      "shortName": "G. Vinciati"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "20",
+     "athlete": {
+      "id": "360207",
+      "displayName": "Juan David Arizala",
+      "shortName": "J. Arizala"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "14",
+     "athlete": {
+      "id": "342837",
+      "displayName": "James Abankwah",
+      "shortName": "J. Abankwah"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "93",
+     "athlete": {
+      "id": "93816",
+      "displayName": "Daniele Padelli",
+      "shortName": "D. Padelli"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "16",
+     "athlete": {
+      "id": "384519",
+      "displayName": "Matteo Palma",
+      "shortName": "M. Palma"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "91",
+     "athlete": {
+      "id": "252323",
+      "displayName": "Lazar Jovanovic",
+      "shortName": "L. Jovanovic"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "41",
+     "athlete": {
+      "id": "258424",
+      "displayName": "Bartosz Mrozek",
+      "shortName": "B. Mrozek"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "59",
+     "athlete": {
+      "id": "270010",
+      "displayName": "Alessandro Zanoli",
+      "shortName": "A. Zanoli"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "4",
+     "athlete": {
+      "id": "219725",
+      "displayName": "Sandi Lovric",
+      "shortName": "S. Lovric"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "24",
+     "athlete": {
+      "id": "276267",
+      "displayName": "Jakub Piotrowski",
+      "shortName": "J. Piotrowski"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "27",
+     "athlete": {
+      "id": "150081",
+      "displayName": "Christian Kabasele",
+      "shortName": "C. Kabasele"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "46",
+     "athlete": {
+      "id": "362376",
+      "displayName": "Unai Gómez",
+      "shortName": "U. Gómez"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "38",
+     "athlete": {
+      "id": "347009",
+      "displayName": "Lennon Miller",
+      "shortName": "L. Miller"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "13",
+     "athlete": {
+      "id": "319437",
+      "displayName": "Nicolò Bertola",
+      "shortName": "N. Bertola"
+     }
+    }
+   ]
+  },
+  {
+   "homeAway": "away",
+   "team": {
+    "id": "113"
+   },
+   "roster": [
+    {
+     "starter": true,
+     "jersey": "30",
+     "athlete": {
+      "id": "177812",
+      "displayName": "Wladimiro Falcone",
+      "shortName": "W. Falcone"
+     }
+    },
+    {
+     "starter": true,
+     "jersey": "44",
+     "athlete": {
+      "id": "379865",
+      "displayName": "Tiago Gabriel",
+      "shortName": "Tiago Gabriel"
+     }
+    },
+    {
+     "starter": true,
+     "jersey": "4",
+     "athlete": {
+      "id": "318604",
+      "displayName": "Kialonda Gaspar",
+      "shortName": "K. Gaspar"
+     }
+    },
+    {
+     "starter": true,
+     "jersey": "25",
+     "athlete": {
+      "id": "277441",
+      "displayName": "Antonino Gallo",
+      "shortName": "A. Gallo"
+     }
+    },
+    {
+     "starter": true,
+     "jersey": "17",
+     "athlete": {
+      "id": "344844",
+      "displayName": "Danilo Veiga",
+      "shortName": "D. Veiga"
+     }
+    },
+    {
+     "starter": true,
+     "jersey": "79",
+     "athlete": {
+      "id": "334793",
+      "displayName": "Oumar Ngom",
+      "shortName": "O. Ngom"
+     }
+    },
+    {
+     "starter": true,
+     "jersey": "14",
+     "athlete": {
+      "id": "241405",
+      "displayName": "Youssef Maleh",
+      "shortName": "Y. Maleh"
+     }
+    },
+    {
+     "starter": true,
+     "jersey": "29",
+     "athlete": {
+      "id": "223947",
+      "displayName": "Lassana Coulibaly",
+      "shortName": "L. Coulibaly"
+     }
+    },
+    {
+     "starter": true,
+     "jersey": "69",
+     "athlete": {
+      "id": "259744",
+      "displayName": "Willem Geubbels",
+      "shortName": "W. Geubbels"
+     }
+    },
+    {
+     "starter": true,
+     "jersey": "7",
+     "athlete": {
+      "id": "330550",
+      "displayName": "Amar Ahmed",
+      "shortName": "A. Ahmed"
+     }
+    },
+    {
+     "starter": true,
+     "jersey": "11",
+     "athlete": {
+      "id": "286582",
+      "displayName": "Konan N’Dri",
+      "shortName": "K. N’Dri"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "3",
+     "athlete": {
+      "id": "287673",
+      "displayName": "Corrie Ndaba",
+      "shortName": "C. Ndaba"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "50",
+     "athlete": {
+      "id": "288429",
+      "displayName": "Santiago Pierotti",
+      "shortName": "S. Pierotti"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "31",
+     "athlete": {
+      "id": "399632",
+      "displayName": "Elijah Scott",
+      "shortName": "E. Scott"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "99",
+     "athlete": {
+      "id": "307893",
+      "displayName": "Joel Monteiro",
+      "shortName": "Joel Monteiro"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "22",
+     "athlete": {
+      "id": "3123406",
+      "displayName": "Francisco Esteban Sánchez",
+      "shortName": "F. Esteban Sánchez"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "18",
+     "athlete": {
+      "id": "346283",
+      "displayName": "Gaby Jean",
+      "shortName": "G. Jean"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "9",
+     "athlete": {
+      "id": "304512",
+      "displayName": "Nikola Stulic",
+      "shortName": "N. Stulic"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "16",
+     "athlete": {
+      "id": "326642",
+      "displayName": "Omri Gandelman",
+      "shortName": "O. Gandelman"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "28",
+     "athlete": {
+      "id": "374812",
+      "displayName": "Olaf Gorter",
+      "shortName": "O. Gorter"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "77",
+     "athlete": {
+      "id": "223292",
+      "displayName": "Mohamed Kaba",
+      "shortName": "M. Kaba"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "32",
+     "athlete": {
+      "id": "308318",
+      "displayName": "Alexandru Borbei",
+      "shortName": "A. Borbei"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "1",
+     "athlete": {
+      "id": "192570",
+      "displayName": "Marco Bleve",
+      "shortName": "M. Bleve"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "2",
+     "athlete": {
+      "id": "356576",
+      "displayName": "Ali Dembélé",
+      "shortName": "A. Dembélé"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "8",
+     "athlete": {
+      "id": "324661",
+      "displayName": "Sadik Fofana",
+      "shortName": "S. Fofana"
+     }
+    },
+    {
+     "starter": false,
+     "jersey": "5",
+     "athlete": {
+      "id": "307391",
+      "displayName": "Jamil Siebert",
+      "shortName": "J. Siebert"
+     }
+    }
+   ]
   }
  ]
 }
